@@ -1,11 +1,7018 @@
 --[[
 
 
-stop trying skid lil bro
 
-Please join discord.gg/TFdZbnMEFv
+██╗     ██╗   ██╗███╗   ██╗ █████╗     ██╗███╗   ██╗████████╗███████╗██████╗ ███████╗ █████╗  ██████╗███████╗    ███████╗██╗   ██╗██╗████████╗███████╗
+██║     ██║   ██║████╗  ██║██╔══██╗    ██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗██╔════╝██╔══██╗██╔════╝██╔════╝    ██╔════╝██║   ██║██║╚══██╔══╝██╔════╝
+██║     ██║   ██║██╔██╗ ██║███████║    ██║██╔██╗ ██║   ██║   █████╗  ██████╔╝█████╗  ███████║██║     █████╗      ███████╗██║   ██║██║   ██║   █████╗  
+██║     ██║   ██║██║╚██╗██║██╔══██║    ██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗██╔══╝  ██╔══██║██║     ██╔══╝      ╚════██║██║   ██║██║   ██║   ██╔══╝  
+███████╗╚██████╔╝██║ ╚████║██║  ██║    ██║██║ ╚████║   ██║   ███████╗██║  ██║██║     ██║  ██║╚██████╗███████╗    ███████║╚██████╔╝██║   ██║   ███████╗
+╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝    ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝ ╚═════╝╚══════╝    ╚══════╝ ╚═════╝ ╚═╝   ╚═╝   ╚══════╝
+by    d8b   db d88888b d8888b. db    db db       .d8b.       .d8888.  .d88b.  d88888b d888888b db   d8b   db  .d88b.  d8888b. db   dD .d8888. 
+      888o  88 88'     88  `8D 88    88 88      d8' `8b      88'  YP .8P  Y8. 88'     `~~88~~' 88   I8I   88 .8P  Y8. 88  `8D 88 ,8P' 88'  YP 
+      88V8o 88 88ooooo 88oooY' 88    88 88      88ooo88      `8bo.   88    88 88ooo      88    88   I8I   88 88    88 88oobY' 88,8P   `8bo.   
+      88 V8o88 88~~~~~ 88~~~b. 88    88 88      88~~~88        `Y8b. 88    88 88~~~      88    Y8   I8I   88 88    88 88`8b   88`8b     `Y8b. 
+      88  V888 88.     88   8D 88b  d88 88booo. 88   88      db   8D `8b  d8' 88         88    `8b d8'8b d8' `8b  d8' 88 `88. 88 `88. db   8D 
+      VP   V8P Y88888P Y8888P' ~Y8888P' Y88888P YP   YP      `8888Y'  `Y88P'  YP         YP     `8b8' `8d8'   `Y88P'  88   YD YP   YD `8888Y' 
 
 
-]]--
+Main Credits
 
-local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function() return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...) local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30) if (v1(v30,2)==81) then local v85=0;while true do if (v85==0) then v19=v0(v3(v30,1,1));return "";end end else local v86=0;local v87;while true do if (v86==0) then v87=v2(v0(v30,16));if v19 then local v127=v5(v87,v19);v19=nil;return v127;else return v87;end break;end end end end);local function v20(v31,v32,v33) if v33 then local v88=(v31/(2^(v32-(2 -1))))%((5 -3)^(((v33-(1 -0)) -(v32-(878 -(282 + 595)))) + ((2 + 0) -1))) ;return v88-(v88%1) ;else local v89=619 -(124 + 431 + 64) ;local v90;while true do if (v89==(931 -(857 + 74))) then v90=(1067 -(68 + 997))^(v32-(569 -(367 + 201))) ;return (((v31%(v90 + v90))>=v90) and (928 -(214 + 713))) or ((1074 -(892 + 65)) -(32 + 85)) ;end end end end local function v21() local v34=v1(v16,v18,v18);v18=v18 + 1 ;return v34;end local function v22() local v35,v36=v1(v16,v18,v18 + (4 -2) );v18=v18 + 2 ;return (v36 * (472 -216)) + v35 ;end local function v23() local v37,v38,v39,v40=v1(v16,v18,v18 + (4 -1) );v18=v18 + 4 ;return (v40 * (16777566 -(87 + 263))) + (v39 * (65716 -((164 -97) + 113))) + (v38 * (188 + 68)) + v37 ;end local function v24() local v41=(1486 -(998 + 488)) + 0 ;local v42;local v43;local v44;local v45;local v46;local v47;while true do if (v41==(11 -8)) then if (v46==(952 -(802 + 150))) then if (v45==((0 + 0) -0)) then return v47 * (0 -(0 + 0)) ;else v46=1 + 0 ;v44=0;end elseif (v46==(3044 -(915 + 82))) then return ((v45==(0 -0)) and (v47 * ((1 + (772 -(201 + 571)))/(0 -0)))) or (v47 * NaN) ;end return v8(v47,v46-(2210 -(1069 + 118)) ) * (v44 + (v45/((4 -2)^(113 -61)))) ;end if (v41==((1138 -(116 + 1022)) + 0)) then v42=v23();v43=v23();v41=1 -0 ;end if (v41==(2 + 0)) then v46=v20(v43,(3380 -2568) -(368 + 423) ,31);v47=((v20(v43,(59 + 41) -(248 -180) )==(19 -(10 + 8))) and  -(3 -2)) or (443 -(416 + (92 -66))) ;v41=3;end if (v41==1) then v44=3 -2 ;v45=(v20(v43,1 + 0 ,(894 -(814 + 45)) -15 ) * ((440 -(145 + (721 -428)))^(462 -(44 + 386)))) + v42 ;v41=2;end end end local function v25(v48) local v49=0 + (1747 -(760 + 987)) ;local v50;local v51;while true do if (v49==(1 + 0)) then v50=v3(v16,v18,(v18 + v48) -1 );v18=v18 + v48 ;v49=887 -(261 + 624) ;end if (v49==(0 -0)) then v50=nil;if  not v48 then local v124=1080 -(1020 + (1973 -(1789 + 124))) ;while true do if (v124==(1423 -(630 + 793))) then v48=v23();if (v48==(0 -(766 -(745 + 21)))) then return "";end break;end end end v49=4 -3 ;end if (v49==(1 + 1 + 1)) then return v6(v51);end if (v49==2) then v51={};for v118=3 -2 , #v50 do v51[v118]=v2(v1(v3(v50,v118,v118)));end v49=3;end end end local v26=v23;local function v27(...) return {...},v12("#",...);end local function v28() local v52=(function() return function(v91,v92,v93,v94,v95,v96,v97,v98) local v91=(function() return 0;end)();local v92=(function() return;end)();local v93=(function() return;end)();while true do if (v91== #"|") then if (v92== #"]") then v93=(function() return v94()~=0 ;end)();elseif (v92==2) then v93=(function() return v95();end)();elseif (v92== #"xnx") then v93=(function() return v96();end)();end v97[v98]=(function() return v93;end)();break;end if ((0 -0)==v91) then local v126=(function() return 0 + 0 ;end)();while true do if ((575 -(507 + 67))==v126) then v91=(function() return  #" ";end)();break;end if ((1749 -(1013 + 736))~=v126) then else v92=(function() return v94();end)();v93=(function() return nil;end)();v126=(function() return 1 + 0 ;end)();end end end end return v91,v92,v93,v94,v95,v96,v97,v98;end;end)();local v53=(function() return function(v99,v100,v101,v102,v103,v104,v105,v106,v107) local v108=(function() return 0;end)();local v99=(function() return;end)();local v100=(function() return;end)();while true do local v117=(function() return 0 -0 ;end)();while true do if (v117==(0 -0)) then if (v108~=1) then else local v128=(function() return 867 -(550 + 317) ;end)();while true do if (v128~=(0 -0)) then else while true do if ((0 -0)~=v99) then else v100=(function() return v101();end)();if (v102(v100, #"]", #"}")==0) then local v132=(function() return 0;end)();local v133=(function() return;end)();local v134=(function() return;end)();local v135=(function() return;end)();while true do if (v132~=(8 -5)) then else if (v102(v134, #"nil", #"91(")== #"~") then v135[ #"0836"]=(function() return v105[v135[ #".dev"]];end)();end v106[v107]=(function() return v135;end)();break;end if (v132==(286 -(134 + 151))) then local v435=(function() return 1665 -(970 + 695) ;end)();while true do if (v435~=(1 -0)) then else v132=(function() return 1992 -(582 + 1408) ;end)();break;end if (v435~=(0 -0)) then else v135=(function() return {v103(),v103(),nil,nil};end)();if (v133==0) then local v613=(function() return 0 -0 ;end)();local v614=(function() return;end)();while true do if (0~=v613) then else v614=(function() return 0 -0 ;end)();while true do if (v614==(1824 -(1195 + 629))) then v135[ #"gha"]=(function() return v103();end)();v135[ #"http"]=(function() return v103();end)();break;end end break;end end elseif (v133== #"<") then v135[ #"nil"]=(function() return v104();end)();elseif (v133==(2 -0)) then v135[ #"19("]=(function() return v104() -((243 -(187 + 54))^16) ;end)();elseif (v133~= #"91(") then else local v645=(function() return 780 -(162 + 618) ;end)();local v646=(function() return;end)();while true do if (v645~=0) then else v646=(function() return 0 + 0 ;end)();while true do if (v646==(0 + 0)) then v135[ #"19("]=(function() return v104() -(2^16) ;end)();v135[ #"0836"]=(function() return v103();end)();break;end end break;end end end v435=(function() return 1 -0 ;end)();end end end if (v132~=2) then else if (v102(v134, #",", #":")== #"}") then v135[2 -0 ]=(function() return v105[v135[2]];end)();end if (v102(v134,1 + 1 ,2)== #">") then v135[ #"asd"]=(function() return v105[v135[ #"xxx"]];end)();end v132=(function() return 1639 -(1373 + 263) ;end)();end if (v132~=0) then else local v436=(function() return 0;end)();while true do if ((1001 -(451 + 549))==v436) then v132=(function() return 1 + 0 ;end)();break;end if (0==v436) then v133=(function() return v102(v100,2, #"nil");end)();v134=(function() return v102(v100, #"asd1",6);end)();v436=(function() return 1 -0 ;end)();end end end end end break;end end return v99,v100,v101,v102,v103,v104,v105,v106,v107;end end end if (v108==0) then v99=(function() return 0 -0 ;end)();v100=(function() return nil;end)();v108=(function() return 1385 -(746 + 638) ;end)();end break;end end end end;end)();local v54=(function() return function(v109,v110,v111) local v112=(function() return 0;end)();local v113=(function() return;end)();while true do if (v112==0) then v113=(function() return 0 + 0 ;end)();while true do if ((0 -0)==v113) then local v129=(function() return 0;end)();local v130=(function() return;end)();while true do if ((341 -(218 + 123))==v129) then v130=(function() return 0;end)();while true do if (v130~=(1581 -(1535 + 46))) then else v109[v110-#"~" ]=(function() return v111();end)();return v109,v110,v111;end end break;end end end end break;end end end;end)();local v55=(function() return {};end)();local v56=(function() return {};end)();local v57=(function() return {};end)();local v58=(function() return {v55,v56,nil,v57};end)();local v59=(function() return v23();end)();local v60=(function() return {};end)();for v68= #"|",v59 do FlatIdent_31905,Type,Cons,v21,v24,v25,v60,v68=(function() return v52(FlatIdent_31905,Type,Cons,v21,v24,v25,v60,v68);end)();end v58[ #"gha"]=(function() return v21();end)();for v69= #" ",v23() do FlatIdent_6D884,Descriptor,v21,v20,v22,v23,v60,v55,v69=(function() return v53(FlatIdent_6D884,Descriptor,v21,v20,v22,v23,v60,v55,v69);end)();end for v70= #">",v23() do v56,v70,v28=(function() return v54(v56,v70,v28);end)();end return v58;end local function v29(v62,v63,v64) local v65=v62[1 + (0 -0) ];local v66=v62[1174 -(786 + 386) ];local v67=v62[563 -(306 + 254) ];return function(...) local v71=v65;local v72=v66;local v73=v67;local v74=v27;local v75=3 -2 ;local v76= -(1 + 0 + 0);local v77={};local v78={...};local v79=v12("#",...) -((1248 + 93) -(1093 + (764 -517))) ;local v80={};local v81={};for v114=0 + 0 ,v79 do if (v114>=v73) then v77[v114-v73 ]=v78[v114 + (3 -2) ];else v81[v114]=v78[v114 + (1468 -(899 + 568)) ];end end local v82=(v79-v73) + 1 + 0 ;local v83;local v84;while true do v83=v71[v75];v84=v83[2 -1 ];if (v84<=(676 -(80 + 188 + 335))) then if (v84<=((172 + 154) -(60 + 230))) then if ((v84<=(589 -(426 + 146))) or (124==2276)) then if ((2876>1323) and (v84<=(1 + 7))) then if (v84<=(1459 -(282 + 1174))) then if (v84<=(1 + 0)) then if ((2030==2030) and (v84>(811 -(569 + 242)))) then local v136=0 -0 ;local v137;local v138;while true do if ((v136==(1 + 0)) or (2040==682)) then for v501=1025 -(706 + 318) , #v80 do local v502=1251 -(721 + 530) ;local v503;while true do if (v502==(688 -(364 + 324))) then v503=v80[v501];for v615=1271 -(945 + 326) , #v503 do local v616=v503[v615];local v617=v616[2 -1 ];local v618=v616[(4 -2) + 0 + 0 ];if ((v617==v81) and (v618>=v137)) then local v634=0;while true do if (v634==(0 -0)) then v138[v618]=v617[v618];v616[701 -(271 + (2073 -1644)) ]=v138;break;end end end end break;end end end break;end if (0==v136) then v137=v83[2 + 0 ];v138={};v136=1 -0 ;end end else v81[v83[1502 -(1408 + 92) ]]();end elseif (v84>(1088 -(461 + 625))) then v81[v83[1290 -(993 + 295) ]]=v81[v83[1 + 2 ]]%v81[v83[1175 -(418 + 753) ]] ;else v81[v83[1 + 1 ]]=v81[v83[3]][v81[v83[1 + 3 ]]];end elseif ((v84<=(2 + 3)) or (269>2382)) then if (v84==((2800 -(1596 + 114)) -((1790 -1104) + 400))) then local v142=0 + 0 ;local v143;local v144;local v145;while true do if (v142==(529 -(406 + 123))) then v143=v83[2];v144=v81[v143];v142=1770 -(1749 + 20) ;end if ((836<4132) and (v142==(1 + (713 -(164 + 549))))) then v145=v81[v143 + 1 + 1 ];if (v145>(1322 -(1249 + (1511 -(1059 + 379))))) then if (v144>v81[v143 + 1 + 0 ]) then v75=v83[1148 -(466 + (842 -163)) ];else v81[v143 + 3 ]=v144;end elseif (v144<v81[v143 + (2 -(1 + 0)) ]) then v75=v83[8 -5 ];else v81[v143 + (1903 -(106 + 1794)) ]=v144;end break;end end else local v146=v83[1 + 1 ];local v147=v83[1 + 1 + 2 ];local v148=v146 + (3 -1) ;local v149={v81[v146](v81[v146 + (514 -(203 + 310)) ],v81[v148])};for v316=2 -1 ,v147 do v81[v148 + v316 ]=v149[v316];end local v150=v149[2 -1 ];if v150 then local v347=114 -(4 + 0 + 110) ;while true do if ((2989>=1063) and (v347==((270 + 314) -(57 + 527)))) then v81[v148]=v150;v75=v83[1430 -(41 + 1386) ];break;end end else v75=v75 + (104 -(17 + 86)) ;end end elseif (v84<=(5 + 1)) then v81[v83[3 -1 ]]=v83[(23 -15) -5 ] * v81[v83[170 -(122 + 9 + 35) ]] ;elseif (v84==(14 -7)) then if v81[v83[835 -(171 + 571 + 91) ]] then v75=v75 + (1 -0) ;else v75=v83[3];end else local v348=0 -0 ;local v349;local v350;while true do if ((1 + 0)==v348) then for v579=v349 + 1 + 0 ,v83[1 + 3 ] do v350=v350   .. v81[v579] ;end v81[v83[3 -1 ]]=v350;break;end if ((65 -(30 + 35))==v348) then v349=v83[3 + 0 ];v350=v81[v349];v348=(2042 -784) -(1043 + (934 -(254 + 466))) ;end end end elseif (v84<=(45 -33)) then if (v84<=(1222 -(323 + 889))) then if (v84==(12 -3)) then v81[v83[1 + (561 -(544 + 16)) ]]={};else local v153=v83[(15 -10) -(631 -(294 + 334)) ];v76=(v153 + v82) -(581 -(361 + 219)) ;for v319=v153,v76 do local v320=v77[v319-v153 ];v81[v319]=v320;end end elseif (v84>(331 -(53 + 267))) then local v154=v83[1 + 1 ];local v155=v81[v83[416 -(15 + 398) ]];v81[v154 + (434 -(114 + 319)) ]=v155;v81[v154]=v155[v83[986 -(18 + 964) ]];elseif ((2406<=3221) and (v83[7 -5 ]<=v81[v83[3 + 1 ]])) then v75=v75 + 1 + 0 ;else v75=v83[2 + 1 ];end elseif ((3567<4459) and (v84<=((1117 -(236 + 17)) -(20 + 358 + 472)))) then if (v84==(11 + 2)) then local v159=1206 -(741 + 362 + 103) ;local v160;local v161;local v162;while true do if ((v159==(127 -(116 + 10))) or (1860>=2065)) then v162=465 -(170 + 295) ;for v505=v160,v83[4] do v162=v162 + 1 + 0 ;v81[v505]=v161[v162];end break;end if (v159==(0 + 0)) then v160=v83[740 -(542 + 196) ];v161={v81[v160](v81[v160 + 1 + 0 ])};v159=1 + 0 ;end end elseif (v83[1 + 1 ]<=v81[v83[1234 -(957 + 273) ]]) then v75=v75 + 1 + 0 ;else v75=v83[7 -4 ];end elseif (v84<=(38 -23)) then v63[v83[1554 -((4240 -3114) + 425) ]]=v81[v83[407 -(118 + 287) ]];elseif ((v84==(62 -(217 -171))) or (2123>=4894)) then v63[v83[1124 -(118 + 1003) ]]=v81[v83[2]];else v81[v83[5 -3 ]]=v83[3];end elseif (v84<=(128 -102)) then if ((3619==3619) and (v84<=(398 -(142 + 235)))) then if (v84<=(86 -67)) then if (v84>(4 + 14)) then local v165=977 -(553 + 424) ;local v166;while true do if (v165==(0 -0)) then v166=v83[2 + 0 ];v81[v166]=v81[v166](v13(v81,v166 + 1 + 0 + 0 ,v76));break;end end else v81[v83[2 + 0 ]]=v81[v83[2 + 1 ]]/v81[v83[3 + 1 ]] ;end elseif (v84>20) then if ((2132<3335) and (v81[v83[1214 -(1090 + 122) ]]<=v81[v83[8 -4 ]])) then v75=v75 + (2 -1) ;else v75=v83[3 + 0 + (794 -(413 + 381)) ];end else v81[v83[4 -2 ]]= not v81[v83[1 + 0 + 2 ]];end elseif (v84<=(111 -(186 -98))) then if (v84>(775 -(239 + 514))) then local v169=0 + 0 ;local v170;local v171;local v172;while true do if (v169==(1329 -((2070 -1273) + 532))) then v170=v83[2 + 0 ];v171=v81[v170 + 1 + 1 ];v169=2 -1 ;end if (v169==(1203 -(373 + 829))) then v172=v81[v170] + v171 ;v81[v170]=v172;v169=733 -(476 + 255) ;end if (v169==((3102 -(582 + 1388)) -(369 + 761))) then if (v171>(0 + 0)) then if (v172<=v81[v170 + (1 -(0 -0)) ]) then local v599=0 -(0 + 0) ;while true do if (v599==(238 -((428 -(326 + 38)) + 174))) then v75=v83[1 + 2 ];v81[v170 + (3 -0) ]=v172;break;end end end elseif ((v172>=v81[v170 + (337 -(144 + 192)) ]) or (4477<=3601)) then v75=v83[219 -((124 -82) + 174) ];v81[v170 + 3 + 0 ]=v172;end break;end end else v81[v83[2 + 0 ]]=v83[3 + 0 ];end elseif (v84<=(11 + 13)) then v81[v83[5 -(3 -0) ]]=v83[(2127 -(47 + 573)) -(363 + 1141) ] + v81[v83[(559 + 1025) -(1183 + 397) ]] ;elseif (v84==(78 -(224 -171))) then local v358=0 -0 ;local v359;local v360;local v361;local v362;while true do if ((v358==1) or (3478==589)) then v76=(v361 + v359) -(1 + 0) ;v362=0 + 0 ;v358=2 + 0 ;end if (v358==(2 + 0)) then for v580=v359,v76 do local v581=1975 -(1913 + 62) ;while true do if ((1732>=130) and (v581==(0 + 0))) then v362=v362 + (2 -1) ;v81[v580]=v360[v362];break;end end end break;end if (v358==(1933 -(565 + 1368))) then v359=v83[7 -5 ];v360,v361=v74(v81[v359](v13(v81,v359 + 1 ,v76)));v358=1662 -(1477 + 184) ;end end elseif (v81[v83[7 -(8 -3) ]]<v81[v83[5 -1 ]]) then v75=v75 + (772 -(720 + 51)) ;else v75=v83[3 + 0 ];end elseif (v84<=((2551 -(1269 + 395)) -(564 + 292))) then if ((v84<=28) or (867>3215)) then if (v84==(46 -19)) then v81[v83[1 + 1 ]]= -v81[v83[1086 -(286 + 797) ]];else v81[v83[5 -3 ]]=v81[v83[10 -7 ]]/v83[6 -2 ] ;end elseif ((665<=4541) and (v84<=(333 -((736 -(76 + 416)) + 60)))) then if ((1089<=3455) and (v83[2 + 0 ]<v81[v83[480 -(41 + 435) ]])) then v75=v75 + (1 -0) ;else v75=v83[3];end elseif (v84>(1031 -(938 + 63))) then local v364=v83[2 + 0 ];local v365=v81[v364];for v447=v364 + (1126 -(936 + 189)) ,v83[1 + 2 ] do v7(v365,v81[v447]);end else v81[v83[1615 -(1565 + 48) ]]=v81[v83[2 + 1 ]] * v81[v83[1142 -(782 + 356) ]] ;end elseif (v84<=(223 -(23 + (610 -(319 + 124))))) then if ((v84>(299 -(176 + 91))) or (3522<2146)) then local v178=0 -0 ;local v179;local v180;local v181;while true do if ((1 -0)==v178) then v181=1092 -(975 + 117) ;for v509=v179,v83[1879 -(157 + 1718) ] do local v510=(0 -0) + 0 ;while true do if ((0 -0)==v510) then v181=v181 + 1 + 0 ;v81[v509]=v180[v181];break;end end end break;end if (v178==(0 + 0)) then v179=v83[2 + 0 ];v180={v81[v179](v13(v81,v179 + (1019 -(697 + 321)) ,v76))};v178=2 -1 ;end end else v81[v83[2 -0 ]][v83[3]]=v81[v83[8 -4 ]];end elseif (v84<=(92 -58)) then local v184=0 -0 ;local v185;local v186;local v187;while true do if ((v184==(1 + (0 -0))) or (3491<=3258)) then v187=v83[6 -3 ];for v511=1 + 0 ,v187 do v186[v511]=v81[v185 + v511 ];end break;end if ((v184==(0 -0)) or (4449<3644)) then v185=v83[481 -(341 + 138) ];v186=v81[v185];v184=2 -1 ;end end elseif ((v84>((530 -(337 + 121)) -37)) or (153>=1887)) then local v367=v83[1229 -(322 + 905) ];local v368=v83[615 -(602 + 9) ];local v369=v367 + (1191 -(449 + 740)) ;local v370={v81[v367](v81[v367 + (948 -(245 + 702)) ],v81[v369])};for v452=(5 -3) -1 ,v368 do v81[v369 + v452 ]=v370[v452];end local v371=v370[1 + (0 -0) ];if v371 then v81[v369]=v371;v75=v83[9 -6 ];else v75=v75 + 1 + 0 ;end else local v372=v83[1900 -(260 + 1638) ];local v373={};for v455=441 -(382 + 58) , #v80 do local v456=v80[v455];for v516=(1911 -(1261 + 650)) -0 , #v456 do local v517=v456[v516];local v518=v517[1];local v519=v517[2 + 0 ];if ((1765>640) and (v518==v81) and (v519>=v372)) then v373[v519]=v518[v519];v517[1 + 0 ]=v373;end end end end elseif (v84<=(340 -(156 + 130))) then if (v84<=(92 -47)) then if (v84<=40) then if ((200<4059) and (v84<=((48 + 64) -74))) then if (v84==(1242 -(902 + (482 -179)))) then v81[v83[3 -1 ]]=v63[v83[6 -3 ]];else local v190=v83[1 + 1 ];do return v81[v190](v13(v81,v190 + (1691 -(1121 + 569)) ,v83[217 -(22 + 192) ]));end end elseif (v84==(1202 -(671 + (2309 -(772 + 1045))))) then v81[v83[685 -(483 + 200) ]]=v81[v83[3 + 0 + 0 ]] + v83[1467 -(1404 + 59) ] ;else local v192=v72[v83[8 -5 ]];local v193;local v194={};v193=v10({},{__index=function(v322,v323) local v324=0 + 0 ;local v325;while true do if ((0 -0)==v324) then v325=v194[v323];return v325[1946 -(1036 + 909) ][v325[2]];end end end,__newindex=function(v326,v327,v328) local v329=765 -(468 + 297) ;local v330;while true do if (v329==(562 -(334 + 228))) then v330=v194[v327];v330[3 -2 ][v330[4 -2 ]]=v328;break;end end end});for v331=1 -0 ,v83[179 -((1979 -(1524 + 320)) + (1310 -(1049 + 221))) ] do local v332=0 + 0 ;local v333;while true do if (v332==(237 -(141 + 95))) then if (v333[2 -1 ]==(69 + 44)) then v194[v331-(1 + 0) ]={v81,v333[1 + 2 ]};else v194[v331-(2 -1) ]={v63,v333[4 -1 ]};end v80[ #v80 + 1 + 0 ]=v194;break;end if ((163 -(92 + 71))==v332) then v75=v75 + 1 + 0 ;v333=v71[v75];v332=1 -0 ;end end end v81[v83[1 + 1 ]]=v29(v192,v193,v64);end elseif (v84<=(807 -(574 + 191))) then if ((v84>(34 + 7)) or (3210<=1400)) then local v196=0 -0 ;local v197;while true do if (v196==(0 -0)) then v197=v83[2 + 0 ];v81[v197](v13(v81,v197 + (850 -(254 + 595)) ,v76));break;end end else v81[v83[128 -(55 + 71) ]][v81[v83[3 -0 ]]]=v83[4];end elseif ((1380<3863) and (v84<=(1833 -((1402 -829) + (2319 -(67 + 1035)))))) then local v200=v83[1 + 1 ];v81[v200]=v81[v200]();elseif (v84==(121 -77)) then if (v83[1 + 1 ]==v81[v83[5 -1 ]]) then v75=v75 + ((1288 -(136 + 212)) -(714 + 225)) ;else v75=v83[8 -5 ];end else v81[v83[2]]=v64[v83[3 + (0 -0) ]];end elseif (v84<=(150 -101)) then if ((183<=3341) and (v84<=(65 -18))) then if ((v84>(5 + 41)) or (426>3276)) then local v202=0 -0 ;local v203;local v204;local v205;while true do if (v202==(806 -(118 + 688))) then v203=v83[2];v204=v81[v203];v202=1;end if (v202==(49 -(21 + 4 + 23))) then v205=v83[20 -(12 + 5) ];for v526=1 + 0 ,v205 do v204[v526]=v81[v203 + v526 ];end break;end end else v81[v83[1 + 1 ]]=v81[v83[1889 -(927 + 959) ]][v83[13 -9 ]];end elseif (v84==(780 -(15 + 1 + 716))) then v81[v83[3 -1 ]]=v81[v83[100 -(11 + 86) ]]%v81[v83[9 -5 ]] ;else local v209=v83[(1891 -(240 + 1364)) -(175 + 110) ];do return v13(v81,v209,v209 + v83[6 -(1085 -(1050 + 32)) ] );end end elseif ((v84<=51) or (3592==4092)) then if ((3380==3380) and (v84==(246 -196))) then local v210=0 + 0 ;local v211;while true do if ((4841>=4597) and (v210==(1796 -(503 + 1293)))) then v211=v83[5 -3 ];v81[v211]=v81[v211](v13(v81,v211 + (3 -2) + 0 ,v76));break;end end else v81[v83[8 -6 ]]();end elseif (v84<=(1113 -(480 + 330 + 251))) then v81[v83[2 + 0 ]]=v81[v83[1 + 2 ]] + v83[(1059 -(331 + 724)) + 0 + 0 ] ;elseif (v84>((1230 -(269 + 375)) -(43 + 490))) then v75=v83[1896 -(1222 + 671) ];else v81[v83[735 -(711 + 22) ]]= #v81[v83[11 -8 ]];end elseif (v84<=(922 -(240 + 619))) then if ((3962==3962) and (v84<=(1832 -(1111 + 663)))) then if ((v84<=(1635 -(874 + 705))) or (3057<=2101)) then if (v84==((739 -(267 + 458)) + 41)) then local v213=v81[v83[5 -1 ]];if  not v213 then v75=v75 + 1 + 0 + 0 ;else v81[v83[1746 -(1344 + 400) ]]=v213;v75=v83[(784 -376) -(255 + (968 -(667 + 151))) ];end else do return;end end elseif ((v84==(45 + (1509 -(1410 + 87)))) or (3977>=4688)) then v81[v83[2 + 0 ]]=v83[3]~=(0 -0) ;else local v215=v83[6 -4 ];v81[v215](v81[v215 + (1740 -((2301 -(1504 + 393)) + 1335)) ]);end elseif (v84<=(466 -(183 + 223))) then if ((v84==(70 -11)) or (774<455)) then local v216=0 + 0 ;local v217;local v218;local v219;while true do if (v216==((2 -1) + 0)) then v219=337 -(10 + 327) ;for v529=v217,v83[3 + 1 ] do local v530=338 -(118 + 220) ;while true do if ((v530==(0 + 0)) or (832==2347)) then v219=v219 + (450 -(108 + 341)) ;v81[v529]=v218[v219];break;end end end break;end if ((v216==(0 + 0)) or (1934==2777)) then v217=v83[(20 -12) -(802 -(461 + 335)) ];v218={v81[v217](v13(v81,v217 + (1494 -(711 + 782)) ,v83[3]))};v216=1 -0 ;end end else v81[v83[3 -1 ]]=v29(v72[v83[(61 + 411) -(270 + 199) ]],nil,v64);end elseif (v84<=(23 + 38)) then local v221=0 + 0 ;local v222;local v223;local v224;while true do if (((3582 -(1730 + 31)) -(580 + (2906 -(728 + 939))))==v221) then for v531=2 -1 ,v83[11 -7 ] do local v532=0 + 0 ;local v533;while true do if (v532==(0 + 0)) then v75=v75 + 1 + 0 ;v533=v71[v75];v532=1 + 0 ;end if (v532==(1833 -(1552 + 280))) then if ((v533[2 -1 ]==((272 -195) + 36)) or (604==4669)) then v224[v531-((1 -0) + 0) ]={v81,v533[3 + 0 ]};else v224[v531-(4 -3) ]={v63,v533[1839 -(1045 + 791) ]};end v80[ #v80 + (2 -1) ]=v224;break;end end end v81[v83[(1070 -(138 + 930)) -0 ]]=v29(v222,v223,v64);break;end if ((v221==(505 -(351 + 154))) or (2088>2395)) then v222=v72[v83[1577 -(1281 + 268 + 25) ]];v223=nil;v221=267 -(28 + 238) ;end if (v221==(2 -1)) then v224={};v223=v10({},{__index=function(v534,v535) local v536=v224[v535];return v536[1560 -(1381 + 178) ][v536[2 + 0 ]];end,__newindex=function(v537,v538,v539) local v540=v224[v538];v540[1 + 0 ][v540[2 + 0 ]]=v539;end});v221=1 + 1 ;end end elseif ((1992<=2618) and (v84==(213 -151))) then v81[v83[2 + 0 ]]=v81[v83[473 -(381 + 89) ]] * v81[v83[4 + 0 ]] ;else local v381=v83[2 + 0 ];v76=(v381 + v82) -(1 -0) ;for v466=v381,v76 do local v467=0 + 0 ;local v468;while true do if ((837 -(467 + 370))==v467) then v468=v77[v466-v381 ];v81[v466]=v468;break;end end end end elseif ((v84<=(140 -72)) or (3318==418)) then if ((v84<=(48 + 17)) or (4067<=2537)) then if ((v84==((954 + 266) -(1074 + 82))) or (4169<=4060)) then v81[v83[3 -1 ]]=v64[v83[1 + 2 ]];else do return v81[v83[1786 -(214 + 1570) ]];end end elseif (v84<=66) then if (v81[v83[2]]<=v81[v83[1459 -(990 + 465) ]]) then v75=v75 + 1 + 0 + 0 ;else v75=v83[3];end elseif ((v84==(30 + 37)) or (86>=606)) then local v383=0 + 0 ;local v384;while true do if (v383==(0 -0)) then v384=v83[1728 -(1668 + 58) ];do return v81[v384],v81[v384 + (1 -0) ];end break;end end else v81[v83[(2564 -1936) -(512 + 114) ]]=v83[7 -4 ]~=(0 + 0) ;end elseif (v84<=((1833 -(459 + 1307)) + 3)) then if (v84==(142 -73)) then v81[v83[6 -4 ]]= -v81[v83[2 + 1 ]];else local v228=0 + 0 ;local v229;while true do if (v228==(0 + 0)) then v229=v83[6 -4 ];do return v81[v229],v81[v229 + (1995 -(109 + 1885)) ];end break;end end end elseif ((v84<=((1918 -(474 + 1396)) + 23)) or (153>=2453)) then for v334=v83[1471 -(1269 + 200) ],v83[5 -2 ] do v81[v334]=nil;end elseif ((v84>(887 -(98 + 717))) or (2676>=4227)) then v81[v83[1 + 1 ]]=v83[829 -((1399 -597) + 24) ] * v81[v83[4]] ;else local v387=0 -0 ;local v388;while true do if ((0 -0)==v387) then v388=v83[2 -(0 + 0) ];do return v13(v81,v388,v76);end break;end end end elseif ((v84<=(17 + 93)) or (283>=2823)) then if (v84<=(70 + 21)) then if (v84<=(109 -(10 + 17))) then if ((4242>366) and (v84<=(13 + 64))) then if (v84<=(17 + 58)) then if ((4712==4712) and (v84>(141 -67))) then v81[v83[5 -3 ]]=v81[v83[9 -6 ]] -v81[v83[2 + 2 ]] ;else local v231=0 + 0 + 0 ;local v232;while true do if (v231==(0 + 0)) then v232=v83[2 + 0 ];v81[v232](v81[v232 + 1 + 0 ]);break;end end end elseif (v84>(68 + 8)) then local v233=1433 -(797 + (1821 -1185)) ;local v234;while true do if (v233==(0 -0)) then v234=v83[1621 -(1427 + 192) ];v81[v234]=v81[v234](v13(v81,v234 + 1 + 0 ,v83[6 -(1 + 2) ]));break;end end else v81[v83[3 -1 ]]=v81[v83[3 + 0 ]]%v83[(6 -4) + (8 -6) ] ;end elseif (v84<=(405 -(192 + 134))) then if (v84>(320 -(6 + 236))) then local v236=v83[1278 -(316 + 960) ];local v237,v238=v74(v81[v236](v13(v81,v236 + (592 -(562 + 29)) + 0 ,v83[3 + 0 ])));v76=(v238 + v236) -(1 + 0) ;local v239=0 -0 ;for v336=v236,v76 do v239=v239 + (552 -(83 + 468)) ;v81[v336]=v237[v239];end else local v240=v81[v83[1 + 3 ]];if v240 then v75=v75 + (1807 -(1202 + 604)) ;else local v389=0 -0 ;while true do if ((3335>=2992) and (v389==(0 -0))) then v81[v83[2 + 0 ]]=v240;v75=v83[8 -5 ];break;end end end end elseif (v84<=80) then local v241=v83[327 -(45 + 239 + 41) ];local v242=v81[v241];for v339=v241 + 1 + (1419 -(374 + 1045)) ,v76 do v7(v242,v81[v339]);end elseif ((1482>=1460) and (v84==(71 + 10))) then for v473=v83[1 + 1 + 0 ],v83[2 + 1 ] do v81[v473]=nil;end else do return;end end elseif (v84<=(16 + 70)) then if (v84<=((477 -323) -70)) then if (v84==(1994 -(340 + 1571))) then if (v81[v83[1 + (639 -(448 + 190)) ]]~=v83[1776 -(560 + 1173 + 39) ]) then v75=v75 + (2 -1) ;else v75=v83[9 -6 ];end else v81[v83[2 + 0 ]][v81[v83[1037 -(125 + 909) ]]]=v83[1952 -(1096 + 852) ];end elseif (v84==(18 + 21 + 30 + 16)) then local v245=v83[2 -0 ];local v246={v81[v245](v81[v245 + (513 -(409 + 103)) ])};local v247=236 -(46 + 190) ;for v340=v245,v83[99 -(51 + 44) ] do v247=v247 + (518 -(440 + 77)) ;v81[v340]=v246[v247];end else do return v81[v83[1 + 1 ]];end end elseif ((v84<=(321 -233)) or (171>=4691)) then if (v84==((6316 -4673) -(655 + 901))) then if (v81[v83[1319 -(1114 + 203) ]]==v81[v83[730 -((708 -480) + 498) ]]) then v75=v75 + 1 + 0 ;else v75=v83[3];end elseif ((v81[v83[2 + 0 ]]~=v83[667 -(174 + 489) ]) or (2173>4840)) then v75=v75 + ((1496 -(1307 + 187)) -1) ;else v75=v83[1448 -(695 + 750) ];end elseif (v84<=((7907 -5913) -(830 + 1075))) then if (v81[v83[(1231 -705) -(303 + 221) ]]~=v81[v83[1273 -(231 + 1038) ]]) then v75=v75 + 1 + 0 ;else v75=v83[(3572 -2407) -(171 + 991) ];end elseif ((v84>(370 -280)) or (3884<1346)) then local v394=0 -0 ;local v395;local v396;while true do if ((3360==3360) and (v394==(2 -1))) then for v589=v395 + 1 + 0 ,v83[(696 -(232 + 451)) -9 ] do v396=v396   .. v81[v589] ;end v81[v83[301 -(176 + 123) ]]=v396;break;end if (v394==(0 -0)) then v395=v83[4 -1 ];v396=v81[v395];v394=3 -2 ;end end else v81[v83[1250 -(111 + 1086 + 51) ]]=v81[v83[161 -(91 + 67) ]] -v83[11 -7 ] ;end elseif ((1082<=2816) and (v84<=(25 + 75))) then if ((v84<=(618 -(423 + 100))) or (3830>=4328)) then if (v84<=(1 + 92)) then if (v84==(254 -162)) then local v248=0 + 0 ;local v249;local v250;local v251;while true do if (v248==(772 -(326 + 445))) then v251=(0 + 0) -0 ;for v542=v249,v83[8 -4 ] do v251=v251 + (2 -1) ;v81[v542]=v250[v251];end break;end if (v248==(711 -(530 + 181))) then v249=v83[883 -(614 + 267) ];v250={v81[v249](v13(v81,v249 + (1 -0) ,v76))};v248=1;end end else v81[v83[4 -2 ]]=v29(v72[v83[8 -5 ]],nil,v64);end elseif (v84>(25 + (633 -(510 + 54)))) then v81[v83[3 -1 ]]=v81[v83[5 -2 ]] -v81[v83[(43 -(13 + 23)) -3 ]] ;else v81[v83[(3535 -1721) -(1293 + 519) ]]=v81[v83[5 -2 ]] * v83[9 -(6 -1) ] ;end elseif (v84<=(185 -88)) then if (v84==(413 -317)) then local v255=v83[2 + 0 ];v81[v255](v13(v81,v255 + (2 -1) ,v83[2 + 1 ]));elseif (v81[v83[1 + 1 ]]==v83[9 -5 ]) then v75=v75 + (1 -0) ;else v75=v83[1 + 2 ];end elseif (v84<=(33 + 65)) then local v256=v83[2];do return v13(v81,v256,v76);end elseif (v84>(62 + 37)) then if ((v83[1098 -(709 + (703 -316)) ]<v81[v83[(2950 -(830 + 258)) -(673 + 1185) ]]) or (1099>=4754)) then v75=v75 + (2 -1) ;else v75=v83[9 -6 ];end else v81[v83[2 -0 ]]=v81[v83[3 + 0 ]]%v83[3 + 1 ] ;end elseif (v84<=(1860 -(1178 + 577))) then if (v84<=(137 -35)) then if (v84>(25 + (267 -191))) then v81[v83[3 -1 ]]=v81[v83[(4 + 1) -2 ]];else local v259=1880 -(380 + 66 + 1434) ;local v260;local v261;while true do if (v259==(1283 -(1040 + 243))) then v260=v83[5 -3 ];v261=v81[v83[(1449 -(860 + 581)) -5 ]];v259=1848 -(559 + 1288) ;end if ((4871<=4892) and (v259==(1932 -((2246 -1637) + 1322)))) then v81[v260 + ((362 + 93) -(13 + 441)) ]=v261;v81[v260]=v261[v81[v83[14 -10 ]]];break;end end end elseif (v84<=(269 -166)) then local v262=0;local v263;local v264;local v265;while true do if ((v262==(0 -0)) or (2393<=1632)) then v263=v83[2 + 0 ];v264=v81[v263 + 1 + 1 ];v262=3 -2 ;end if (v262==(1 + 1)) then if (v264>(0 + 0)) then if ((2414==2414) and (v265<=v81[v263 + (2 -1) ])) then local v608=0 + 0 ;while true do if (v608==(0 -0)) then v75=v83[2 + 1 ];v81[v263 + 2 + 1 ]=v265;break;end end end elseif ((1584==1584) and (v265>=v81[v263 + 1 + 0 ])) then v75=v83[3 + 0 ];v81[v263 + 3 + 0 ]=v265;end break;end if ((2285>2073) and (v262==1)) then v265=v81[v263] + v264 ;v81[v263]=v265;v262=435 -(153 + 280) ;end end elseif (v84>(300 -196)) then if (v83[2 + 0 ]==v81[v83[2 + 2 ]]) then v75=v75 + 1 ;else v75=v83[3];end else local v400=0 + 0 ;local v401;while true do if (v400==(0 + 0)) then v401=v83[2 + 0 ];do return v81[v401](v13(v81,v401 + 1 + 0 ,v83[4 -1 ]));end break;end end end elseif (v84<=(67 + 40)) then if ((v84>(773 -(89 + 578))) or (2894<2799)) then v81[v83[2 + (241 -(237 + 4)) ]]=v81[v83[5 -2 ]] * v83[1053 -((1343 -771) + 477) ] ;else local v267=0 + 0 ;local v268;local v269;local v270;local v271;while true do if (v267==(1 + 0)) then v76=(v270 + v268) -((2 -1) + 0) ;v271=86 -(84 + 2) ;v267=(5 -2) -1 ;end if ((2 -0)==v267) then for v547=v268,v76 do v271=v271 + 1 + 0 ;v81[v547]=v269[v271];end break;end if (v267==(842 -(497 + 283 + 62))) then v268=v83[1 + 1 ];v269,v270=v74(v81[v268](v81[v268 + 1 + 0 ]));v267=3 -2 ;end end end elseif ((v84<=(1441 -(605 + 728))) or (1275>3605)) then local v272=v83[2 + 0 ];local v273=v81[v272];for v343=v272 + (1 -0) ,v76 do v7(v273,v81[v343]);end elseif (v84==(5 + 104)) then if (v81[v83[7 -5 ]]~=v81[v83[4 + 0 ]]) then v75=v75 + (2 -1) ;else v75=v83[3 + 0 ];end else v81[v83[491 -(457 + 32) ]][v81[v83[2 + 1 ]]]=v81[v83[1406 -(832 + 570) ]];end elseif ((240<1190) and (v84<=(122 + 7))) then if (v84<=(32 + 87)) then if (v84<=(1385 -(153 + 113 + 1005))) then if (v84<=((1494 -1098) -284)) then if ((v84>(54 + 57)) or (635>2257)) then local v274=0 -0 ;local v275;local v276;while true do if (v274==1) then v81[v275 + 1 ]=v276;v81[v275]=v276[v83[1700 -(561 + 1135) ]];break;end if (v274==(0 -0)) then v275=v83[798 -(588 + 208) ];v276=v81[v83[(459 + 610) -(276 + 231 + 559) ]];v274=2 -1 ;end end elseif ((1961>534) and (v81[v83[1802 -(884 + 916) ]]==v81[v83[8 -4 ]])) then v75=v75 + 1 + 0 ;else v75=v83[656 -(232 + 421) ];end elseif ((196<=3023) and (v84==(2002 -(1569 + 320)))) then v81[v83[2 -0 ]]=v81[v83[4 -(1427 -(85 + 1341)) ]];else local v279=v83[1 + 1 ];v81[v279](v13(v81,v279 + 1 + (0 -0) ,v83[(25 -16) -6 ]));end elseif (v84<=((620 -(45 + 327)) -132)) then if (v84==(720 -(316 + 289))) then local v280=v83[(9 -4) -3 ];v81[v280]=v81[v280](v13(v81,v280 + 1 + 0 ,v83[1456 -(666 + 787) ]));else local v282=v83[427 -(360 + 65) ];local v283,v284=v74(v81[v282](v81[v282 + 1 + 0 ]));v76=(v284 + v282) -(255 -(79 + (677 -(444 + 58)))) ;local v285=0 -0 ;for v344=v282,v76 do v285=v285 + (2 -1) ;v81[v344]=v283[v285];end end elseif (v84<=(92 + 25)) then local v286=0 -(0 + 0) ;local v287;while true do if ((2048<=3047) and (v286==(0 -(0 + 0)))) then v287=v81[v83[857 -(152 + 701) ]];if (v287 or (411>=2970)) then v75=v75 + (900 -(503 + 396)) ;else local v571=181 -(92 + 89) ;while true do if (v571==(0 -0)) then v81[v83[2 + 0 + 0 ]]=v287;v75=v83[1 + 2 ];break;end end end break;end end elseif ((1312<=2793) and (v84==(70 + 48))) then v81[v83[2]]=v81[v83[8 -5 ]]/v81[v83[(37 -24) -9 ]] ;else local v406=0 -0 ;local v407;while true do if (v406==(0 + 0)) then v407=v83[4 -2 ];v81[v407]=v81[v407]();break;end end end elseif (v84<=(109 + 15)) then if (v84<=(58 + 63)) then if ((v84>(365 -(1977 -(64 + 1668)))) or (2164>=3404)) then if v81[v83[1 + 1 ]] then v75=v75 + (3 -2) ;else v75=v83[3 -0 ];end else v81[v83[2 -0 ]][v83[1247 -(485 + 759) ]]=v81[v83[1 + 3 ]];end elseif ((1080<=2918) and (v84<=(192 -70))) then v81[v83[4 -2 ]]={};elseif (v84==(677 -(475 + 79))) then v81[v83[1191 -(442 + 747) ]][v83[1138 -(832 + 303) ]]=v83[1 + 3 ];else v81[v83[948 -(88 + 858) ]][v83[1 + 2 ]]=v83[4 + 0 ];end elseif ((v84<=(6 + (2093 -(1227 + 746)))) or (3426<=1781)) then if ((v84==(914 -(766 + 23))) or (4376<=4070)) then v81[v83[5 -3 ]]=v81[v83[14 -11 ]] + v81[v83[5 -1 ]] ;else local v292=v83[4 -2 ];v81[v292]=v81[v292](v81[v292 + (3 -2) ]);end elseif ((v84<=((3688 -2488) -(1036 + (68 -31)))) or (805>4162)) then local v294=v83[2 + (494 -(415 + 79)) ];v81[v294]=v81[v294](v81[v294 + (1 -0) ]);elseif (v84==(101 + 27)) then local v413=(39 + 1441) -(641 + 839) ;local v414;local v415;local v416;while true do if ((4904==4904) and (v413==(914 -(910 + (494 -(142 + 349)))))) then v416=v81[v414 + (4 -2) ];if ((v416>(1684 -(1466 + 218))) or (2525>4643)) then if ((v415>v81[v414 + 1 + 0 ]) or (3983<1150)) then v75=v83[142 -(43 + 96) ];else v81[v414 + (1151 -(556 + 592)) ]=v415;end elseif (v415<v81[v414 + 1 + 0 ]) then v75=v83[811 -(329 + 479) ];else v81[v414 + 3 ]=v415;end break;end if (v413==(854 -(174 + 680))) then v414=v83[6 -4 ];v415=v81[v414];v413=1 -0 ;end end else v81[v83[2 + 0 ]]=v81[v83[742 -(396 + 343) ]] + v81[v83[1 + 3 ]] ;end elseif ((4066<4247) and (v84<=(1615 -(29 + 1448)))) then if (v84<=((652 + 870) -(135 + (1724 -470)))) then if (v84<=(1882 -(703 + 711 + 337))) then if (v84==(489 -359)) then local v296=0 -0 ;local v297;local v298;local v299;while true do if ((4 -3)==v296) then v299=0 + 0 ;for v551=v297,v83[1531 -(389 + 1138) ] do local v552=0 + 0 ;while true do if (v552==(574 -(102 + 472))) then v299=v299 + (973 -(357 + 615)) ;v81[v551]=v298[v299];break;end end end break;end if (v296==(0 + 0)) then v297=v83[2 + 0 ];v298={v81[v297](v13(v81,v297 + 1 + 0 ,v83[2 + 1 ]))};v296=1 + 0 + 0 ;end end else v75=v83[1548 -(320 + 1225) ];end elseif (v84==(234 -102)) then local v301=0 + (0 -0) ;local v302;while true do if (v301==0) then v302=v83[1466 -((2021 -(1710 + 154)) + 1307) ];v81[v302](v13(v81,v302 + (1860 -(821 + 1038)) ,v76));break;end end else v81[v83[4 -2 ]]=v81[v83[1 + 2 ]]/v83[6 -2 ] ;end elseif ((v84<=(51 + 84)) or (1446<545)) then if (v84==(331 -197)) then v81[v83[1028 -(834 + (510 -(200 + 118))) ]]=v83[1 + 1 + 1 ] + v81[v83[2 + (2 -0) ]] ;elseif ((v81[v83[(1 -0) + 1 ]]<v81[v83[(61 + 7) -(29 + 35) ]]) or (616==199)) then v75=v75 + (4 -3) ;else v75=v83[3 + 0 ];end elseif (v84<=(210 -74)) then v81[v83[306 -(300 + 4) ]]= not v81[v83[1 + 2 + 0 ]];elseif (v84==137) then v81[v83[5 -3 ]]=v63[v83[365 -(112 + 250) ]];elseif ( not v81[v83[(162 + 852) -(53 + 959) ]] or (4384<=2280)) then v75=v75 + (2 -1) + 0 ;else v75=v83[4 -1 ];end elseif (v84<=(357 -214)) then if (v84<=(81 + 59)) then if (v84>(72 + 67)) then local v306=0 + 0 ;local v307;local v308;while true do if (v306==(0 + 0)) then v307=v83[2 + 0 ];v308=v81[v83[1417 -(1001 + 413) ]];v306=1087 -(860 + 226) ;end if (v306==(304 -(121 + 182))) then v81[v307 + (2 -1) ]=v308;v81[v307]=v308[v81[v83[1244 -(988 + 252) ]]];break;end end else v81[v83[1 + 1 ]][v81[v83[885 -(244 + 638) ]]]=v81[v83[1974 -(49 + (3171 -(363 + 887))) ]];end elseif ((4564>598) and (v84<=(834 -(627 + 66)))) then v81[v83[5 -(5 -2) ]]=v81[v83[605 -(512 + 90) ]][v83[(9091 -7181) -(1665 + 241) ]];elseif (v84>(859 -(373 + 344))) then v81[v83[1 + 1 ]]=v81[v83[1 + 2 ]][v81[v83[1 + 3 ]]];else v81[v83[607 -(311 + 294) ]]=v81[v83[7 -(9 -5) ]] -v83[4] ;end elseif (v84<=(244 -99)) then if (v84>(1243 -(35 + 1064))) then local v313=0 + 0 + 0 ;local v314;while true do if ((3747==3747) and (v313==(0 -(1664 -(674 + 990))))) then v314=v81[v83[1 + 1 + 2 ]];if ((3889<4766) and  not v314) then v75=v75 + (1237 -(122 + 176 + 938)) ;else local v577=0 + 0 ;while true do if ((1259 -(233 + 1026))==v577) then v81[v83[(2643 -975) -(636 + 1030) ]]=v314;v75=v83[2 + 1 ];break;end end end break;end end else v81[v83[2 + (1055 -(507 + 548)) ]]= #v81[v83[3 + 0 ]];end elseif (v84<=(44 + (939 -(289 + 548)))) then if ((2628>2464) and (v81[v83[1 + (1819 -(821 + 997)) ]]==v83[225 -((310 -(195 + 60)) + 166) ])) then v75=v75 + (1 -0) ;else v75=v83[1 + 2 ];end elseif (v84>(15 + 132)) then local v425=v83[184 -(156 + 26) ];local v426,v427=v74(v81[v425](v13(v81,v425 + 1 + 0 ,v76)));v76=(v427 + v425) -(3 -2) ;local v428=297 -(36 + 261) ;for v499=v425,v76 do local v500=164 -(149 + 15) ;while true do if (v500==0) then v428=v428 + ((1 + 0) -0) ;v81[v499]=v426[v428];break;end end end else local v429=1368 -(34 + 1334) ;local v430;local v431;local v432;local v433;while true do if ((v429==1) or (3197<=2999)) then v76=(v432 + v430) -(1 + 0) ;v433=0 + 0 ;v429=1285 -(1035 + 248) ;end if (v429==(0 + 0)) then v430=v83[23 -(20 + 1) ];v431,v432=v74(v81[v430](v13(v81,v430 + 1 + 0 ,v83[322 -(134 + 185) ])));v429=1134 -(549 + 584) ;end if (v429==(1 + 1)) then for v592=v430,v76 do local v593=685 -((1815 -(251 + 1250)) + 371) ;while true do if ((v593==(0 + 0)) or (952<=71)) then v433=v433 + (3 -2) ;v81[v592]=v431[v433];break;end end end break;end end end v75=v75 + (969 -(478 + 490)) ;end end;end return v29(v28(),{},v17)(...);end return v15("LOL!31042Q0003063Q00737472696E6703043Q006368617203043Q00627974652Q033Q0073756203053Q0062697433322Q033Q0062697403043Q0062786F7203053Q007461626C6503063Q00636F6E63617403063Q00696E73657274025Q00808F4003073Q009D2FD423A8A72303053Q00CACB46A74A025Q00088F40030A3Q00EDB47C8C06AC2Q40DCA403083Q0029BFC112DF63DE36025Q00F08E4003083Q0060FBDA3707D9284A03073Q0047248EA85673B0025Q00E88E40031B3Q000DEE43EF283AF44FBF2F79EE47BC7B3BE343A17B35E947AB3E3DA803053Q005B598626CF025Q00E08E4003073Q0009B4CC907224AF03053Q00174ADBA2E4025Q00D88E40030F3Q00AD3120BC8A3632ACC40F33B788362503043Q00D5E45F46025Q00D08E4003053Q00CF43FC76CF03063Q005E9B2A881AAA025Q00888E40030F3Q00E0515AD7C8497CD1D4545FC6EE484D03043Q00B2A63D2F025Q00A88D4003103Q00DDABE8312255A8F18CEA3F386AA0E7AA03073Q00C195DE85504C3A025Q00888D4003103Q00A0A53CBD86BF38B8BABF3EA8B8B123A803043Q00DCE8D051025Q00B88C4003043Q000754FC2C03043Q00484F319D025Q00A88C40030A3Q002CA2A63E5711F501AAB603073Q00BD64CBD25C3869025Q00888C4003103Q00D33EB51653F422BC2552F43F88164FEF03053Q003D9B4BD877025Q00388C4003103Q00CB2301EAC0BC32E70403E4DA833AF12203073Q005B83566C8BAED3025Q00A88B4003083Q00F7B237471AEEB22A03053Q006E87DD442E025Q00A08B4003063Q001BD6D93141BE03073Q00166BBAB84824CC025Q00608B4003103Q00173E77F7C7DADD840D2475E2F9D4C69403083Q00E05F4B1A96A9B5B4025Q00108B4003103Q009033040B2EDDB1223B052FC688271B1E03063Q00B2D846696A40025Q00D88A4003103Q00D256AD0E117A70E2C84CAF1B2F746BF203083Q00869A23C06F7F1519025Q00508A40030B3Q009926ACAB88A4ECAA2DA9A203073Q0098CB43CAC7EDC7025Q00408A4003083Q0087E914A33DF04A5503083Q0039CA8860C64F992B025Q00308A4003053Q0063E63B035203043Q006C208957025Q00E0894003083Q0058F99840A9A5DD7903073Q00BC1598EC25DBCC025Q00D0894003053Q00D088ED781203063Q002893E7811760025Q00B8894003083Q0035AC1DD13B90C40A03073Q00B667C57AB94FD1025Q0098894003073Q0072E0FB6CC1F45303063Q00863E859D1880025Q0088894003083Q00A67BD108B47BD01903043Q006DE41AA2025Q0078894003053Q0069F8E6CB0E03063Q008D249782AE62025Q00A0884003083Q0015BE160D2AB6030403043Q006858DF62025Q0090884003053Q00214551D50503083Q008E622A3DBA776762025Q0080884003083Q000CE0B0355828E0A803053Q002A4181C450025Q0070884003053Q0021A58ADD3A03063Q00BB62CAE6B248025Q0058884003083Q00B450F28F681B93C103083Q00ACE63995E71C5AE1025Q0038884003073Q0074DAECD48FFB3B03083Q009A38BF8AA0CE8956025Q0028884003083Q00D05B2B33C25B2A2203043Q0056923A58025Q0018884003053Q009D4E1FD2C503083Q009FD0217BB7A9918F025Q00F8874003083Q009A8A2F8A605963A503073Q0011C8E348E21418025Q00E8874003073Q00DBEDDFBBD6FAD403043Q00CF9788B9025Q00D8874003083Q0039A8B7D176A5B02203083Q00567BC9C4B426C4C2025Q00C08740030B3Q00D0AB63E1A22FB0E4B17EFC03073Q00D596C21192D67F025Q00B08740030A3Q00F61FC6EC75E723E0CC0503083Q0085A076A39B388847025Q00A0874003093Q0067F1101D5760FF011303053Q0024109E6276025Q0078874003053Q000109F8FAFB03053Q009E5265919E025Q00708740030E3Q00C71FC0FFA60F14DFF21BD6F9A90E03083Q00BE957AAC90C76B59025Q0068874003083Q008BFDDE3A193911A303073Q007FC69CB95B6350025Q0060874003043Q00A6DA454E03053Q002FE4B5293A025Q0058874003043Q00A8ECB22C03053Q007EEA83D655025Q00488740030A3Q009D092787738A12A11C2E03073Q0061D47D42EA25E3025Q00388740030B3Q0068121AFCBA01C85C0807E103073Q00AD2E7B688FCE51025Q0028874003093Q0057EBF4C653F4E7CE4503043Q00AD208486025Q00208740030B3Q00FA56DEA23B2BE2F3CF50C203083Q0081BC3FACD14F7B87025Q0008874003093Q009A73FF209E6CEC288803043Q004BED1C8D026Q008740030A3Q00FB26B76A5DEAC92ABE6E03063Q0085AD4FD21D10025Q00F0864003093Q00EF07D756D1E809C65803053Q00A29868A53D025Q00E88640030B3Q00FCAF6751CE967050C9A97B03043Q0022BAC615025Q00D0864003093Q006FF00F4E6BEF1C467D03043Q0025189F7D025Q00C88640030A3Q006BBEF6CA6A1159B2FFCE03063Q007E3DD793BD27025Q00B8864003093Q00F7DC0F5B619732E3D603073Q005380B37D3012E7025Q0098864003053Q00C2CD594CFC03053Q00908FA23D29025Q0068864003043Q0083B050CD03053Q00AFA6C37BE9025Q0050864003043Q00CE49613D03063Q00B3906C121625025Q0040864003063Q009D88129E9BFD03043Q00B3C6D637025Q00308640030A3Q00E721D9E3FC27D8F1DD3B03043Q0094B148BC025Q0020864003093Q004041FAC0476F564DED03063Q001F372E88AB34026Q00864003103Q00ED3AF5A8F67202C11DF7A6EC4D0AD73B03073Q006BA54F98C9981D025Q00A8854003103Q00E3CB2004F9C4D72937F8C4CA1D04E5DF03053Q0097ABBE4D65025Q0020854003093Q0070D716721DCBCA50CA03073Q00AD38BE711A71A2025Q00B8844003043Q00B60E423F03043Q004BE26B3A025Q0060844003043Q00E6B6D85203073Q0099B2D3A0265441025Q0010844003043Q00F2FCE14203063Q0010A62Q993644025Q0060824003083Q00EDD68AB6A12QCA8303053Q00CFA5A3E7D7025Q00E8814003103Q00D66708DEF07D0CDBCC7D0ACBCE7317CB03043Q00BF9E1265025Q00C8814003043Q00F742AFA803043Q00CDBB2BC1025Q00A0814003093Q003E34BE2C552A32B63003053Q00216C5DD944025Q00988140030D3Q004BFD1F0B000B1C6EF10A2F112003073Q0073199478637447025Q00908140030D3Q002FA08DA3375512BE8FB90F7C1A03063Q00197DC9EACB43025Q00888140030D3Q00CFE8515011C8F1465D17D1E45103053Q00659D813638025Q00808140030D3Q00C827334C530CA724FF3C18414003083Q00549A4E54242759D7025Q00788140030A3Q000284F4033CBFEC143D8403043Q00664EEB83025Q0070814003083Q0054A845B05EA24CB003043Q00C418CD23025Q00688140030C3Q002BCD731C9408DF701A9402CF03053Q00D867A81568025Q00608140030C3Q00F4EDFA596DBECFEDEE6144B603063Q00D1B8889C2D21025Q00588140030C3Q0027E525F31FD52F7A19CC26E003083Q001F6B8043874AA55F025Q00508140030C3Q0008BEC8A111ABDEB03697CBB203043Q00D544DBAE025Q00488140030A3Q00FC7440EBADE47445FDB003053Q00DFB01B378E025Q0040814003093Q00835A7BDD6D12B05D7803063Q005AD1331CB519025Q00388140030D3Q0080D1DD7D0C11C02EB7CAFB671503083Q0059D2B8BA15785DAF025Q00308140030D3Q00C2465D8FE4635590F55D7B95FD03043Q00E7902F3A025Q00288140030D3Q001723AB495B4AB5352FBE605D7203073Q00C5454ACC212F1F025Q00208140030D3Q00D7E44112EFD0FD561FE9C4FF4B03053Q009B858D267A025Q00188140030A3Q00C20AB4C306C8C65CE41503083Q002E977AC4A6749CA9025Q0010814003083Q00601BDCB4984D10DE03053Q00D02C7EBAC0025Q00088140030C3Q005E133645ED3865132270D33A03063Q005712765031A1026Q008140030C3Q007CEFFEDC6D5F2QFDDA6042E703053Q0021308A98A8025Q00F88040030C3Q0070752FF290050C3D4E513BEB03083Q00583C104986C5757C025Q00F08040030C3Q00F5EA004A25A12113CBCE145303083Q0076B98F663E70D151025Q00E88040030A3Q00B25CA600F9B343A416E403053Q008BE72CD665025Q00E08040030A3Q009921A378968121A66E8B03053Q00E4D54ED41D025Q00D88040030A3Q00D0B6AAC29AD8EAB4A9C803063Q008C85C6DAA7E8025Q00D08040030A3Q00CE0EC9E72416C2E90DD603073Q00AD9B7EB9825642025Q00C8804003043Q00D632F7B303063Q00DA9E5796D784025Q00C0804003093Q006385AF7B45CC84765603043Q001331ECC8025Q00B8804003053Q00B1ECFDCA0C03063Q00C6E5838FB963025Q00B0804003083Q00A14D82FD309A884F03063Q00D6ED28E48910025Q00A8804003053Q00BF21A7333403073Q008FEB4ED5405B62025Q00A0804003093Q00BAD2DAA4B55687318503083Q0043E8BBBDCCC176C6025Q0098804003053Q00F5FA9706EB03073Q00B2A195E57584DE025Q0090804003083Q00111528EC9C1E2F1D03063Q005F5D704E98BC025Q0088804003053Q00F301470DC803043Q007EA76E35025Q002Q804003053Q002DE750A33503053Q005A798822D0025Q0078804003043Q00DDFD2Q2603053Q002395984742025Q0038804003063Q00343A9B0B1B3603043Q00687753E9025Q00207F4003103Q0005BF71A9D922A3789AD822BE4CA9C53903053Q00B74DCA1CC8025Q00F07E40030A3Q00E0505178EA63EA56416303063Q001BA839251A85025Q00C07E4003043Q00772DAF0003053Q00363F48CE64025Q00907E40030A3Q0036C8B4E6B26A36C4A1E003063Q00127EA1C084DD025Q00407E4003103Q007DE3F13B51431873E8E22B535D1D6AF203073Q00741A868558302F025Q00307E4003103Q00F4E9AF29C5E98123D9FCB023DBE4A73E03043Q004CB788C2025Q00507D4003043Q00A51D1B4903043Q002DED787A025Q00207D40030A3Q000BDD602BDEEE0BD1752D03063Q009643B41449B1025Q00E07C4003083Q00D5DEA0E3A7FBF4CF03063Q00949DABCD82C9025Q00B07C4003083Q0058BFADEB777FA3A403053Q001910CAC08A025Q00807C4003103Q006B5E16340553A64779143A1F6CAE515F03073Q00CF232B7B556B3C025Q00207B4003073Q0014C9B37E0635C403053Q006F41BDDA12026Q007B4003073Q0070E3409F51E95703043Q00EA3D8C24025Q00E07A4003073Q0058DF07C7DE13BB03073Q00DE2ABA76B2B761025Q00D07A4003113Q00DE24380A728EF838E9251B12749FF82BE903083Q004C8C4148661BED99025Q00C0784003093Q0014DF30AD9B13D121A303053Q00E863B042C6025Q0030784003043Q000C2BE3A003083Q008940428DC599E88E025Q00F0764003083Q001117CB242C2A432403073Q002D4378BE4A4843025Q00E0764003073Q00D48EAC162QB9E403063Q00D590EBCA77CC025Q00D076402Q033Q00368D6103043Q00547BEC19025Q00C076402Q033Q00D1005103053Q00889C693F1B025Q00B07640030C3Q008284F99C83BEDAC8A6B9CAD903043Q00BCC7D7A9025Q00A0764003053Q001AF59E1AC403053Q00A14E9CEA76025Q00907640030B3Q00A51D8F6FDEF8C98120BC4E03073Q00BDE04EDF2BB78B025Q0060764003073Q0018FAE5C5C9AF2C03073Q00585C9F83A4BCC3025Q0050764003103Q008DE71BF6EAB4A23F2QD5FAC1152QEAA803053Q0085DA827A86025Q0040764003053Q00EA826B332703063Q0046BEEB1F5F42025Q00307640030E3Q008AEE3EB0C6B3CE0C90EAB2E730B203053Q00A9DD8B5FC0026Q00764003073Q00C2FA8CA2C4EAEB03053Q00B1869FEAC3025Q00F07540030E3Q00C3A48A7E5096600CAD8688771FA103083Q005C8DC5E71B70D333025Q00E0754003053Q00B7F9BE87D803063Q00D6E390CAEBBD025Q00D07540030C3Q008BF145C180C378E7AAFC47D603043Q00A4C59028025Q00A0754003073Q003319C95FDDD5AE03073Q00DA777CAF3EA8B9025Q0090754003123Q003E142D0C34FF271F5D1B2B05B1071511310A03073Q00447A7D5E785591025Q0080754003053Q0021ABEB143E03053Q005B75C29F78025Q0070754003103Q003E2E41182CE318EB3F14622F22E114FC03083Q008E7A47326C4D8D7B025Q0040754003073Q006EFBA443642D5E03063Q00412A9EC22211025Q0030754003123Q00F47FFFF44FD37BF4B86FF444BADB45CB7BE803053Q002AA7149A98025Q0020754003053Q00B940FE448803043Q0028ED298A025Q0010754003103Q00E5ADE2CB7CA3D9A8C2F44994D9AAE8D503063Q00D7B6C687A719025Q00E0744003074Q000AA4463103B603043Q0027446FC2025Q00D0744003133Q00E437B8F8C037B8F8D87E9AC3FC7E9CFFC031AD03043Q0090AC5EDF025Q00C0744003053Q0065A110FF1903073Q003831C864937C77025Q00B0744003113Q00A539FF2C51E88A38EC016ED1AE3FF42B4F03063Q0081ED5098443D025Q00907440030C3Q00C21F98181573F338A156216503063Q0016874CC83846025Q0060744003073Q000CA4C27D0B2F2503083Q004248C1A41C7E4351025Q0050744003113Q000A3FEAF4EBE5C4F1192CEEBACAE2D2BC2B03083Q00D1585E839A898AB3025Q0040744003053Q006F3BB84CF803053Q009D3B52CC20025Q00307440030F3Q008AB91532BAB70B1DAAB53F34B9B50F03043Q005C2QD87C025Q0010744003073Q0069142AEE581D3803043Q008F2D714C026Q00744003113Q00FECC8B7F44C3DAC25653C28DA17947C1DE03053Q0026ACADE211025Q00F0734003053Q00C72E04131F03063Q007B9347707F7A025Q00E07340030F3Q00F6CC4E32F001E2E3D8491FFA0FF8D703073Q0095A4AD275C926E025Q00C0734003073Q0058DFDE5C423FC603073Q00B21CBAB83D3753025Q00B07340030A3Q00678E3F675F857E5263BB03043Q001730EB5E025Q00A0734003053Q00F780D08D8403063Q00B5A3E9A42QE1025Q0090734003093Q00B2C026F1AB109A73B503083Q0020E5A54781C47EDF025Q0070734003073Q000A0BFDF73B02EF03043Q00964E6E9B025Q0060734003083Q009071D7C24390B02103083Q0071DE10BAA763D5E3025Q0050734003053Q00F70F57DE4203073Q0044A36623B2271E025Q0040734003073Q0006DA50876B4C1803063Q001F48BB3DE22E025Q0020734003073Q00E779E11343CF6803053Q0036A31C8772025Q00107340030C3Q00D3335ECD2975BAF27A68EA1803073Q00D9975A2DB9481B026Q00734003053Q0087DFD9CDCC03073Q0025D3B6ADA1A9C1025Q00F07240030B3Q009E76C0675F14B97AF6406E03063Q007ADA1FB3133E025Q00D0724003073Q000B1B292B140B3B03063Q00674F7E4F4A61025Q00C07240030C3Q00B2CD54FECC488EC811D7FA6C03063Q003CE1A63192A9025Q00B0724003053Q00CB3A1D063703063Q00989F53696A52025Q00A07240030B3Q0099BAE8EB72FA48A494DED703073Q0027CAD18D87178E025Q0080724003073Q003088833632550003063Q003974EDE55747025Q00707240030D3Q007F0539577EDD255F187E7A41E403073Q0042376C5E3F12B4025Q0060724003053Q00BFD321EA8303083Q0066EBBA5586E67350025Q00507240030C3Q0036E972C2E6821EDE0AC546FA03083Q00B67E8015AA8AEB79025Q00307240030C3Q007135B7F683B585401395B3B603073Q00E43466E7D6C5D0025Q00F0714003073Q003C46E5CB135A5F03073Q002B782383AA6636025Q00E07140030F3Q002152E2E01148ECFA1000CEFC0E4FFF03043Q009362208D025Q00D0714003053Q0064F012B35A03083Q001A309966DF3F1F99025Q00C07140030E3Q00DCF2BDAA1B36FEE9A09A0732F0F203063Q005E9F80D2D968025Q00A0714003083Q007E35F6A00D4534E403053Q00692C5A83CE025Q0090714003073Q00F1CEF0AEB6FA6803083Q00DFB5AB96CFC3961C025Q008071402Q033Q0031FA1203043Q00827C9B6A025Q007071402Q033Q006E16B403063Q0013237FDAC762025Q0060714003143Q001B201C902B3A128A2A722093313C53B02837168703043Q00E3585273025Q0050714003053Q00BE160DAAD903053Q00BCEA7F79C6025Q0040714003123Q00D23742FCCAF92444FDEAE12C43DCC9F4204903053Q00B991452D8F025Q0020714003083Q002A713645AF11702403053Q00CB781E432B025Q0010714003073Q00A752D61448339703063Q005FE337B0753D026Q0071402Q033Q001FE29003063Q003A5283E85D29025Q00F070402Q033Q00D4DE0403083Q00C899B76AC3DEB234025Q00E07040030E3Q002E4B382D36F00C50257E16F1175C03063Q00986D39575E45025Q00D0704003053Q007EBE08D94403073Q00C32AD77CB521EC025Q00C07040030D3Q00F0AB2014C0B12E0EC18A261DD603043Q0067B3D94F025Q0090704003073Q00F487BFF216EFC003073Q00B4B0E2D9936383025Q0080704003103Q0060E4C5A95FE654C8FFEC3CCC49C7FCFB03063Q008F26AB93891C025Q002Q704003053Q00122231B3E403053Q0081464B45DF025Q00607040030E3Q00C56A809514A7E049B39512B9EC5703063Q00D583252QD67D025Q0040704003083Q008D39288DB4FDEDB803073Q0083DF565DE3D094025Q0030704003073Q006FC612EC3AA45F03063Q00C82BA3748D4F025Q002070402Q033Q0021F3E503053Q00116C929DE8025Q001070402Q033Q005583C003083Q003118EAAE23CF325D026Q007040030F3Q00389F30483BE10CB30A0D58DB17AA2Q03063Q00887ED0666878025Q00E06F4003053Q00C5EA242FA103053Q00C491835043025Q00C06F40030D3Q00C02B171A451579EA011230560203073Q001A866441592C67025Q00806F4003083Q001FB4FB3429B2E03D03043Q005A4DDB8E025Q00606F4003073Q0031F3F6181E4A0103063Q0026759690796B025Q00406F402Q033Q00A0F19D03053Q005DED90E58F025Q00206F402Q033Q007E027A03053Q005A336B1413026Q006F4003163Q00F032E117F6228313E813FC76EB32F952DB3EC235EE1703063Q0056A35B8D7298025Q00E06E4003053Q0031800418D103073Q003F65E97074B42F025Q00C06E4003133Q003CA6A216F1FCC4D40EAB861AEBCBE4D001ACAB03083Q00B16FCFCE739F888C025Q00806E40030F3Q0001D0C8A4E698574227CBD1AFE98B0403083Q001142BFA5C687EC77025Q00206E4003073Q00ACA4EFC36184B503053Q0014E8C189A2026Q006E4003123Q0049AC3B7A883C758C3A9F207B9526738A73AE03083Q00EB1ADC5214E6551B025Q00E06D4003053Q00CAAADD7B5103053Q00349EC3A917025Q00C06D40030D3Q00962DE835478803BC2DD4365D8E03073Q0062D55F874634E0025Q00806D4003073Q00F3DD413EC2D45303043Q005FB7B827025Q00606D4003093Q00DB3D313BC64D034DEA03083Q0024984F5E48B52562025Q00406D4003053Q008DBAB3138D03073Q0090D9D3C77FE893025Q00206D4003093Q00239BE6AD1381E8B71203043Q00DE60E989025Q00E06C4003073Q00C40624E8EAC8F403063Q00A4806342899F025Q00C06C40030A3Q00979D386DD4D32QB2BE0B03073Q00C0D1D26E4D97BA025Q00A06C4003053Q00CD360CE8FC03043Q0084995F78025Q00806C4003093Q00FCF095A4DAC8DCAF8203053Q00B3BABFC3E7025Q00A06B4003083Q009BDC7A0EB0557B2D03083Q0046D8BD1662D23418025Q00606B4003073Q009DCBD63E5AB5DA03053Q002FD9AEB05F025Q00406B4003063Q0019E32CDD04D903073Q00E24D8C4BBA68BC025Q00206B4003043Q00C522AD4A03083Q00D8884DC92F12DCA1026Q006B4003123Q0041E1C8A605573953E1C9E320466070E1CAA703073Q00191288A4C36B23025Q00E06A4003053Q001A422AD95403073Q009C4E2B5EB53171025Q00C06A4003103Q0090AFC3CF2Q33ACA2AE8DCAD33F2E83AF03083Q00CBC3C6AFAA5D47ED025Q00806A4003073Q002C391C411101E903073Q009D685C7A20646D025Q00606A40030A3Q00E57C25A6E998EC37DF7803083Q0076B61549C387ECCC025Q00406A4003053Q00944A11E2A503043Q008EC02365025Q00206A4003093Q006BCC5BFF4D27D651C803073Q009738A5379A2353025Q00E06940030F3Q00CDB2F58143CDAE9BFD8256CCFCB8EB03063Q00B98EDD98E322026Q00664003103Q0095F229A7C953B4E316A9C8488DE636B203063Q003CDD8744C6A7025Q00206540030C3Q00C7B25329F931E9B25439DB2D03063Q005485DD3750AF025Q0080644003083Q00AED712C09F499ED703063Q0030ECB876B9D8025Q0080624003103Q00D442F0545D75F553CF5A5C6ECC56EF4103063Q001A9C379D3533025Q00405D4003093Q00398C024D3ACA2F801503063Q00BA4EE3702649025Q00C05C4003103Q001CBF352A00A2202D3D9F352A3FA5333D03043Q005849CC50025Q00405C40030A3Q000EC8CD20302ECBCA103003053Q00555CBDA373025Q00C05B4003073Q006ECDAA3FCA4CD203053Q00AF3EA1CB46025Q00405B40030D3Q001F71EB57385AEB57207DEB4F2203043Q00384C1984026Q005B40030D3Q001920AE4C620927AE4F72253FAF03053Q00164A48C123025Q00405A40030B3Q00D9BD2BEC540CFAA721E24403063Q005F8AD5448320026Q005A40030B3Q00795087ED5E6B98F04F598C03043Q00822A38E8025Q00405940030B3Q008781DF21289F30B786D92203073Q0055D4E9B04E5CCD026Q005940030B3Q00B75FF1559065FB598B5EF203043Q003AE4379E025Q0040584003053Q0005A7AFA23303063Q007371C6CDCE56026Q00584003053Q00EE4DE0F07203053Q00179A2C829C025Q0080564003083Q008E2B5F40B4AC295803053Q00D6CD4A332C026Q00564003073Q009E837FF24AC23003073Q0044DAE619933FAE025Q00C0554003063Q00185F5BBFCFAE03073Q00424C303CD8A3CB025Q0080554003043Q006DA7A3E603053Q007020C8C783025Q00405540030B3Q00DB2A1C522225E4240C1C0D03063Q00409D46657269026Q00554003053Q00720AFD205603063Q00762663894C33025Q00C05440030A3Q0085BFFBEAC31A7271ADB703083Q0018C3D382A1A66310025Q0040544003083Q00D9CAA4EFCAE2CBB603053Q00AE8BA5D181026Q00544003073Q00080CE00D3905F203043Q006C4C6986025Q00C053402Q033Q00C0FF1503063Q00B78D9E6D9398025Q008053402Q033Q0082C2CF03043Q00AECFABA1025Q0040534003093Q008F04C7C10CB90DDB8503053Q005FC968BEE1026Q00534003053Q003DA4297F0C03043Q001369CD5D025Q00C0524003083Q007BB9BBB44DB0A78303043Q00E73DD5C2025Q0040524003073Q002F82A2451E8BB003043Q00246BE7C4026Q0052402Q033Q002E551003043Q003F683969025Q00C0514003053Q0001846F53D703083Q00B855ED1B3FB2CFD4025Q008051402Q033Q0082EC5403063Q0060C4802DD384026Q005140030B3Q00C918C7E589B3B018F610D503083Q00559974A69CECC190025Q0040504003073Q000931A3DD63A3C303083Q00E64D54C5BC16CFB7026Q005040030A3Q00978B15C77D362Q8317CB03063Q0016C5EA65AE19025Q00804F4003053Q0018D8D216F703083Q002A4CB1A67A92A18D026Q004F4003093Q008556D5142598BE45C003063Q00DED737A57D41026Q004E4003073Q0051B45D4BC379A503053Q00B615D13B2A025Q00804D4003093Q00344D63902F5BE00F1E03083Q006E7A2243C35F2985026Q004D4003053Q0030E6B0CF3403063Q003A648FC4A351025Q00804C4003083Q00124AEFA4E8780C3803073Q006D5C25BCD49A1D025Q00804B4003073Q00FAA15D4D51D05C03073Q0028BEC43B2C24BC026Q004B4003093Q0013DBFAEF724D285B3103083Q00325DB4DABD172E47025Q00804A4003053Q00BF8D21B7EB03073Q001DEBE455DB8EEB026Q004A4003083Q005EC0BB8CBC1979C303063Q007610AF2QE9DF026Q00494003113Q00D6FF22F608FEEE25B02CF2EB38BF2AFFF903053Q0045918A4CD6026Q00474003083Q00C98C4B1605E3DD9A03063Q008DBAE93F626C025Q0080464003043Q00DFF5760F03063Q00BC2Q961961E6026Q00464003083Q00F53DAD22B00CC12B03063Q0062A658D956D9025Q0080454003053Q00FF7DD13B5703073Q0079AB14A5573243025Q0080444003083Q00F5DC97CA27E4C1CA03063Q008AA6B9E3BE4E026Q00444003043Q00D13C243603053Q006FA44F4144025Q0080434003043Q007D77093D03073Q0018341466532E34026Q00434003063Q00D736EA69E22803043Q0010875A8B025Q0080424003053Q0027A592501603043Q003C73CCE6025Q0080414003063Q0004BC22FF31A203043Q008654D043026Q00414003063Q0095C3A483BA8C03063Q00E4E2B1C1EDD9025Q00802Q4003043Q002A5CCCF503043Q009B633FA3026Q002Q4003083Q005C29B1009CD475B603083Q00C51B5CDF20D1BB11026Q003F4003053Q00FC531A211C03083Q00E3A83A6E4D79B8CF026Q003D4003073Q002792AC7D0F83B103043Q003060E7C2026Q003C402Q033Q00015C4103053Q00A96425244A026Q003B4003043Q00CCDA073D03053Q004685B96853026Q003A4003073Q007E78A7EBC4446203053Q00A52811D49E026Q00394003053Q000DAFA1258F03083Q00A059C6D549EA59D7026Q00374003073Q00191B415BF68B1803073Q006B4F72322E97E7026Q00364003093Q003A617652DD3172705303053Q00AE59131921026Q00354003043Q00F1450F7D03063Q00CBB8266013CB026Q00344003063Q0080438C1EBD1B03063Q006FC32CE17CDC026Q00334003053Q007B5C60044A03043Q00682F3514026Q00314003063Q00FE29FB41B4C903053Q00D5BD469623026Q00304003043Q00D1BF181003063Q009895DE6A7B17026Q002E4003053Q00B275281ADD03073Q00B2E61D4D77B8AC026Q002C4003073Q008FECAFA5A2E6BE03043Q00DCCE8FDD026Q00284003043Q00CC784EB303073Q009C9F1134D656BE026Q00264003083Q003930374A047A193903063Q001E6D51551D6D026Q00224003083Q0065BA3E2A1AF7FF5303073Q009336CF5C7E7383026Q00204003103Q007E5602D7595110C7176811DC5B51079E03043Q00BE373864026Q001C4003053Q00F7E9CDE7C603043Q008BA380B9030A3Q006C6F6164737472696E6703043Q0067616D6503073Q00482Q747047657403503Q00682Q7470733A2Q2F7261772E67697468756275736572636F6E74656E742E636F6D2F6A61636B77612Q6C6861636B31302F466C75656E742F726566732F68656164732F6D61696E2F6D61696E2E6C756103543Q00682Q7470733A2Q2F7261772E67697468756275736572636F6E74656E742E636F6D2F64617769642D736372697074732F466C75656E742F6D61737465722F412Q646F6E732F536176654D616E616765722E6C756103593Q00682Q7470733A2Q2F7261772E67697468756275736572636F6E74656E742E636F6D2F64617769642D736372697074732F466C75656E742F6D61737465722F412Q646F6E732F496E746572666163654D616E616765722E6C7561030C3Q0043726561746557696E646F7703153Q00646973636F72642E2Q672F5446645A626E4D454676026Q00644003053Q005544696D32030A3Q0066726F6D4F2Q66736574025Q00E0854003063Q00412Q6454616203073Q004F7074696F6E7303073Q0047756E4D6F6473030A3Q00412Q6453656374696F6E03093Q00412Q64546F2Q676C6503063Q00506C6179657203093Q00412Q64536C69646572026Q006940028Q00030A3Q00412Q644B657962696E6403013Q004603083Q004E6F5265636F696C03093Q004F6E4368616E67656403083Q004E6F53707265616403093Q00526170696446697265030A3Q0047657453657276696365030B3Q004C6F63616C506C6179657203023Q005F47030D3Q0043752Q72656E7443616D65726103013Q005703013Q004103013Q005303013Q004403013Q005103013Q00452Q033Q00466C7903083Q00466C7953702Q6564030A3Q00496E707574426567616E03073Q00436F2Q6E656374030A3Q00496E707574456E646564030E3Q00436861726163746572412Q64656403093Q0043686172616374657203053Q0056616C756503063Q00436F6D62617403013Q0054026Q002440025Q00407F40030E3Q00412Q64436F6C6F727069636B657203063Q00436F6C6F723303073Q0066726F6D524742026Q001040026Q00F03F026Q00144003073Q0056697375616C73025Q00408F40030C3Q0057616974466F724368696C6403073Q0052617963617374030E3Q00506C6179657252656D6F76696E67030E3Q0046696E6446697273744368696C64030A3Q00566965774D6F64656C73030F3Q005261696E626F7747756E4368616D73030F3Q005261696E626F7741726D4368616D73030D3Q0052656E6465725374652Q706564030A3Q005365744C69627261727903133Q0049676E6F72655468656D6553652Q74696E677303103Q0053657449676E6F7265496E646578657303093Q00536574466F6C646572031D3Q00466C75656E745363726970744875622F73706563696669632D67616D6503153Q004275696C64496E7465726661636553656374696F6E03083Q0053652Q74696E677303123Q004275696C64436F6E66696753656374696F6E03093Q0053656C65637454616203063Q004E6F7469667903123Q004C6F61644175746F6C6F6164436F6E66696703083Q00496E7374616E636503073Q0056697369626C6503183Q0047657450726F70657274794368616E6765645369676E616C00350D3Q007A7Q00122D000100013Q00208D00010001000200122D000200013Q00208D00020002000300122D000300013Q00208D00030003000400122D000400053Q00068A0004000B000100010004833Q000B000100122D000400063Q00208D00050004000700122D000600083Q00208D00060006000900122D000700083Q00208D00070007000A00063D00083Q000100062Q00713Q00074Q00713Q00014Q00713Q00054Q00713Q00024Q00713Q00034Q00713Q00064Q0066000900083Q001216000A000C3Q001216000B000D4Q004D0009000B00020010203Q000B00092Q0066000900083Q001216000A000F3Q001216000B00104Q004D0009000B00020010203Q000E00092Q0066000900083Q001216000A00123Q001216000B00134Q004D0009000B00020010203Q001100092Q0066000900083Q001216000A00153Q001216000B00164Q004D0009000B00020010203Q001400092Q0066000900083Q001216000A00183Q001216000B00194Q004D0009000B00020010203Q001700092Q0066000900083Q001216000A001B3Q001216000B001C4Q004D0009000B00020010203Q001A00092Q0066000900083Q001216000A001E3Q001216000B001F4Q004D0009000B00020010203Q001D00092Q0066000900083Q001216000A00213Q001216000B00224Q004D0009000B00020010203Q002000092Q0066000900083Q001216000A00243Q001216000B00254Q004D0009000B00020010203Q002300092Q0066000900083Q001216000A00273Q001216000B00284Q004D0009000B00020010203Q002600092Q0066000900083Q001216000A002A3Q001216000B002B4Q004D0009000B00020010203Q002900092Q0066000900083Q001216000A002D3Q001216000B002E4Q004D0009000B00020010203Q002C00092Q0066000900083Q001216000A00303Q001216000B00314Q004D0009000B00020010203Q002F00092Q0066000900083Q001216000A00333Q001216000B00344Q004D0009000B00020010203Q003200092Q0066000900083Q001216000A00363Q001216000B00374Q004D0009000B00020010203Q003500092Q0066000900083Q001216000A00393Q001216000B003A4Q004D0009000B00020010203Q003800092Q0066000900083Q001216000A003C3Q001216000B003D4Q004D0009000B00020010203Q003B00092Q0066000900083Q001216000A003F3Q001216000B00404Q004D0009000B00020010203Q003E00092Q0066000900083Q001216000A00423Q001216000B00434Q004D0009000B00020010203Q004100092Q0066000900083Q001216000A00453Q001216000B00464Q004D0009000B00020010203Q004400092Q0066000900083Q001216000A00483Q001216000B00494Q004D0009000B00020010203Q004700092Q0066000900083Q001216000A004B3Q001216000B004C4Q004D0009000B00020010203Q004A00092Q0066000900083Q001216000A004E3Q001216000B004F4Q004D0009000B00020010203Q004D00092Q0066000900083Q001216000A00513Q001216000B00524Q004D0009000B00020010203Q005000092Q0066000900083Q001216000A00543Q001216000B00554Q004D0009000B00020010203Q005300092Q0066000900083Q001216000A00573Q001216000B00584Q004D0009000B00020010203Q005600092Q0066000900083Q001216000A005A3Q001216000B005B4Q004D0009000B00020010203Q005900092Q0066000900083Q001216000A005D3Q001216000B005E4Q004D0009000B00020010203Q005C00092Q0066000900083Q001216000A00603Q001216000B00614Q004D0009000B00020010203Q005F00092Q0066000900083Q001216000A00633Q001216000B00644Q004D0009000B00020010203Q006200092Q0066000900083Q001216000A00663Q001216000B00674Q004D0009000B00020010203Q006500092Q0066000900083Q001216000A00693Q001216000B006A4Q004D0009000B00020010203Q006800092Q0066000900083Q001216000A006C3Q001216000B006D4Q004D0009000B00020010203Q006B00092Q0066000900083Q001216000A006F3Q001216000B00704Q004D0009000B00020010203Q006E00092Q0066000900083Q001216000A00723Q001216000B00734Q004D0009000B00020010203Q007100092Q0066000900083Q001216000A00753Q001216000B00764Q004D0009000B00020010203Q007400092Q0066000900083Q001216000A00783Q001216000B00794Q004D0009000B00020010203Q007700092Q0066000900083Q001216000A007B3Q001216000B007C4Q004D0009000B00020010203Q007A00092Q0066000900083Q001216000A007E3Q001216000B007F4Q004D0009000B00020010203Q007D00092Q0066000900083Q001216000A00813Q001216000B00824Q004D0009000B00020010203Q008000092Q0066000900083Q001216000A00843Q001216000B00854Q004D0009000B00020010203Q008300092Q0066000900083Q001216000A00873Q001216000B00884Q004D0009000B00020010203Q008600092Q0066000900083Q001216000A008A3Q001216000B008B4Q004D0009000B00020010203Q008900092Q0066000900083Q001216000A008D3Q001216000B008E4Q004D0009000B00020010203Q008C00092Q0066000900083Q001216000A00903Q001216000B00914Q004D0009000B00020010203Q008F00092Q0066000900083Q001216000A00933Q001216000B00944Q004D0009000B00020010203Q009200092Q0066000900083Q001216000A00963Q001216000B00974Q004D0009000B00020010203Q009500092Q0066000900083Q001216000A00993Q001216000B009A4Q004D0009000B00020010203Q009800092Q0066000900083Q001216000A009C3Q001216000B009D4Q004D0009000B00020010203Q009B00092Q0066000900083Q001216000A009F3Q001216000B00A04Q004D0009000B00020010203Q009E00092Q0066000900083Q001216000A00A23Q001216000B00A34Q004D0009000B00020010203Q00A100092Q0066000900083Q001216000A00A53Q001216000B00A64Q004D0009000B00020010203Q00A400092Q0066000900083Q001216000A00A83Q001216000B00A94Q004D0009000B00020010203Q00A700092Q0066000900083Q001216000A00AB3Q001216000B00AC4Q004D0009000B00020010203Q00AA00092Q0066000900083Q001216000A00AE3Q001216000B00AF4Q004D0009000B00020010203Q00AD00092Q0066000900083Q001216000A00B13Q001216000B00B24Q004D0009000B00020010203Q00B000092Q0066000900083Q001216000A00B43Q001216000B00B54Q004D0009000B00020010203Q00B300092Q0066000900083Q001216000A00B73Q001216000B00B84Q004D0009000B00020010203Q00B600092Q0066000900083Q001216000A00BA3Q001216000B00BB4Q004D0009000B00020010203Q00B900092Q0066000900083Q001216000A00BD3Q001216000B00BE4Q004D0009000B00020010203Q00BC00092Q0066000900083Q001216000A00C03Q001216000B00C14Q004D0009000B00020010203Q00BF00092Q0066000900083Q001216000A00C33Q001216000B00C44Q004D0009000B00020010203Q00C200092Q0066000900083Q001216000A00C63Q001216000B00C74Q004D0009000B00020010203Q00C500092Q0066000900083Q001216000A00C93Q001216000B00CA4Q004D0009000B00020010203Q00C800092Q0066000900083Q001216000A00CC3Q001216000B00CD4Q004D0009000B00020010203Q00CB00092Q0066000900083Q001216000A00CF3Q001216000B00D04Q004D0009000B00020010203Q00CE00092Q0066000900083Q001216000A00D23Q001216000B00D34Q004D0009000B00020010203Q00D100092Q0066000900083Q001216000A00D53Q001216000B00D64Q004D0009000B00020010203Q00D400092Q0066000900083Q001216000A00D83Q001216000B00D94Q004D0009000B00020010203Q00D700092Q0066000900083Q001216000A00DB3Q001216000B00DC4Q004D0009000B00020010203Q00DA00092Q0066000900083Q001216000A00DE3Q001216000B00DF4Q004D0009000B00020010203Q00DD00092Q0066000900083Q001216000A00E13Q001216000B00E24Q004D0009000B00020010203Q00E000092Q0066000900083Q001216000A00E43Q001216000B00E54Q004D0009000B00020010203Q00E300092Q0066000900083Q001216000A00E73Q001216000B00E84Q004D0009000B00020010203Q00E600092Q0066000900083Q001216000A00EA3Q001216000B00EB4Q004D0009000B00020010203Q00E900092Q0066000900083Q001216000A00ED3Q001216000B00EE4Q004D0009000B00020010203Q00EC00092Q0066000900083Q001216000A00F03Q001216000B00F14Q004D0009000B00020010203Q00EF00092Q0066000900083Q001216000A00F33Q001216000B00F44Q004D0009000B00020010203Q00F200092Q0066000900083Q001216000A00F63Q001216000B00F74Q004D0009000B00020010203Q00F500092Q0066000900083Q001216000A00F93Q001216000B00FA4Q004D0009000B00020010203Q00F800092Q0066000900083Q001216000A00FC3Q001216000B00FD4Q004D0009000B00020010203Q00FB00092Q0066000900083Q001216000A00FF3Q001216000B2Q00013Q004D0009000B00020010203Q00FE00090012160009002Q013Q0066000A00083Q001216000B0002012Q001216000C0003013Q004D000A000C00022Q006E3Q0009000A00121600090004013Q0066000A00083Q001216000B0005012Q001216000C0006013Q004D000A000C00022Q006E3Q0009000A00121600090007013Q0066000A00083Q001216000B0008012Q001216000C0009013Q004D000A000C00022Q006E3Q0009000A0012160009000A013Q0066000A00083Q001216000B000B012Q001216000C000C013Q004D000A000C00022Q006E3Q0009000A0012160009000D013Q0066000A00083Q001216000B000E012Q001216000C000F013Q004D000A000C00022Q006E3Q0009000A00121600090010013Q0066000A00083Q001216000B0011012Q001216000C0012013Q004D000A000C00022Q006E3Q0009000A00121600090013013Q0066000A00083Q001216000B0014012Q001216000C0015013Q004D000A000C00022Q006E3Q0009000A00121600090016013Q0066000A00083Q001216000B0017012Q001216000C0018013Q004D000A000C00022Q006E3Q0009000A00121600090019013Q0066000A00083Q001216000B001A012Q001216000C001B013Q004D000A000C00022Q006E3Q0009000A0012160009001C013Q0066000A00083Q001216000B001D012Q001216000C001E013Q004D000A000C00022Q006E3Q0009000A0012160009001F013Q0066000A00083Q001216000B0020012Q001216000C0021013Q004D000A000C00022Q006E3Q0009000A00121600090022013Q0066000A00083Q001216000B0023012Q001216000C0024013Q004D000A000C00022Q006E3Q0009000A00121600090025013Q0066000A00083Q001216000B0026012Q001216000C0027013Q004D000A000C00022Q006E3Q0009000A00121600090028013Q0066000A00083Q001216000B0029012Q001216000C002A013Q004D000A000C00022Q006E3Q0009000A0012160009002B013Q0066000A00083Q001216000B002C012Q001216000C002D013Q004D000A000C00022Q006E3Q0009000A0012160009002E013Q0066000A00083Q001216000B002F012Q001216000C0030013Q004D000A000C00022Q006E3Q0009000A00121600090031013Q0066000A00083Q001216000B0032012Q001216000C0033013Q004D000A000C00022Q006E3Q0009000A00121600090034013Q0066000A00083Q001216000B0035012Q001216000C0036013Q004D000A000C00022Q006E3Q0009000A00121600090037013Q0066000A00083Q001216000B0038012Q001216000C0039013Q004D000A000C00022Q006E3Q0009000A0012160009003A013Q0066000A00083Q001216000B003B012Q001216000C003C013Q004D000A000C00022Q006E3Q0009000A0012160009003D013Q0066000A00083Q001216000B003E012Q001216000C003F013Q004D000A000C00022Q006E3Q0009000A00121600090040013Q0066000A00083Q001216000B0041012Q001216000C0042013Q004D000A000C00022Q006E3Q0009000A00121600090043013Q0066000A00083Q001216000B0044012Q001216000C0045013Q004D000A000C00022Q006E3Q0009000A00121600090046013Q0066000A00083Q001216000B0047012Q001216000C0048013Q004D000A000C00022Q006E3Q0009000A00121600090049013Q0066000A00083Q001216000B004A012Q001216000C004B013Q004D000A000C00022Q006E3Q0009000A0012160009004C013Q0066000A00083Q001216000B004D012Q001216000C004E013Q004D000A000C00022Q006E3Q0009000A0012160009004F013Q0066000A00083Q001216000B0050012Q001216000C0051013Q004D000A000C00022Q006E3Q0009000A00121600090052013Q0066000A00083Q001216000B0053012Q001216000C0054013Q004D000A000C00022Q006E3Q0009000A00121600090055013Q0066000A00083Q001216000B0056012Q001216000C0057013Q004D000A000C00022Q006E3Q0009000A00121600090058013Q0066000A00083Q001216000B0059012Q001216000C005A013Q004D000A000C00022Q006E3Q0009000A0012160009005B013Q0066000A00083Q001216000B005C012Q001216000C005D013Q004D000A000C00022Q006E3Q0009000A0012160009005E013Q0066000A00083Q001216000B005F012Q001216000C0060013Q004D000A000C00022Q006E3Q0009000A00121600090061013Q0066000A00083Q001216000B0062012Q001216000C0063013Q004D000A000C00022Q006E3Q0009000A00121600090064013Q0066000A00083Q001216000B0065012Q001216000C0066013Q004D000A000C00022Q006E3Q0009000A00121600090067013Q0066000A00083Q001216000B0068012Q001216000C0069013Q004D000A000C00022Q006E3Q0009000A0012160009006A013Q0066000A00083Q001216000B006B012Q001216000C006C013Q004D000A000C00022Q006E3Q0009000A0012160009006D013Q0066000A00083Q001216000B006E012Q001216000C006F013Q004D000A000C00022Q006E3Q0009000A00121600090070013Q0066000A00083Q001216000B0071012Q001216000C0072013Q004D000A000C00022Q006E3Q0009000A00121600090073013Q0066000A00083Q001216000B0074012Q001216000C0075013Q004D000A000C00022Q006E3Q0009000A00121600090076013Q0066000A00083Q001216000B0077012Q001216000C0078013Q004D000A000C00022Q006E3Q0009000A00121600090079013Q0066000A00083Q001216000B007A012Q001216000C007B013Q004D000A000C00022Q006E3Q0009000A0012160009007C013Q0066000A00083Q001216000B007D012Q001216000C007E013Q004D000A000C00022Q006E3Q0009000A0012160009007F013Q0066000A00083Q001216000B0080012Q001216000C0081013Q004D000A000C00022Q006E3Q0009000A00121600090082013Q0066000A00083Q001216000B0083012Q001216000C0084013Q004D000A000C00022Q006E3Q0009000A00121600090085013Q0066000A00083Q001216000B0086012Q001216000C0087013Q004D000A000C00022Q006E3Q0009000A00121600090088013Q0066000A00083Q001216000B0089012Q001216000C008A013Q004D000A000C00022Q006E3Q0009000A0012160009008B013Q0066000A00083Q001216000B008C012Q001216000C008D013Q004D000A000C00022Q006E3Q0009000A0012160009008E013Q0066000A00083Q001216000B008F012Q001216000C0090013Q004D000A000C00022Q006E3Q0009000A00121600090091013Q0066000A00083Q001216000B0092012Q001216000C0093013Q004D000A000C00022Q006E3Q0009000A00121600090094013Q0066000A00083Q001216000B0095012Q001216000C0096013Q004D000A000C00022Q006E3Q0009000A00121600090097013Q0066000A00083Q001216000B0098012Q001216000C0099013Q004D000A000C00022Q006E3Q0009000A0012160009009A013Q0066000A00083Q001216000B009B012Q001216000C009C013Q004D000A000C00022Q006E3Q0009000A0012160009009D013Q0066000A00083Q001216000B009E012Q001216000C009F013Q004D000A000C00022Q006E3Q0009000A001216000900A0013Q0066000A00083Q001216000B00A1012Q001216000C00A2013Q004D000A000C00022Q006E3Q0009000A001216000900A3013Q0066000A00083Q001216000B00A4012Q001216000C00A5013Q004D000A000C00022Q006E3Q0009000A001216000900A6013Q0066000A00083Q001216000B00A7012Q001216000C00A8013Q004D000A000C00022Q006E3Q0009000A001216000900A9013Q0066000A00083Q001216000B00AA012Q001216000C00AB013Q004D000A000C00022Q006E3Q0009000A001216000900AC013Q0066000A00083Q001216000B00AD012Q001216000C00AE013Q004D000A000C00022Q006E3Q0009000A001216000900AF013Q0066000A00083Q001216000B00B0012Q001216000C00B1013Q004D000A000C00022Q006E3Q0009000A001216000900B2013Q0066000A00083Q001216000B00B3012Q001216000C00B4013Q004D000A000C00022Q006E3Q0009000A001216000900B5013Q0066000A00083Q001216000B00B6012Q001216000C00B7013Q004D000A000C00022Q006E3Q0009000A001216000900B8013Q0066000A00083Q001216000B00B9012Q001216000C00BA013Q004D000A000C00022Q006E3Q0009000A001216000900BB013Q0066000A00083Q001216000B00BC012Q001216000C00BD013Q004D000A000C00022Q006E3Q0009000A001216000900BE013Q0066000A00083Q001216000B00BF012Q001216000C00C0013Q004D000A000C00022Q006E3Q0009000A001216000900C1013Q0066000A00083Q001216000B00C2012Q001216000C00C3013Q004D000A000C00022Q006E3Q0009000A001216000900C4013Q0066000A00083Q001216000B00C5012Q001216000C00C6013Q004D000A000C00022Q006E3Q0009000A001216000900C7013Q0066000A00083Q001216000B00C8012Q001216000C00C9013Q004D000A000C00022Q006E3Q0009000A001216000900CA013Q0066000A00083Q001216000B00CB012Q001216000C00CC013Q004D000A000C00022Q006E3Q0009000A001216000900CD013Q0066000A00083Q001216000B00CE012Q001216000C00CF013Q004D000A000C00022Q006E3Q0009000A001216000900D0013Q0066000A00083Q001216000B00D1012Q001216000C00D2013Q004D000A000C00022Q006E3Q0009000A001216000900D3013Q0066000A00083Q001216000B00D4012Q001216000C00D5013Q004D000A000C00022Q006E3Q0009000A001216000900D6013Q0066000A00083Q001216000B00D7012Q001216000C00D8013Q004D000A000C00022Q006E3Q0009000A001216000900D9013Q0066000A00083Q001216000B00DA012Q001216000C00DB013Q004D000A000C00022Q006E3Q0009000A001216000900DC013Q0066000A00083Q001216000B00DD012Q001216000C00DE013Q004D000A000C00022Q006E3Q0009000A001216000900DF013Q0066000A00083Q001216000B00E0012Q001216000C00E1013Q004D000A000C00022Q006E3Q0009000A001216000900E2013Q0066000A00083Q001216000B00E3012Q001216000C00E4013Q004D000A000C00022Q006E3Q0009000A001216000900E5013Q0066000A00083Q001216000B00E6012Q001216000C00E7013Q004D000A000C00022Q006E3Q0009000A001216000900E8013Q0066000A00083Q001216000B00E9012Q001216000C00EA013Q004D000A000C00022Q006E3Q0009000A001216000900EB013Q0066000A00083Q001216000B00EC012Q001216000C00ED013Q004D000A000C00022Q006E3Q0009000A001216000900EE013Q0066000A00083Q001216000B00EF012Q001216000C00F0013Q004D000A000C00022Q006E3Q0009000A001216000900F1013Q0066000A00083Q001216000B00F2012Q001216000C00F3013Q004D000A000C00022Q006E3Q0009000A001216000900F4013Q0066000A00083Q001216000B00F5012Q001216000C00F6013Q004D000A000C00022Q006E3Q0009000A001216000900F7013Q0066000A00083Q001216000B00F8012Q001216000C00F9013Q004D000A000C00022Q006E3Q0009000A001216000900FA013Q0066000A00083Q001216000B00FB012Q001216000C00FC013Q004D000A000C00022Q006E3Q0009000A001216000900FD013Q0066000A00083Q001216000B00FE012Q001216000C00FF013Q004D000A000C00022Q006E3Q0009000A00121600092Q00023Q0066000A00083Q001216000B0001022Q001216000C002Q023Q004D000A000C00022Q006E3Q0009000A00121600090003023Q0066000A00083Q001216000B0004022Q001216000C0005023Q004D000A000C00022Q006E3Q0009000A00121600090006023Q0066000A00083Q001216000B0007022Q001216000C0008023Q004D000A000C00022Q006E3Q0009000A00121600090009023Q0066000A00083Q001216000B000A022Q001216000C000B023Q004D000A000C00022Q006E3Q0009000A0012160009000C023Q0066000A00083Q001216000B000D022Q001216000C000E023Q004D000A000C00022Q006E3Q0009000A0012160009000F023Q0066000A00083Q001216000B0010022Q001216000C0011023Q004D000A000C00022Q006E3Q0009000A00121600090012023Q0066000A00083Q001216000B0013022Q001216000C0014023Q004D000A000C00022Q006E3Q0009000A00121600090015023Q0066000A00083Q001216000B0016022Q001216000C0017023Q004D000A000C00022Q006E3Q0009000A00121600090018023Q0066000A00083Q001216000B0019022Q001216000C001A023Q004D000A000C00022Q006E3Q0009000A0012160009001B023Q0066000A00083Q001216000B001C022Q001216000C001D023Q004D000A000C00022Q006E3Q0009000A0012160009001E023Q0066000A00083Q001216000B001F022Q001216000C0020023Q004D000A000C00022Q006E3Q0009000A00121600090021023Q0066000A00083Q001216000B0022022Q001216000C0023023Q004D000A000C00022Q006E3Q0009000A00121600090024023Q0066000A00083Q001216000B0025022Q001216000C0026023Q004D000A000C00022Q006E3Q0009000A00121600090027023Q0066000A00083Q001216000B0028022Q001216000C0029023Q004D000A000C00022Q006E3Q0009000A0012160009002A023Q0066000A00083Q001216000B002B022Q001216000C002C023Q004D000A000C00022Q006E3Q0009000A0012160009002D023Q0066000A00083Q001216000B002E022Q001216000C002F023Q004D000A000C00022Q006E3Q0009000A00121600090030023Q0066000A00083Q001216000B0031022Q001216000C0032023Q004D000A000C00022Q006E3Q0009000A00121600090033023Q0066000A00083Q001216000B0034022Q001216000C0035023Q004D000A000C00022Q006E3Q0009000A00121600090036023Q0066000A00083Q001216000B0037022Q001216000C0038023Q004D000A000C00022Q006E3Q0009000A00121600090039023Q0066000A00083Q001216000B003A022Q001216000C003B023Q004D000A000C00022Q006E3Q0009000A0012160009003C023Q0066000A00083Q001216000B003D022Q001216000C003E023Q004D000A000C00022Q006E3Q0009000A0012160009003F023Q0066000A00083Q001216000B0040022Q001216000C0041023Q004D000A000C00022Q006E3Q0009000A00121600090042023Q0066000A00083Q001216000B0043022Q001216000C0044023Q004D000A000C00022Q006E3Q0009000A00121600090045023Q0066000A00083Q001216000B0046022Q001216000C0047023Q004D000A000C00022Q006E3Q0009000A00121600090048023Q0066000A00083Q001216000B0049022Q001216000C004A023Q004D000A000C00022Q006E3Q0009000A0012160009004B023Q0066000A00083Q001216000B004C022Q001216000C004D023Q004D000A000C00022Q006E3Q0009000A0012160009004E023Q0066000A00083Q001216000B004F022Q001216000C0050023Q004D000A000C00022Q006E3Q0009000A00121600090051023Q0066000A00083Q001216000B0052022Q001216000C0053023Q004D000A000C00022Q006E3Q0009000A00121600090054023Q0066000A00083Q001216000B0055022Q001216000C0056023Q004D000A000C00022Q006E3Q0009000A00121600090057023Q0066000A00083Q001216000B0058022Q001216000C0059023Q004D000A000C00022Q006E3Q0009000A0012160009005A023Q0066000A00083Q001216000B005B022Q001216000C005C023Q004D000A000C00022Q006E3Q0009000A0012160009005D023Q0066000A00083Q001216000B005E022Q001216000C005F023Q004D000A000C00022Q006E3Q0009000A00121600090060023Q0066000A00083Q001216000B0061022Q001216000C0062023Q004D000A000C00022Q006E3Q0009000A00121600090063023Q0066000A00083Q001216000B0064022Q001216000C0065023Q004D000A000C00022Q006E3Q0009000A00121600090066023Q0066000A00083Q001216000B0067022Q001216000C0068023Q004D000A000C00022Q006E3Q0009000A00121600090069023Q0066000A00083Q001216000B006A022Q001216000C006B023Q004D000A000C00022Q006E3Q0009000A0012160009006C023Q0066000A00083Q001216000B006D022Q001216000C006E023Q004D000A000C00022Q006E3Q0009000A0012160009006F023Q0066000A00083Q001216000B0070022Q001216000C0071023Q004D000A000C00022Q006E3Q0009000A00121600090072023Q0066000A00083Q001216000B0073022Q001216000C0074023Q004D000A000C00022Q006E3Q0009000A00121600090075023Q0066000A00083Q001216000B0076022Q001216000C0077023Q004D000A000C00022Q006E3Q0009000A00121600090078023Q0066000A00083Q001216000B0079022Q001216000C007A023Q004D000A000C00022Q006E3Q0009000A0012160009007B023Q0066000A00083Q001216000B007C022Q001216000C007D023Q004D000A000C00022Q006E3Q0009000A0012160009007E023Q0066000A00083Q001216000B007F022Q001216000C0080023Q004D000A000C00022Q006E3Q0009000A00121600090081023Q0066000A00083Q001216000B0082022Q001216000C0083023Q004D000A000C00022Q006E3Q0009000A00121600090084023Q0066000A00083Q001216000B0085022Q001216000C0086023Q004D000A000C00022Q006E3Q0009000A00121600090087023Q0066000A00083Q001216000B0088022Q001216000C0089023Q004D000A000C00022Q006E3Q0009000A0012160009008A023Q0066000A00083Q001216000B008B022Q001216000C008C023Q004D000A000C00022Q006E3Q0009000A0012160009008D023Q0066000A00083Q001216000B008E022Q001216000C008F023Q004D000A000C00022Q006E3Q0009000A00121600090090023Q0066000A00083Q001216000B0091022Q001216000C0092023Q004D000A000C00022Q006E3Q0009000A00121600090093023Q0066000A00083Q001216000B0094022Q001216000C0095023Q004D000A000C00022Q006E3Q0009000A00121600090096023Q0066000A00083Q001216000B0097022Q001216000C0098023Q004D000A000C00022Q006E3Q0009000A00121600090099023Q0066000A00083Q001216000B009A022Q001216000C009B023Q004D000A000C00022Q006E3Q0009000A0012160009009C023Q0066000A00083Q001216000B009D022Q001216000C009E023Q004D000A000C00022Q006E3Q0009000A0012160009009F023Q0066000A00083Q001216000B00A0022Q001216000C00A1023Q004D000A000C00022Q006E3Q0009000A001216000900A2023Q0066000A00083Q001216000B00A3022Q001216000C00A4023Q004D000A000C00022Q006E3Q0009000A001216000900A5023Q0066000A00083Q001216000B00A6022Q001216000C00A7023Q004D000A000C00022Q006E3Q0009000A001216000900A8023Q0066000A00083Q001216000B00A9022Q001216000C00AA023Q004D000A000C00022Q006E3Q0009000A001216000900AB023Q0066000A00083Q001216000B00AC022Q001216000C00AD023Q004D000A000C00022Q006E3Q0009000A001216000900AE023Q0066000A00083Q001216000B00AF022Q001216000C00B0023Q004D000A000C00022Q006E3Q0009000A001216000900B1023Q0066000A00083Q001216000B00B2022Q001216000C00B3023Q004D000A000C00022Q006E3Q0009000A001216000900B4023Q0066000A00083Q001216000B00B5022Q001216000C00B6023Q004D000A000C00022Q006E3Q0009000A001216000900B7023Q0066000A00083Q001216000B00B8022Q001216000C00B9023Q004D000A000C00022Q006E3Q0009000A001216000900BA023Q0066000A00083Q001216000B00BB022Q001216000C00BC023Q004D000A000C00022Q006E3Q0009000A001216000900BD023Q0066000A00083Q001216000B00BE022Q001216000C00BF023Q004D000A000C00022Q006E3Q0009000A001216000900C0023Q0066000A00083Q001216000B00C1022Q001216000C00C2023Q004D000A000C00022Q006E3Q0009000A001216000900C3023Q0066000A00083Q001216000B00C4022Q001216000C00C5023Q004D000A000C00022Q006E3Q0009000A001216000900C6023Q0066000A00083Q001216000B00C7022Q001216000C00C8023Q004D000A000C00022Q006E3Q0009000A001216000900C9023Q0066000A00083Q001216000B00CA022Q001216000C00CB023Q004D000A000C00022Q006E3Q0009000A001216000900CC023Q0066000A00083Q001216000B00CD022Q001216000C00CE023Q004D000A000C00022Q006E3Q0009000A001216000900CF023Q0066000A00083Q001216000B00D0022Q001216000C00D1023Q004D000A000C00022Q006E3Q0009000A001216000900D2023Q0066000A00083Q001216000B00D3022Q001216000C00D4023Q004D000A000C00022Q006E3Q0009000A001216000900D5023Q0066000A00083Q001216000B00D6022Q001216000C00D7023Q004D000A000C00022Q006E3Q0009000A001216000900D8023Q0066000A00083Q001216000B00D9022Q001216000C00DA023Q004D000A000C00022Q006E3Q0009000A001216000900DB023Q0066000A00083Q001216000B00DC022Q001216000C00DD023Q004D000A000C00022Q006E3Q0009000A001216000900DE023Q0066000A00083Q001216000B00DF022Q001216000C00E0023Q004D000A000C00022Q006E3Q0009000A001216000900E1023Q0066000A00083Q001216000B00E2022Q001216000C00E3023Q004D000A000C00022Q006E3Q0009000A001216000900E4023Q0066000A00083Q001216000B00E5022Q001216000C00E6023Q004D000A000C00022Q006E3Q0009000A001216000900E7023Q0066000A00083Q001216000B00E8022Q001216000C00E9023Q004D000A000C00022Q006E3Q0009000A001216000900EA023Q0066000A00083Q001216000B00EB022Q001216000C00EC023Q004D000A000C00022Q006E3Q0009000A001216000900ED023Q0066000A00083Q001216000B00EE022Q001216000C00EF023Q004D000A000C00022Q006E3Q0009000A001216000900F0023Q0066000A00083Q001216000B00F1022Q001216000C00F2023Q004D000A000C00022Q006E3Q0009000A001216000900F3023Q0066000A00083Q001216000B00F4022Q001216000C00F5023Q004D000A000C00022Q006E3Q0009000A001216000900F6023Q0066000A00083Q001216000B00F7022Q001216000C00F8023Q004D000A000C00022Q006E3Q0009000A001216000900F9023Q0066000A00083Q001216000B00FA022Q001216000C00FB023Q004D000A000C00022Q006E3Q0009000A001216000900FC023Q0066000A00083Q001216000B00FD022Q001216000C00FE023Q004D000A000C00022Q006E3Q0009000A001216000900FF023Q0066000A00083Q001216000B2Q00032Q001216000C0001033Q004D000A000C00022Q006E3Q0009000A00121600090002033Q0066000A00083Q001216000B002Q032Q001216000C0004033Q004D000A000C00022Q006E3Q0009000A00121600090005033Q0066000A00083Q001216000B0006032Q001216000C0007033Q004D000A000C00022Q006E3Q0009000A00121600090008033Q0066000A00083Q001216000B0009032Q001216000C000A033Q004D000A000C00022Q006E3Q0009000A0012160009000B033Q0066000A00083Q001216000B000C032Q001216000C000D033Q004D000A000C00022Q006E3Q0009000A0012160009000E033Q0066000A00083Q001216000B000F032Q001216000C0010033Q004D000A000C00022Q006E3Q0009000A00121600090011033Q0066000A00083Q001216000B0012032Q001216000C0013033Q004D000A000C00022Q006E3Q0009000A00121600090014033Q0066000A00083Q001216000B0015032Q001216000C0016033Q004D000A000C00022Q006E3Q0009000A00121600090017033Q0066000A00083Q001216000B0018032Q001216000C0019033Q004D000A000C00022Q006E3Q0009000A0012160009001A033Q0066000A00083Q001216000B001B032Q001216000C001C033Q004D000A000C00022Q006E3Q0009000A0012160009001D033Q0066000A00083Q001216000B001E032Q001216000C001F033Q004D000A000C00022Q006E3Q0009000A00121600090020033Q0066000A00083Q001216000B0021032Q001216000C0022033Q004D000A000C00022Q006E3Q0009000A00121600090023033Q0066000A00083Q001216000B0024032Q001216000C0025033Q004D000A000C00022Q006E3Q0009000A00121600090026033Q0066000A00083Q001216000B0027032Q001216000C0028033Q004D000A000C00022Q006E3Q0009000A00121600090029033Q0066000A00083Q001216000B002A032Q001216000C002B033Q004D000A000C00022Q006E3Q0009000A0012160009002C033Q0066000A00083Q001216000B002D032Q001216000C002E033Q004D000A000C00022Q006E3Q0009000A0012160009002F033Q0066000A00083Q001216000B0030032Q001216000C0031033Q004D000A000C00022Q006E3Q0009000A00121600090032033Q0066000A00083Q001216000B0033032Q001216000C0034033Q004D000A000C00022Q006E3Q0009000A00121600090035033Q0066000A00083Q001216000B0036032Q001216000C0037033Q004D000A000C00022Q006E3Q0009000A00121600090038033Q0066000A00083Q001216000B0039032Q001216000C003A033Q004D000A000C00022Q006E3Q0009000A0012160009003B033Q0066000A00083Q001216000B003C032Q001216000C003D033Q004D000A000C00022Q006E3Q0009000A0012160009003E033Q0066000A00083Q001216000B003F032Q001216000C0040033Q004D000A000C00022Q006E3Q0009000A00121600090041033Q0066000A00083Q001216000B0042032Q001216000C0043033Q004D000A000C00022Q006E3Q0009000A00121600090044033Q0066000A00083Q001216000B0045032Q001216000C0046033Q004D000A000C00022Q006E3Q0009000A00121600090047033Q0066000A00083Q001216000B0048032Q001216000C0049033Q004D000A000C00022Q006E3Q0009000A0012160009004A033Q0066000A00083Q001216000B004B032Q001216000C004C033Q004D000A000C00022Q006E3Q0009000A0012160009004D033Q0066000A00083Q001216000B004E032Q001216000C004F033Q004D000A000C00022Q006E3Q0009000A00121600090050033Q0066000A00083Q001216000B0051032Q001216000C0052033Q004D000A000C00022Q006E3Q0009000A00121600090053033Q0066000A00083Q001216000B0054032Q001216000C0055033Q004D000A000C00022Q006E3Q0009000A00121600090056033Q0066000A00083Q001216000B0057032Q001216000C0058033Q004D000A000C00022Q006E3Q0009000A00121600090059033Q0066000A00083Q001216000B005A032Q001216000C005B033Q004D000A000C00022Q006E3Q0009000A0012160009005C033Q0066000A00083Q001216000B005D032Q001216000C005E033Q004D000A000C00022Q006E3Q0009000A0012160009005F033Q0066000A00083Q001216000B0060032Q001216000C0061033Q004D000A000C00022Q006E3Q0009000A00121600090062033Q0066000A00083Q001216000B0063032Q001216000C0064033Q004D000A000C00022Q006E3Q0009000A00121600090065033Q0066000A00083Q001216000B0066032Q001216000C0067033Q004D000A000C00022Q006E3Q0009000A00121600090068033Q0066000A00083Q001216000B0069032Q001216000C006A033Q004D000A000C00022Q006E3Q0009000A0012160009006B033Q0066000A00083Q001216000B006C032Q001216000C006D033Q004D000A000C00022Q006E3Q0009000A0012160009006E033Q0066000A00083Q001216000B006F032Q001216000C0070033Q004D000A000C00022Q006E3Q0009000A00121600090071033Q0066000A00083Q001216000B0072032Q001216000C0073033Q004D000A000C00022Q006E3Q0009000A00121600090074033Q0066000A00083Q001216000B0075032Q001216000C0076033Q004D000A000C00022Q006E3Q0009000A00121600090077033Q0066000A00083Q001216000B0078032Q001216000C0079033Q004D000A000C00022Q006E3Q0009000A0012160009007A033Q0066000A00083Q001216000B007B032Q001216000C007C033Q004D000A000C00022Q006E3Q0009000A0012160009007D033Q0066000A00083Q001216000B007E032Q001216000C007F033Q004D000A000C00022Q006E3Q0009000A00121600090080033Q0066000A00083Q001216000B0081032Q001216000C0082033Q004D000A000C00022Q006E3Q0009000A00121600090083033Q0066000A00083Q001216000B0084032Q001216000C0085033Q004D000A000C00022Q006E3Q0009000A00121600090086033Q0066000A00083Q001216000B0087032Q001216000C0088033Q004D000A000C00022Q006E3Q0009000A00121600090089033Q0066000A00083Q001216000B008A032Q001216000C008B033Q004D000A000C00022Q006E3Q0009000A0012160009008C033Q0066000A00083Q001216000B008D032Q001216000C008E033Q004D000A000C00022Q006E3Q0009000A0012160009008F033Q0066000A00083Q001216000B0090032Q001216000C0091033Q004D000A000C00022Q006E3Q0009000A00121600090092033Q0066000A00083Q001216000B0093032Q001216000C0094033Q004D000A000C00022Q006E3Q0009000A00121600090095033Q0066000A00083Q001216000B0096032Q001216000C0097033Q004D000A000C00022Q006E3Q0009000A00121600090098033Q0066000A00083Q001216000B0099032Q001216000C009A033Q004D000A000C00022Q006E3Q0009000A0012160009009B033Q0066000A00083Q001216000B009C032Q001216000C009D033Q004D000A000C00022Q006E3Q0009000A0012160009009E033Q0066000A00083Q001216000B009F032Q001216000C00A0033Q004D000A000C00022Q006E3Q0009000A001216000900A1033Q0066000A00083Q001216000B00A2032Q001216000C00A3033Q004D000A000C00022Q006E3Q0009000A001216000900A4033Q0066000A00083Q001216000B00A5032Q001216000C00A6033Q004D000A000C00022Q006E3Q0009000A001216000900A7033Q0066000A00083Q001216000B00A8032Q001216000C00A9033Q004D000A000C00022Q006E3Q0009000A001216000900AA033Q0066000A00083Q001216000B00AB032Q001216000C00AC033Q004D000A000C00022Q006E3Q0009000A001216000900AD033Q0066000A00083Q001216000B00AE032Q001216000C00AF033Q004D000A000C00022Q006E3Q0009000A001216000900B0033Q0066000A00083Q001216000B00B1032Q001216000C00B2033Q004D000A000C00022Q006E3Q0009000A001216000900B3033Q0066000A00083Q001216000B00B4032Q001216000C00B5033Q004D000A000C00022Q006E3Q0009000A001216000900B6033Q0066000A00083Q001216000B00B7032Q001216000C00B8033Q004D000A000C00022Q006E3Q0009000A001216000900B9033Q0066000A00083Q001216000B00BA032Q001216000C00BB033Q004D000A000C00022Q006E3Q0009000A001216000900BC033Q0066000A00083Q001216000B00BD032Q001216000C00BE033Q004D000A000C00022Q006E3Q0009000A001216000900BF033Q0066000A00083Q001216000B00C0032Q001216000C00C1033Q004D000A000C00022Q006E3Q0009000A001216000900C2033Q0066000A00083Q001216000B00C3032Q001216000C00C4033Q004D000A000C00022Q006E3Q0009000A001216000900C5033Q0066000A00083Q001216000B00C6032Q001216000C00C7033Q004D000A000C00022Q006E3Q0009000A001216000900C8033Q0066000A00083Q001216000B00C9032Q001216000C00CA033Q004D000A000C00022Q006E3Q0009000A001216000900CB033Q0066000A00083Q001216000B00CC032Q001216000C00CD033Q004D000A000C00022Q006E3Q0009000A001216000900CE033Q0066000A00083Q001216000B00CF032Q001216000C00D0033Q004D000A000C00022Q006E3Q0009000A001216000900D1033Q0066000A00083Q001216000B00D2032Q001216000C00D3033Q004D000A000C00022Q006E3Q0009000A001216000900D4033Q0066000A00083Q001216000B00D5032Q001216000C00D6033Q004D000A000C00022Q006E3Q0009000A001216000900D7033Q0066000A00083Q001216000B00D8032Q001216000C00D9033Q004D000A000C00022Q006E3Q0009000A001216000900DA033Q0066000A00083Q001216000B00DB032Q001216000C00DC033Q004D000A000C00022Q006E3Q0009000A001216000900DD033Q0066000A00083Q001216000B00DE032Q001216000C00DF033Q004D000A000C00022Q006E3Q0009000A001216000900E0033Q0066000A00083Q001216000B00E1032Q001216000C00E2033Q004D000A000C00022Q006E3Q0009000A00122D000900E3032Q00122D000A00E4032Q001216000C00E5033Q008C000A000A000C001216000C00E6033Q004F000A000C4Q003200093Q00022Q002B00090001000200122D000A00E3032Q00122D000B00E4032Q001216000D00E5033Q008C000B000B000D001216000D00E7033Q004F000B000D4Q0032000A3Q00022Q002B000A0001000200122D000B00E3032Q00122D000C00E4032Q001216000E00E5033Q008C000C000C000E001216000E00E8033Q004F000C000E4Q0032000B3Q00022Q002B000B00010002001216000E00E9033Q008C000C0009000E2Q007A000E3Q0006001216000F00E0033Q0002000F3Q000F001216001000DD033Q000200103Q00102Q006E000E000F0010001216000F00DA033Q0002000F3Q000F001216001000EA033Q006E000E000F0010001216000F00D7033Q0002000F3Q000F001216001000EB033Q006E000E000F0010001216000F00D4033Q0002000F3Q000F00122D001000EC032Q001216001100ED033Q0002001000100011001216001100EE032Q00121600120010013Q004D0010001200022Q006E000E000F0010001216000F00D1033Q0002000F3Q000F2Q0039001000014Q006E000E000F0010001216000F00CE033Q0002000F3Q000F001216001000CB033Q000200103Q00102Q006E000E000F00102Q004D000C000E00022Q007A000D3Q0005001216000E00C8033Q0002000E3Q000E001216001100EF033Q008C000F000C00112Q007A00113Q0002001216001200C5033Q000200123Q0012001216001300C2033Q000200133Q00132Q006E001100120013001216001200BF033Q000200123Q0012001216001300BC033Q000200133Q00132Q006E0011001200132Q004D000F001100022Q006E000D000E000F001216000E00B9033Q0002000E3Q000E001216001100EF033Q008C000F000C00112Q007A00113Q0002001216001200B6033Q000200123Q0012001216001300B3033Q000200133Q00132Q006E001100120013001216001200B0033Q000200123Q0012001216001300AD033Q000200133Q00132Q006E0011001200132Q004D000F001100022Q006E000D000E000F001216000E00AA033Q0002000E3Q000E001216001100EF033Q008C000F000C00112Q007A00113Q0002001216001200A7033Q000200123Q0012001216001300A4033Q000200133Q00132Q006E001100120013001216001200A1033Q000200123Q00120012160013009E033Q000200133Q00132Q006E0011001200132Q004D000F001100022Q006E000D000E000F001216000E009B033Q0002000E3Q000E001216001100EF033Q008C000F000C00112Q007A00113Q000200121600120098033Q000200123Q001200121600130095033Q000200133Q00132Q006E00110012001300121600120092033Q000200123Q00120012160013008F033Q000200133Q00132Q006E0011001200132Q004D000F001100022Q006E000D000E000F001216000E008C033Q0002000E3Q000E001216001100EF033Q008C000F000C00112Q007A00113Q000200121600120089033Q000200123Q001200121600130086033Q000200133Q00132Q006E00110012001300121600120083033Q000200123Q001200121600130080033Q000200133Q00132Q006E0011001200132Q004D000F001100022Q006E000D000E000F001216000E00F0033Q0002000E0009000E001216000F00F1033Q0002000F000D000F001216001100F2033Q008C000F000F00110012160011007D033Q000200113Q00112Q004D000F00110002001216001200F3033Q008C0010000F00120012160012007A033Q000200123Q00122Q007A00133Q000200121600140077033Q000200143Q001400121600150074033Q000200153Q00152Q006E00130014001500121600140071033Q000200143Q00142Q003900156Q006E0013001400152Q0072001000130001001216001200F3033Q008C0010000F00120012160012006E033Q000200123Q00122Q007A00133Q00020012160014006B033Q000200143Q001400121600150068033Q000200153Q00152Q006E00130014001500121600140065033Q000200143Q00142Q003900156Q006E0013001400152Q0072001000130001001216001200F3033Q008C0010000F001200121600120062033Q000200123Q00122Q007A00133Q00020012160014005F033Q000200143Q00140012160015005C033Q000200153Q00152Q006E00130014001500121600140059033Q000200143Q00142Q003900156Q006E0013001400152Q0072001000130001001216001000F4033Q00020010000D0010001216001200F2033Q008C00100010001200121600120056033Q000200123Q00122Q004D001000120002001216001300F3033Q008C00110010001300121600130053033Q000200133Q00132Q007A00143Q000200121600150050033Q000200153Q00150012160016004D033Q000200163Q00162Q006E0014001500160012160015004A033Q000200153Q00152Q003900166Q006E0014001500162Q0072001100140001001216001300F5033Q008C00110010001300121600130047033Q000200133Q00132Q007A00143Q000500121600150044033Q000200153Q001500121600160041033Q000200163Q00162Q006E0014001500160012160015003E033Q000200153Q0015001216001600CB033Q006E0014001500160012160015003B033Q000200153Q0015001216001600F6033Q006E00140015001600121600150038033Q000200153Q001500121600160065033Q006E00140015001600121600150035033Q000200153Q0015001216001600F7033Q006E0014001500162Q0072001100140001001216001300F8033Q008C00110010001300121600130032033Q000200133Q00132Q007A00143Q00040012160015002F033Q000200153Q00150012160016002C033Q000200163Q00162Q006E00140015001600121600150029033Q000200153Q001500121600160026033Q000200163Q00162Q006E00140015001600121600150023033Q000200153Q0015001216001600F9033Q006E00140015001600121600150020033Q000200153Q001500063D00160001000100012Q00713Q000E4Q006E0014001500162Q00720011001400012Q007A00116Q007A00126Q007A00135Q00063D00140002000100012Q00717Q00063D00150003000100012Q00717Q001216001600FA033Q00020016000E0016001216001800FB033Q008C00160016001800063D00180004000100042Q00713Q00144Q00718Q00713Q00114Q00713Q00154Q0072001600180001001216001600FC033Q00020016000E0016001216001800FB033Q008C00160016001800063D00180005000100042Q00713Q00144Q00718Q00713Q00124Q00713Q00154Q0072001600180001001216001600FD033Q00020016000E0016001216001800FB033Q008C00160016001800063D00180006000100042Q00713Q00144Q00718Q00713Q00134Q00713Q00154Q007200160018000100122D001600E4032Q001216001800FE033Q008C00160016001800121600180005033Q000200183Q00182Q004D00160018000200122D001700E4032Q001216001900FE033Q008C00170017001900121600190002033Q000200193Q00192Q004D00170019000200122D001800E4032Q001216001A00FE033Q008C00180018001A001216001A00FF023Q0002001A3Q001A2Q004D0018001A0002001216001900FF033Q000200190016001900122D001A2Q00042Q001216001B00FC023Q0002001B3Q001B2Q0002001A001A001B001216001B0001043Q0002001A001A001B2Q0051001B001D4Q0039001E6Q007A001F3Q000600121600200002043Q003900216Q006E001F0020002100121600200003043Q003900216Q006E001F002000210012160020002Q043Q003900216Q006E001F0020002100121600200005043Q003900216Q006E001F0020002100121600200006043Q003900216Q006E001F0020002100121600200007043Q003900216Q006E001F0020002100063D00200007000100012Q00713Q000E3Q00063D002100080001000A2Q00713Q001D4Q00713Q001E4Q00713Q001B4Q00713Q00174Q00713Q001C4Q00713Q001F4Q00713Q00204Q00713Q00194Q00718Q00713Q001A3Q00063D00220009000100042Q00713Q001C4Q00713Q001D4Q00713Q001E4Q00713Q001B3Q00121600230008043Q00020023000E0023001216002500FB033Q008C00230023002500063D0025000A000100022Q00713Q00214Q00713Q00224Q007200230025000100121600230009043Q00020023000E0023000607002300FE08013Q0004833Q00FE080100121600230009043Q00020023000E0023001216002500FB033Q008C00230023002500025D0025000B4Q00720023002500010012160023000A043Q00020023001800230012160025000B043Q008C00230023002500063D0025000C000100022Q00713Q001F4Q00713Q001E4Q00720023002500010012160023000C043Q00020023001800230012160025000B043Q008C00230023002500063D0025000D000100012Q00713Q001F4Q00720023002500010012160023000D043Q00020023001900230012160025000B043Q008C00230023002500063D0025000E000100022Q00713Q000E4Q00713Q00214Q00720023002500010012160023000E043Q00020023001900230006070023002509013Q0004833Q0025090100121600230008043Q00020023000E00230006070023002509013Q0004833Q0025090100121600230008043Q00020023000E00230012160024000F043Q00020023002300240006070023002509013Q0004833Q002509012Q0066002300214Q003300230001000100121600230010043Q00020023000D0023001216002500F2033Q008C002300230025001216002500ED023Q000200253Q00252Q004D002300250002001216002600F3033Q008C002400230026001216002600EA023Q000200263Q00262Q007A00273Q0002001216002800E7023Q000200283Q0028001216002900E4023Q000200293Q00292Q006E002700280029001216002800E1023Q000200283Q00282Q003900296Q006E0027002800292Q0072002400270001001216002600F8033Q008C002400230026001216002600DE023Q000200263Q00262Q007A00273Q0004001216002800DB023Q000200283Q0028001216002900D8023Q000200293Q00292Q006E002700280029001216002800D5023Q000200283Q0028001216002900D2023Q000200293Q00292Q006E002700280029001216002800CF023Q000200283Q002800121600290011043Q006E002700280029001216002800CC023Q000200283Q002800063D0029000F000100012Q00713Q000E4Q006E0027002800292Q0072002400270001001216002600F3033Q008C002400230026001216002600C9023Q000200263Q00262Q007A00273Q0002001216002800C6023Q000200283Q0028001216002900C3023Q000200293Q00292Q006E002700280029001216002800C0023Q000200283Q00282Q003900296Q006E0027002800292Q0072002400270001001216002600F3033Q008C002400230026001216002600BD023Q000200263Q00262Q007A00273Q0002001216002800BA023Q000200283Q0028001216002900B7023Q000200293Q00292Q006E002700280029001216002800B4023Q000200283Q00282Q003900296Q006E0027002800292Q0072002400270001001216002600F3033Q008C002400230026001216002600B1023Q000200263Q00262Q007A00273Q0002001216002800AE023Q000200283Q0028001216002900AB023Q000200293Q00292Q006E002700280029001216002800A8023Q000200283Q00282Q003900296Q006E0027002800292Q007200240027000100121600240010043Q00020024000D0024001216002600F2033Q008C002400240026001216002600A5023Q000200263Q00262Q004D002400260002001216002700F5033Q008C002500240027001216002700A2023Q000200273Q00272Q007A00283Q00050012160029009F023Q000200293Q0029001216002A009C023Q0002002A3Q002A2Q006E00280029002A00121600290099023Q000200293Q0029001216002A00F7033Q006E00280029002A00121600290096023Q000200293Q0029001216002A0017033Q006E00280029002A00121600290093023Q000200293Q0029001216002A0038033Q006E00280029002A00121600290090023Q000200293Q0029001216002A00F7033Q006E00280029002A2Q0072002500280001001216002700F5033Q008C0025002400270012160027008D023Q000200273Q00272Q007A00283Q00050012160029008A023Q000200293Q0029001216002A0087023Q0002002A3Q002A2Q006E00280029002A00121600290084023Q000200293Q0029001216002A0012043Q006E00280029002A00121600290081023Q000200293Q0029001216002A0013043Q006E00280029002A0012160029007E023Q000200293Q0029001216002A00F6033Q006E00280029002A0012160029007B023Q000200293Q0029001216002A00F7033Q006E00280029002A2Q007200250028000100121600270014043Q008C00250024002700121600270078023Q000200273Q00272Q007A00283Q000200121600290075023Q000200293Q0029001216002A0072023Q0002002A3Q002A2Q006E00280029002A0012160029006F023Q000200293Q002900122D002A0015042Q001216002B0016043Q0002002A002A002B001216002B008A022Q001216002C008A022Q001216002D008A023Q004D002A002D00022Q006E00280029002A2Q0072002500280001001216002700F5033Q008C0025002400270012160027006C023Q000200273Q00272Q007A00283Q000500121600290069023Q000200293Q0029001216002A0066023Q0002002A3Q002A2Q006E00280029002A00121600290063023Q000200293Q0029001216002A0017043Q006E00280029002A00121600290060023Q000200293Q0029001216002A0017033Q006E00280029002A0012160029005D023Q000200293Q0029001216002A0012043Q006E00280029002A0012160029005A023Q000200293Q0029001216002A00F7033Q006E00280029002A2Q0072002500280001001216002700F5033Q008C00250024002700121600270057023Q000200273Q00272Q007A00283Q000500121600290054023Q000200293Q0029001216002A0051023Q0002002A3Q002A2Q006E00280029002A0012160029004E023Q000200293Q0029001216002A0018043Q006E00280029002A0012160029004B023Q000200293Q0029001216002A00C2033Q006E00280029002A00121600290048023Q000200293Q0029001216002A0019043Q006E00280029002A00121600290045023Q000200293Q0029001216002A0018043Q006E00280029002A2Q007200250028000100121600270014043Q008C00250024002700121600270042023Q000200273Q00272Q007A00283Q00020012160029003F023Q000200293Q0029001216002A003C023Q0002002A3Q002A2Q006E00280029002A00121600290039023Q000200293Q002900122D002A0015042Q001216002B0016043Q0002002A002A002B001216002B008A022Q001216002C008A022Q001216002D008A023Q004D002A002D00022Q006E00280029002A2Q00720025002800010012160025001A043Q00020025000D0025001216002700F2033Q008C00250025002700121600270036023Q000200273Q00272Q004D002500270002001216002800F3033Q008C00260025002800121600280033023Q000200283Q00282Q007A00293Q0002001216002A0030023Q0002002A3Q002A001216002B002D023Q0002002B3Q002B2Q006E0029002A002B001216002A002A023Q0002002A3Q002A2Q0039002B6Q006E0029002A002B2Q0072002600290001001216002800F3033Q008C00260025002800121600280027023Q000200283Q00282Q007A00293Q0002001216002A0024023Q0002002A3Q002A001216002B0021023Q0002002B3Q002B2Q006E0029002A002B001216002A001E023Q0002002A3Q002A2Q0039002B6Q006E0029002A002B2Q0072002600290001001216002800F3033Q008C0026002500280012160028001B023Q000200283Q00282Q007A00293Q0002001216002A0018023Q0002002A3Q002A001216002B0015023Q0002002B3Q002B2Q006E0029002A002B001216002A0012023Q0002002A3Q002A2Q0039002B6Q006E0029002A002B2Q0072002600290001001216002800F3033Q008C0026002500280012160028000F023Q000200283Q00282Q007A00293Q0002001216002A000C023Q0002002A3Q002A001216002B0009023Q0002002B3Q002B2Q006E0029002A002B001216002A0006023Q0002002A3Q002A2Q0039002B6Q006E0029002A002B2Q0072002600290001001216002800F3033Q008C00260025002800121600280003023Q000200283Q00282Q007A00293Q0002001216002A2Q00023Q0002002A3Q002A001216002B00FD013Q0002002B3Q002B2Q006E0029002A002B001216002A00FA013Q0002002A3Q002A2Q0039002B6Q006E0029002A002B2Q0072002600290001001216002800F3033Q008C002600250028001216002800F7013Q000200283Q00282Q007A00293Q0002001216002A00F4013Q0002002A3Q002A001216002B00F1013Q0002002B3Q002B2Q006E0029002A002B001216002A00EE013Q0002002A3Q002A2Q0039002B6Q006E0029002A002B2Q0072002600290001001216002800F3033Q008C002600250028001216002800EB013Q000200283Q00282Q007A00293Q0002001216002A00E8013Q0002002A3Q002A001216002B00E5013Q0002002B3Q002B2Q006E0029002A002B001216002A00E2013Q0002002A3Q002A2Q0039002B6Q006E0029002A002B2Q00720026002900010012160026001A043Q00020026000D0026001216002800F2033Q008C002600260028001216002800DF013Q000200283Q00282Q004D00260028000200121600290014043Q008C002700260029001216002900DC013Q000200293Q00292Q007A002A3Q0002001216002B00D9013Q0002002B3Q002B001216002C00D6013Q0002002C3Q002C2Q006E002A002B002C001216002B00D3013Q0002002B3Q002B00122D002C0015042Q001216002D0016043Q0002002C002C002D001216002D008A022Q001216002E008A022Q001216002F008A023Q004D002C002F00022Q006E002A002B002C2Q00720027002A000100121600290014043Q008C002700260029001216002900D0013Q000200293Q00292Q007A002A3Q0002001216002B00CD013Q0002002B3Q002B001216002C00CA013Q0002002C3Q002C2Q006E002A002B002C001216002B00C7013Q0002002B3Q002B00122D002C0015042Q001216002D0016043Q0002002C002C002D001216002D008A022Q001216002E008A022Q001216002F008A023Q004D002C002F00022Q006E002A002B002C2Q00720027002A000100121600290014043Q008C002700260029001216002900C4013Q000200293Q00292Q007A002A3Q0002001216002B00C1013Q0002002B3Q002B001216002C00BE013Q0002002C3Q002C2Q006E002A002B002C001216002B00BB013Q0002002B3Q002B00122D002C0015042Q001216002D0016043Q0002002C002C002D001216002D008A022Q001216002E008A022Q001216002F008A023Q004D002C002F00022Q006E002A002B002C2Q00720027002A000100121600290014043Q008C002700260029001216002900B8013Q000200293Q00292Q007A002A3Q0002001216002B00B5013Q0002002B3Q002B001216002C00B2013Q0002002C3Q002C2Q006E002A002B002C001216002B00AF013Q0002002B3Q002B00122D002C0015042Q001216002D0016043Q0002002C002C002D001216002D008A022Q001216002E008A022Q001216002F008A023Q004D002C002F00022Q006E002A002B002C2Q00720027002A000100121600290014043Q008C002700260029001216002900AC013Q000200293Q00292Q007A002A3Q0002001216002B00A9013Q0002002B3Q002B001216002C00A6013Q0002002C3Q002C2Q006E002A002B002C001216002B00A3013Q0002002B3Q002B00122D002C0015042Q001216002D0016043Q0002002C002C002D001216002D008A022Q001216002E008A022Q001216002F008A023Q004D002C002F00022Q006E002A002B002C2Q00720027002A0001001216002900F5033Q008C002700260029001216002900A0013Q000200293Q00292Q007A002A3Q0005001216002B009D013Q0002002B3Q002B001216002C009A013Q0002002C3Q002C2Q006E002A002B002C001216002B0097013Q0002002B3Q002B001216002C00F7033Q006E002A002B002C001216002B0094013Q0002002B3Q002B001216002C001B043Q006E002A002B002C001216002B0091013Q0002002B3Q002B001216002C0013043Q006E002A002B002C001216002B008E013Q0002002B3Q002B001216002C00F7033Q006E002A002B002C2Q00720027002A00012Q007A00276Q00510028002A3Q00063D002B0010000100042Q00713Q00274Q00713Q00284Q00713Q00294Q00713Q002A3Q00063D002C0011000100032Q00713Q002B4Q00713Q00274Q00717Q00063D002D0012000100072Q00713Q00274Q00713Q002C4Q00713Q00284Q00713Q00294Q00713Q002A4Q00713Q000E4Q00717Q00122D002E00E4032Q001216003000FE033Q008C002E002E003000121600300085013Q000200303Q00302Q004D002E0030000200122D002F2Q00042Q00121600300082013Q000200303Q00302Q0002002F002F00300012160032001C043Q008C0030002E00320012160032007F013Q000200323Q00322Q004D0030003200020012160032001C043Q008C0030003000320012160032007C013Q000200323Q00322Q004F003000324Q0032002F3Q000200063D00300013000100012Q00713Q000E3Q00063D00310014000100012Q00713Q000E3Q00063D00320015000100012Q00713Q000E3Q00063D00330016000100012Q00713Q000E3Q00063D00340017000100062Q00713Q00324Q00713Q001A4Q00713Q00164Q00713Q00194Q00718Q00713Q00333Q001216003500F7033Q0051003600363Q001216003700F7032Q000657003500520B0100370004833Q00520B010012160037001D043Q00020036002F00370012160037001D042Q00063D00380018000100052Q00713Q00364Q00718Q00713Q00304Q00713Q00344Q00713Q00314Q006E002F003700380004833Q00610B010004833Q00520B012Q002300356Q0051003500353Q00063D00360019000100042Q00713Q00354Q00713Q000E4Q00713Q001A4Q00718Q007A003700054Q007A003800023Q00121600390055013Q000200393Q0039001216003A0052013Q0002003A3Q003A2Q00220038000200012Q007A003900023Q001216003A004F013Q0002003A3Q003A001216003B004C013Q0002003B3Q003B2Q00220039000200012Q007A003A00023Q001216003B0049013Q0002003B3Q003B001216003C0046013Q0002003C3Q003C2Q0022003A000200012Q007A003B00023Q001216003C0043013Q0002003C3Q003C001216003D0040013Q0002003D3Q003D2Q0022003B000200012Q007A003C00023Q001216003D003D013Q0002003D3Q003D001216003E003A013Q0002003E3Q003E2Q0022003C000200012Q00220037000500012Q007A0038000E4Q007A003900023Q001216003A0037013Q0002003A3Q003A001216003B0034013Q0002003B3Q003B2Q00220039000200012Q007A003A00023Q001216003B0031013Q0002003B3Q003B001216003C002E013Q0002003C3Q003C2Q0022003A000200012Q007A003B00023Q001216003C002B013Q0002003C3Q003C001216003D0028013Q0002003D3Q003D2Q0022003B000200012Q007A003C00023Q001216003D0025013Q0002003D3Q003D001216003E0022013Q0002003E3Q003E2Q0022003C000200012Q007A003D00023Q001216003E001F013Q0002003E3Q003E001216003F001C013Q0002003F3Q003F2Q0022003D000200012Q007A003E00023Q001216003F0019013Q0002003F3Q003F00121600400016013Q000200403Q00402Q0022003E000200012Q007A003F00023Q00121600400013013Q000200403Q004000121600410010013Q000200413Q00412Q0022003F000200012Q007A004000023Q0012160041000D013Q000200413Q00410012160042000A013Q000200423Q00422Q00220040000200012Q007A004100023Q00121600420007013Q000200423Q004200121600430004013Q000200433Q00432Q00220041000200012Q007A004200023Q0012160043002Q013Q000200433Q0043001216004400FE4Q000200443Q00442Q00220042000200012Q007A004300023Q001216004400FB4Q000200443Q0044001216004500F84Q000200453Q00452Q00220043000200012Q007A004400023Q001216004500F54Q000200453Q0045001216004600F24Q000200463Q00462Q00220044000200012Q007A004500023Q001216004600EF4Q000200463Q0046001216004700EC4Q000200473Q00472Q00220045000200012Q007A004600023Q001216004700E94Q000200473Q0047001216004800E64Q000200483Q00482Q00220046000200012Q00220038000E00012Q007A00395Q001216003A00F7032Q00063D003B001A000100032Q00713Q003A4Q00713Q00394Q00717Q00063D003C001B000100022Q00713Q00394Q00713Q003A3Q00063D003D001C000100012Q00717Q00025D003E001D3Q00063D003F001E000100062Q00718Q00713Q00374Q00713Q00384Q00713Q001A4Q00713Q003B4Q00713Q003E4Q007A00405Q001216004100F7032Q00063D0042001F000100032Q00713Q00414Q00713Q00404Q00717Q00063D00430020000100022Q00713Q00404Q00713Q00414Q007A00445Q001216004500F7032Q00063D00460021000100032Q00713Q00454Q00713Q00444Q00717Q00063D00470022000100022Q00713Q00444Q00713Q00454Q007A00485Q001216004900F7032Q00063D004A0023000100032Q00713Q00494Q00713Q00484Q00717Q00063D004B0024000100022Q00713Q00484Q00713Q00494Q007A004C5Q00063D004D0025000100022Q00713Q004C4Q00717Q00063D004E0026000100012Q00713Q004C3Q00063D004F0027000100072Q00713Q000E4Q00713Q00194Q00718Q00713Q00164Q00713Q00334Q00713Q004D4Q00713Q004E3Q0012160050001E043Q00020050001600500012160052000B043Q008C00500050005200063D00520028000100012Q00713Q004E4Q007200500052000100122D00502Q00042Q001216005100C84Q000200513Q00512Q00020050005000510012160052001F043Q008C005000500052001216005200C54Q000200523Q00522Q004D00500052000200063D00510029000100012Q00717Q00063D0052002A000100022Q00713Q00504Q00717Q00122D00532Q00042Q001216005400B64Q000200543Q00542Q00020053005300540012160055001F043Q008C005300530055001216005500B34Q000200553Q00552Q004D005300550002000607005300450C013Q0004833Q00450C0100122D00532Q00042Q001216005400B04Q000200543Q00542Q000200530053005400121600540020043Q00020053005300540012160055001F043Q008C005300530055001216005500AD4Q000200553Q00552Q004D00530055000200068A0053005E0C0100010004833Q005E0C0100122D00542Q00042Q001216005500AA4Q000200553Q00552Q00020054005400550012160056001F043Q008C005400540056001216005600A74Q000200563Q00562Q004D0054005600020006070054005E0C013Q0004833Q005E0C0100122D00542Q00042Q001216005500A44Q000200553Q00552Q000200540054005500121600550020043Q00020054005400550012160056001F043Q008C005400540056001216005600A14Q000200563Q00562Q004D0054005600022Q0066005300543Q00068A0053006A0C0100010004833Q006A0C0100122D00542Q00042Q0012160055009E4Q000200553Q00552Q00020054005400550012160056001F043Q008C0054005400560012160056009B4Q000200563Q00562Q004D0054005600022Q0066005300543Q00063D0054002B000100012Q00718Q007A00556Q007A00565Q00063D0057002C000100012Q00717Q00063D0058002D000100042Q00713Q00534Q00718Q00713Q00544Q00713Q00553Q00063D0059002E000100032Q00713Q00574Q00713Q00564Q00717Q00063D005A002F000100012Q00713Q00553Q00063D005B0030000100012Q00713Q00564Q0039005C6Q0039005D5Q001216005E0021043Q0002005E000E005E000607005E008C0C013Q0004833Q008C0C01001216005E0021043Q0002005E000E005E001216006000FB033Q008C005E005E006000063D00600031000100032Q00713Q00584Q00713Q005C4Q00713Q005A4Q0072005E00600001001216005E0022043Q0002005E000E005E000607005E00990C013Q0004833Q00990C01001216005E0022043Q0002005E000E005E001216006000FB033Q008C005E005E006000063D00600032000100032Q00713Q00594Q00713Q005D4Q00713Q005B4Q0072005E00600001001216005E0023043Q0002005E0017005E0012160060000B043Q008C005E005E006000063D006000330001001C2Q00713Q00364Q00713Q002D4Q00713Q004F4Q00713Q000E4Q00713Q00534Q00718Q00713Q00544Q00713Q00554Q00713Q005C4Q00713Q005A4Q00713Q00564Q00713Q00574Q00713Q005D4Q00713Q005B4Q00713Q003C4Q00713Q00194Q00713Q00164Q00713Q00334Q00713Q003F4Q00713Q00434Q00713Q00424Q00713Q001A4Q00713Q00474Q00713Q00464Q00713Q004B4Q00713Q00524Q00713Q00514Q00713Q004A4Q0072005E00600001001216005E001E043Q0002005E0016005E0012160060000B043Q008C005E005E006000063D00600034000100012Q00713Q004E4Q0072005E0060000100121600600024043Q008C005E000A00602Q0066006000094Q0072005E0060000100121600600024043Q008C005E000B00602Q0066006000094Q0072005E0060000100121600600025043Q008C005E000A00602Q003A005E0002000100121600600026043Q008C005E000A00602Q007A00606Q0072005E0060000100121600600027043Q008C005E000B0060001216006000204Q000200603Q00602Q0072005E0060000100121600600027043Q008C005E000A006000121600600028043Q0072005E0060000100121600600029043Q008C005E000B00600012160060002A043Q00020060000D00602Q0072005E006000010012160060002B043Q008C005E000A00600012160060002A043Q00020060000D00602Q0072005E006000010012160060002C043Q008C005E000C006000121600600018043Q0072005E006000010012160060002D043Q008C005E000900602Q007A00603Q00030012160061001D4Q000200613Q00610012160062001A4Q000200623Q00622Q006E006000610062001216006100174Q000200613Q0061001216006200144Q000200623Q00622Q006E006000610062001216006100114Q000200613Q0061001216006200DD033Q006E0060006100622Q0072005E006000010012160060002E043Q008C005E000A00602Q003A005E0002000100063D005E0035000100022Q00718Q00713Q00184Q0039005F00013Q000607000C00300D013Q0004833Q00300D010012160060002F043Q00020060000C0060000607006000300D013Q0004833Q00300D010012160060002F043Q00020060000C006000121600610030043Q00020060006000612Q0051006100613Q00066D006000300D0100610004833Q00300D01001216006000F7033Q0051006100613Q001216006200F7032Q000657006000100D0100620004833Q00100D01001216006100F7032Q001216006200F7032Q000657006100140D0100620004833Q00140D010012160062002F043Q00020062000C006200121600640031043Q008C0062006200640012160064000B4Q000200643Q00642Q004D0062006400020012160064000B043Q008C00620062006400063D00640036000100032Q00713Q005F4Q00713Q000C4Q00713Q005E4Q00720062006400012Q00660062005E3Q0012160063002F043Q00020063000C006300121600640030043Q00020063006300642Q003A0062000200010004833Q00330D010004833Q00140D010004833Q00330D010004833Q00100D010004833Q00330D012Q00660060005E4Q00660061005F4Q003A0060000200012Q002300096Q00523Q00013Q00373Q00023Q00026Q00F03F026Q00704002264Q007A00025Q001216000300014Q009000045Q001216000500013Q0004800003002100012Q002500076Q0066000800024Q0025000900014Q0025000A00024Q0025000B00034Q0025000C00044Q0066000D6Q0066000E00063Q002027000F000600012Q004F000C000F4Q0032000B3Q00022Q0025000C00034Q0025000D00044Q0066000E00014Q0090000F00014Q0003000F0006000F001086000F0001000F2Q0090001000014Q00030010000600100010860010000100100020270010001000012Q004F000D00104Q0019000C6Q0032000A3Q0002002063000A000A00022Q006A0009000A4Q002A00073Q00010004670003000500012Q0025000300054Q0066000400024Q0068000300044Q004800036Q00523Q00017Q00033Q002Q033Q00466C7903083Q0053657456616C756503053Q0056616C7565010D4Q002500015Q00208D0001000100010006070001000C00013Q0004833Q000C00012Q002500015Q00208D0001000100010020700001000100022Q002500035Q00208D00030003000100208D0003000300032Q0088000300034Q00720001000300012Q00523Q00017Q00073Q0003053Q00706169727303053Q00676574676303043Q0074797065026Q00584003063Q00726177676574029Q0003213Q00122D000300013Q00122D000400024Q0039000500014Q006A000400054Q005C00033Q00050004833Q001E000100122D000800034Q0066000900074Q007E0008000200022Q002500095Q00208D0009000900040006570008001E000100090004833Q001E000100122D000800054Q0066000900074Q0066000A6Q004D0008000A00020006070008001E00013Q0004833Q001E0001001216000800063Q000E2C00060014000100080004833Q001400012Q00020009000200070026920009001B000100070004833Q001B00012Q0002000900074Q006E0002000700092Q006E00073Q00010004833Q001E00010004833Q0014000100060500030006000100020004833Q000600012Q00523Q00017Q00063Q00028Q0003053Q00706169727303043Q0074797065025Q0040584003063Q007261776765740002273Q001216000200014Q0051000300033Q00269200020002000100010004833Q00020001001216000300013Q00269200030005000100010004833Q0005000100122D000400024Q0066000500014Q00550004000200060004833Q0019000100122D000900034Q0066000A00074Q007E0009000200022Q0025000A5Q00208D000A000A0004000657000900190001000A0004833Q0019000100122D000900054Q0066000A00074Q0066000B6Q004D0009000B00020006070009001900013Q0004833Q001900012Q006E00073Q00080006050004000B000100020004833Q000B000100122D000400024Q0066000500014Q00550004000200060004833Q002000010020540001000700060006050004001F000100010004833Q001F00010004833Q002600010004833Q000500010004833Q002600010004833Q000200012Q00523Q00017Q00033Q00026Q005940028Q00025Q00405940010F3Q0006073Q000900013Q0004833Q000900012Q002500016Q0025000200013Q00208D000200020001001216000300024Q0025000400024Q00720001000400010004833Q000E00012Q0025000100034Q0025000200013Q00208D0002000200032Q0025000300024Q00720001000300012Q00523Q00017Q00033Q00026Q005A40028Q00025Q00405A40010F3Q0006073Q000900013Q0004833Q000900012Q002500016Q0025000200013Q00208D000200020001001216000300024Q0025000400024Q00720001000400010004833Q000E00012Q0025000100034Q0025000200013Q00208D0002000200032Q0025000300024Q00720001000300012Q00523Q00017Q00033Q00026Q005B40028Q00025Q00405B40010F3Q0006073Q000900013Q0004833Q000900012Q002500016Q0025000200013Q00208D000200020001001216000300024Q0025000400024Q00720001000400010004833Q000E00012Q0025000100034Q0025000200013Q00208D0002000200032Q0025000300024Q00720001000300012Q00523Q00017Q00033Q0003083Q00466C7953702Q656403053Q0056616C7565026Q004E40000C4Q00257Q00208D5Q00010006073Q000900013Q0004833Q000900012Q00257Q00208D5Q000100208D5Q000200068A3Q000A000100010004833Q000A00010012163Q00034Q00563Q00024Q00523Q00017Q00183Q00028Q00026Q000840026Q00F03F03063Q00506172656E74026Q00104003093Q004D6178546F7271756503073Q00566563746F72332Q033Q006E6577025Q006AF84003013Q0050025Q0088C340030A3Q00446973636F2Q6E656374030D3Q0052656E6465725374652Q70656403073Q00436F2Q6E656374027Q004003083Q00496E7374616E6365025Q0080644003073Q0044657374726F79025Q0020654003083Q004D6178466F72636503093Q00436861726163746572030E3Q0046696E6446697273744368696C64026Q00664003103Q0048756D616E6F6964522Q6F745061727400893Q0012163Q00014Q0051000100013Q0026923Q0019000100020004833Q00190001001216000200013Q0026920002000B000100030004833Q000B00012Q002500035Q0010200003000400010012163Q00053Q0004833Q0019000100269200020005000100010004833Q000500012Q002500035Q00122D000400073Q00208D000400040008001216000500093Q001216000600093Q001216000700094Q004D0004000700020010200003000600042Q002500035Q00307C0003000A000B001216000200033Q0004833Q000500010026923Q0032000100050004833Q003200012Q0039000200014Q000F000200014Q0025000200023Q0006070002002300013Q0004833Q002300012Q0025000200023Q00207000020002000C2Q003A0002000200012Q0025000200033Q00208D00020002000D00207000020002000E00063D00043Q000100082Q00898Q00893Q00044Q00893Q00054Q00893Q00064Q00893Q00014Q00893Q00074Q00893Q00084Q00893Q00094Q004D0002000400022Q000F000200023Q0004833Q008800010026923Q00470001000F0004833Q00470001001216000200013Q0026920002003F000100030004833Q003F000100122D000300103Q00208D0003000300082Q0025000400083Q00208D0004000400112Q007E0003000200022Q000F00035Q0012163Q00023Q0004833Q0047000100269200020035000100010004833Q003500012Q0025000300043Q00307C0003000A000B2Q0025000300043Q001020000300040001001216000200033Q0004833Q003500010026923Q0066000100030004833Q00660001001216000200013Q00269200020059000100010004833Q005900012Q002500035Q0006070003005200013Q0004833Q005200012Q002500035Q0020700003000300122Q003A00030002000100122D000300103Q00208D0003000300082Q0025000400083Q00208D0004000400132Q007E0003000200022Q000F000300043Q001216000200033Q0026920002004A000100030004833Q004A00012Q0025000300043Q00122D000400073Q00208D000400040008001216000500093Q001216000600093Q001216000700094Q004D0004000700020010200003001400040012163Q000F3Q0004833Q006600010004833Q004A00010026923Q0002000100010004833Q00020001001216000200013Q00269200020073000100030004833Q007300012Q0025000300043Q0006070003007100013Q0004833Q007100012Q0025000300043Q0020700003000300122Q003A0003000200010012163Q00033Q0004833Q0002000100269200020069000100010004833Q006900012Q0025000300073Q00208D0003000300150006070003008100013Q0004833Q008100012Q0025000300073Q00208D0003000300150020700003000300162Q0025000500083Q00208D0005000500172Q004D00030005000200068A00030082000100010004833Q008200012Q00523Q00014Q0025000300073Q00208D00030003001500208D000100030018001216000200033Q0004833Q006900010004833Q000200012Q00523Q00013Q00013Q00193Q00028Q00026Q00104003063Q00434672616D652Q033Q006E657703083Q00506F736974696F6E030A3Q004C2Q6F6B566563746F72026Q000840026Q00F03F03083Q0056656C6F6369747903013Q004503083Q005570566563746F7203093Q004D61676E697475646503043Q00556E697403093Q00436861726163746572030E3Q0046696E6446697273744368696C64025Q0080624003103Q0048756D616E6F6964522Q6F745061727403073Q00566563746F723303013Q005703013Q0053027Q004003013Q0041030B3Q005269676874566563746F7203013Q004403013Q0051006A3Q0012163Q00014Q0051000100033Q0026923Q000E000100020004833Q000E00012Q002500045Q00122D000500033Q00208D00050005000400208D00060001000500208D00070001000500208D0008000200062Q007D0007000700082Q004D0005000700020010200004000300050004833Q006900010026923Q0028000100070004833Q00280001001216000400013Q00269200040017000100080004833Q001700012Q0025000500013Q0010200005000900030012163Q00023Q0004833Q0028000100269200040011000100010004833Q001100012Q0025000500023Q00208D00050005000A0006070005001F00013Q0004833Q001F000100208D00050002000B2Q007D00030003000500208D00050003000C000E6400010026000100050004833Q0026000100208D00050003000D2Q0025000600034Q002B0006000100022Q001E000300050006001216000400083Q0004833Q001100010026923Q0040000100010004833Q004000012Q0025000400043Q0006070004003900013Q0004833Q003900012Q0025000400053Q00208D00040004000E0006070004003900013Q0004833Q003900012Q0025000400053Q00208D00040004000E00207000040004000F2Q0025000600063Q00208D0006000600102Q004D00040006000200068A0004003A000100010004833Q003A00012Q00523Q00014Q0025000400053Q00208D00040004000E00208D0001000400112Q0025000400073Q00208D0002000400030012163Q00083Q0026923Q0053000100080004833Q0053000100122D000400123Q00208D0004000400042Q002B0004000100022Q0066000300044Q0025000400023Q00208D0004000400130006070004004C00013Q0004833Q004C000100208D0004000200062Q007D0003000300042Q0025000400023Q00208D0004000400140006070004005200013Q0004833Q0052000100208D0004000200062Q004B0003000300040012163Q00153Q0026923Q0002000100150004833Q000200012Q0025000400023Q00208D0004000400160006070004005B00013Q0004833Q005B000100208D0004000200172Q004B0003000300042Q0025000400023Q00208D0004000400180006070004006100013Q0004833Q0061000100208D0004000200172Q007D0003000300042Q0025000400023Q00208D0004000400190006070004006700013Q0004833Q0067000100208D00040002000B2Q004B0003000300040012163Q00073Q0004833Q000200012Q00523Q00017Q00043Q00028Q00026Q00F03F03073Q0044657374726F79030A3Q00446973636F2Q6E65637400383Q0012163Q00014Q0051000100013Q000E2C0001000200013Q0004833Q00020001001216000100013Q00269200010022000100020004833Q002200012Q002500025Q0006070002001400013Q0004833Q00140001001216000200013Q0026920002000B000100010004833Q000B00012Q002500035Q0020700003000300032Q003A0003000200012Q0051000300034Q000F00035Q0004833Q001400010004833Q000B00012Q0025000200013Q0006070002003700013Q0004833Q00370001001216000200013Q00269200020018000100010004833Q001800012Q0025000300013Q0020700003000300032Q003A0003000200012Q0051000300034Q000F000300013Q0004833Q003700010004833Q001800010004833Q0037000100269200010005000100010004833Q000500012Q003900026Q000F000200024Q0025000200033Q0006070002003300013Q0004833Q00330001001216000200013Q000E2C0001002A000100020004833Q002A00012Q0025000300033Q0020700003000300042Q003A0003000200012Q0051000300034Q000F000300033Q0004833Q003300010004833Q002A0001001216000100023Q0004833Q000500010004833Q003700010004833Q000200012Q00523Q00019Q002Q0001083Q0006073Q000500013Q0004833Q000500012Q002500016Q00330001000100010004833Q000700012Q0025000100014Q00330001000100012Q00523Q00019Q002Q002Q014Q00523Q00017Q00063Q00028Q00026Q00F03F03073Q004B6579436F646503043Q004E616D65002Q0102193Q001216000200014Q0051000300033Q0026920002000D000100020004833Q000D000100208D00043Q000300208D0003000400042Q002500046Q000200040004000300265800040018000100050004833Q001800012Q002500045Q0020540004000300060004833Q0018000100269200020002000100010004833Q000200010006070001001200013Q0004833Q001200012Q00523Q00014Q0025000400013Q00068A00040016000100010004833Q001600012Q00523Q00013Q001216000200023Q0004833Q000200012Q00523Q00017Q00063Q00028Q00026Q00F03F00010003073Q004B6579436F646503043Q004E616D6502153Q001216000200014Q0051000300033Q0026920002000B000100020004833Q000B00012Q002500046Q000200040004000300265800040014000100030004833Q001400012Q002500045Q0020540004000300040004833Q00140001000E2C00010002000100020004833Q000200010006070001001000013Q0004833Q001000012Q00523Q00013Q00208D00043Q000500208D000300040006001216000200023Q0004833Q000200012Q00523Q00017Q00063Q00028Q0003043Q007461736B03043Q0077616974026Q00F03F2Q033Q00466C7903053Q0056616C756500153Q0012163Q00013Q000E2C0001000100013Q0004833Q0001000100122D000100023Q00208D000100010003001216000200044Q003A0001000200012Q002500015Q00208D0001000100050006070001001400013Q0004833Q001400012Q002500015Q00208D00010001000500208D0001000100060006070001001400013Q0004833Q001400012Q0025000100014Q00330001000100010004833Q001400010004833Q000100012Q00523Q00017Q00033Q0003093Q0053696C656E7441696D03083Q0053657456616C756503053Q0056616C7565010D4Q002500015Q00208D0001000100010006070001000C00013Q0004833Q000C00012Q002500015Q00208D0001000100010020700001000100022Q002500035Q00208D00030003000100208D0003000300032Q0088000300034Q00720001000300012Q00523Q00017Q00033Q0003063Q0069706169727303063Q0052656D6F766503073Q0044657374726F7900443Q00122D3Q00014Q002500016Q00553Q000200020004833Q000F000100208D0005000400020006070005000A00013Q0004833Q000A00010020700005000400022Q003A0005000200010004833Q000F000100208D0005000400030006070005000F00013Q0004833Q000F00010020700005000400032Q003A0005000200010006053Q0004000100020004833Q000400012Q007A8Q000F8Q00253Q00013Q0006073Q002100013Q0004833Q002100012Q00253Q00013Q00208D5Q00020006073Q001E00013Q0004833Q001E00012Q00253Q00013Q0020705Q00022Q003A3Q000200010004833Q002100012Q00253Q00013Q0020705Q00032Q003A3Q000200012Q00518Q000F3Q00014Q00253Q00023Q0006073Q003100013Q0004833Q003100012Q00253Q00023Q00208D5Q00020006073Q002E00013Q0004833Q002E00012Q00253Q00023Q0020705Q00022Q003A3Q000200010004833Q003100012Q00253Q00023Q0020705Q00032Q003A3Q000200012Q00518Q000F3Q00024Q00253Q00033Q0006073Q004100013Q0004833Q004100012Q00253Q00033Q00208D5Q00020006073Q003E00013Q0004833Q003E00012Q00253Q00033Q0020705Q00022Q003A3Q000200010004833Q004100012Q00253Q00033Q0020705Q00032Q003A3Q000200012Q00518Q000F3Q00034Q00523Q00017Q00113Q00028Q00026Q00F03F026Q001040027Q004003073Q0056697369626C65010003053Q007461626C6503063Q00696E73657274030C3Q005472616E73706172656E637903053Q00436F6C6F7203063Q00436F6C6F723303073Q0066726F6D524742025Q00E06F4003073Q0044726177696E672Q033Q006E6577025Q0030784003093Q00546869636B6E652Q7300343Q0012163Q00014Q0051000100013Q0026923Q0002000100010004833Q00020001001216000100013Q00269200010005000100010004833Q000500012Q002500026Q0033000200010001001216000200023Q001216000300033Q001216000400023Q0004800002002F0001001216000600014Q0051000700073Q00269200060018000100040004833Q0018000100307C00070005000600122D000800073Q00208D0008000800082Q0025000900014Q0066000A00074Q00720008000A00010004833Q002E000100269200060023000100020004833Q0023000100307C00070009000200122D0008000B3Q00208D00080008000C0012160009000D3Q001216000A000D3Q001216000B000D4Q004D0008000B00020010200007000A0008001216000600043Q0026920006000F000100010004833Q000F000100122D0008000E3Q00208D00080008000F2Q0025000900023Q00208D0009000900102Q007E0008000200022Q0066000700083Q00307C000700110004001216000600023Q0004833Q000F00010004670002000D00010004833Q003300010004833Q000500010004833Q003300010004833Q000200012Q00523Q00017Q00253Q00028Q0003063Q0069706169727303073Q0056697369626C65010003093Q0043726F2Q736861697203053Q0056616C7565026Q00F03F027Q004003123Q0043726F2Q73686169725370696E53702Q6564026Q00144003023Q005F47025Q00C07840030D3Q0043752Q72656E7443616D657261030C3Q0056696577706F727453697A6503043Q006D61746803053Q00666C2Q6F7203013Q0058026Q00E03F03013Q005903043Q007469636B03023Q007069026Q00F0BF026Q00084003043Q0046726F6D03073Q00566563746F72322Q033Q006E657703023Q00546F03053Q00436F6C6F7203093Q00546869636B6E652Q732Q01030E3Q0043726F2Q7368616972436F6C6F7203063Q00436F6C6F723303073Q0066726F6D524742025Q00E06F40030D3Q0043726F2Q736861697253697A65026Q002440030D3Q0043726F2Q73686169725370696E002B013Q00258Q00907Q0026923Q0006000100010004833Q000600012Q00253Q00014Q00333Q0001000100122D3Q00024Q007A000100034Q0025000200024Q0025000300034Q0025000400044Q00220001000300012Q00553Q000200020004833Q001100010006070004001100013Q0004833Q0011000100307C0004000300040006053Q000E000100020004833Q000E00012Q00253Q00053Q00208D5Q00050006073Q001A00013Q0004833Q001A00012Q00253Q00053Q00208D5Q000500208D5Q00060006073Q00232Q013Q0004833Q00232Q01001216000100014Q00510002000C3Q0026920001004A000100070004833Q004A0001001216000D00013Q002692000D0025000100080004833Q00250001001216000100083Q0004833Q004A0001002692000D0038000100010004833Q003800012Q0025000E00053Q00208D000E000E0009000607000E003000013Q0004833Q003000012Q0025000E00053Q00208D000E000E000900208D000E000E0006000691000600310001000E0004833Q003100010012160006000A3Q00122D000E000B4Q0025000F00063Q00208D000F000F000C2Q0002000E000E000F00208D000E000E000D00208D0007000E000E001216000D00073Q002692000D0021000100070004833Q0021000100122D000E000F3Q00208D000E000E001000208D000F0007001100201C000F000F00082Q007E000E00020002002027000E000E001200122D000F000F3Q00208D000F000F001000208D00100007001300201C0010001000082Q007E000F000200020020270009000F00122Q00660008000E3Q001216000A00013Q001216000D00083Q0004833Q002100010026920001006B000100080004833Q006B00010006070005005500013Q0004833Q0055000100122D000D00144Q002B000D000100022Q001E000D000D000600122D000E000F3Q00208D000E000E0015001049000E0008000E2Q0003000A000D000E2Q0051000B000B3Q00025D000B6Q007A000D00044Q007A000E00023Q001216000F00013Q001216001000164Q0022000E000200012Q007A000F00023Q001216001000013Q001216001100074Q0022000F000200012Q007A001000023Q001216001100163Q001216001200014Q00220010000200012Q007A001100023Q001216001200073Q001216001300014Q00220011000200012Q0022000D000400012Q0066000C000D3Q001216000100173Q002692000100F1000100170004833Q00F1000100122D000D00024Q0066000E000C4Q0055000D0002000F0004833Q00EE0001001216001200014Q0051001300193Q00269200120077000100080004833Q007700012Q0051001700183Q001216001200173Q002692001200E4000100170004833Q00E400012Q0051001900193Q0026920013008E000100010004833Q008E0001001216001A00013Q002692001A0081000100070004833Q00810001001216001300073Q0004833Q008E0001000E2C0001007D0001001A0004833Q007D00012Q0066001B000B3Q00208D001C0011000700208D001D001100082Q0066001E000A4Q0082001B001E001C2Q00660015001C4Q00660014001B4Q001E001B001400032Q007D00160008001B001216001A00073Q0004833Q007D0001002692001300C9000100080004833Q00C9000100265800100094000100070004833Q00940001002692001000B0000100170004833Q00B00001001216001A00014Q0051001B001B3Q002692001A0096000100010004833Q00960001001216001B00013Q000E2C000100990001001B0004833Q009900012Q0025001C6Q0002001C001C001000122D001D00193Q00208D001D001D001A2Q0066001E00164Q0066001F00174Q004D001D001F0002001020001C0018001D2Q0025001C6Q0002001C001C001000122D001D00193Q00208D001D001D001A2Q0066001E00184Q0066001F00194Q004D001D001F0002001020001C001B001D0004833Q00C500010004833Q009900010004833Q00C500010004833Q009600010004833Q00C50001001216001A00013Q002692001A00B1000100010004833Q00B100012Q0025001B6Q0002001B001B001000122D001C00193Q00208D001C001C001A2Q0066001D00184Q0066001E00194Q004D001C001E0002001020001B0018001C2Q0025001B6Q0002001B001B001000122D001C00193Q00208D001C001C001A2Q0066001D00164Q0066001E00174Q004D001C001E0002001020001B001B001C0004833Q00C500010004833Q00B100012Q0025001A6Q0002001A001A0010001020001A001C0002001216001300173Q002692001300D9000100070004833Q00D90001001216001A00013Q000E2C000100D40001001A0004833Q00D400012Q001E001B001500032Q007D00170009001B2Q0066001B00084Q0066001900094Q00660018001B3Q001216001A00073Q002692001A00CC000100070004833Q00CC0001001216001300083Q0004833Q00D900010004833Q00CC00010026920013007A000100170004833Q007A00012Q0025001A6Q0002001A001A0010001020001A001D00042Q0025001A6Q0002001A001A001000307C001A0003001E0004833Q00EE00010004833Q007A00010004833Q00EE0001002692001200E9000100010004833Q00E90001001216001300014Q0051001400143Q001216001200073Q00269200120073000100070004833Q007300012Q0051001500163Q001216001200083Q0004833Q00730001000605000D0071000100020004833Q007100010004833Q002A2Q010026920001001E000100010004833Q001E0001001216000D00013Q002692000D00F8000100080004833Q00F80001001216000100073Q0004833Q001E0001002692000D00152Q0100010004833Q00152Q012Q0025000E00053Q00208D000E000E001F000607000E00032Q013Q0004833Q00032Q012Q0025000E00053Q00208D000E000E001F00208D000E000E00060006910002000A2Q01000E0004833Q000A2Q0100122D000E00203Q00208D000E000E0021001216000F00223Q001216001000223Q001216001100224Q004D000E001100022Q00660002000E4Q0025000E00053Q00208D000E000E0023000607000E00132Q013Q0004833Q00132Q012Q0025000E00053Q00208D000E000E002300208D000E000E0006000691000300142Q01000E0004833Q00142Q01001216000300243Q001216000D00073Q000E2C000700F40001000D0004833Q00F40001001216000400084Q0025000E00053Q00208D000E000E002500064E0005001F2Q01000E0004833Q001F2Q012Q0025000E00053Q00208D000E000E002500208D0005000E0006001216000D00083Q0004833Q00F400010004833Q001E00010004833Q002A2Q0100122D000100024Q002500026Q00550001000200030004833Q00282Q0100307C000500030004000605000100272Q0100020004833Q00272Q012Q00523Q00013Q00013Q00053Q00028Q00026Q00F03F03043Q006D6174682Q033Q00636F732Q033Q0073696E031A3Q001216000300014Q0051000400053Q0026920003000B000100020004833Q000B00012Q001E00063Q00042Q001E0007000100052Q004B0006000600072Q001E00073Q00052Q001E0008000100042Q007D0007000700082Q0043000600033Q00269200030002000100010004833Q0002000100122D000600033Q00208D0006000600042Q0066000700024Q007E0006000200022Q0066000400063Q00122D000600033Q00208D0006000600052Q0066000700024Q007E0006000200022Q0066000500063Q001216000300023Q0004833Q000200012Q00523Q00017Q00023Q0003093Q0053696C656E7441696D03053Q0056616C756500094Q00257Q00208D5Q00010006073Q000700013Q0004833Q000700012Q00257Q00208D5Q000100208D5Q00022Q00563Q00024Q00523Q00017Q00033Q0003133Q0053696C656E74486561644869744368616E636503053Q0056616C7565026Q005440000C4Q00257Q00208D5Q00010006073Q000900013Q0004833Q000900012Q00257Q00208D5Q000100208D5Q000200068A3Q000A000100010004833Q000A00010012163Q00034Q00563Q00024Q00523Q00017Q00033Q00030D3Q00464F56436972636C6553697A6503053Q0056616C7565026Q006940000C4Q00257Q00208D5Q00010006073Q000900013Q0004833Q000900012Q00257Q00208D5Q000100208D5Q000200068A3Q000A000100010004833Q000A00010012163Q00034Q00563Q00024Q00523Q00017Q00033Q00030B3Q0045535044697374616E636503053Q0056616C7565025Q00407F40000C4Q00257Q00208D5Q00010006073Q000900013Q0004833Q000900012Q00257Q00208D5Q000100208D5Q000200068A3Q000A000100010004833Q000A00010012163Q00034Q00563Q00024Q00523Q00017Q00173Q0003073Q00566563746F72322Q033Q006E6577030C3Q0056696577706F727453697A6503013Q0058027Q004003013Q005903053Q007061697273030A3Q00476574506C617965727303093Q00436861726163746572030E3Q0046696E6446697273744368696C64025Q00807C4003153Q0046696E6446697273744368696C644F66436C612Q73025Q00B07C40025Q00E07C4003063Q004865616C7468028Q00025Q00207D40025Q00507D4003143Q00576F726C64546F56696577706F7274506F696E7403083Q00506F736974696F6E026Q00F03F03093Q004D61676E697475646503063Q00434672616D6500794Q002500016Q002B00010001000200122D000200013Q00208D0002000200022Q0025000300013Q00208D00030003000300208D00030003000400201C0003000300052Q0025000400013Q00208D00040004000300208D00040004000600201C0004000400052Q004D00020004000200122D000300074Q0025000400023Q0020700004000400082Q006A000400054Q005C00033Q00050004833Q007500012Q0025000800033Q00066D00070075000100080004833Q0075000100208D0008000700090006070008007500013Q0004833Q0075000100208D00080007000900207000080008000A2Q0025000A00043Q00208D000A000A000B2Q004D0008000A00020006070008007500013Q0004833Q0075000100208D00080007000900207000080008000C2Q0025000A00043Q00208D000A000A000D2Q004D0008000A00020006070008007500013Q0004833Q0075000100208D00080007000900207000080008000C2Q0025000A00043Q00208D000A000A000E2Q004D0008000A000200208D00080008000F000E6400100075000100080004833Q00750001001216000800104Q0051000900093Q00269200080031000100100004833Q0031000100208D000A00070009002070000A000A000A2Q0025000C00043Q00208D000C000C00112Q004D000A000C0002000691000900400001000A0004833Q0040000100208D000A00070009002070000A000A000A2Q0025000C00043Q00208D000C000C00122Q004D000A000C00022Q00660009000A3Q0006070009007500013Q0004833Q00750001001216000A00104Q0051000B000C3Q002692000A0044000100100004833Q004400012Q0025000D00013Q002070000D000D001300208D000F000900142Q0082000D000F000E2Q0066000C000E4Q0066000B000D3Q000607000C007500013Q0004833Q00750001001216000D00104Q0051000E000F3Q002692000D0060000100150004833Q00600001000687000E0075000100010004833Q007500012Q0025001000054Q002B001000010002000642000F0075000100100004833Q00750001001216001000103Q00269200100059000100100004833Q005900012Q00663Q00074Q00660001000E3Q0004833Q007500010004833Q005900010004833Q00750001002692000D0050000100100004833Q0050000100122D001000013Q00208D00100010000200208D0011000B000400208D0012000B00062Q004D0010001200022Q004B00100010000200208D000E0010001600208D0010000900142Q0025001100013Q00208D00110011001700208D0011001100142Q004B00100010001100208D000F00100016001216000D00153Q0004833Q005000010004833Q007500010004833Q004400010004833Q007500010004833Q0031000100060500030013000100020004833Q001300012Q00563Q00024Q00523Q00017Q00163Q00028Q00026Q00F03F027Q004003043Q004E616D65025Q00307E40026Q001040025Q00388F40026Q00084003023Q005F47025Q00407E4003103Q0067657463612Q6C696E6773637269707403093Q0043686172616374657203043Q006D61746803063Q0072616E646F6D026Q005940030E3Q0046696E6446697273744368696C64025Q00907E40025Q00C07E40025Q00F07E40025Q00207F4003083Q00506F736974696F6E03083Q00496E7374616E636500723Q001216000100014Q0051000200053Q0026920001000D000100010004833Q000D00012Q007A00066Q003F00076Q006C00063Q00012Q0066000200064Q002500066Q003F00076Q003200063Q00022Q0066000300063Q001216000100023Q0026920001001C000100030004833Q001C00010006070004001700013Q0004833Q0017000100208D0006000400042Q0025000700013Q00208D00070007000500065700060017000100070004833Q001700012Q0056000300023Q00208D0006000200060026580006001B000100070004833Q001B00012Q0056000300023Q001216000100083Q0026920001001F000100060004833Q001F00012Q0056000300023Q00269200010030000100020004833Q003000012Q0025000600024Q002B00060001000200068A00060026000100010004833Q002600012Q0056000300023Q00122D000600094Q0025000700013Q00208D00070007000A2Q000200060006000700064E0004002F000100060004833Q002F000100122D0006000B4Q002B0006000100022Q0066000400063Q001216000100033Q00269200010002000100080004833Q000200012Q0025000600034Q002B0006000100022Q0066000500063Q0006070005006F00013Q0004833Q006F000100208D00060005000C0006070006006F00013Q0004833Q006F00012Q0051000600063Q00122D0007000D3Q00208D00070007000E001216000800013Q0012160009000F4Q004D0007000900022Q0025000800044Q002B00080001000200064200070052000100080004833Q0052000100208D00070005000C0020700007000700102Q0025000900013Q00208D0009000900112Q004D00070009000200069100060051000100070004833Q0051000100208D00070005000C0020700007000700102Q0025000900013Q00208D0009000900122Q004D0007000900022Q0066000600073Q0004833Q005F000100208D00070005000C0020700007000700102Q0025000900013Q00208D0009000900132Q004D0007000900020006910006005F000100070004833Q005F000100208D00070005000C0020700007000700102Q0025000900013Q00208D0009000900142Q004D0007000900022Q0066000600073Q0006070006006F00013Q0004833Q006F0001001216000700014Q0051000800083Q00269200070063000100010004833Q00630001001216000800013Q00269200080066000100010004833Q0066000100208D0009000600150010200003001500090010200003001600060004833Q006F00010004833Q006600010004833Q006F00010004833Q00630001001216000100063Q0004833Q000200012Q00523Q00017Q001D3Q00028Q00026Q00F03F03073Q0056697369626C652Q0103053Q00436F6C6F72030E3Q00464F56436972636C65436F6C6F7203053Q0056616C756503063Q00436F6C6F723303073Q0066726F6D524742025Q00E06F40027Q004003083Q00506F736974696F6E03073Q00566563746F72322Q033Q006E657703013Q005803013Q005903063Q00526164697573030D3Q00464F56436972636C6553697A65026Q006940030C3Q0056696577706F727453697A65010003073Q0044726177696E67025Q0038804003063Q0046692Q6C656403083Q004E756D5369646573026Q00504003093Q00546869636B6E652Q73030C3Q005472616E73706172656E637903093Q00464F56436972636C65005D3Q0012163Q00014Q0051000100013Q0026923Q0040000100020004833Q004000010006070001003D00013Q0004833Q003D0001001216000200014Q0051000300033Q0026920002001E000100010004833Q001E00012Q002500045Q00307C0004000300042Q002500046Q0025000500013Q00208D0005000500060006070005001600013Q0004833Q001600012Q0025000500013Q00208D00050005000600208D00050005000700068A0005001C000100010004833Q001C000100122D000500083Q00208D0005000500090012160006000A3Q0012160007000A3Q0012160008000A4Q004D000500080002001020000400050005001216000200023Q000E2C000B002A000100020004833Q002A00012Q002500045Q00122D0005000D3Q00208D00050005000E00208D00060003000F00201C00060006000B00208D00070003001000201C00070007000B2Q004D0005000700020010200004000C00050004833Q005C0001000E2C00020008000100020004833Q000800012Q002500046Q0025000500013Q00208D0005000500120006070005003600013Q0004833Q003600012Q0025000500013Q00208D00050005001200208D00050005000700068A00050037000100010004833Q00370001001216000500133Q0010200004001100052Q0025000400023Q00208D0003000400140012160002000B3Q0004833Q000800010004833Q005C00012Q002500025Q00307C0002000300150004833Q005C00010026923Q0002000100010004833Q000200012Q002500025Q00068A00020053000100010004833Q0053000100122D000200163Q00208D00020002000E2Q0025000300033Q00208D0003000300172Q007E0002000200022Q000F00026Q002500025Q00307C0002001800152Q002500025Q00307C00020019001A2Q002500025Q00307C0002001B000B2Q002500025Q00307C0002001C00022Q0025000200013Q00208D00020002001D00064E0001005A000100020004833Q005A00012Q0025000200013Q00208D00020002001D00208D0001000200070012163Q00023Q0004833Q000200012Q00523Q00017Q000B3Q00028Q00026Q00F03F03073Q0056697369626C652Q01030C3Q005472616E73706172656E6379027Q004003073Q0044726177696E672Q033Q006E6577025Q00C8814003093Q00546869636B6E652Q73026Q00F83F00553Q0012163Q00013Q0026923Q0001000100010004833Q000100012Q002500015Q0020270001000100022Q000F00016Q0025000100014Q002500026Q00020001000100020006070001002600013Q0004833Q00260001001216000100014Q0051000200023Q001216000300013Q000E2C0001000E000100030004833Q000E00010026920001001F000100010004833Q001F0001001216000400013Q0026920004001A000100010004833Q001A00012Q0025000500014Q002500066Q000200020005000600307C000200030004001216000400023Q000E2C00020013000100040004833Q00130001001216000100023Q0004833Q001F00010004833Q001300010026920001000D000100020004833Q000D00012Q0056000200023Q0004833Q000D00010004833Q000E00010004833Q000D00010004833Q00540001001216000100014Q0051000200023Q001216000300013Q000E2C0001003B000100030004833Q003B000100269200010030000100020004833Q0030000100307C00020005000200307C000200030004001216000100063Q0026920001003A000100060004833Q003A0001001216000400013Q00269200040033000100010004833Q003300012Q0025000500014Q002500066Q006E0005000600022Q0056000200023Q0004833Q00330001001216000300023Q00269200030029000100020004833Q0029000100269200010028000100010004833Q00280001001216000400013Q0026920004004A000100010004833Q004A000100122D000500073Q00208D0005000500082Q0025000600023Q00208D0006000600092Q007E0005000200022Q0066000200053Q00307C0002000A000B001216000400023Q00269200040040000100020004833Q00400001001216000100023Q0004833Q002800010004833Q004000010004833Q002800010004833Q002900010004833Q002800010004833Q005400010004833Q000100012Q00523Q00017Q00043Q00028Q00026Q00F03F03073Q0056697369626C65012Q00173Q0012163Q00014Q0051000100013Q0026923Q0002000100010004833Q00020001001216000100013Q00269200010005000100010004833Q00050001001216000200024Q002500036Q0090000300033Q001216000400023Q0004800002001000012Q002500066Q000200060006000500307C0006000300040004670002000C0001001216000200014Q000F000200013Q0004833Q001600010004833Q000500010004833Q001600010004833Q000200012Q00523Q00017Q000A3Q00028Q00030E3Q0046696E6446697273744368696C64025Q00E8814003083Q00506F736974696F6E03073Q00566563746F72332Q033Q006E657703043Q0053697A6503013Q0059027Q0040026Q00F03F011D3Q001216000100014Q0051000200023Q00269200010017000100010004833Q0017000100207000033Q00022Q002500055Q00208D0005000500032Q004D0003000500022Q0066000200033Q0006070002001600013Q0004833Q0016000100208D00030002000400122D000400053Q00208D000400040006001216000500013Q00208D00060002000700208D00060006000800201C000600060009001216000700014Q004D0004000700022Q004B0003000300042Q0056000300023Q0012160001000A3Q002692000100020001000A0004833Q000200012Q0051000300034Q0056000300023Q0004833Q000200012Q00523Q00017Q00083Q00028Q00026Q00084003013Q005803013Q0059027Q0040026Q00F03F03043Q006D61746803043Q0073717274032B3Q001216000300014Q0051000400083Q0026920003000A000100020004833Q000A00012Q007A00093Q00022Q001E000A0007000200102000090003000A2Q001E000A0008000200102000090004000A2Q0056000900023Q000E2C00050010000100030004833Q001000012Q001B000900054Q00120007000900062Q0012000800040006001216000300023Q00269200030019000100010004833Q0019000100208D00090001000300208D000A3Q00032Q004B00040009000A00208D00090001000400208D000A3Q00042Q004B00050009000A001216000300063Q00269200030002000100060004833Q0002000100122D000900073Q00208D0009000900082Q001E000A000400042Q001E000B000500052Q007D000A000A000B2Q007E0009000200022Q0066000600093Q00269200060028000100010004833Q002800012Q007A00093Q000200307C00090003000100307C0009000400012Q0056000900023Q001216000300053Q0004833Q000200012Q00523Q00017Q001B3Q0003153Q0046696E6446697273744368696C644F66436C612Q73025Q0060824003073Q005269675479706503043Q00456E756D030F3Q0048756D616E6F69645269675479706503023Q00523603053Q007061697273028Q00030E3Q0046696E6446697273744368696C64026Q00F03F027Q004003143Q00576F726C64546F56696577706F7274506F696E7403083Q00506F736974696F6E03063Q00697061697273026Q00F0BF03013Q005803013Q005903043Q0046726F6D03073Q00566563746F72322Q033Q006E657703023Q00546F03053Q00436F6C6F7203063Q00436F6C6F723303093Q00546869636B6E652Q7303073Q0056697369626C652Q01026Q00E03F02B13Q00068A3Q0003000100010004833Q000300012Q00523Q00013Q00207000023Q00012Q002500045Q00208D0004000400022Q004D00020004000200068A0002000A000100010004833Q000A00012Q00523Q00013Q00208D00030002000300122D000400043Q00208D00040004000500208D00040004000600065700030013000100040004833Q001300012Q0025000400013Q00068A00040014000100010004833Q001400012Q0025000400023Q00122D000500074Q0066000600044Q00550005000200070004833Q00AE0001001216000A00084Q0051000B000C3Q002692000A002D000100080004833Q002D0001001216000D00083Q002692000D0028000100080004833Q00280001002070000E3Q000900208D00100009000A2Q004D000E001000022Q0066000B000E3Q002070000E3Q000900208D00100009000B2Q004D000E001000022Q0066000C000E3Q001216000D000A3Q000E2C000A001D0001000D0004833Q001D0001001216000A000A3Q0004833Q002D00010004833Q001D0001002692000A001A0001000A0004833Q001A0001000607000B00AE00013Q0004833Q00AE0001000607000C00AE00013Q0004833Q00AE0001001216000D00084Q0051000E00113Q002692000D0044000100080004833Q004400012Q0025001200033Q00207000120012000C00208D0014000B000D2Q00820012001400132Q0066000F00134Q0066000E00124Q0025001200033Q00207000120012000C00208D0014000C000D2Q00820012001400132Q0066001100134Q0066001000123Q001216000D000A3Q000E2C000A00350001000D0004833Q00350001000607000F00AE00013Q0004833Q00AE0001000607001100AE00013Q0004833Q00AE0001001216001200084Q0051001300173Q0026920012008D0001000A0004833Q008D000100122D0018000E4Q007A001900023Q001216001A000F3Q001216001B000A4Q00220019000200012Q005500180002001A0004833Q007B00012Q007A001D3Q000200208D001E001600102Q001E001E001E001C001020001D0010001E00208D001E001600112Q001E001E001E001C001020001D0011001E2Q0025001E00044Q002B001E0001000200122D001F00133Q00208D001F001F001400208D00200013001000208D0021001D00102Q007D00200020002100208D00210013001100208D0022001D00112Q007D0021002100222Q004D001F00210002001020001E0012001F00122D001F00133Q00208D001F001F001400208D00200014001000208D0021001D00102Q007D00200020002100208D00210014001100208D0022001D00112Q007D0021002100222Q004D001F00210002001020001E0015001F00122D001F00173Q00208D001F001F0014001216002000083Q001216002100083Q001216002200084Q004D001F00220002001020001E0016001F00307C001E0018000A00307C001E0019001A00060500180055000100020004833Q005500012Q0025001800044Q002B0018000100022Q0066001700183Q00122D001800133Q00208D00180018001400208D00190013001000208D001A001300112Q004D0018001A000200102000170012001800122D001800133Q00208D00180018001400208D00190014001000208D001A001400112Q004D0018001A00020010200017001500180012160012000B3Q002692001200930001000B0004833Q0093000100102000170016000100307C00170018000A00307C00170019001A0004833Q00AE00010026920012004C000100080004833Q004C00012Q007A00183Q000200208D0019000E001000102000180010001900208D0019000E00110010200018001100192Q0066001300184Q007A00183Q000200208D00190010001000102000180010001900208D0019001000110010200018001100192Q0066001400183Q0012160015001B4Q0025001800054Q0066001900134Q0066001A00144Q0066001B00154Q004D0018001B00022Q0066001600183Q0012160012000A3Q0004833Q004C00010004833Q00AE00010004833Q003500010004833Q00AE00010004833Q001A000100060500050018000100020004833Q001800012Q00523Q00017Q00133Q00028Q00026Q00F03F03073Q0056697369626C652Q01026Q00104003063Q0043656E74657203073Q004F75746C696E65027Q0040026Q00084003073Q0044726177696E672Q033Q006E6577025Q0010844003043Q0053697A65026Q003040030C3Q004F75746C696E65436F6C6F7203063Q00436F6C6F723303073Q0066726F6D52474203053Q00436F6C6F72025Q00E06F40006F3Q0012163Q00014Q0051000100013Q0026923Q0002000100010004833Q00020001001216000100013Q00269200010005000100010004833Q000500012Q002500025Q0020270002000200022Q000F00026Q0025000200014Q002500036Q00020002000200030006070002002A00013Q0004833Q002A0001001216000200014Q0051000300033Q001216000400013Q00269200040012000100010004833Q0012000100269200020017000100020004833Q001700012Q0056000300023Q00269200020011000100010004833Q00110001001216000500013Q00269200050021000100010004833Q002100012Q0025000600014Q002500076Q000200030006000700307C000300030004001216000500023Q0026920005001A000100020004833Q001A0001001216000200023Q0004833Q001100010004833Q001A00010004833Q001100010004833Q001200010004833Q001100010004833Q006E0001001216000200014Q0051000300033Q001216000400013Q000E2C00010038000100040004833Q0038000100269200020032000100050004833Q003200012Q0056000300023Q00269200020037000100020004833Q0037000100307C00030006000400307C000300070004001216000200083Q001216000400023Q00269200040042000100080004833Q004200010026920002002C000100090004833Q002C000100307C0003000300042Q0025000500014Q002500066Q006E000500060003001216000200053Q0004833Q002C0001000E2C0002002D000100040004833Q002D000100269200020056000100010004833Q00560001001216000500013Q00269200050051000100010004833Q0051000100122D0006000A3Q00208D00060006000B2Q0025000700023Q00208D00070007000C2Q007E0006000200022Q0066000300063Q00307C0003000D000E001216000500023Q000E2C00020047000100050004833Q00470001001216000200023Q0004833Q005600010004833Q00470001000E2C00080067000100020004833Q0067000100122D000500103Q00208D000500050011001216000600013Q001216000700013Q001216000800014Q004D0005000800020010200003000F000500122D000500103Q00208D000500050011001216000600133Q001216000700133Q001216000800134Q004D000500080002001020000300120005001216000200093Q001216000400083Q0004833Q002D00010004833Q002C00010004833Q006E00010004833Q000500010004833Q006E00010004833Q000200012Q00523Q00017Q00043Q00028Q00026Q00F03F03073Q0056697369626C65012Q00173Q0012163Q00014Q0051000100013Q000E2C0001000200013Q0004833Q00020001001216000100013Q000E2C00010005000100010004833Q00050001001216000200024Q002500036Q0090000300033Q001216000400023Q0004800002001000012Q002500066Q000200060006000500307C0006000300040004670002000C0001001216000200014Q000F000200013Q0004833Q001600010004833Q000500010004833Q001600010004833Q000200012Q00523Q00017Q00133Q00028Q00026Q00F03F03073Q0056697369626C652Q01026Q000840026Q00104003073Q0044726177696E672Q033Q006E6577025Q0060844003043Q0053697A65026Q003040027Q0040030C3Q004F75746C696E65436F6C6F7203063Q00436F6C6F723303073Q0066726F6D52474203053Q00436F6C6F72025Q00E06F4003063Q0043656E74657203073Q004F75746C696E65004F3Q0012163Q00014Q0051000100013Q0026923Q0002000100010004833Q00020001001216000100013Q00269200010005000100010004833Q000500012Q002500025Q0020270002000200022Q000F00026Q0025000200014Q002500036Q00020002000200030006070002001D00013Q0004833Q001D0001001216000200014Q0051000300033Q00269200020014000100020004833Q001400012Q0056000300023Q00269200020011000100010004833Q001100012Q0025000400014Q002500056Q000200030004000500307C000300030004001216000200023Q0004833Q001100010004833Q004E0001001216000200014Q0051000300033Q00269200020026000100050004833Q0026000100307C0003000300042Q0025000400014Q002500056Q006E000400050003001216000200063Q00269200020029000100060004833Q002900012Q0056000300023Q00269200020033000100010004833Q0033000100122D000400073Q00208D0004000400082Q0025000500023Q00208D0005000500092Q007E0004000200022Q0066000300043Q00307C0003000A000B001216000200023Q002692000200440001000C0004833Q0044000100122D0004000E3Q00208D00040004000F001216000500013Q001216000600013Q001216000700014Q004D0004000700020010200003000D000400122D0004000E3Q00208D00040004000F001216000500113Q001216000600113Q001216000700114Q004D000400070002001020000300100004001216000200053Q0026920002001F000100020004833Q001F000100307C00030012000400307C0003001300040012160002000C3Q0004833Q001F00010004833Q004E00010004833Q000500010004833Q004E00010004833Q000200012Q00523Q00017Q00043Q00028Q00026Q00F03F03073Q0056697369626C65012Q00173Q0012163Q00014Q0051000100013Q0026923Q0002000100010004833Q00020001001216000100013Q00269200010005000100010004833Q00050001001216000200024Q002500036Q0090000300033Q001216000400023Q0004800002001000012Q002500066Q000200060006000500307C0006000300040004670002000C0001001216000200014Q000F000200013Q0004833Q001600010004833Q000500010004833Q001600010004833Q000200012Q00523Q00017Q00143Q00028Q00026Q00F03F03073Q0056697369626C652Q0103073Q0044726177696E672Q033Q006E6577025Q00B8844003043Q0053697A65026Q00304003063Q0043656E74657203073Q004F75746C696E65027Q0040026Q001040026Q00084003043Q00466F6E74030C3Q004F75746C696E65436F6C6F7203063Q00436F6C6F723303073Q0066726F6D52474203053Q00436F6C6F72025Q00E06F40005A3Q0012163Q00013Q0026923Q0001000100010004833Q000100012Q002500015Q0020270001000100022Q000F00016Q0025000100014Q002500026Q00020001000100020006070001002100013Q0004833Q00210001001216000100014Q0051000200023Q0026920001001C000100010004833Q001C0001001216000300013Q00269200030017000100010004833Q001700012Q0025000400014Q002500056Q000200020004000500307C000200030004001216000300023Q00269200030010000100020004833Q00100001001216000100023Q0004833Q001C00010004833Q001000010026920001000D000100020004833Q000D00012Q0056000200023Q0004833Q000D00010004833Q00590001001216000100014Q0051000200023Q00269200010035000100010004833Q00350001001216000300013Q0026920003002A000100020004833Q002A0001001216000100023Q0004833Q0035000100269200030026000100010004833Q0026000100122D000400053Q00208D0004000400062Q0025000500023Q00208D0005000500072Q007E0004000200022Q0066000200043Q00307C000200080009001216000300023Q0004833Q002600010026920001003A000100020004833Q003A000100307C0002000A000400307C0002000B00040012160001000C3Q002692000100400001000D0004833Q004000012Q0025000300014Q002500046Q006E0003000400022Q0056000200023Q002692000100450001000E0004833Q0045000100307C0002000F000E00307C0002000300040012160001000D3Q002692000100230001000C0004833Q0023000100122D000300113Q00208D000300030012001216000400013Q001216000500013Q001216000600014Q004D00030006000200102000020010000300122D000300113Q00208D000300030012001216000400143Q001216000500143Q001216000600144Q004D0003000600020010200002001300030012160001000E3Q0004833Q002300010004833Q005900010004833Q000100012Q00523Q00017Q00043Q00028Q00026Q00F03F03073Q0056697369626C65012Q00173Q0012163Q00014Q0051000100013Q0026923Q0002000100010004833Q00020001001216000100013Q000E2C00010005000100010004833Q00050001001216000200024Q002500036Q0090000300033Q001216000400023Q0004800002001000012Q002500066Q000200060006000500307C0006000300040004670002000C0001001216000200014Q000F000200013Q0004833Q001600010004833Q000500010004833Q001600010004833Q000200012Q00523Q00017Q00113Q00028Q00026Q00084003063Q00506172656E7403083Q00496E7374616E63652Q033Q006E6577025Q00208540026Q00F03F027Q004003103Q0046692Q6C5472616E73706172656E6379026Q33D33F03133Q004F75746C696E655472616E73706172656E637903093Q0044657074684D6F646503043Q00456E756D03123Q00486967686C6967687444657074684D6F6465030B3Q00416C776179734F6E546F7003073Q00456E61626C65643Q01373Q001216000100014Q0051000200023Q001216000300013Q00269200030024000100010004833Q002400010026920001000E000100020004833Q000E0001001216000400013Q00269200040008000100010004833Q000800012Q002500056Q006E00053Q00022Q0056000200023Q0004833Q00080001000E2C00010023000100010004833Q002300012Q002500046Q0002000400043Q0006070004001C00013Q0004833Q001C00012Q002500046Q0002000400043Q00208D0004000400030006070004001C00013Q0004833Q001C00012Q002500046Q0002000400044Q0056000400023Q00122D000400043Q00208D0004000400052Q0025000500013Q00208D0005000500062Q007E0004000200022Q0066000200043Q001216000100073Q001216000300073Q00269200030003000100070004833Q000300010026920001002B000100080004833Q002B000100307C00020009000A00307C0002000B0007001216000100023Q00269200010002000100070004833Q0002000100122D0004000D3Q00208D00040004000E00208D00040004000F0010200002000C000400307C000200100011001216000100083Q0004833Q000200010004833Q000300010004833Q000200012Q00523Q00017Q00033Q00028Q0003073Q0044657374726F790001164Q002500016Q0002000100013Q0006070001001500013Q0004833Q00150001001216000100014Q0051000200023Q00269200010006000100010004833Q00060001001216000200013Q00269200020009000100010004833Q000900012Q002500036Q0002000300033Q0020700003000300022Q003A0003000200012Q002500035Q00205400033Q00030004833Q001500010004833Q000900010004833Q001500010004833Q000600012Q00523Q00017Q00163Q00030C3Q00486967686C6967687445535003053Q0056616C7565028Q00026Q00F03F03113Q00486967686C69676874455350436F6C6F7203063Q00436F6C6F723303073Q0066726F6D524742025Q00E06F4003093Q00436861726163746572030E3Q0046696E6446697273744368696C64025Q00A8854003063Q00697061697273030A3Q00476574506C617965727303083Q00506F736974696F6E03093Q004D61676E697475646503073Q0041646F726E2Q6503093Q0046692Q6C436F6C6F72027Q004003063Q00506172656E7403073Q00456E61626C65642Q01026Q00864000974Q00257Q00208D5Q00010006073Q008800013Q0004833Q008800012Q00257Q00208D5Q000100208D5Q00020006073Q008800013Q0004833Q008800010012163Q00034Q0051000100033Q000E2C0003002800013Q0004833Q00280001001216000400033Q00269200040012000100040004833Q001200010012163Q00043Q0004833Q002800010026920004000E000100030004833Q000E00012Q002500055Q00208D0005000500050006070005001D00013Q0004833Q001D00012Q002500055Q00208D00050005000500208D00050005000200069100010024000100050004833Q0024000100122D000500063Q00208D000500050007001216000600083Q001216000700083Q001216000800084Q004D0005000800022Q0066000100054Q0025000500013Q00208D000200050009001216000400043Q0004833Q000E00010026923Q000B000100040004833Q000B000100064E00030031000100020004833Q0031000100207000040002000A2Q0025000600023Q00208D00060006000B2Q004D0004000600022Q0066000300043Q00122D0004000C4Q0025000500033Q00207000050005000D2Q006A000500064Q005C00043Q00060004833Q008300012Q0025000900013Q00066D00080083000100090004833Q00830001001216000900034Q0051000A000B3Q00269200090077000100040004833Q00770001000607000A007300013Q0004833Q00730001000607000B007300013Q0004833Q007300010006070003007300013Q0004833Q00730001001216000C00034Q0051000D000D3Q002692000C0046000100030004833Q0046000100208D000E0003000E00208D000F000B000E2Q004B000E000E000F00208D000D000E000F2Q0025000E00044Q002B000E00010002000642000D006D0001000E0004833Q006D0001001216000E00034Q0051000F000F3Q002692000E0057000100040004833Q00570001001020000F0010000A001020000F00110001001216000E00123Q002692000E0067000100030004833Q00670001001216001000033Q0026920010005E000100040004833Q005E0001001216000E00043Q0004833Q006700010026920010005A000100030004833Q005A00012Q0025001100054Q0066001200084Q007E0011000200022Q0066000F00113Q001020000F0013000A001216001000043Q0004833Q005A0001000E2C001200520001000E0004833Q0052000100307C000F001400150004833Q008300010004833Q005200010004833Q008300012Q0025000E00064Q0066000F00084Q003A000E000200010004833Q008300010004833Q004600010004833Q008300012Q0025000C00064Q0066000D00084Q003A000C000200010004833Q00830001000E2C0003003C000100090004833Q003C000100208D000A0008000900064E000B00810001000A0004833Q00810001002070000C000A000A2Q0025000E00023Q00208D000E000E00162Q004D000C000E00022Q0066000B000C3Q001216000900043Q0004833Q003C000100060500040037000100020004833Q003700010004833Q009600010004833Q000B00010004833Q0096000100122D3Q000C4Q0025000100033Q00207000010001000D2Q006A000100024Q005C5Q00020004833Q009400012Q0025000500013Q00066D00040094000100050004833Q009400012Q0025000500064Q0066000600044Q003A0005000200010006053Q008E000100020004833Q008E00012Q00523Q00019Q002Q0001044Q002500016Q006600026Q003A0001000200012Q00523Q00017Q000C3Q00028Q00027Q0040026Q00F03F03063Q00737472696E6703063Q00676D61746368025Q0040864003043Q0067737562025Q00508640034Q00025Q0068864003053Q007461626C6503063Q00696E73657274013C3Q001216000100014Q0051000200023Q00269200010005000100020004833Q000500012Q00563Q00023Q00269200010031000100030004833Q0031000100122D000300043Q00208D0003000300052Q006600046Q002500055Q00208D0005000500062Q00820003000500050004833Q00290001001216000700014Q0051000800083Q00269200070010000100010004833Q00100001001216000800013Q00269200080013000100010004833Q001300010020700009000600072Q0025000B5Q00208D000B000B0008001216000C00094Q004D0009000C00020020700009000900072Q0025000B5Q00208D000B000B000A001216000C00094Q004D0009000C00022Q0066000600093Q00122D0009000B3Q00208D00090009000C2Q0066000A00024Q0066000B00064Q00720009000B00010004833Q002900010004833Q001300010004833Q002900010004833Q001000010006050003000E000100010004833Q000E00012Q0090000300023Q000E0B00020030000100030004833Q0030000100208D0003000200022Q0056000300023Q001216000100023Q00269200010002000100010004833Q0002000100068A3Q0037000100010004833Q00370001001216000300094Q0056000300024Q007A00036Q0066000200033Q001216000100033Q0004833Q000200012Q00523Q00017Q00093Q00028Q0003053Q007061697273030B3Q004765744368696C6472656E2Q033Q00497341025Q0098864003063Q00737472696E6703043Q0066696E6403043Q004E616D65026Q00F03F01253Q001216000100013Q0026920001001F000100010004833Q001F00012Q002500025Q00068A00020008000100010004833Q000800012Q0051000200024Q0056000200023Q00122D000200024Q002500035Q0020700003000300032Q006A000300044Q005C00023Q00040004833Q001C00010020700007000600042Q0025000900013Q00208D0009000900052Q004D0007000900020006070007001C00013Q0004833Q001C000100122D000700063Q00208D00070007000700208D00080006000800208D00093Q00082Q004D0007000900020006070007001C00013Q0004833Q001C00012Q0056000600023Q0006050002000E000100020004833Q000E0001001216000100093Q00269200010001000100090004833Q000100012Q0051000200024Q0056000200023Q0004833Q000100012Q00523Q00017Q000E3Q00028Q00026Q00F03F030E3Q0046696E6446697273744368696C64025Q00488740030A3Q004974656D56697375616C03053Q007061697273025Q00588740025Q00608740025Q00688740025Q00708740025Q0078874003053Q007461626C6503063Q00696E73657274030B3Q004765744368696C6472656E014A3Q001216000100014Q0051000200023Q00269200010005000100020004833Q000500012Q0056000200023Q00269200010002000100010004833Q000200012Q007A00036Q0066000200033Q00207000033Q00032Q002500055Q00208D0005000500042Q004D0003000500020006070003004700013Q0004833Q00470001001216000300014Q0051000400043Q00269200030011000100010004833Q0011000100208D00043Q000500122D000500064Q007A000600054Q002500075Q00208D0007000700072Q002500085Q00208D0008000800082Q002500095Q00208D0009000900092Q0025000A5Q00208D000A000A000A2Q0025000B5Q00208D000B000B000B2Q00220006000500012Q00550005000200070004833Q00430001002070000A000400032Q0066000C00094Q004D000A000C0002000607000A004300013Q0004833Q00430001001216000A00014Q0051000B000B3Q002692000A0033000100010004833Q003300012Q0002000B0004000900122D000C000C3Q00208D000C000C000D2Q0066000D00024Q0066000E000B4Q0072000C000E0001001216000A00023Q002692000A002A000100020004833Q002A000100122D000C00063Q002070000D000B000E2Q006A000D000E4Q005C000C3Q000E0004833Q003F000100122D0011000C3Q00208D00110011000D2Q0066001200024Q0066001300104Q0072001100130001000605000C003A000100020004833Q003A00010004833Q004300010004833Q002A000100060500050023000100020004833Q002300010004833Q004700010004833Q00110001001216000100023Q0004833Q000200012Q00523Q00017Q00103Q00028Q00026Q00F03F03023Q005F47025Q00A08740030E3Q0046696E6446697273744368696C64025Q00B08740025Q00C0874003063Q00697061697273030E3Q0047657444657363656E64616E74732Q033Q00497341025Q00D8874003043Q004E616D65025Q00E88740025Q00F8874003053Q007461626C6503063Q00696E73657274004A3Q0012163Q00014Q0051000100033Q0026923Q0043000100020004833Q004300012Q0051000300033Q000E2C00010013000100010004833Q001300012Q007A00046Q0066000200043Q00122D000400034Q002500055Q00208D0005000500042Q00020004000400050020700004000400052Q002500065Q00208D0006000600062Q004D0004000600022Q0066000300043Q001216000100023Q000E2C00020005000100010004833Q000500010006070003004000013Q0004833Q00400001001216000400014Q0051000500053Q00269200040019000100010004833Q001900010020700006000300052Q002500085Q00208D0008000800072Q004D0006000800022Q0066000500063Q0006070005004000013Q0004833Q0040000100122D000600083Q0020700007000500092Q006A000700084Q005C00063Q00080004833Q003C0001002070000B000A000A2Q0025000D5Q00208D000D000D000B2Q004D000B000D0002000607000B003C00013Q0004833Q003C000100208D000B000A000C2Q0025000C5Q00208D000C000C000D00066D000B00370001000C0004833Q0037000100208D000B000A000C2Q0025000C5Q00208D000C000C000E000657000B003C0001000C0004833Q003C000100122D000B000F3Q00208D000B000B00102Q0066000C00024Q0066000D000A4Q0072000B000D000100060500060027000100020004833Q002700010004833Q004000010004833Q001900012Q0056000200023Q0004833Q000500010004833Q004900010026923Q0002000100010004833Q00020001001216000100014Q0051000200023Q0012163Q00023Q0004833Q000200012Q00523Q00017Q00103Q00028Q0003053Q007061697273030B3Q004765744368696C6472656E2Q033Q00497341025Q00188840025Q00288840030E3Q0046696E6446697273744368696C64025Q00388840030E3Q00497344657363656E64616E744F6603073Q004C65667441726D025Q0058884003083Q00526967687441726D025Q0070884003053Q00436F6C6F72025Q0080884003083Q004D6174657269616C00533Q0012163Q00013Q0026923Q0001000100010004833Q000100012Q002500015Q00068A00010007000100010004833Q000700012Q00523Q00013Q00122D000100024Q002500025Q0020700002000200032Q006A000200034Q005C00013Q00030004833Q004E00010020700006000500042Q0025000800013Q00208D0008000800052Q004D0006000800020006070006004E00013Q0004833Q004E0001001216000600014Q0051000700073Q000E2C00010015000100060004833Q001500012Q0025000800024Q0066000900054Q007E0008000200022Q0066000700083Q00122D000800024Q0066000900074Q005500080002000A0004833Q004A0001002070000D000C00042Q0025000F00013Q00208D000F000F00062Q004D000D000F0002000607000D004A00013Q0004833Q004A0001002070000D000500072Q0025000F00013Q00208D000F000F00082Q004D000D000F0002000607000D003000013Q0004833Q00300001002070000D000C000900208D000F0005000A2Q004D000D000F000200068A000D004A000100010004833Q004A0001002070000D000500072Q0025000F00013Q00208D000F000F000B2Q004D000D000F0002000607000D003B00013Q0004833Q003B0001002070000D000C000900208D000F0005000C2Q004D000D000F000200068A000D004A000100010004833Q004A00012Q0025000D00034Q0002000D000D000C00068A000D004A000100010004833Q004A00012Q0025000D00034Q007A000E3Q00022Q0025000F00013Q00208D000F000F000D00208D0010000C000E2Q006E000E000F00102Q0025000F00013Q00208D000F000F000F00208D0010000C00102Q006E000E000F00102Q006E000D000C000E0006050008001F000100020004833Q001F00010004833Q004E00010004833Q001500010006050001000D000100020004833Q000D00010004833Q005200010004833Q000100012Q00523Q00017Q00063Q00028Q0003053Q007061697273025Q0090884003053Q00436F6C6F72025Q00A0884003083Q004D6174657269616C001F3Q0012163Q00014Q0051000100013Q0026923Q0002000100010004833Q000200012Q002500026Q002B0002000100022Q0066000100023Q00122D000200024Q0066000300014Q00550002000200040004833Q001A00012Q0025000700014Q000200070007000600068A0007001A000100010004833Q001A00012Q0025000700014Q007A00083Q00022Q0025000900023Q00208D00090009000300208D000A000600042Q006E00080009000A2Q0025000900023Q00208D00090009000500208D000A000600062Q006E00080009000A2Q006E0007000600080006050002000B000100020004833Q000B00010004833Q001E00010004833Q000200012Q00523Q00017Q00053Q00028Q0003053Q00706169727303063Q00506172656E7403053Q00436F6C6F7203083Q004D6174657269616C00223Q0012163Q00014Q0051000100013Q0026923Q0002000100010004833Q00020001001216000100013Q00269200010005000100010004833Q0005000100122D000200024Q002500036Q00550002000200040004833Q001900010006070005001900013Q0004833Q0019000100208D0007000500030006070007001900013Q0004833Q00190001001216000700013Q000E2C00010011000100070004833Q0011000100208D00080006000400102000050004000800208D0008000600050010200005000500080004833Q001900010004833Q001100010006050002000B000100020004833Q000B00012Q007A00026Q000F00025Q0004833Q002100010004833Q000500010004833Q002100010004833Q000200012Q00523Q00017Q00073Q00028Q0003053Q00706169727303063Q00506172656E74026Q00F03F030B3Q005265666C656374616E636503053Q00436F6C6F7203083Q004D6174657269616C00213Q0012163Q00013Q0026923Q0001000100010004833Q0001000100122D000100024Q002500026Q00550001000200030004833Q001A00010006070004001A00013Q0004833Q001A000100208D0006000400030006070006001A00013Q0004833Q001A0001001216000600013Q00269200060012000100040004833Q0012000100208D0007000500050010200004000500070004833Q001A00010026920006000D000100010004833Q000D000100208D00070005000600102000040006000700208D000700050007001020000400070007001216000600043Q0004833Q000D000100060500010007000100020004833Q000700012Q007A00016Q000F00015Q0004833Q002000010004833Q000100012Q00523Q00017Q00013Q00028Q00011C3Q0006073Q000C00013Q0004833Q000C0001001216000100013Q00269200010003000100010004833Q000300012Q002500026Q00330002000100012Q0039000200014Q000F000200013Q0004833Q001B00010004833Q000300010004833Q001B0001001216000100014Q0051000200023Q0026920001000E000100010004833Q000E0001001216000200013Q00269200020011000100010004833Q001100012Q003900036Q000F000300014Q0025000300024Q00330003000100010004833Q001B00010004833Q001100010004833Q001B00010004833Q000E00012Q00523Q00017Q00013Q00028Q00011C3Q0006073Q001200013Q0004833Q00120001001216000100014Q0051000200023Q00269200010004000100010004833Q00040001001216000200013Q00269200020007000100010004833Q000700012Q002500036Q00330003000100012Q0039000300014Q000F000300013Q0004833Q001B00010004833Q000700010004833Q001B00010004833Q000400010004833Q001B0001001216000100013Q00269200010013000100010004833Q001300012Q003900026Q000F000200014Q0025000200024Q00330002000100010004833Q001B00010004833Q001300012Q00523Q00017Q00503Q00030F3Q005261696E626F7747756E4368616D7303053Q0056616C7565028Q0003043Q007469636B029A5Q99C93F026Q00F03F03053Q007061697273030B3Q004765744368696C6472656E2Q033Q00497341025Q00788940025Q00888940030E3Q0046696E6446697273744368696C64025Q00988940030E3Q00497344657363656E64616E744F6603073Q004C65667441726D025Q00B8894003083Q00526967687441726D025Q00D0894003053Q00436F6C6F72025Q00E0894003083Q004D6174657269616C03063Q00436F6C6F723303073Q0066726F6D48535603043Q00456E756D03043Q004E656F6E030F3Q005261696E626F7741726D4368616D73025Q00308A40025Q00408A40025Q00508A40030B3Q005265666C656374616E6365029A5Q99B93F030B3Q00536B656C65746F6E45535003103Q00536B656C65746F6E455350436F6C6F7203073Q0066726F6D524742025Q00E06F4003093Q00436861726163746572025Q00D88A4003063Q00697061697273030A3Q00476574506C617965727303083Q00506F736974696F6E03093Q004D61676E6974756465025Q00108B40030B3Q0044697374616E636545535003103Q0044697374616E6365455350436F6C6F72025Q00608B40026Q000840030C3Q004F75746C696E65436F6C6F7203023Q005F4703123Q006C61737444697374616E636545532Q506F73025Q00A08B40025Q00A88B4003073Q00566563746F72322Q033Q006E657703013Q005803013Q0059027Q004003073Q0056697369626C652Q0103073Q004F75746C696E6503043Q005465787403043Q006D61746803053Q00666C2Q6F7203013Q006D03073Q00566563746F723303043Q0053697A6503143Q00576F726C64546F56696577706F7274506F696E74025Q00388C4003073Q004E616D65455350030C3Q004E616D65455350436F6C6F72025Q00888C40025Q00A88C40025Q00B88C4003043Q004E616D65026Q00344003093Q00576561706F6E455350030E3Q00576561706F6E455350436F6C6F72025Q00888D40025Q00A88D40034Q00026Q002640001E033Q00258Q00333Q000100012Q00253Q00014Q00333Q000100012Q00253Q00024Q00333Q000100012Q00253Q00033Q00208D5Q00010006073Q007900013Q0004833Q007900012Q00253Q00033Q00208D5Q000100208D5Q00020006073Q007900013Q0004833Q007900010012163Q00034Q0051000100013Q0026923Q0011000100030004833Q0011000100122D000200044Q002B00020001000200206B0002000200050020630001000200062Q0025000200043Q0006070002008B00013Q0004833Q008B000100122D000200074Q0025000300043Q0020700003000300082Q006A000300044Q005C00023Q00040004833Q007400010020700007000600092Q0025000900053Q00208D00090009000A2Q004D0007000900020006070007007400013Q0004833Q00740001001216000700034Q0051000800083Q00269200070028000100030004833Q002800012Q0025000900064Q0066000A00064Q007E0009000200022Q0066000800093Q00122D000900074Q0066000A00084Q005500090002000B0004833Q00700001002070000E000D00092Q0025001000053Q00208D00100010000B2Q004D000E00100002000607000E007000013Q0004833Q00700001002070000E0006000C2Q0025001000053Q00208D00100010000D2Q004D000E00100002000607000E004300013Q0004833Q00430001002070000E000D000E00208D00100006000F2Q004D000E0010000200068A000E0070000100010004833Q00700001002070000E0006000C2Q0025001000053Q00208D0010001000102Q004D000E00100002000607000E004E00013Q0004833Q004E0001002070000E000D000E00208D0010000600112Q004D000E0010000200068A000E0070000100010004833Q00700001001216000E00033Q002692000E0068000100030004833Q006800012Q0025000F00074Q0002000F000F000D00068A000F0060000100010004833Q006000012Q0025000F00074Q007A00103Q00022Q0025001100053Q00208D00110011001200208D0012000D00132Q006E0010001100122Q0025001100053Q00208D00110011001400208D0012000D00152Q006E0010001100122Q006E000F000D001000122D000F00163Q00208D000F000F00172Q0066001000013Q001216001100063Q001216001200064Q004D000F00120002001020000D0013000F001216000E00063Q002692000E004F000100060004833Q004F000100122D000F00183Q00208D000F000F001500208D000F000F0019001020000D0015000F0004833Q007000010004833Q004F000100060500090032000100020004833Q003200010004833Q007400010004833Q0028000100060500020020000100020004833Q002000010004833Q008B00010004833Q001100010004833Q008B00012Q00253Q00083Q0006073Q008B00013Q0004833Q008B00010012163Q00034Q0051000100013Q0026923Q007E000100030004833Q007E0001001216000100033Q00269200010081000100030004833Q008100012Q0025000200094Q00330002000100012Q003900026Q000F000200083Q0004833Q008B00010004833Q008100010004833Q008B00010004833Q007E00012Q00253Q00033Q00208D5Q001A0006073Q00D200013Q0004833Q00D200012Q00253Q00033Q00208D5Q001A00208D5Q00020006073Q00D200013Q0004833Q00D200010012163Q00034Q0051000100023Q000E2C000600C600013Q0004833Q00C6000100122D000300074Q0066000400024Q00550003000200050004833Q00C30001001216000800033Q002692000800BA000100030004833Q00BA00012Q00250009000A4Q000200090009000700068A000900B2000100010004833Q00B200012Q00250009000A4Q007A000A3Q00032Q0025000B00053Q00208D000B000B001B00208D000C000700132Q006E000A000B000C2Q0025000B00053Q00208D000B000B001C00208D000C000700152Q006E000A000B000C2Q0025000B00053Q00208D000B000B001D00208D000C0007001E2Q006E000A000B000C2Q006E00090007000A00122D000900163Q00208D0009000900172Q0066000A00013Q001216000B00063Q001216000C00064Q004D0009000C0002001020000700130009001216000800063Q0026920008009D000100060004833Q009D000100122D000900183Q00208D00090009001500208D00090009001900102000070015000900307C0007001E001F0004833Q00C300010004833Q009D00010006050003009C000100020004833Q009C00010004833Q00DE0001000E2C0003009600013Q0004833Q0096000100122D000300044Q002B00030001000200206B0003000300050020630001000300062Q00250003000B4Q002B0003000100022Q0066000200033Q0012163Q00063Q0004833Q009600010004833Q00DE00012Q00253Q000C3Q0006073Q00DE00013Q0004833Q00DE00010012163Q00033Q000E2C000300D600013Q0004833Q00D600012Q00250001000D4Q00330001000100012Q003900016Q000F0001000C3Q0004833Q00DE00010004833Q00D600012Q00253Q000E4Q00333Q000100012Q00253Q00033Q00208D5Q00200006073Q003D2Q013Q0004833Q003D2Q012Q00253Q00033Q00208D5Q002000208D5Q00020006073Q003D2Q013Q0004833Q003D2Q010012163Q00034Q0051000100033Q0026924Q002Q0100030004834Q002Q012Q0025000400033Q00208D000400040021000607000400F600013Q0004833Q00F600012Q0025000400033Q00208D00040004002100208D000400040002000691000100FD000100040004833Q00FD000100122D000400163Q00208D000400040022001216000500233Q001216000600233Q001216000700234Q004D0004000700022Q0066000100044Q00250004000F3Q00208D0002000400240012163Q00063Q000E2C000600EB00013Q0004833Q00EB000100064E000300092Q0100020004833Q00092Q0100207000040002000C2Q0025000600053Q00208D0006000600252Q004D0004000600022Q0066000300043Q0006070003003D2Q013Q0004833Q003D2Q0100122D000400264Q0025000500103Q0020700005000500272Q006A000500064Q005C00043Q00060004833Q00392Q012Q00250009000F3Q00066D000800392Q0100090004833Q00392Q01001216000900034Q0051000A000B3Q0026920009002D2Q0100060004833Q002D2Q01000607000B00392Q013Q0004833Q00392Q01001216000C00034Q0051000D000D3Q002692000C001C2Q0100030004833Q001C2Q0100208D000E0003002800208D000F000B00282Q004B000E000E000F00208D000D000E00292Q0025000E00114Q002B000E00010002000642000D00392Q01000E0004833Q00392Q012Q0025000E00124Q0066000F000A4Q0066001000014Q0072000E001000010004833Q00392Q010004833Q001C2Q010004833Q00392Q01002692000900162Q0100030004833Q00162Q0100208D000A0008002400064E000B00372Q01000A0004833Q00372Q01002070000C000A000C2Q0025000E00053Q00208D000E000E002A2Q004D000C000E00022Q0066000B000C3Q001216000900063Q0004833Q00162Q01000605000400112Q0100020004833Q00112Q010004833Q003D2Q010004833Q00EB00012Q00253Q00134Q00333Q000100012Q00253Q00033Q00208D5Q002B0006073Q00DB2Q013Q0004833Q00DB2Q012Q00253Q00033Q00208D5Q002B00208D5Q00020006073Q00DB2Q013Q0004833Q00DB2Q012Q00253Q00033Q00208D5Q002C0006073Q00512Q013Q0004833Q00512Q012Q00253Q00033Q00208D5Q002C00208D5Q000200068A3Q00572Q0100010004833Q00572Q0100122D3Q00163Q00208D5Q0022001216000100233Q001216000200233Q001216000300234Q004D3Q000300022Q00250001000F3Q00208D00010001002400064E0002005F2Q0100010004833Q005F2Q0100207000020001000C2Q0025000400053Q00208D00040004002D2Q004D000200040002000607000200DB2Q013Q0004833Q00DB2Q0100122D000300264Q0025000400103Q0020700004000400272Q006A000400054Q005C00033Q00050004833Q00D92Q012Q00250008000F3Q00066D000700D92Q0100080004833Q00D92Q01001216000800034Q00510009000A3Q002692000800CD2Q0100060004833Q00CD2Q01000607000A00D92Q013Q0004833Q00D92Q01001216000B00034Q0051000C000C3Q002692000B00722Q0100030004833Q00722Q0100208D000D0002002800208D000E000A00282Q004B000D000D000E00208D000C000D00292Q0025000D00114Q002B000D00010002000642000C00D92Q01000D0004833Q00D92Q01001216000D00034Q0051000E00103Q002692000D00B52Q0100060004833Q00B52Q01000607001000D92Q013Q0004833Q00D92Q01001216001100034Q0051001200123Q002692001100972Q01002E0004833Q00972Q0100122D001300163Q00208D001300130022001216001400033Q001216001500033Q001216001600034Q004D0013001600020010200012002F001300122D001300304Q007A00143Q00022Q0025001500053Q00208D0015001500322Q006E0014001500072Q0025001500053Q00208D0015001500332Q006E00140015000F0010200013003100140004833Q00D92Q01002692001100A32Q0100030004833Q00A32Q012Q0025001300144Q002B0013000100022Q0066001200133Q00122D001300343Q00208D00130013003500208D0014000F003600208D0015000F00372Q004D001300150002001020001200280013001216001100063Q000E2C003800A82Q0100110004833Q00A82Q0100307C00120039003A00307C0012003B003A0012160011002E3Q002692001100842Q0100060004833Q00842Q0100122D0013003D3Q00208D00130013003E2Q00660014000C4Q007E0013000200020012160014003F4Q005B0013001300140010200012003C0013001020001200133Q001216001100383Q0004833Q00842Q010004833Q00D92Q01002692000D007E2Q0100030004833Q007E2Q0100208D0011000A002800122D001200403Q00208D001200120035001216001300033Q00208D0014000A004100208D00140014003700201C001400140038002027001400140038001216001500034Q004D0012001500022Q004B000E001100122Q0025001100153Q0020700011001100422Q00660013000E4Q00820011001300122Q0066001000124Q0066000F00113Q001216000D00063Q0004833Q007E2Q010004833Q00D92Q010004833Q00722Q010004833Q00D92Q010026920008006C2Q0100030004833Q006C2Q0100208D00090007002400064E000A00D72Q0100090004833Q00D72Q01002070000B0009000C2Q0025000D00053Q00208D000D000D00432Q004D000B000D00022Q0066000A000B3Q001216000800063Q0004833Q006C2Q01000605000300672Q0100020004833Q00672Q012Q00253Q00164Q00333Q000100012Q00253Q00033Q00208D5Q00440006073Q006F02013Q0004833Q006F02012Q00253Q00033Q00208D5Q004400208D5Q00020006073Q006F02013Q0004833Q006F02010012163Q00034Q0051000100033Q0026923Q00FD2Q0100030004833Q00FD2Q012Q0025000400033Q00208D000400040045000607000400F32Q013Q0004833Q00F32Q012Q0025000400033Q00208D00040004004500208D000400040002000691000100FA2Q0100040004833Q00FA2Q0100122D000400163Q00208D000400040022001216000500233Q001216000600233Q001216000700234Q004D0004000700022Q0066000100044Q00250004000F3Q00208D0002000400240012163Q00063Q0026923Q00E82Q0100060004833Q00E82Q0100064E00030006020100020004833Q0006020100207000040002000C2Q0025000600053Q00208D0006000600462Q004D0004000600022Q0066000300043Q0006070003006F02013Q0004833Q006F020100122D000400264Q0025000500103Q0020700005000500272Q006A000500064Q005C00043Q00060004833Q006B02012Q00250009000F3Q00066D0008006B020100090004833Q006B0201001216000900034Q0051000A000B3Q00269200090024020100030004833Q0024020100208D000A0008002400064E000B00230201000A0004833Q00230201002070000C000A000C2Q0025000E00053Q00208D000E000E00472Q004D000C000E0002000691000B00230201000C0004833Q00230201002070000C000A000C2Q0025000E00053Q00208D000E000E00482Q004D000C000E00022Q0066000B000C3Q001216000900063Q00269200090013020100060004833Q00130201000607000B006B02013Q0004833Q006B0201001216000C00034Q0051000D000D3Q000E2C0003002A0201000C0004833Q002A020100208D000E0003002800208D000F000B00282Q004B000E000E000F00208D000D000E00292Q0025000E00114Q002B000E00010002000642000D006B0201000E0004833Q006B0201001216000E00034Q0051000F00103Q000E2C000300360201000E0004833Q003602012Q0025001100153Q00207000110011004200208D0013000B00282Q00820011001300122Q0066001000124Q0066000F00113Q0006070010006B02013Q0004833Q006B0201001216001100034Q0051001200123Q00269200110047020100380004833Q0047020100307C00120039003A00307C0012003B003A0012160011002E3Q0026920011004D020100060004833Q004D020100208D0013000800490010200012003C0013001020001200130001001216001100383Q002692001100570201002E0004833Q0057020100122D001300163Q00208D001300130022001216001400033Q001216001500033Q001216001600034Q004D0013001600020010200012002F00130004833Q006B020100269200110042020100030004833Q004202012Q0025001300174Q002B0013000100022Q0066001200133Q00122D001300343Q00208D00130013003500208D0014000F003600208D0015000F003700208E00150015004A2Q004D001300150002001020001200280013001216001100063Q0004833Q004202010004833Q006B02010004833Q003602010004833Q006B02010004833Q002A02010004833Q006B02010004833Q001302010006050004000E020100020004833Q000E02010004833Q006F02010004833Q00E82Q012Q00253Q00184Q00333Q000100012Q00253Q00033Q00208D5Q004B0006073Q001D03013Q0004833Q001D03012Q00253Q00033Q00208D5Q004B00208D5Q00020006073Q001D03013Q0004833Q001D03010012163Q00034Q0051000100033Q0026923Q0091020100030004833Q009102012Q0025000400033Q00208D00040004004C0006070004008702013Q0004833Q008702012Q0025000400033Q00208D00040004004C00208D0004000400020006910001008E020100040004833Q008E020100122D000400163Q00208D000400040022001216000500233Q001216000600233Q001216000700234Q004D0004000700022Q0066000100044Q00250004000F3Q00208D0002000400240012163Q00063Q0026923Q007C020100060004833Q007C020100064E0003009A020100020004833Q009A020100207000040002000C2Q0025000600053Q00208D00060006004D2Q004D0004000600022Q0066000300043Q0006070003001D03013Q0004833Q001D030100122D000400264Q0025000500103Q0020700005000500272Q006A000500064Q005C00043Q00060004833Q001903012Q00250009000F3Q00066D00080019030100090004833Q00190301001216000900034Q0051000A000B3Q002692000900B2020100030004833Q00B2020100208D000A0008002400064E000B00B10201000A0004833Q00B10201002070000C000A000C2Q0025000E00053Q00208D000E000E004E2Q004D000C000E00022Q0066000B000C3Q001216000900063Q000E2C000600A7020100090004833Q00A70201000607000B001903013Q0004833Q00190301001216000C00034Q0051000D000D3Q002692000C00B8020100030004833Q00B8020100208D000E0003002800208D000F000B00282Q004B000E000E000F00208D000D000E00292Q0025000E00114Q002B000E00010002000642000D00190301000E0004833Q001903012Q0025000E00194Q0066000F00084Q007E000E00020002000607000E001903013Q0004833Q00190301001216000F00034Q0051001000103Q002692000F00C9020100030004833Q00C902012Q00250011001A3Q00208D0012000E00492Q007E0011000200022Q0066001000113Q0006070010001903013Q0004833Q00190301002658001000190301004F0004833Q00190301001216001100034Q0051001200143Q002692001100E9020100030004833Q00E9020100208D0015000B002800122D001600403Q00208D001600160035001216001700033Q00208D0018000B004100208D00180018003700201C001800180038002027001800180038001216001900034Q004D0016001900022Q004B0012001500162Q0025001500153Q0020700015001500422Q0066001700124Q00820015001700162Q0066001400164Q0066001300153Q001216001100063Q000E2C000600D5020100110004833Q00D502010006070014001903013Q0004833Q00190301001216001500034Q0051001600163Q002692001500F90201002E0004833Q00F9020100122D001700163Q00208D001700170022001216001800033Q001216001900033Q001216001A00034Q004D0017001A00020010200016002F00170004833Q00190301002692001500FE020100380004833Q00FE020100307C00160039003A00307C0016003B003A0012160015002E3Q0026920015002Q030100060004833Q002Q03010010200016003C0010001020001600130001001216001500383Q002692001500EF020100030004833Q00EF02012Q00250017001B4Q002B0017000100022Q0066001600173Q00122D001700343Q00208D00170017003500208D00180013003600208D0019001300370020270019001900502Q004D001700190002001020001600280017001216001500063Q0004833Q00EF02010004833Q001903010004833Q00D502010004833Q001903010004833Q00C902010004833Q001903010004833Q00B802010004833Q001903010004833Q00A70201000605000400A2020100020004833Q00A202010004833Q001D03010004833Q007C02012Q00523Q00019Q002Q0001044Q002500016Q006600026Q003A0001000200012Q00523Q00017Q000C3Q0003043Q0067616D65030A3Q0047657453657276696365025Q00088F4003083Q00497353747564696F028Q00030D3Q004D6F7573654265686176696F7203043Q00456E756D03073Q0044656661756C7403103Q004D6F75736549636F6E456E61626C65642Q01030A3Q004C6F636B43656E746572010001253Q00122D000100013Q0020700001000100022Q002500035Q00208D0003000300032Q004D0001000300020020700001000100042Q007E00010002000200068A00010024000100010004833Q002400010006073Q001800013Q0004833Q00180001001216000100053Q0026920001000C000100050004833Q000C00012Q0025000200013Q00122D000300073Q00208D00030003000600208D0003000300080010200002000600032Q0025000200013Q00307C00020009000A0004833Q002400010004833Q000C00010004833Q00240001001216000100053Q00269200010019000100050004833Q001900012Q0025000200013Q00122D000300073Q00208D00030003000600208D00030003000B0010200002000600032Q0025000200013Q00307C00020009000C0004833Q002400010004833Q001900012Q00523Q00017Q00033Q00028Q0003083Q00496E7374616E636503073Q0056697369626C65000D3Q0012163Q00013Q000E2C0001000100013Q0004833Q000100012Q0025000100013Q00208D00010001000200208D0001000100032Q000F00016Q0025000100024Q002500026Q003A0001000200010004833Q000C00010004833Q000100012Q00523Q00017Q00",v9(),...);
+Hunter (Nebula Softworks) | Designing And Programming | Main Developer
+JustHey (Nebula Softworks) | Configurations, Bug Fixing And More! | Co Developer
+Throit | Color Picker
+Wally | Dragging And Certain Functions
+Sirius | PCall Parsing, Notifications, Slider And Home Tab
+Luna Executor | Original UI
+
+
+Extra Credits / Provided Certain Elements
+
+Pookie Pepelss | Bug Tester
+Inori | Configuration Concept
+Latte Softworks and qweery | Lucide Icons And Material Icons
+kirill9655 | Loading Circle
+Deity/dp4pv/x64x70 | Certain Scripting and Testing ig
+
+Contributors
+iPigTw | Typo Fixer, Fixed Key System!!
+pushByAccident | Fixing Executor Lists
+ImFloriz | Method Fixing
+
+Luna Interface Suite
+by Nebula Softworks
+
+]]
+
+local Release = "Prerelease Beta 6.1"
+
+local Luna = { 
+	Folder = "Luna", 
+	Options = {}, 
+	ThemeGradient = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(117, 164, 206)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(123, 201, 201)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 138, 175))} 
+}
+
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+local Localization = game:GetService("LocalizationService")
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+local Camera = workspace.CurrentCamera
+local CoreGui = game:GetService("CoreGui")
+
+local isStudio
+local website = "github.com/Nebula-Softworks"
+
+if RunService:IsStudio() then
+	isStudio = true
+end
+
+-- Credits To Latte Softworks And qweery for Lucide And Material Icons Respectively.
+local IconModule = {
+	Lucide = nil,
+	Material = {
+		["perm_media"] = "http://www.roblox.com/asset/?id=6031215982";
+		["sticky_note_2"] = "http://www.roblox.com/asset/?id=6031265972";
+		["gavel"] = "http://www.roblox.com/asset/?id=108721249157380";
+		["table_view"] = "http://www.roblox.com/asset/?id=6031233835";
+		["home"] = "http://www.roblox.com/asset/?id=6026568195";
+		["list"] = "http://www.roblox.com/asset/?id=6026568229";
+		["alarm_add"] = "http://www.roblox.com/asset/?id=6023426898";
+		["speaker_notes"] = "http://www.roblox.com/asset/?id=6031266001";
+		["check_circle_outline"] = "http://www.roblox.com/asset/?id=6023426909";
+		["extension"] = "http://www.roblox.com/asset/?id=6023565892";
+		["pending"] = "http://www.roblox.com/asset/?id=6031084745";
+		["pageview"] = "http://www.roblox.com/asset/?id=6031216007";
+		["group_work"] = "http://www.roblox.com/asset/?id=6023565910";
+		["zoom_in"] = "http://www.roblox.com/asset/?id=6031075573";
+		["aspect_ratio"] = "http://www.roblox.com/asset/?id=6022668895";
+        ["sword"] = "http://www.roblox.com/asset/?id=108721249157380";
+		["code"] = "http://www.roblox.com/asset/?id=6022668955";
+		["3d_rotation"] = "http://www.roblox.com/asset/?id=6022668893";
+		["translate"] = "http://www.roblox.com/asset/?id=6031225812";
+		["star_rate"] = "http://www.roblox.com/asset/?id=6031265978";
+		["system_update_alt"] = "http://www.roblox.com/asset/?id=6031251515";
+		["open_with"] = "http://www.roblox.com/asset/?id=6026568265";
+		["build_circle"] = "http://www.roblox.com/asset/?id=6023426952";
+		["toc"] = "http://www.roblox.com/asset/?id=6031229341";
+		["settings_phone"] = "http://www.roblox.com/asset/?id=6031289445";
+		["open_in_full"] = "http://www.roblox.com/asset/?id=6026568245";
+		["history"] = "http://www.roblox.com/asset/?id=6026568197";
+		["accessibility_new"] = "http://www.roblox.com/asset/?id=6022668945";
+		["hourglass_disabled"] = "http://www.roblox.com/asset/?id=6026568193";
+		["line_style"] = "http://www.roblox.com/asset/?id=6026568276";
+		["account_circle"] = "http://www.roblox.com/asset/?id=6022668898";
+		["settings_cell"] = "http://www.roblox.com/asset/?id=6031280890";
+		["search_off"] = "http://www.roblox.com/asset/?id=6031260783";
+		["shop"] = "http://www.roblox.com/asset/?id=6031265983";
+		["anchor"] = "http://www.roblox.com/asset/?id=6023426906";
+		["language"] = "http://www.roblox.com/asset/?id=6026568213";
+		["settings_brightness"] = "http://www.roblox.com/asset/?id=6031280902";
+		["restore_page"] = "http://www.roblox.com/asset/?id=6031154877";
+		["chrome_reader_mode"] = "http://www.roblox.com/asset/?id=6023426912";
+		["sync_alt"] = "http://www.roblox.com/asset/?id=6031233840";
+		["book"] = "http://www.roblox.com/asset/?id=6022860343";
+		["smart_button"] = "http://www.roblox.com/asset/?id=6031265962";
+		["request_page"] = "http://www.roblox.com/asset/?id=6031154873";
+		["lock_clock"] = "http://www.roblox.com/asset/?id=6026568260";
+		["android"] = "http://www.roblox.com/asset/?id=6022668966";
+		["outgoing_mail"] = "http://www.roblox.com/asset/?id=6026568242";
+		["dynamic_form"] = "http://www.roblox.com/asset/?id=6023426970";
+		["track_changes"] = "http://www.roblox.com/asset/?id=6031225814";
+		["source"] = "http://www.roblox.com/asset/?id=6031289451";
+		["thumb_down"] = "http://www.roblox.com/asset/?id=6031229336";
+		["integration_instructions"] = "http://www.roblox.com/asset/?id=6026568214";
+		["opacity"] = "http://www.roblox.com/asset/?id=6026568295";
+		["perm_identity"] = "http://www.roblox.com/asset/?id=6031215978";
+		["view_module"] = "http://www.roblox.com/asset/?id=6031079152";
+		["perm_data_setting"] = "http://www.roblox.com/asset/?id=6031215991";
+		["assignment_turned_in"] = "http://www.roblox.com/asset/?id=6023426904";
+		["change_history"] = "http://www.roblox.com/asset/?id=6023426914";
+		["thumb_down_off_alt"] = "http://www.roblox.com/asset/?id=6031229354";
+		["text_rotation_angledown"] = "http://www.roblox.com/asset/?id=6031251513";
+		["bookmark"] = "http://www.roblox.com/asset/?id=6022852108";
+		["view_stream"] = "http://www.roblox.com/asset/?id=6031079164";
+		["remove_done"] = "http://www.roblox.com/asset/?id=6031086169";
+		["markunread_mailbox"] = "http://www.roblox.com/asset/?id=6031082531";
+		["store"] = "http://www.roblox.com/asset/?id=6031265968";
+		["text_rotation_angleup"] = "http://www.roblox.com/asset/?id=6031229337";
+		["eco"] = "http://www.roblox.com/asset/?id=6023426988";
+		["find_in_page"] = "http://www.roblox.com/asset/?id=6023426986";
+		["api"] = "http://www.roblox.com/asset/?id=6022668911";
+		["launch"] = "http://www.roblox.com/asset/?id=6026568211";
+		["text_rotation_down"] = "http://www.roblox.com/asset/?id=6031229334";
+		["flip_to_back"] = "http://www.roblox.com/asset/?id=6023565896";
+		["contact_page"] = "http://www.roblox.com/asset/?id=6022668881";
+		["preview"] = "http://www.roblox.com/asset/?id=6031260793";
+		["restore"] = "http://www.roblox.com/asset/?id=6031260800";
+		["favorite_border"] = "http://www.roblox.com/asset/?id=6023565882";
+		["assignment_late"] = "http://www.roblox.com/asset/?id=6022668880";
+		["youtube_searched_for"] = "http://www.roblox.com/asset/?id=6031075934";
+		["hourglass_full"] = "http://www.roblox.com/asset/?id=6026568190";
+		["timeline"] = "http://www.roblox.com/asset/?id=6031229350";
+		["turned_in"] = "http://www.roblox.com/asset/?id=6031225808";
+		["info"] = "http://www.roblox.com/asset/?id=6026568227";
+		["restore_from_trash"] = "http://www.roblox.com/asset/?id=6031154869";
+		["arrow_circle_down"] = "http://www.roblox.com/asset/?id=6022668877";
+		["flaky"] = "http://www.roblox.com/asset/?id=6031082523";
+		["alarm_on"] = "http://www.roblox.com/asset/?id=6023426920";
+		["swap_vertical_circle"] = "http://www.roblox.com/asset/?id=6031233839";
+		["open_in_new"] = "http://www.roblox.com/asset/?id=6026568256";
+		["watch_later"] = "http://www.roblox.com/asset/?id=6031075924";
+		["alarm_off"] = "http://www.roblox.com/asset/?id=6023426901";
+		["maximize"] = "http://www.roblox.com/asset/?id=6026568267";
+		["lock_outline"] = "http://www.roblox.com/asset/?id=6031082533";
+		["outbond"] = "http://www.roblox.com/asset/?id=6026568244";
+		["view_carousel"] = "http://www.roblox.com/asset/?id=6031251507";
+		["published_with_changes"] = "http://www.roblox.com/asset/?id=6031243328";
+		["verified_user"] = "http://www.roblox.com/asset/?id=6031225819";
+		["drag_indicator"] = "http://www.roblox.com/asset/?id=6023426962";
+		["lightbulb_outline"] = "http://www.roblox.com/asset/?id=6026568254";
+		["segment"] = "http://www.roblox.com/asset/?id=6031260773";
+		["assignment"] = "http://www.roblox.com/asset/?id=6022668882";
+		["work_outline"] = "http://www.roblox.com/asset/?id=6031075930";
+		["line_weight"] = "http://www.roblox.com/asset/?id=6026568226";
+		["dangerous"] = "http://www.roblox.com/asset/?id=6022668916";
+		["assessment"] = "http://www.roblox.com/asset/?id=6022668897";
+		["view_day"] = "http://www.roblox.com/asset/?id=6031079153";
+		["help_center"] = "http://www.roblox.com/asset/?id=6026568192";
+		["logout"] = "http://www.roblox.com/asset/?id=6031082522";
+		["event"] = "http://www.roblox.com/asset/?id=6023426959";
+		["get_app"] = "http://www.roblox.com/asset/?id=6023565889";
+		["tab"] = "http://www.roblox.com/asset/?id=6031233851";
+		["label"] = "http://www.roblox.com/asset/?id=6031082525";
+		["g_translate"] = "http://www.roblox.com/asset/?id=6031082526";
+		["view_week"] = "http://www.roblox.com/asset/?id=6031079154";
+		["view_in_ar"] = "http://www.roblox.com/asset/?id=6031079158";
+		["card_travel"] = "http://www.roblox.com/asset/?id=6023426925";
+		["lock_open"] = "http://www.roblox.com/asset/?id=6026568220";
+		["voice_over_off"] = "http://www.roblox.com/asset/?id=6031075927";
+		["app_blocking"] = "http://www.roblox.com/asset/?id=6022668952";
+		["settings_ethernet"] = "http://www.roblox.com/asset/?id=6031280883";
+		["supervised_user_circle"] = "http://www.roblox.com/asset/?id=6031289449";
+		["done_all"] = "http://www.roblox.com/asset/?id=6023426929";
+		["lightbulb"] = "http://www.roblox.com/asset/?id=6026568247";
+		["find_replace"] = "http://www.roblox.com/asset/?id=6023426979";
+		["bookmarks"] = "http://www.roblox.com/asset/?id=6023426924";
+		["today"] = "http://www.roblox.com/asset/?id=6031229352";
+		["class"] = "http://www.roblox.com/asset/?id=6022668949";
+		["supervisor_account"] = "http://www.roblox.com/asset/?id=6031251516";
+		["support"] = "http://www.roblox.com/asset/?id=6031251532";
+		["done_outline"] = "http://www.roblox.com/asset/?id=6023426936";
+		["reorder"] = "http://www.roblox.com/asset/?id=6031154868";
+		["fact_check"] = "http://www.roblox.com/asset/?id=6023426951";
+		["thumb_up"] = "http://www.roblox.com/asset/?id=6031229347";
+		["assignment_returned"] = "http://www.roblox.com/asset/?id=6023426899";
+		["card_giftcard"] = "http://www.roblox.com/asset/?id=6023426978";
+		["trending_down"] = "http://www.roblox.com/asset/?id=6031225811";
+		["settings_backup_restore"] = "http://www.roblox.com/asset/?id=6031280886";
+		["settings_voice"] = "http://www.roblox.com/asset/?id=6031265966";
+		["dns"] = "http://www.roblox.com/asset/?id=6023426958";
+		["perm_scan_wifi"] = "http://www.roblox.com/asset/?id=6031215985";
+		["plagiarism"] = "http://www.roblox.com/asset/?id=6031243320";
+		["commute"] = "http://www.roblox.com/asset/?id=6022668901";
+		["gif"] = "http://www.roblox.com/asset/?id=6031082540";
+		["work"] = "http://www.roblox.com/asset/?id=6031075939";
+		["picture_in_picture_alt"] = "http://www.roblox.com/asset/?id=6031215979";
+		["query_builder"] = "http://www.roblox.com/asset/?id=6031086183";
+		["label_off"] = "http://www.roblox.com/asset/?id=6026568209";
+		["all_out"] = "http://www.roblox.com/asset/?id=6022668876";
+		["article"] = "http://www.roblox.com/asset/?id=6022668907";
+		["shopping_basket"] = "http://www.roblox.com/asset/?id=6031265997";
+		["mark_as_unread"] = "http://www.roblox.com/asset/?id=6026568223";
+		["work_off"] = "http://www.roblox.com/asset/?id=6031075937";
+		["delete_outline"] = "http://www.roblox.com/asset/?id=6022668962";
+		["account_box"] = "http://www.roblox.com/asset/?id=6023426915";
+		["home_filled"] = "rbxassetid://9080449299";
+		["lock"] = "http://www.roblox.com/asset/?id=6026568224";
+		["perm_device_information"] = "http://www.roblox.com/asset/?id=6031215996";
+		["add_task"] = "http://www.roblox.com/asset/?id=6022668912";
+		["text_rotate_up"] = "http://www.roblox.com/asset/?id=6031251526";
+		["swipe"] = "http://www.roblox.com/asset/?id=6031233863";
+		["eject"] = "http://www.roblox.com/asset/?id=6023426930";
+		["mediation"] = "http://www.roblox.com/asset/?id=6026568249";
+		["label_important_outline"] = "http://www.roblox.com/asset/?id=6026568199";
+		["settings_remote"] = "http://www.roblox.com/asset/?id=6031289442";
+		["history_toggle_off"] = "http://www.roblox.com/asset/?id=6026568196";
+		["invert_colors"] = "http://www.roblox.com/asset/?id=6026568253";
+		["visibility_off"] = "http://www.roblox.com/asset/?id=6031075929";
+		["addchart"] = "http://www.roblox.com/asset/?id=6023426905";
+		["cancel_schedule_send"] = "http://www.roblox.com/asset/?id=6022668963";
+		["loyalty"] = "http://www.roblox.com/asset/?id=6026568237";
+		["speaker_notes_off"] = "http://www.roblox.com/asset/?id=6031265965";
+		["online_prediction"] = "http://www.roblox.com/asset/?id=6026568239";
+		["remove_shopping_cart"] = "http://www.roblox.com/asset/?id=6031260778";
+		["text_rotate_vertical"] = "http://www.roblox.com/asset/?id=6031251518";
+		["visibility"] = "http://www.roblox.com/asset/?id=6031075931";
+		["add_to_drive"] = "http://www.roblox.com/asset/?id=6022860335";
+		["accessible"] = "http://www.roblox.com/asset/?id=6022668902";
+		["bookmark_border"] = "http://www.roblox.com/asset/?id=6022860339";
+		["tour"] = "http://www.roblox.com/asset/?id=6031229362";
+		["compare_arrows"] = "http://www.roblox.com/asset/?id=6022668951";
+		["view_sidebar"] = "http://www.roblox.com/asset/?id=6031079160";
+		["face"] = "http://www.roblox.com/asset/?id=6023426944";
+		["wysiwyg"] = "http://www.roblox.com/asset/?id=6031075938";
+		["camera_enhance"] = "http://www.roblox.com/asset/?id=6023426935";
+		["perm_camera_mic"] = "http://www.roblox.com/asset/?id=6031215983";
+		["model_training"] = "http://www.roblox.com/asset/?id=6026568222";
+		["arrow_circle_up"] = "http://www.roblox.com/asset/?id=6022668934";
+		["euro_symbol"] = "http://www.roblox.com/asset/?id=6023426954";
+		["pending_actions"] = "http://www.roblox.com/asset/?id=6031260777";
+		["not_accessible"] = "http://www.roblox.com/asset/?id=6026568269";
+		["explore_off"] = "http://www.roblox.com/asset/?id=6023426953";
+		["build"] = "http://www.roblox.com/asset/?id=6023426938";
+		["backup"] = "http://www.roblox.com/asset/?id=6023426911";
+		["settings_input_antenna"] = "http://www.roblox.com/asset/?id=6031280891";
+		["disabled_by_default"] = "http://www.roblox.com/asset/?id=6023426939";
+		["upgrade"] = "http://www.roblox.com/asset/?id=6031225815";
+		["contactless"] = "http://www.roblox.com/asset/?id=6022668886";
+		["trending_flat"] = "http://www.roblox.com/asset/?id=6031225818";
+		["schedule"] = "http://www.roblox.com/asset/?id=6031260808";
+		["offline_pin"] = "http://www.roblox.com/asset/?id=6031084770";
+		["date_range"] = "http://www.roblox.com/asset/?id=6022668894";
+		["flight_land"] = "http://www.roblox.com/asset/?id=6023565897";
+		["view_headline"] = "http://www.roblox.com/asset/?id=6031079151";
+		["cached"] = "http://www.roblox.com/asset/?id=6023426921";
+		["unpublished"] = "http://www.roblox.com/asset/?id=6031225817";
+		["outlet"] = "http://www.roblox.com/asset/?id=6031084748";
+		["favorite"] = "http://www.roblox.com/asset/?id=6023426974";
+		["vertical_split"] = "http://www.roblox.com/asset/?id=6031225820";
+		["report_problem"] = "http://www.roblox.com/asset/?id=6031086176";
+		["fingerprint"] = "http://www.roblox.com/asset/?id=6023565895";
+		["important_devices"] = "http://www.roblox.com/asset/?id=6026568202";
+		["outbox"] = "http://www.roblox.com/asset/?id=6026568263";
+		["all_inbox"] = "http://www.roblox.com/asset/?id=6022668909";
+		["label_important"] = "http://www.roblox.com/asset/?id=6026568215";
+		["print"] = "http://www.roblox.com/asset/?id=6031243324";
+		["settings_bluetooth"] = "http://www.roblox.com/asset/?id=6031280905";
+		["power_settings_new"] = "http://www.roblox.com/asset/?id=6031260781";
+		["zoom_out"] = "http://www.roblox.com/asset/?id=6031075577";
+		["stars"] = "http://www.roblox.com/asset/?id=6031265971";
+		["offline_bolt"] = "http://www.roblox.com/asset/?id=6031084742";
+		["feedback"] = "http://www.roblox.com/asset/?id=6023426957";
+		["accessibility"] = "http://www.roblox.com/asset/?id=6022668887";
+		["announcement"] = "http://www.roblox.com/asset/?id=6022668946";
+		["settings_input_hdmi"] = "http://www.roblox.com/asset/?id=6031280970";
+		["leaderboard"] = "http://www.roblox.com/asset/?id=6026568216";
+		["view_quilt"] = "http://www.roblox.com/asset/?id=6031079155";
+		["note_add"] = "http://www.roblox.com/asset/?id=6031084749";
+		["theaters"] = "http://www.roblox.com/asset/?id=6031229335";
+		["alarm"] = "http://www.roblox.com/asset/?id=6023426910";
+		["settings_input_composite"] = "http://www.roblox.com/asset/?id=6031280896";
+		["grade"] = "http://www.roblox.com/asset/?id=6026568189";
+		["tab_unselected"] = "http://www.roblox.com/asset/?id=6031251505";
+		["swap_vert"] = "http://www.roblox.com/asset/?id=6031233847";
+		["assignment_return"] = "http://www.roblox.com/asset/?id=6023426931";
+		["highlight_alt"] = "http://www.roblox.com/asset/?id=6023565913";
+		["shopping_bag"] = "http://www.roblox.com/asset/?id=6031265970";
+		["contact_support"] = "http://www.roblox.com/asset/?id=6022668879";
+		["flip_to_front"] = "http://www.roblox.com/asset/?id=6023565894";
+		["touch_app"] = "http://www.roblox.com/asset/?id=6031229361";
+		["room"] = "http://www.roblox.com/asset/?id=6031154875";
+		["send_and_archive"] = "http://www.roblox.com/asset/?id=6031280889";
+		["view_array"] = "http://www.roblox.com/asset/?id=6031225842";
+		["settings_power"] = "http://www.roblox.com/asset/?id=6031289446";
+		["admin_panel_settings"] = "http://www.roblox.com/asset/?id=6022668961";
+		["open_in_browser"] = "http://www.roblox.com/asset/?id=6026568266";
+		["card_membership"] = "http://www.roblox.com/asset/?id=6023426942";
+		["rule"] = "http://www.roblox.com/asset/?id=6031154859";
+		["schedule_send"] = "http://www.roblox.com/asset/?id=6031154866";
+		["calendar_today"] = "http://www.roblox.com/asset/?id=6022668917";
+		["info_outline"] = "http://www.roblox.com/asset/?id=6026568210";
+		["description"] = "http://www.roblox.com/asset/?id=6022668888";
+		["dashboard_customize"] = "http://www.roblox.com/asset/?id=6022668899";
+		["rowing"] = "http://www.roblox.com/asset/?id=6031154857";
+		["swap_horizontal_circle"] = "http://www.roblox.com/asset/?id=6031233833";
+		["account_balance_wallet"] = "http://www.roblox.com/asset/?id=6022668892";
+		["view_agenda"] = "http://www.roblox.com/asset/?id=6031225831";
+		["shop_two"] = "http://www.roblox.com/asset/?id=6031289461";
+		["done"] = "http://www.roblox.com/asset/?id=6023426926";
+		["circle_notifications"] = "http://www.roblox.com/asset/?id=6023426923";
+		["compress"] = "http://www.roblox.com/asset/?id=6022668878";
+		["calendar_view_day"] = "http://www.roblox.com/asset/?id=6023426946";
+		["thumbs_up_down"] = "http://www.roblox.com/asset/?id=6031229373";
+		["account_balance"] = "http://www.roblox.com/asset/?id=6022668900";
+		["play_for_work"] = "http://www.roblox.com/asset/?id=6031260776";
+		["pets"] = "http://www.roblox.com/asset/?id=6031260782";
+		["view_column"] = "http://www.roblox.com/asset/?id=6031079172";
+		["search"] = "http://www.roblox.com/asset/?id=6031154871";
+		["autorenew"] = "http://www.roblox.com/asset/?id=6023565901";
+		["copyright"] = "http://www.roblox.com/asset/?id=6023565898";
+		["privacy_tip"] = "http://www.roblox.com/asset/?id=6031260784";
+		["arrow_right_alt"] = "http://www.roblox.com/asset/?id=6022668890";
+		["delete"] = "http://www.roblox.com/asset/?id=6022668885";
+		["nightlight_round"] = "http://www.roblox.com/asset/?id=6031084743";
+		["batch_prediction"] = "http://www.roblox.com/asset/?id=6022860334";
+		["shopping_cart"] = "http://www.roblox.com/asset/?id=6031265976";
+		["login"] = "http://www.roblox.com/asset/?id=6031082527";
+		["settings_input_svideo"] = "http://www.roblox.com/asset/?id=6031289444";
+		["payment"] = "http://www.roblox.com/asset/?id=6031084751";
+		["update"] = "http://www.roblox.com/asset/?id=6031225810";
+		["text_rotation_none"] = "http://www.roblox.com/asset/?id=6031229344";
+		["perm_contact_calendar"] = "http://www.roblox.com/asset/?id=6031215990";
+		["explore"] = "http://www.roblox.com/asset/?id=6023426941";
+		["delete_forever"] = "http://www.roblox.com/asset/?id=6022668939";
+		["rounded_corner"] = "http://www.roblox.com/asset/?id=6031154861";
+		["book_online"] = "http://www.roblox.com/asset/?id=6022860332";
+		["quickreply"] = "http://www.roblox.com/asset/?id=6031243319";
+		["bug_report"] = "http://www.roblox.com/asset/?id=6022852107";
+		["subtitles_off"] = "http://www.roblox.com/asset/?id=6031289466";
+		["close_fullscreen"] = "http://www.roblox.com/asset/?id=6023426928";
+		["horizontal_split"] = "http://www.roblox.com/asset/?id=6026568194";
+		["minimize"] = "http://www.roblox.com/asset/?id=6026568240";
+		["filter_list_alt"] = "http://www.roblox.com/asset/?id=6023426955";
+		["add_shopping_cart"] = "http://www.roblox.com/asset/?id=6022668875";
+		["next_plan"] = "http://www.roblox.com/asset/?id=6026568231";
+		["view_list"] = "http://www.roblox.com/asset/?id=6031079156";
+		["receipt"] = "http://www.roblox.com/asset/?id=6031086173";
+		["polymer"] = "http://www.roblox.com/asset/?id=6031260785";
+		["spellcheck"] = "http://www.roblox.com/asset/?id=6031289450";
+		["wifi_protected_setup"] = "http://www.roblox.com/asset/?id=6031075926";
+		["label_outline"] = "http://www.roblox.com/asset/?id=6026568207";
+		["highlight_off"] = "http://www.roblox.com/asset/?id=6023565916";
+		["turned_in_not"] = "http://www.roblox.com/asset/?id=6031225806";
+		["edit_off"] = "http://www.roblox.com/asset/?id=6023426983";
+		["question_answer"] = "http://www.roblox.com/asset/?id=6031086172";
+		["settings_overscan"] = "http://www.roblox.com/asset/?id=6031289459";
+		["trending_up"] = "http://www.roblox.com/asset/?id=6031225816";
+		["verified"] = "http://www.roblox.com/asset/?id=6031225809";
+		["flight_takeoff"] = "http://www.roblox.com/asset/?id=6023565891";
+		["grading"] = "http://www.roblox.com/asset/?id=6026568191";
+		["dashboard"] = "http://www.roblox.com/asset/?id=6022668883";
+		["expand"] = "http://www.roblox.com/asset/?id=6022668891";
+		["backup_table"] = "http://www.roblox.com/asset/?id=6022860338";
+		["analytics"] = "http://www.roblox.com/asset/?id=6022668884";
+		["picture_in_picture"] = "http://www.roblox.com/asset/?id=6031215994";
+		["settings"] = "http://www.roblox.com/asset/?id=6031280882";
+		["accessible_forward"] = "http://www.roblox.com/asset/?id=6022668906";
+		["pan_tool"] = "http://www.roblox.com/asset/?id=6031084771";
+		["https"] = "http://www.roblox.com/asset/?id=6026568200";
+		["filter_alt"] = "http://www.roblox.com/asset/?id=6023426984";
+		["thumb_up_off_alt"] = "http://www.roblox.com/asset/?id=6031229342";
+		["record_voice_over"] = "http://www.roblox.com/asset/?id=6031243318";
+		["help_outline"] = "http://www.roblox.com/asset/?id=6026568201";
+		["check_circle"] = "http://www.roblox.com/asset/?id=6023426945";
+		["comment_bank"] = "http://www.roblox.com/asset/?id=6023426937";
+		["perm_phone_msg"] = "http://www.roblox.com/asset/?id=6031215986";
+		["settings_applications"] = "http://www.roblox.com/asset/?id=6031280894";
+		["exit_to_app"] = "http://www.roblox.com/asset/?id=6023426922";
+		["saved_search"] = "http://www.roblox.com/asset/?id=6031154867";
+		["toll"] = "http://www.roblox.com/asset/?id=6031229343";
+		["not_started"] = "http://www.roblox.com/asset/?id=6026568232";
+		["subject"] = "http://www.roblox.com/asset/?id=6031289452";
+		["redeem"] = "http://www.roblox.com/asset/?id=6031086170";
+		["input"] = "http://www.roblox.com/asset/?id=6026568225";
+		["settings_input_component"] = "http://www.roblox.com/asset/?id=6031280884";
+		["assignment_ind"] = "http://www.roblox.com/asset/?id=6022668935";
+		["swap_horiz"] = "http://www.roblox.com/asset/?id=6031233841";
+		["fullscreen"] = "http://www.roblox.com/asset/?id=6031094681";
+		["cancel"] = "http://www.roblox.com/asset/?id=6031094677";
+		["subdirectory_arrow_left"] = "http://www.roblox.com/asset/?id=6031104654";
+		["close"] = "http://www.roblox.com/asset/?id=6031094678";
+		["arrow_back_ios"] = "http://www.roblox.com/asset/?id=6031091003";
+		["east"] = "http://www.roblox.com/asset/?id=6031094675";
+		["unfold_more"] = "http://www.roblox.com/asset/?id=6031104644";
+		["south"] = "http://www.roblox.com/asset/?id=6031104646";
+		["arrow_drop_up"] = "http://www.roblox.com/asset/?id=6031090990";
+		["arrow_back"] = "http://www.roblox.com/asset/?id=6031091000";
+		["arrow_downward"] = "http://www.roblox.com/asset/?id=6031090991";
+		["west"] = "http://www.roblox.com/asset/?id=6031104677";
+		["legend_toggle"] = "http://www.roblox.com/asset/?id=6031097233";
+		["fullscreen_exit"] = "http://www.roblox.com/asset/?id=6031094691";
+		["last_page"] = "http://www.roblox.com/asset/?id=6031094686";
+		["switch_right"] = "http://www.roblox.com/asset/?id=6031104649";
+		["check"] = "http://www.roblox.com/asset/?id=6031094667";
+		["home_work"] = "http://www.roblox.com/asset/?id=6031094683";
+		["north_east"] = "http://www.roblox.com/asset/?id=6031097228";
+		["double_arrow"] = "http://www.roblox.com/asset/?id=6031094674";
+		["more_vert"] = "http://www.roblox.com/asset/?id=6031104648";
+		["chevron_left"] = "http://www.roblox.com/asset/?id=6031094670";
+		["more_horiz"] = "http://www.roblox.com/asset/?id=6031104650";
+		["unfold_less"] = "http://www.roblox.com/asset/?id=6031104681";
+		["first_page"] = "http://www.roblox.com/asset/?id=6031094682";
+		["payments"] = "http://www.roblox.com/asset/?id=6031097227";
+		["arrow_right"] = "http://www.roblox.com/asset/?id=6031090994";
+		["offline_share"] = "http://www.roblox.com/asset/?id=6031097267";
+		["south_west"] = "http://www.roblox.com/asset/?id=6031104652";
+		["expand_less"] = "http://www.roblox.com/asset/?id=6031094679";
+		["south_east"] = "http://www.roblox.com/asset/?id=6031104642";
+		["assistant_navigation"] = "http://www.roblox.com/asset/?id=6031091006";
+		["apps"] = "http://www.roblox.com/asset/?id=6031090999";
+		["arrow_upward"] = "http://www.roblox.com/asset/?id=6031090997";
+		["app_settings_alt"] = "http://www.roblox.com/asset/?id=6031090998";
+		["subdirectory_arrow_right"] = "http://www.roblox.com/asset/?id=6031104647";
+		["north_west"] = "http://www.roblox.com/asset/?id=6031104630";
+		["switch_left"] = "http://www.roblox.com/asset/?id=6031104651";
+		["chevron_right"] = "http://www.roblox.com/asset/?id=6031094680";
+		["arrow_forward"] = "http://www.roblox.com/asset/?id=6031090995";
+		["arrow_forward_ios"] = "http://www.roblox.com/asset/?id=6031091008";
+		["arrow_drop_down"] = "http://www.roblox.com/asset/?id=6031091004";
+		["refresh"] = "http://www.roblox.com/asset/?id=6031097226";
+		["pivot_table_chart"] = "http://www.roblox.com/asset/?id=6031097234";
+		["expand_more"] = "http://www.roblox.com/asset/?id=6031094687";
+		["campaign"] = "http://www.roblox.com/asset/?id=6031094666";
+		["arrow_left"] = "http://www.roblox.com/asset/?id=6031091002";
+		["arrow_drop_down_circle"] = "http://www.roblox.com/asset/?id=6031091001";
+		["menu_open"] = "http://www.roblox.com/asset/?id=6031097229";
+		["waterfall_chart"] = "http://www.roblox.com/asset/?id=6031104632";
+		["assistant_direction"] = "http://www.roblox.com/asset/?id=6031091005";
+		["menu"] = "http://www.roblox.com/asset/?id=6031097225";
+		["personal_video"] = "http://www.roblox.com/asset/?id=6034457070";
+		["power_off"] = "http://www.roblox.com/asset/?id=6034457087";
+		["wifi_off"] = "http://www.roblox.com/asset/?id=6034461625";
+		["adb"] = "http://www.roblox.com/asset/?id=6034418515";
+		["airline_seat_recline_normal"] = "http://www.roblox.com/asset/?id=6034418512";
+		["sync_problem"] = "http://www.roblox.com/asset/?id=6034452653";
+		["network_check"] = "http://www.roblox.com/asset/?id=6034461631";
+		["event_busy"] = "http://www.roblox.com/asset/?id=6034439634";
+		["airline_seat_flat"] = "http://www.roblox.com/asset/?id=6034418511";
+		["disc_full"] = "http://www.roblox.com/asset/?id=6034418518";
+		["sd_card"] = "http://www.roblox.com/asset/?id=6034457089";
+		["time_to_leave"] = "http://www.roblox.com/asset/?id=6034452660";
+		["phone_bluetooth_speaker"] = "http://www.roblox.com/asset/?id=6034457057";
+		["phone_paused"] = "http://www.roblox.com/asset/?id=6034457066";
+		["phone_locked"] = "http://www.roblox.com/asset/?id=6034457058";
+		["more"] = "http://www.roblox.com/asset/?id=6034461627";
+		["add_call"] = "http://www.roblox.com/asset/?id=6034418524";
+		["account_tree"] = "http://www.roblox.com/asset/?id=6034418507";
+		["do_not_disturb_on"] = "http://www.roblox.com/asset/?id=6034439649";
+		["event_note"] = "http://www.roblox.com/asset/?id=6034439637";
+		["sync_disabled"] = "http://www.roblox.com/asset/?id=6034452649";
+		["mms"] = "http://www.roblox.com/asset/?id=6034461621";
+		["airline_seat_flat_angled"] = "http://www.roblox.com/asset/?id=6034418513";
+		["bluetooth_audio"] = "http://www.roblox.com/asset/?id=6034418522";
+		["vibration"] = "http://www.roblox.com/asset/?id=6034452651";
+		["system_update"] = "http://www.roblox.com/asset/?id=6034452663";
+		["enhanced_encryption"] = "http://www.roblox.com/asset/?id=6034439652";
+		["wc"] = "http://www.roblox.com/asset/?id=6034452643";
+		["live_tv"] = "http://www.roblox.com/asset/?id=6034439648";
+		["folder_special"] = "http://www.roblox.com/asset/?id=6034439639";
+		["phone_missed"] = "http://www.roblox.com/asset/?id=6034457056";
+		["airline_seat_recline_extra"] = "http://www.roblox.com/asset/?id=6034418528";
+		["sms"] = "http://www.roblox.com/asset/?id=6034452645";
+		["tap_and_play"] = "http://www.roblox.com/asset/?id=6034452650";
+		["confirmation_number"] = "http://www.roblox.com/asset/?id=6034418519";
+		["event_available"] = "http://www.roblox.com/asset/?id=6034439643";
+		["sms_failed"] = "http://www.roblox.com/asset/?id=6034452676";
+		["do_not_disturb_alt"] = "http://www.roblox.com/asset/?id=6034461619";
+		["do_not_disturb"] = "http://www.roblox.com/asset/?id=6034439645";
+		["ondemand_video"] = "http://www.roblox.com/asset/?id=6034457065";
+		["no_encryption"] = "http://www.roblox.com/asset/?id=6034457059";
+		["airline_seat_legroom_extra"] = "http://www.roblox.com/asset/?id=6034418508";
+		["tv_off"] = "http://www.roblox.com/asset/?id=6034452646";
+		["sim_card_alert"] = "http://www.roblox.com/asset/?id=6034452641";
+		["airline_seat_legroom_normal"] = "http://www.roblox.com/asset/?id=6034418532";
+		["wifi"] = "http://www.roblox.com/asset/?id=6034461626";
+		["do_not_disturb_off"] = "http://www.roblox.com/asset/?id=6034439642";
+		["imagesearch_roller"] = "http://www.roblox.com/asset/?id=6034439635";
+		["power"] = "http://www.roblox.com/asset/?id=6034457105";
+		["airline_seat_legroom_reduced"] = "http://www.roblox.com/asset/?id=6034418520";
+		["phone_in_talk"] = "http://www.roblox.com/asset/?id=6034457067";
+		["airline_seat_individual_suite"] = "http://www.roblox.com/asset/?id=6034418514";
+		["priority_high"] = "http://www.roblox.com/asset/?id=6034457092";
+		["phone_callback"] = "http://www.roblox.com/asset/?id=6034457104";
+		["phone_forwarded"] = "http://www.roblox.com/asset/?id=6034457106";
+		["sync"] = "http://www.roblox.com/asset/?id=6034452662";
+		["vpn_lock"] = "http://www.roblox.com/asset/?id=6034452648";
+		["support_agent"] = "http://www.roblox.com/asset/?id=6034452656";
+		["network_locked"] = "http://www.roblox.com/asset/?id=6034457064";
+		["directions_off"] = "http://www.roblox.com/asset/?id=6034418517";
+		["drive_eta"] = "http://www.roblox.com/asset/?id=6034464371";
+		["sensor_window"] = "http://www.roblox.com/asset/?id=6031067242";
+		["sensor_door"] = "http://www.roblox.com/asset/?id=6031067241";
+		["keyboard_return"] = "http://www.roblox.com/asset/?id=6034818370";
+		["monitor"] = "http://www.roblox.com/asset/?id=6034837803";
+		["device_hub"] = "http://www.roblox.com/asset/?id=6034789877";
+		["keyboard"] = "http://www.roblox.com/asset/?id=6034818398";
+		["keyboard_voice"] = "http://www.roblox.com/asset/?id=6034818360";
+		["cast"] = "http://www.roblox.com/asset/?id=6034789876";
+		["developer_board"] = "http://www.roblox.com/asset/?id=6034789883";
+		["tablet"] = "http://www.roblox.com/asset/?id=6034848733";
+		["keyboard_hide"] = "http://www.roblox.com/asset/?id=6034818386";
+		["dock"] = "http://www.roblox.com/asset/?id=6034789888";
+		["phonelink"] = "http://www.roblox.com/asset/?id=6034837801";
+		["device_unknown"] = "http://www.roblox.com/asset/?id=6034789884";
+		["speaker_group"] = "http://www.roblox.com/asset/?id=6034848732";
+		["desktop_mac"] = "http://www.roblox.com/asset/?id=6034789898";
+		["point_of_sale"] = "http://www.roblox.com/asset/?id=6034837798";
+		["memory"] = "http://www.roblox.com/asset/?id=6034837807";
+		["keyboard_tab"] = "http://www.roblox.com/asset/?id=6034818363";
+		["router"] = "http://www.roblox.com/asset/?id=6034837806";
+		["sim_card"] = "http://www.roblox.com/asset/?id=6034837800";
+		["headset"] = "http://www.roblox.com/asset/?id=6034789880";
+		["gamepad"] = "http://www.roblox.com/asset/?id=6034789879";
+		["speaker"] = "http://www.roblox.com/asset/?id=6034848746";
+		["devices_other"] = "http://www.roblox.com/asset/?id=6034789873";
+		["laptop"] = "http://www.roblox.com/asset/?id=6034818367";
+		["scanner"] = "http://www.roblox.com/asset/?id=6034837799";
+		["tv"] = "http://www.roblox.com/asset/?id=6034848740";
+		["headset_mic"] = "http://www.roblox.com/asset/?id=6034818383";
+		["browser_not_supported"] = "http://www.roblox.com/asset/?id=6034789875";
+		["computer"] = "http://www.roblox.com/asset/?id=6034789874";
+		["connected_tv"] = "http://www.roblox.com/asset/?id=6034789870";
+		["phonelink_off"] = "http://www.roblox.com/asset/?id=6034837804";
+		["headset_off"] = "http://www.roblox.com/asset/?id=6034818402";
+		["cast_connected"] = "http://www.roblox.com/asset/?id=6034789895";
+		["watch"] = "http://www.roblox.com/asset/?id=6034848747";
+		["keyboard_arrow_up"] = "http://www.roblox.com/asset/?id=6034818379";
+		["keyboard_backspace"] = "http://www.roblox.com/asset/?id=6034818381";
+		["laptop_chromebook"] = "http://www.roblox.com/asset/?id=6034818364";
+		["phone_iphone"] = "http://www.roblox.com/asset/?id=6034837811";
+		["smartphone"] = "http://www.roblox.com/asset/?id=6034848731";
+		["power_input"] = "http://www.roblox.com/asset/?id=6034837794";
+		["videogame_asset"] = "http://www.roblox.com/asset/?id=6034848748";
+		["desktop_windows"] = "http://www.roblox.com/asset/?id=6034789893";
+		["keyboard_arrow_down"] = "http://www.roblox.com/asset/?id=6034818372";
+		["laptop_mac"] = "http://www.roblox.com/asset/?id=6034837808";
+		["laptop_windows"] = "http://www.roblox.com/asset/?id=6034837796";
+		["keyboard_arrow_right"] = "http://www.roblox.com/asset/?id=6034818365";
+		["cast_for_education"] = "http://www.roblox.com/asset/?id=6034789872";
+		["keyboard_capslock"] = "http://www.roblox.com/asset/?id=6034818403";
+		["toys"] = "http://www.roblox.com/asset/?id=6034848752";
+		["tablet_android"] = "http://www.roblox.com/asset/?id=6034848734";
+		["mouse"] = "http://www.roblox.com/asset/?id=6034837797";
+		["phone_android"] = "http://www.roblox.com/asset/?id=6034837793";
+		["keyboard_arrow_left"] = "http://www.roblox.com/asset/?id=6034818375";
+		["security"] = "http://www.roblox.com/asset/?id=6034837802";
+		["dry_cleaning"] = "http://www.roblox.com/asset/?id=6034754456";
+		["bakery_dining"] = "http://www.roblox.com/asset/?id=6034767610";
+		["place"] = "http://www.roblox.com/asset/?id=6034503372";
+		["run_circle"] = "http://www.roblox.com/asset/?id=6034503367";
+		["local_post_office"] = "http://www.roblox.com/asset/?id=6034513883";
+		["takeout_dining"] = "http://www.roblox.com/asset/?id=6034467808";
+		["nightlife"] = "http://www.roblox.com/asset/?id=6034510003";
+		["design_services"] = "http://www.roblox.com/asset/?id=6034754453";
+		["celebration"] = "http://www.roblox.com/asset/?id=6034767613";
+		["near_me_disabled"] = "http://www.roblox.com/asset/?id=6034509988";
+		["add_location_alt"] = "http://www.roblox.com/asset/?id=6034483678";
+		["directions_run"] = "http://www.roblox.com/asset/?id=6034754445";
+		["local_fire_department"] = "http://www.roblox.com/asset/?id=6034684949";
+		["add_road"] = "http://www.roblox.com/asset/?id=6034483677";
+		["my_location"] = "http://www.roblox.com/asset/?id=6034509987";
+		["dinner_dining"] = "http://www.roblox.com/asset/?id=6034754457";
+		["local_airport"] = "http://www.roblox.com/asset/?id=6034687951";
+		["zoom_out_map"] = "http://www.roblox.com/asset/?id=6035229856";
+		["pin_drop"] = "http://www.roblox.com/asset/?id=6034470807";
+		["subway"] = "http://www.roblox.com/asset/?id=6034467790";
+		["electric_moped"] = "http://www.roblox.com/asset/?id=6034744027";
+		["restaurant_menu"] = "http://www.roblox.com/asset/?id=6034503378";
+		["local_gas_station"] = "http://www.roblox.com/asset/?id=6034684935";
+		["local_cafe"] = "http://www.roblox.com/asset/?id=6034687954";
+		["theater_comedy"] = "http://www.roblox.com/asset/?id=6034467796";
+		["directions_bus"] = "http://www.roblox.com/asset/?id=6034754434";
+		["hail"] = "http://www.roblox.com/asset/?id=6034744033";
+		["satellite"] = "http://www.roblox.com/asset/?id=6034503370";
+		["local_phone"] = "http://www.roblox.com/asset/?id=6034513884";
+		["electric_bike"] = "http://www.roblox.com/asset/?id=6034744032";
+		["local_see"] = "http://www.roblox.com/asset/?id=6034513887";
+		["transit_enterexit"] = "http://www.roblox.com/asset/?id=6034467805";
+		["local_convenience_store"] = "http://www.roblox.com/asset/?id=6034687956";
+		["local_offer"] = "http://www.roblox.com/asset/?id=6034513891";
+		["electric_car"] = "http://www.roblox.com/asset/?id=6034744029";
+		["beenhere"] = "http://www.roblox.com/asset/?id=6034483675";
+		["miscellaneous_services"] = "http://www.roblox.com/asset/?id=6034509993";
+		["maps_ugc"] = "http://www.roblox.com/asset/?id=6034509992";
+		["moped"] = "http://www.roblox.com/asset/?id=6034509999";
+		["medical_services"] = "http://www.roblox.com/asset/?id=6034510001";
+		["money"] = "http://www.roblox.com/asset/?id=6034509997";
+		["transfer_within_a_station"] = "http://www.roblox.com/asset/?id=6034467809";
+		["electrical_services"] = "http://www.roblox.com/asset/?id=6034744038";
+		["museum"] = "http://www.roblox.com/asset/?id=6034510005";
+		["add_location"] = "http://www.roblox.com/asset/?id=6034483672";
+		["layers"] = "http://www.roblox.com/asset/?id=6034687957";
+		["handyman"] = "http://www.roblox.com/asset/?id=6034744057";
+		["local_pharmacy"] = "http://www.roblox.com/asset/?id=6034513903";
+		["electric_rickshaw"] = "http://www.roblox.com/asset/?id=6034744043";
+		["alt_route"] = "http://www.roblox.com/asset/?id=6034483670";
+		["no_transfer"] = "http://www.roblox.com/asset/?id=6034503363";
+		["pedal_bike"] = "http://www.roblox.com/asset/?id=6034503374";
+		["directions_transit"] = "http://www.roblox.com/asset/?id=6034754436";
+		["railway_alert"] = "http://www.roblox.com/asset/?id=6034470823";
+		["local_police"] = "http://www.roblox.com/asset/?id=6034513895";
+		["directions_car"] = "http://www.roblox.com/asset/?id=6034754441";
+		["category"] = "http://www.roblox.com/asset/?id=6034767621";
+		["attractions"] = "http://www.roblox.com/asset/?id=6034767620";
+		["person_pin_circle"] = "http://www.roblox.com/asset/?id=6034503375";
+		["cleaning_services"] = "http://www.roblox.com/asset/?id=6034767619";
+		["terrain"] = "http://www.roblox.com/asset/?id=6034467794";
+		["no_meals"] = "http://www.roblox.com/asset/?id=6034510024";
+		["train"] = "http://www.roblox.com/asset/?id=6034467803";
+		["delivery_dining"] = "http://www.roblox.com/asset/?id=6034767644";
+		["pest_control"] = "http://www.roblox.com/asset/?id=6034470809";
+		["directions"] = "http://www.roblox.com/asset/?id=6034754449";
+		["atm"] = "http://www.roblox.com/asset/?id=6034767614";
+		["rate_review"] = "http://www.roblox.com/asset/?id=6034503385";
+		["local_bar"] = "http://www.roblox.com/asset/?id=6034687950";
+		["local_drink"] = "http://www.roblox.com/asset/?id=6034687965";
+		["directions_railway"] = "http://www.roblox.com/asset/?id=6034754433";
+		["person_pin"] = "http://www.roblox.com/asset/?id=6034503364";
+		["ev_station"] = "http://www.roblox.com/asset/?id=6034744037";
+		["home_repair_service"] = "http://www.roblox.com/asset/?id=6034744064";
+		["bus_alert"] = "http://www.roblox.com/asset/?id=6034767618";
+		["agriculture"] = "http://www.roblox.com/asset/?id=6034483674";
+		["volunteer_activism"] = "http://www.roblox.com/asset/?id=6034467799";
+		["breakfast_dining"] = "http://www.roblox.com/asset/?id=6034483671";
+		["layers_clear"] = "http://www.roblox.com/asset/?id=6034687975";
+		["plumbing"] = "http://www.roblox.com/asset/?id=6034470800";
+		["taxi_alert"] = "http://www.roblox.com/asset/?id=6034467792";
+		["add_business"] = "http://www.roblox.com/asset/?id=6034483666";
+		["badge"] = "http://www.roblox.com/asset/?id=6034767607";
+		["edit_attributes"] = "http://www.roblox.com/asset/?id=6034754443";
+		["directions_walk"] = "http://www.roblox.com/asset/?id=6034754448";
+		["local_play"] = "http://www.roblox.com/asset/?id=6034513889";
+		["bike_scooter"] = "http://www.roblox.com/asset/?id=6034483669";
+		["two_wheeler"] = "http://www.roblox.com/asset/?id=6034467795";
+		["local_florist"] = "http://www.roblox.com/asset/?id=6034684940";
+		["local_hotel"] = "http://www.roblox.com/asset/?id=6034684939";
+		["no_meals_ouline"] = "http://www.roblox.com/asset/?id=6034510025";
+		["festival"] = "http://www.roblox.com/asset/?id=6034744031";
+		["local_shipping"] = "http://www.roblox.com/asset/?id=6034684926";
+		["directions_boat"] = "http://www.roblox.com/asset/?id=6034754442";
+		["wrong_location"] = "http://www.roblox.com/asset/?id=6034467801";
+		["restaurant"] = "http://www.roblox.com/asset/?id=6034503366";
+		["directions_subway"] = "http://www.roblox.com/asset/?id=6034754440";
+		["not_listed_location"] = "http://www.roblox.com/asset/?id=6034503380";
+		["electric_scooter"] = "http://www.roblox.com/asset/?id=6034744041";
+		["ramen_dining"] = "http://www.roblox.com/asset/?id=6034503377";
+		["edit_road"] = "http://www.roblox.com/asset/?id=6034744035";
+		["local_printshop"] = "http://www.roblox.com/asset/?id=6034513897";
+		["map"] = "http://www.roblox.com/asset/?id=6034684930";
+		["car_rental"] = "http://www.roblox.com/asset/?id=6034767641";
+		["multiple_stop"] = "http://www.roblox.com/asset/?id=6034510026";
+		["brunch_dining"] = "http://www.roblox.com/asset/?id=6034767611";
+		["local_laundry_service"] = "http://www.roblox.com/asset/?id=6034684943";
+		["set_meal"] = "http://www.roblox.com/asset/?id=6034503368";
+		["local_car_wash"] = "http://www.roblox.com/asset/?id=6034687976";
+		["pest_control_rodent"] = "http://www.roblox.com/asset/?id=6034470803";
+		["local_pizza"] = "http://www.roblox.com/asset/?id=6034513885";
+		["local_grocery_store"] = "http://www.roblox.com/asset/?id=6034684933";
+		["traffic"] = "http://www.roblox.com/asset/?id=6034467797";
+		["departure_board"] = "http://www.roblox.com/asset/?id=6034767615";
+		["icecream"] = "http://www.roblox.com/asset/?id=6034687967";
+		["navigation"] = "http://www.roblox.com/asset/?id=6034509984";
+		["near_me"] = "http://www.roblox.com/asset/?id=6034509996";
+		["fastfood"] = "http://www.roblox.com/asset/?id=6034744034";
+		["local_library"] = "http://www.roblox.com/asset/?id=6034684931";
+		["local_activity"] = "http://www.roblox.com/asset/?id=6034687955";
+		["local_hospital"] = "http://www.roblox.com/asset/?id=6034684956";
+		["menu_book"] = "http://www.roblox.com/asset/?id=6034509994";
+		["directions_bike"] = "http://www.roblox.com/asset/?id=6034754459";
+		["store_mall_directory"] = "http://www.roblox.com/asset/?id=6034470811";
+		["trip_origin"] = "http://www.roblox.com/asset/?id=6034467804";
+		["tram"] = "http://www.roblox.com/asset/?id=6034467806";
+		["edit_location"] = "http://www.roblox.com/asset/?id=6034754439";
+		["streetview"] = "http://www.roblox.com/asset/?id=6034470805";
+		["hvac"] = "http://www.roblox.com/asset/?id=6034687960";
+		["lunch_dining"] = "http://www.roblox.com/asset/?id=6034684928";
+		["car_repair"] = "http://www.roblox.com/asset/?id=6034767617";
+		["compass_calibration"] = "http://www.roblox.com/asset/?id=6034767623";
+		["360"] = "http://www.roblox.com/asset/?id=6034767608";
+		["flight"] = "http://www.roblox.com/asset/?id=6034744030";
+		["local_mall"] = "http://www.roblox.com/asset/?id=6034684934";
+		["hotel"] = "http://www.roblox.com/asset/?id=6034687977";
+		["local_parking"] = "http://www.roblox.com/asset/?id=6034513893";
+		["hardware"] = "http://www.roblox.com/asset/?id=6034744036";
+		["local_dining"] = "http://www.roblox.com/asset/?id=6034687963";
+		["park"] = "http://www.roblox.com/asset/?id=6034503369";
+		["location_pin"] = "http://www.roblox.com/asset/?id=6034684937";
+		["local_movies"] = "http://www.roblox.com/asset/?id=6034684936";
+		["local_atm"] = "http://www.roblox.com/asset/?id=6034687953";
+		["local_taxi"] = "http://www.roblox.com/asset/?id=6034684927";
+		["brightness_low"] = "http://www.roblox.com/asset/?id=6034989542";
+		["screen_lock_landscape"] = "http://www.roblox.com/asset/?id=6034996700";
+		["graphic_eq"] = "http://www.roblox.com/asset/?id=6034989551";
+		["screen_lock_rotation"] = "http://www.roblox.com/asset/?id=6034996710";
+		["signal_cellular_4_bar"] = "http://www.roblox.com/asset/?id=6035030076";
+		["airplanemode_inactive"] = "http://www.roblox.com/asset/?id=6034983848";
+		["signal_wifi_0_bar"] = "http://www.roblox.com/asset/?id=6035030067";
+		["battery_full"] = "http://www.roblox.com/asset/?id=6034983854";
+		["gps_fixed"] = "http://www.roblox.com/asset/?id=6034989550";
+		["brightness_high"] = "http://www.roblox.com/asset/?id=6034989541";
+		["ad_units"] = "http://www.roblox.com/asset/?id=6034983845";
+		["signal_cellular_alt"] = "http://www.roblox.com/asset/?id=6035030079";
+		["bluetooth_connected"] = "http://www.roblox.com/asset/?id=6034983855";
+		["wifi_tethering"] = "http://www.roblox.com/asset/?id=6035039430";
+		["dvr"] = "http://www.roblox.com/asset/?id=6034989561";
+		["screen_search_desktop"] = "http://www.roblox.com/asset/?id=6034996711";
+		["network_wifi"] = "http://www.roblox.com/asset/?id=6034996712";
+		["access_alarms"] = "http://www.roblox.com/asset/?id=6034983853";
+		["nfc"] = "http://www.roblox.com/asset/?id=6034996698";
+		["location_disabled"] = "http://www.roblox.com/asset/?id=6034996694";
+		["signal_wifi_4_bar"] = "http://www.roblox.com/asset/?id=6035030077";
+		["access_time"] = "http://www.roblox.com/asset/?id=6034983856";
+		["mobile_off"] = "http://www.roblox.com/asset/?id=6034996702";
+		["battery_unknown"] = "http://www.roblox.com/asset/?id=6034983842";
+		["signal_cellular_null"] = "http://www.roblox.com/asset/?id=6035030075";
+		["bluetooth_disabled"] = "http://www.roblox.com/asset/?id=6034989562";
+		["developer_mode"] = "http://www.roblox.com/asset/?id=6034989549";
+		["network_cell"] = "http://www.roblox.com/asset/?id=6034996709";
+		["sd_storage"] = "http://www.roblox.com/asset/?id=6034996719";
+		["signal_cellular_no_sim"] = "http://www.roblox.com/asset/?id=6035030078";
+		["devices"] = "http://www.roblox.com/asset/?id=6034989540";
+		["screen_rotation"] = "http://www.roblox.com/asset/?id=6034996701";
+		["device_thermostat"] = "http://www.roblox.com/asset/?id=6034989544";
+		["signal_wifi_off"] = "http://www.roblox.com/asset/?id=6035030074";
+		["widgets"] = "http://www.roblox.com/asset/?id=6035039429";
+		["bluetooth"] = "http://www.roblox.com/asset/?id=6034983880";
+		["battery_charging_full"] = "http://www.roblox.com/asset/?id=6034983849";
+		["mobile_friendly"] = "http://www.roblox.com/asset/?id=6034996699";
+		["signal_cellular_0_bar"] = "http://www.roblox.com/asset/?id=6035030072";
+		["storage"] = "http://www.roblox.com/asset/?id=6035030083";
+		["send_to_mobile"] = "http://www.roblox.com/asset/?id=6034996697";
+		["location_searching"] = "http://www.roblox.com/asset/?id=6034996695";
+		["brightness_auto"] = "http://www.roblox.com/asset/?id=6034989545";
+		["wifi_lock"] = "http://www.roblox.com/asset/?id=6035039428";
+		["gps_not_fixed"] = "http://www.roblox.com/asset/?id=6034989547";
+		["access_alarm"] = "http://www.roblox.com/asset/?id=6034983844";
+		["battery_alert"] = "http://www.roblox.com/asset/?id=6034983843";
+		["signal_cellular_off"] = "http://www.roblox.com/asset/?id=6035030084";
+		["signal_cellular_connected_no_internet_4"] = "http://www.roblox.com/asset/?id=6035229858";
+		["gps_off"] = "http://www.roblox.com/asset/?id=6034989548";
+		["add_alarm"] = "http://www.roblox.com/asset/?id=6034983850";
+		["brightness_medium"] = "http://www.roblox.com/asset/?id=6034989543";
+		["usb"] = "http://www.roblox.com/asset/?id=6035030080";
+		["airplanemode_active"] = "http://www.roblox.com/asset/?id=6034983864";
+		["reset_tv"] = "http://www.roblox.com/asset/?id=6034996696";
+		["wallpaper"] = "http://www.roblox.com/asset/?id=6035030102";
+		["settings_system_daydream"] = "http://www.roblox.com/asset/?id=6035030081";
+		["bluetooth_searching"] = "http://www.roblox.com/asset/?id=6034989553";
+		["add_to_home_screen"] = "http://www.roblox.com/asset/?id=6034983858";
+		["screen_lock_portrait"] = "http://www.roblox.com/asset/?id=6034996706";
+		["data_usage"] = "http://www.roblox.com/asset/?id=6034989568";
+		["_auto_delete"] = "http://www.roblox.com/asset/?id=6031071068";
+		["_error"] = "http://www.roblox.com/asset/?id=6031071057";
+		["_notification_important"] = "http://www.roblox.com/asset/?id=6031071056";
+		["_add_alert"] = "http://www.roblox.com/asset/?id=6031071067";
+		["_warning"] = "http://www.roblox.com/asset/?id=6031071053";
+		["_error_outline"] = "http://www.roblox.com/asset/?id=6031071050";
+		["check_box_outline_blank"] = "http://www.roblox.com/asset/?id=6031068420";
+		["toggle_off"] = "http://www.roblox.com/asset/?id=6031068429";
+		["indeterminate_check_box"] = "http://www.roblox.com/asset/?id=6031068445";
+		["radio_button_checked"] = "http://www.roblox.com/asset/?id=6031068426";
+		["toggle_on"] = "http://www.roblox.com/asset/?id=6031068430";
+		["check_box"] = "http://www.roblox.com/asset/?id=6031068421";
+		["radio_button_unchecked"] = "http://www.roblox.com/asset/?id=6031068433";
+		["star"] = "http://www.roblox.com/asset/?id=6031068423";
+		["star_border"] = "http://www.roblox.com/asset/?id=6031068425";
+		["star_half"] = "http://www.roblox.com/asset/?id=6031068427";
+		["star_outline"] = "http://www.roblox.com/asset/?id=6031068428";
+		["multiline_chart"] = "http://www.roblox.com/asset/?id=6034941721";
+		["pie_chart"] = "http://www.roblox.com/asset/?id=6034973076";
+		["format_line_spacing"] = "http://www.roblox.com/asset/?id=6034910905";
+		["format_align_left"] = "http://www.roblox.com/asset/?id=6034900727";
+		["linear_scale"] = "http://www.roblox.com/asset/?id=6034941707";
+		["insert_photo"] = "http://www.roblox.com/asset/?id=6034941703";
+		["scatter_plot"] = "http://www.roblox.com/asset/?id=6034973094";
+		["post_add"] = "http://www.roblox.com/asset/?id=6034973083";
+		["format_textdirection_r_to_l"] = "http://www.roblox.com/asset/?id=6034925623";
+		["format_size"] = "http://www.roblox.com/asset/?id=6034910908";
+		["format_color_fill"] = "http://www.roblox.com/asset/?id=6034910903";
+		["format_paint"] = "http://www.roblox.com/asset/?id=6034925618";
+		["format_underlined"] = "http://www.roblox.com/asset/?id=6034925627";
+		["format_shapes"] = "http://www.roblox.com/asset/?id=6034910909";
+		["title"] = "http://www.roblox.com/asset/?id=6034934042";
+		["highlight"] = "http://www.roblox.com/asset/?id=6034925617";
+		["bar_chart"] = "http://www.roblox.com/asset/?id=6034898096";
+		["format_indent_increase"] = "http://www.roblox.com/asset/?id=6034900724";
+		["merge_type"] = "http://www.roblox.com/asset/?id=6034941705";
+		["bubble_chart"] = "http://www.roblox.com/asset/?id=6034925612";
+		["publish"] = "http://www.roblox.com/asset/?id=6034973085";
+		["format_indent_decrease"] = "http://www.roblox.com/asset/?id=6034900733";
+		["margin"] = "http://www.roblox.com/asset/?id=6034941701";
+		["table_rows"] = "http://www.roblox.com/asset/?id=6034934025";
+		["stacked_line_chart"] = "http://www.roblox.com/asset/?id=6034934039";
+		["border_clear"] = "http://www.roblox.com/asset/?id=6034898135";
+		["border_color"] = "http://www.roblox.com/asset/?id=6034898100";
+		["border_inner"] = "http://www.roblox.com/asset/?id=6034898131";
+		["insert_chart"] = "http://www.roblox.com/asset/?id=6034925628";
+		["border_top"] = "http://www.roblox.com/asset/?id=6034900726";
+		["padding"] = "http://www.roblox.com/asset/?id=6034973078";
+		["border_vertical"] = "http://www.roblox.com/asset/?id=6034900725";
+		["score"] = "http://www.roblox.com/asset/?id=6034934041";
+		["border_right"] = "http://www.roblox.com/asset/?id=6034898120";
+		["add_chart"] = "http://www.roblox.com/asset/?id=6034898093";
+		["space_bar"] = "http://www.roblox.com/asset/?id=6034934037";
+		["border_outer"] = "http://www.roblox.com/asset/?id=6034898104";
+		["mode_comment"] = "http://www.roblox.com/asset/?id=6034941700";
+		["attach_money"] = "http://www.roblox.com/asset/?id=6034898098";
+		["drag_handle"] = "http://www.roblox.com/asset/?id=6034910907";
+		["format_align_right"] = "http://www.roblox.com/asset/?id=6034900723";
+		["pie_chart_outlined"] = "http://www.roblox.com/asset/?id=6034973077";
+		["horizontal_rule"] = "http://www.roblox.com/asset/?id=6034925610";
+		["border_all"] = "http://www.roblox.com/asset/?id=6034898101";
+		["border_style"] = "http://www.roblox.com/asset/?id=6034898097";
+		["insert_comment"] = "http://www.roblox.com/asset/?id=6034925609";
+		["vertical_align_top"] = "http://www.roblox.com/asset/?id=6034973080";
+		["vertical_align_center"] = "http://www.roblox.com/asset/?id=6034934051";
+		["format_color_text"] = "http://www.roblox.com/asset/?id=6034910910";
+		["format_quote"] = "http://www.roblox.com/asset/?id=6034925629";
+		["height"] = "http://www.roblox.com/asset/?id=6034925613";
+		["add_comment"] = "http://www.roblox.com/asset/?id=6034898128";
+		["format_strikethrough"] = "http://www.roblox.com/asset/?id=6034910904";
+		["strikethrough_s"] = "http://www.roblox.com/asset/?id=6034934030";
+		["border_left"] = "http://www.roblox.com/asset/?id=6034898099";
+		["format_list_bulleted"] = "http://www.roblox.com/asset/?id=6034925620";
+		["format_italic"] = "http://www.roblox.com/asset/?id=6034910912";
+		["format_list_numbered"] = "http://www.roblox.com/asset/?id=6034925622";
+		["attach_file"] = "http://www.roblox.com/asset/?id=6034898102";
+		["wrap_text"] = "http://www.roblox.com/asset/?id=6034973118";
+		["insert_invitation"] = "http://www.roblox.com/asset/?id=6034973091";
+		["format_list_numbered_rtl"] = "http://www.roblox.com/asset/?id=6034910906";
+		["border_horizontal"] = "http://www.roblox.com/asset/?id=6034898105";
+		["format_align_center"] = "http://www.roblox.com/asset/?id=6034900718";
+		["format_textdirection_l_to_r"] = "http://www.roblox.com/asset/?id=6034925619";
+		["show_chart"] = "http://www.roblox.com/asset/?id=6034934032";
+		["insert_chart_outlined"] = "http://www.roblox.com/asset/?id=6034925606";
+		["vertical_align_bottom"] = "http://www.roblox.com/asset/?id=6034934023";
+		["subscript"] = "http://www.roblox.com/asset/?id=6034934059";
+		["format_align_justify"] = "http://www.roblox.com/asset/?id=6034900721";
+		["format_clear"] = "http://www.roblox.com/asset/?id=6034910902";
+		["notes"] = "http://www.roblox.com/asset/?id=6034973084";
+		["insert_drive_file"] = "http://www.roblox.com/asset/?id=6034941697";
+		["functions"] = "http://www.roblox.com/asset/?id=6034925614";
+		["insert_emoticon"] = "http://www.roblox.com/asset/?id=6034973079";
+		["insert_link"] = "http://www.roblox.com/asset/?id=6034973074";
+		["format_color_reset"] = "http://www.roblox.com/asset/?id=6034900743";
+		["monetization_on"] = "http://www.roblox.com/asset/?id=6034973115";
+		["short_text"] = "http://www.roblox.com/asset/?id=6034934035";
+		["mode_edit"] = "http://www.roblox.com/asset/?id=6034941708";
+		["superscript"] = "http://www.roblox.com/asset/?id=6034934034";
+		["table_chart"] = "http://www.roblox.com/asset/?id=6034973081";
+		["format_bold"] = "http://www.roblox.com/asset/?id=6034900732";
+		["money_off"] = "http://www.roblox.com/asset/?id=6034973088";
+		["border_bottom"] = "http://www.roblox.com/asset/?id=6034898094";
+		["text_fields"] = "http://www.roblox.com/asset/?id=6034934040";
+		["note"] = "http://www.roblox.com/asset/?id=6026663734";
+		["shuffle"] = "http://www.roblox.com/asset/?id=6026667003";
+		["library_books"] = "http://www.roblox.com/asset/?id=6026660085";
+		["library_music"] = "http://www.roblox.com/asset/?id=6026660075";
+		["surround_sound"] = "http://www.roblox.com/asset/?id=6026671209";
+		["forward_30"] = "http://www.roblox.com/asset/?id=6026660088";
+		["music_video"] = "http://www.roblox.com/asset/?id=6026663704";
+		["videocam_off"] = "http://www.roblox.com/asset/?id=6026671212";
+		["control_camera"] = "http://www.roblox.com/asset/?id=6026647916";
+		["explicit"] = "http://www.roblox.com/asset/?id=6026647913";
+		["3k_plus"] = "http://www.roblox.com/asset/?id=6026681598";
+		["fiber_pin"] = "http://www.roblox.com/asset/?id=6026660064";
+		["skip_previous"] = "http://www.roblox.com/asset/?id=6026667011";
+		["pause_circle_filled"] = "http://www.roblox.com/asset/?id=6026663718";
+		["video_settings"] = "http://www.roblox.com/asset/?id=6026671211";
+		["movie"] = "http://www.roblox.com/asset/?id=6026660081";
+		["add_to_queue"] = "http://www.roblox.com/asset/?id=6026647903";
+		["6k"] = "http://www.roblox.com/asset/?id=6026681579";
+		["web_asset"] = "http://www.roblox.com/asset/?id=6026671239";
+		["play_circle_outline"] = "http://www.roblox.com/asset/?id=6026663726";
+		["volume_off"] = "http://www.roblox.com/asset/?id=6026671224";
+		["mic_off"] = "http://www.roblox.com/asset/?id=6026660076";
+		["featured_play_list"] = "http://www.roblox.com/asset/?id=6026647932";
+		["pause_circle_outline"] = "http://www.roblox.com/asset/?id=6026663701";
+		["slow_motion_video"] = "http://www.roblox.com/asset/?id=6026681583";
+		["7k"] = "http://www.roblox.com/asset/?id=6026681584";
+		["playlist_add"] = "http://www.roblox.com/asset/?id=6026663728";
+		["fiber_smart_record"] = "http://www.roblox.com/asset/?id=6026660080";
+		["8k"] = "http://www.roblox.com/asset/?id=6026643014";
+		["hd"] = "http://www.roblox.com/asset/?id=6026660065";
+		["repeat_one_on"] = "http://www.roblox.com/asset/?id=6026666992";
+		["recent_actors"] = "http://www.roblox.com/asset/?id=6026663773";
+		["fiber_new"] = "http://www.roblox.com/asset/?id=6026647930";
+		["fiber_dvr"] = "http://www.roblox.com/asset/?id=6026647912";
+		["hearing_disabled"] = "http://www.roblox.com/asset/?id=6026660068";
+		["forward_10"] = "http://www.roblox.com/asset/?id=6026660062";
+		["4k_plus"] = "http://www.roblox.com/asset/?id=6026643005";
+		["repeat_one"] = "http://www.roblox.com/asset/?id=6026681590";
+		["equalizer"] = "http://www.roblox.com/asset/?id=6026647906";
+		["stop"] = "http://www.roblox.com/asset/?id=6026681576";
+		["2k"] = "http://www.roblox.com/asset/?id=6026643032";
+		["playlist_add_check"] = "http://www.roblox.com/asset/?id=6026663727";
+		["not_interested"] = "http://www.roblox.com/asset/?id=6026663743";
+		["videocam"] = "http://www.roblox.com/asset/?id=6026671213";
+		["sort_by_alpha"] = "http://www.roblox.com/asset/?id=6026667009";
+		["library_add"] = "http://www.roblox.com/asset/?id=6026660063";
+		["stop_circle"] = "http://www.roblox.com/asset/?id=6026681577";
+		["pause"] = "http://www.roblox.com/asset/?id=6026663719";
+		["new_releases"] = "http://www.roblox.com/asset/?id=6026663730";
+		["album"] = "http://www.roblox.com/asset/?id=6026647905";
+		["sd"] = "http://www.roblox.com/asset/?id=6026681582";
+		["volume_up"] = "http://www.roblox.com/asset/?id=6026671215";
+		["replay_5"] = "http://www.roblox.com/asset/?id=6026666993";
+		["high_quality"] = "http://www.roblox.com/asset/?id=6026660059";
+		["shuffle_on"] = "http://www.roblox.com/asset/?id=6026666996";
+		["play_arrow"] = "http://www.roblox.com/asset/?id=6026663699";
+		["snooze"] = "http://www.roblox.com/asset/?id=6026667006";
+		["closed_caption_disabled"] = "http://www.roblox.com/asset/?id=6026647900";
+		["subscriptions"] = "http://www.roblox.com/asset/?id=6026671207";
+		["skip_next"] = "http://www.roblox.com/asset/?id=6026667005";
+		["branding_watermark"] = "http://www.roblox.com/asset/?id=6026647911";
+		["speed"] = "http://www.roblox.com/asset/?id=6026681578";
+		["art_track"] = "http://www.roblox.com/asset/?id=6026647908";
+		["3k"] = "http://www.roblox.com/asset/?id=6026681574";
+		["4k"] = "http://www.roblox.com/asset/?id=6026643017";
+		["volume_mute"] = "http://www.roblox.com/asset/?id=6026671214";
+		["playlist_play"] = "http://www.roblox.com/asset/?id=6026663723";
+		["remove_from_queue"] = "http://www.roblox.com/asset/?id=6026663771";
+		["fast_forward"] = "http://www.roblox.com/asset/?id=6026647902";
+		["play_disabled"] = "http://www.roblox.com/asset/?id=6026663702";
+		["fast_rewind"] = "http://www.roblox.com/asset/?id=6026647942";
+		["5k"] = "http://www.roblox.com/asset/?id=6026681575";
+		["replay_10"] = "http://www.roblox.com/asset/?id=6026667007";
+		["video_library"] = "http://www.roblox.com/asset/?id=6026671208";
+		["loop"] = "http://www.roblox.com/asset/?id=6026660087";
+		["replay_circle_filled"] = "http://www.roblox.com/asset/?id=6026667002";
+		["5g"] = "http://www.roblox.com/asset/?id=6026643007";
+		["library_add_check"] = "http://www.roblox.com/asset/?id=6026660083";
+		["repeat"] = "http://www.roblox.com/asset/?id=6026666998";
+		["queue_play_next"] = "http://www.roblox.com/asset/?id=6026663700";
+		["forward_5"] = "http://www.roblox.com/asset/?id=6026660067";
+		["web"] = "http://www.roblox.com/asset/?id=6026671234";
+		["mic_none"] = "http://www.roblox.com/asset/?id=6026660066";
+		["queue"] = "http://www.roblox.com/asset/?id=6026663724";
+		["closed_caption_off"] = "http://www.roblox.com/asset/?id=6026647943";
+		["hearing"] = "http://www.roblox.com/asset/?id=6026660060";
+		["queue_music"] = "http://www.roblox.com/asset/?id=6026663725";
+		["airplay"] = "http://www.roblox.com/asset/?id=6026647929";
+		["9k"] = "http://www.roblox.com/asset/?id=6026643013";
+		["video_label"] = "http://www.roblox.com/asset/?id=6026671204";
+		["8k_plus"] = "http://www.roblox.com/asset/?id=6026643003";
+		["play_circle_filled"] = "http://www.roblox.com/asset/?id=6026663705";
+		["1k"] = "http://www.roblox.com/asset/?id=6026643002";
+		["fiber_manual_record"] = "http://www.roblox.com/asset/?id=6026647909";
+		["closed_caption"] = "http://www.roblox.com/asset/?id=6026647896";
+		["subtitles"] = "http://www.roblox.com/asset/?id=6026671203";
+		["featured_video"] = "http://www.roblox.com/asset/?id=6026647910";
+		["replay_30"] = "http://www.roblox.com/asset/?id=6026667010";
+		["10k"] = "http://www.roblox.com/asset/?id=6026643035";
+		["5k_plus"] = "http://www.roblox.com/asset/?id=6026643028";
+		["6k_plus"] = "http://www.roblox.com/asset/?id=6026643019";
+		["replay"] = "http://www.roblox.com/asset/?id=6026666999";
+		["repeat_on"] = "http://www.roblox.com/asset/?id=6026666994";
+		["1k_plus"] = "http://www.roblox.com/asset/?id=6026681580";
+		["2k_plus"] = "http://www.roblox.com/asset/?id=6026681588";
+		["games"] = "http://www.roblox.com/asset/?id=6026660074";
+		["volume_down"] = "http://www.roblox.com/asset/?id=6026671206";
+		["mic"] = "http://www.roblox.com/asset/?id=6026660078";
+		["call_to_action"] = "http://www.roblox.com/asset/?id=6026647898";
+		["7k_plus"] = "http://www.roblox.com/asset/?id=6026643012";
+		["av_timer"] = "http://www.roblox.com/asset/?id=6026647934";
+		["9k_plus"] = "http://www.roblox.com/asset/?id=6026681585";
+		["radio"] = "http://www.roblox.com/asset/?id=6026663698";
+		["10mp"] = "http://www.roblox.com/asset/?id=6031328149";
+		["20mp"] = "http://www.roblox.com/asset/?id=6031488940";
+		["wb_twighlight"] = "http://www.roblox.com/asset/?id=6034412760";
+		["movie_creation"] = "http://www.roblox.com/asset/?id=6034323681";
+		["crop_portrait"] = "http://www.roblox.com/asset/?id=6031630198";
+		["filter_5"] = "http://www.roblox.com/asset/?id=6031597518";
+		["broken_image"] = "http://www.roblox.com/asset/?id=6031471480";
+		["flip_camera_android"] = "http://www.roblox.com/asset/?id=6034333280";
+		["flip_camera_ios"] = "http://www.roblox.com/asset/?id=6034333267";
+		["circle"] = "http://www.roblox.com/asset/?id=6031625146";
+		["photo_camera_front"] = "http://www.roblox.com/asset/?id=6031771000";
+		["assistant"] = "http://www.roblox.com/asset/?id=6031360356";
+		["face_retouching_natural"] = "http://www.roblox.com/asset/?id=6034333274";
+		["palette"] = "http://www.roblox.com/asset/?id=6034316009";
+		["nature_people"] = "http://www.roblox.com/asset/?id=6034323711";
+		["14mp"] = "http://www.roblox.com/asset/?id=6031328161";
+		["gradient"] = "http://www.roblox.com/asset/?id=6034333261";
+		["filter_4"] = "http://www.roblox.com/asset/?id=6031597512";
+		["panorama_wide_angle_select"] = "http://www.roblox.com/asset/?id=6031770990";
+		["photo"] = "http://www.roblox.com/asset/?id=6031770993";
+		["grid_off"] = "http://www.roblox.com/asset/?id=6034333286";
+		["leak_add"] = "http://www.roblox.com/asset/?id=6034407074";
+		["landscape"] = "http://www.roblox.com/asset/?id=6034407069";
+		["exposure_plus_1"] = "http://www.roblox.com/asset/?id=6034328970";
+		["slideshow"] = "http://www.roblox.com/asset/?id=6031754546";
+		["camera_alt"] = "http://www.roblox.com/asset/?id=6031572307";
+		["audiotrack"] = "http://www.roblox.com/asset/?id=6031471489";
+		["filter_none"] = "http://www.roblox.com/asset/?id=6031600815";
+		["blur_off"] = "http://www.roblox.com/asset/?id=6031371055";
+		["crop_16_9"] = "http://www.roblox.com/asset/?id=6031630205";
+		["blur_on"] = "http://www.roblox.com/asset/?id=6031371068";
+		["brightness_4"] = "http://www.roblox.com/asset/?id=6031471483";
+		["details"] = "http://www.roblox.com/asset/?id=6034328968";
+		["panorama_horizontal"] = "http://www.roblox.com/asset/?id=6034315966";
+		["camera_rear"] = "http://www.roblox.com/asset/?id=6031572316";
+		["hdr_weak"] = "http://www.roblox.com/asset/?id=6034407083";
+		["collections"] = "http://www.roblox.com/asset/?id=6031625145";
+		["hdr_enhanced_select"] = "http://www.roblox.com/asset/?id=6034333281";
+		["adjust"] = "http://www.roblox.com/asset/?id=6031339048";
+		["burst_mode"] = "http://www.roblox.com/asset/?id=6031572306";
+		["nature"] = "http://www.roblox.com/asset/?id=6034323695";
+		["brightness_6"] = "http://www.roblox.com/asset/?id=6031572309";
+		["19mp"] = "http://www.roblox.com/asset/?id=6031339054";
+		["grain"] = "http://www.roblox.com/asset/?id=6034333288";
+		["receipt_long"] = "http://www.roblox.com/asset/?id=6031763428";
+		["photo_filter"] = "http://www.roblox.com/asset/?id=6031770992";
+		["edit"] = "http://www.roblox.com/asset/?id=6034328955";
+		["healing"] = "http://www.roblox.com/asset/?id=6034407071";
+		["exposure_neg_1"] = "http://www.roblox.com/asset/?id=6034328957";
+		["exposure"] = "http://www.roblox.com/asset/?id=6034328962";
+		["wb_shade"] = "http://www.roblox.com/asset/?id=6034315974";
+		["compare"] = "http://www.roblox.com/asset/?id=6031625151";
+		["cases"] = "http://www.roblox.com/asset/?id=6031572324";
+		["timer_3"] = "http://www.roblox.com/asset/?id=6031754540";
+		["exposure_plus_2"] = "http://www.roblox.com/asset/?id=6034328961";
+		["12mp"] = "http://www.roblox.com/asset/?id=6031328140";
+		["22mp"] = "http://www.roblox.com/asset/?id=6031360353";
+		["timer_off"] = "http://www.roblox.com/asset/?id=6031734881";
+		["auto_stories"] = "http://www.roblox.com/asset/?id=6031360360";
+		["rotate_left"] = "http://www.roblox.com/asset/?id=6031763427";
+		["wb_iridescent"] = "http://www.roblox.com/asset/?id=6034315972";
+		["shutter_speed"] = "http://www.roblox.com/asset/?id=6031763443";
+		["switch_video"] = "http://www.roblox.com/asset/?id=6031754536";
+		["23mp"] = "http://www.roblox.com/asset/?id=6031339045";
+		["euro"] = "http://www.roblox.com/asset/?id=6034328963";
+		["15mp"] = "http://www.roblox.com/asset/?id=6031328158";
+		["filter_center_focus"] = "http://www.roblox.com/asset/?id=6031600817";
+		["photo_library"] = "http://www.roblox.com/asset/?id=6031770998";
+		["mp"] = "http://www.roblox.com/asset/?id=6034323674";
+		["looks_4"] = "http://www.roblox.com/asset/?id=6034407089";
+		["filter_2"] = "http://www.roblox.com/asset/?id=6031597521";
+		["crop_3_2"] = "http://www.roblox.com/asset/?id=6034328956";
+		["auto_fix_normal"] = "http://www.roblox.com/asset/?id=6031371074";
+		["auto_fix_off"] = "http://www.roblox.com/asset/?id=6031360381";
+		["wb_auto"] = "http://www.roblox.com/asset/?id=6031734875";
+		["switch_camera"] = "http://www.roblox.com/asset/?id=6031754550";
+		["filter_vintage"] = "http://www.roblox.com/asset/?id=6031600811";
+		["photo_size_select_small"] = "http://www.roblox.com/asset/?id=6031763457";
+		["blur_linear"] = "http://www.roblox.com/asset/?id=6031488930";
+		["hdr_on"] = "http://www.roblox.com/asset/?id=6034333279";
+		["tag_faces"] = "http://www.roblox.com/asset/?id=6031754560";
+		["21mp"] = "http://www.roblox.com/asset/?id=6031339065";
+		["camera"] = "http://www.roblox.com/asset/?id=6031572312";
+		["image_aspect_ratio"] = "http://www.roblox.com/asset/?id=6034407073";
+		["filter_b_and_w"] = "http://www.roblox.com/asset/?id=6031600824";
+		["crop_landscape"] = "http://www.roblox.com/asset/?id=6031630202";
+		["13mp"] = "http://www.roblox.com/asset/?id=6031328137";
+		["grid_on"] = "http://www.roblox.com/asset/?id=6034333276";
+		["motion_photos_pause"] = "http://www.roblox.com/asset/?id=6034323668";
+		["filter_6"] = "http://www.roblox.com/asset/?id=6031597524";
+		["linked_camera"] = "http://www.roblox.com/asset/?id=6034407082";
+		["panorama_fish_eye"] = "http://www.roblox.com/asset/?id=6034315969";
+		["panorama"] = "http://www.roblox.com/asset/?id=6034315955";
+		["color_lens"] = "http://www.roblox.com/asset/?id=6031625148";
+		["lens"] = "http://www.roblox.com/asset/?id=6034407081";
+		["crop_din"] = "http://www.roblox.com/asset/?id=6031630208";
+		["exposure_neg_2"] = "http://www.roblox.com/asset/?id=6034328973";
+		["mic_external_off"] = "http://www.roblox.com/asset/?id=6034323672";
+		["crop_free"] = "http://www.roblox.com/asset/?id=6031630212";
+		["crop_original"] = "http://www.roblox.com/asset/?id=6031630204";
+		["panorama_photosphere_select"] = "http://www.roblox.com/asset/?id=6034315975";
+		["photo_size_select_actual"] = "http://www.roblox.com/asset/?id=6031771012";
+		["leak_remove"] = "http://www.roblox.com/asset/?id=6034407080";
+		["collections_bookmark"] = "http://www.roblox.com/asset/?id=6034328965";
+		["straighten"] = "http://www.roblox.com/asset/?id=6031754545";
+		["timelapse"] = "http://www.roblox.com/asset/?id=6031754541";
+		["picture_as_pdf"] = "http://www.roblox.com/asset/?id=6031763425";
+		["crop_rotate"] = "http://www.roblox.com/asset/?id=6031630203";
+		["control_point_duplicate"] = "http://www.roblox.com/asset/?id=6034328959";
+		["photo_camera_back"] = "http://www.roblox.com/asset/?id=6031771007";
+		["looks_3"] = "http://www.roblox.com/asset/?id=6034407088";
+		["motion_photos_off"] = "http://www.roblox.com/asset/?id=6034323670";
+		["rotate_right"] = "http://www.roblox.com/asset/?id=6031763429";
+		["view_compact"] = "http://www.roblox.com/asset/?id=6031734878";
+		["crop_7_5"] = "http://www.roblox.com/asset/?id=6031630197";
+		["style"] = "http://www.roblox.com/asset/?id=6031754538";
+		["exposure_zero"] = "http://www.roblox.com/asset/?id=6034329000";
+		["camera_front"] = "http://www.roblox.com/asset/?id=6031572318";
+		["hdr_strong"] = "http://www.roblox.com/asset/?id=6034333272";
+		["view_comfy"] = "http://www.roblox.com/asset/?id=6031734876";
+		["panorama_vertical"] = "http://www.roblox.com/asset/?id=6034315963";
+		["panorama_vertical_select"] = "http://www.roblox.com/asset/?id=6034315961";
+		["looks_two"] = "http://www.roblox.com/asset/?id=6034412757";
+		["filter_drama"] = "http://www.roblox.com/asset/?id=6031600813";
+		["center_focus_strong"] = "http://www.roblox.com/asset/?id=6031625147";
+		["18mp"] = "http://www.roblox.com/asset/?id=6031339064";
+		["7mp"] = "http://www.roblox.com/asset/?id=6031328139";
+		["wb_sunny"] = "http://www.roblox.com/asset/?id=6034412758";
+		["filter_9_plus"] = "http://www.roblox.com/asset/?id=6031600812";
+		["crop"] = "http://www.roblox.com/asset/?id=6034328964";
+		["vignette"] = "http://www.roblox.com/asset/?id=6031734905";
+		["brightness_2"] = "http://www.roblox.com/asset/?id=6031488938";
+		["crop_square"] = "http://www.roblox.com/asset/?id=6031630222";
+		["looks_5"] = "http://www.roblox.com/asset/?id=6034412764";
+		["flip"] = "http://www.roblox.com/asset/?id=6034333275";
+		["looks_one"] = "http://www.roblox.com/asset/?id=6034412761";
+		["flash_off"] = "http://www.roblox.com/asset/?id=6034333270";
+		["hdr_off"] = "http://www.roblox.com/asset/?id=6034333266";
+		["photo_album"] = "http://www.roblox.com/asset/?id=6031770989";
+		["motion_photos_paused"] = "http://www.roblox.com/asset/?id=6034323675";
+		["photo_camera"] = "http://www.roblox.com/asset/?id=6031770997";
+		["2mp"] = "http://www.roblox.com/asset/?id=6031328138";
+		["3mp"] = "http://www.roblox.com/asset/?id=6031328136";
+		["24mp"] = "http://www.roblox.com/asset/?id=6031360352";
+		["filter_9"] = "http://www.roblox.com/asset/?id=6031597534";
+		["6mp"] = "http://www.roblox.com/asset/?id=6031328131";
+		["remove_red_eye"] = "http://www.roblox.com/asset/?id=6031763426";
+		["4mp"] = "http://www.roblox.com/asset/?id=6031328152";
+		["add_a_photo"] = "http://www.roblox.com/asset/?id=6031339049";
+		["filter_3"] = "http://www.roblox.com/asset/?id=6031597513";
+		["crop_5_4"] = "http://www.roblox.com/asset/?id=6034328960";
+		["8mp"] = "http://www.roblox.com/asset/?id=6031328133";
+		["camera_roll"] = "http://www.roblox.com/asset/?id=6031572314";
+		["panorama_wide_angle"] = "http://www.roblox.com/asset/?id=6031770995";
+		["transform"] = "http://www.roblox.com/asset/?id=6031734873";
+		["flare"] = "http://www.roblox.com/asset/?id=6031600816";
+		["image_search"] = "http://www.roblox.com/asset/?id=6034407084";
+		["auto_awesome"] = "http://www.roblox.com/asset/?id=6031360365";
+		["motion_photos_on"] = "http://www.roblox.com/asset/?id=6034323669";
+		["rotate_90_degrees_ccw"] = "http://www.roblox.com/asset/?id=6031763456";
+		["filter_1"] = "http://www.roblox.com/asset/?id=6031597511";
+		["filter_tilt_shift"] = "http://www.roblox.com/asset/?id=6031600814";
+		["image"] = "http://www.roblox.com/asset/?id=6034407078";
+		["center_focus_weak"] = "http://www.roblox.com/asset/?id=6031625144";
+		["blur_circular"] = "http://www.roblox.com/asset/?id=6031488945";
+		["bedtime"] = "http://www.roblox.com/asset/?id=6031371054";
+		["auto_fix_high"] = "http://www.roblox.com/asset/?id=6031360355";
+		["monochrome_photos"] = "http://www.roblox.com/asset/?id=6034323678";
+		["flash_auto"] = "http://www.roblox.com/asset/?id=6034333287";
+		["5mp"] = "http://www.roblox.com/asset/?id=6031328144";
+		["photo_size_select_large"] = "http://www.roblox.com/asset/?id=6031763423";
+		["assistant_photo"] = "http://www.roblox.com/asset/?id=6031339052";
+		["animation"] = "http://www.roblox.com/asset/?id=6031625150";
+		["looks"] = "http://www.roblox.com/asset/?id=6034407096";
+		["17mp"] = "http://www.roblox.com/asset/?id=6031339055";
+		["panorama_horizontal_select"] = "http://www.roblox.com/asset/?id=6034315965";
+		["flash_on"] = "http://www.roblox.com/asset/?id=6034333271";
+		["iso"] = "http://www.roblox.com/asset/?id=6034407106";
+		["music_note"] = "http://www.roblox.com/asset/?id=6034323673";
+		["music_off"] = "http://www.roblox.com/asset/?id=6034323679";
+		["navigate_next"] = "http://www.roblox.com/asset/?id=6034315956";
+		["timer"] = "http://www.roblox.com/asset/?id=6031754564";
+		["loupe"] = "http://www.roblox.com/asset/?id=6034412770";
+		["navigate_before"] = "http://www.roblox.com/asset/?id=6034323696";
+		["brightness_1"] = "http://www.roblox.com/asset/?id=6031471488";
+		["brightness_7"] = "http://www.roblox.com/asset/?id=6031471491";
+		["tonality"] = "http://www.roblox.com/asset/?id=6031734891";
+		["brush"] = "http://www.roblox.com/asset/?id=6031572320";
+		["colorize"] = "http://www.roblox.com/asset/?id=6031625161";
+		["filter_7"] = "http://www.roblox.com/asset/?id=6031597515";
+		["16mp"] = "http://www.roblox.com/asset/?id=6031328168";
+		["timer_10"] = "http://www.roblox.com/asset/?id=6031734880";
+		["portrait"] = "http://www.roblox.com/asset/?id=6031763434";
+		["tune"] = "http://www.roblox.com/asset/?id=6031734877";
+		["image_not_supported"] = "http://www.roblox.com/asset/?id=6034407076";
+		["wb_cloudy"] = "http://www.roblox.com/asset/?id=6031734907";
+		["auto_awesome_motion"] = "http://www.roblox.com/asset/?id=6031360370";
+		["filter_8"] = "http://www.roblox.com/asset/?id=6031597532";
+		["brightness_5"] = "http://www.roblox.com/asset/?id=6031471479";
+		["movie_filter"] = "http://www.roblox.com/asset/?id=6034323687";
+		["add_photo_alternate"] = "http://www.roblox.com/asset/?id=6031471484";
+		["add_to_photos"] = "http://www.roblox.com/asset/?id=6031371075";
+		["texture"] = "http://www.roblox.com/asset/?id=6031754553";
+		["11mp"] = "http://www.roblox.com/asset/?id=6031328141";
+		["mic_external_on"] = "http://www.roblox.com/asset/?id=6034323671";
+		["looks_6"] = "http://www.roblox.com/asset/?id=6034412759";
+		["dehaze"] = "http://www.roblox.com/asset/?id=6031630200";
+		["control_point"] = "http://www.roblox.com/asset/?id=6031625131";
+		["panorama_photosphere"] = "http://www.roblox.com/asset/?id=6034412763";
+		["filter_frames"] = "http://www.roblox.com/asset/?id=6031600833";
+		["auto_awesome_mosaic"] = "http://www.roblox.com/asset/?id=6031371053";
+		["9mp"] = "http://www.roblox.com/asset/?id=6031328146";
+		["filter"] = "http://www.roblox.com/asset/?id=6031597514";
+		["brightness_3"] = "http://www.roblox.com/asset/?id=6031572317";
+		["dirty_lens"] = "http://www.roblox.com/asset/?id=6034328967";
+		["wb_incandescent"] = "http://www.roblox.com/asset/?id=6034316010";
+		["filter_hdr"] = "http://www.roblox.com/asset/?id=6031600819";
+		["textsms"] = "http://www.roblox.com/asset/?id=6035202006";
+		["comment"] = "http://www.roblox.com/asset/?id=6035181871";
+		["call_end"] = "http://www.roblox.com/asset/?id=6035173845";
+		["qr_code_scanner"] = "http://www.roblox.com/asset/?id=6035202022";
+		["phonelink_setup"] = "http://www.roblox.com/asset/?id=6035202025";
+		["call_merge"] = "http://www.roblox.com/asset/?id=6035173843";
+		["phonelink_erase"] = "http://www.roblox.com/asset/?id=6035202085";
+		["contact_mail"] = "http://www.roblox.com/asset/?id=6035181868";
+		["contact_phone"] = "http://www.roblox.com/asset/?id=6035181861";
+		["screen_share"] = "http://www.roblox.com/asset/?id=6035202008";
+		["present_to_all"] = "http://www.roblox.com/asset/?id=6035202020";
+		["stay_primary_portrait"] = "http://www.roblox.com/asset/?id=6035202009";
+		["message"] = "http://www.roblox.com/asset/?id=6035202033";
+		["sentiment_satisfied_alt"] = "http://www.roblox.com/asset/?id=6035202069";
+		["stay_current_portrait"] = "http://www.roblox.com/asset/?id=6035202004";
+		["voicemail"] = "http://www.roblox.com/asset/?id=6035202019";
+		["business"] = "http://www.roblox.com/asset/?id=6035173853";
+		["mail_outline"] = "http://www.roblox.com/asset/?id=6035190844";
+		["vpn_key"] = "http://www.roblox.com/asset/?id=6035202034";
+		["forward_to_inbox"] = "http://www.roblox.com/asset/?id=6035190840";
+		["contacts"] = "http://www.roblox.com/asset/?id=6035181864";
+		["phonelink_ring"] = "http://www.roblox.com/asset/?id=6035202066";
+		["domain_disabled"] = "http://www.roblox.com/asset/?id=6035181862";
+		["person_add_disabled"] = "http://www.roblox.com/asset/?id=6035202007";
+		["stay_primary_landscape"] = "http://www.roblox.com/asset/?id=6035202026";
+		["alternate_email"] = "http://www.roblox.com/asset/?id=6035173865";
+		["phone_disabled"] = "http://www.roblox.com/asset/?id=6035202028";
+		["email"] = "http://www.roblox.com/asset/?id=6035181866";
+		["mobile_screen_share"] = "http://www.roblox.com/asset/?id=6035202021";
+		["live_help"] = "http://www.roblox.com/asset/?id=6035190836";
+		["chat_bubble"] = "http://www.roblox.com/asset/?id=6035181858";
+		["stop_screen_share"] = "http://www.roblox.com/asset/?id=6035202042";
+		["location_on"] = "http://www.roblox.com/asset/?id=6035190846";
+		["chat_bubble_outline"] = "http://www.roblox.com/asset/?id=6035181869";
+		["dialer_sip"] = "http://www.roblox.com/asset/?id=6035181865";
+		["no_sim"] = "http://www.roblox.com/asset/?id=6035202030";
+		["list_alt"] = "http://www.roblox.com/asset/?id=6035190838";
+		["call"] = "http://www.roblox.com/asset/?id=6035173859";
+		["pause_presentation"] = "http://www.roblox.com/asset/?id=6035202015";
+		["invert_colors_off"] = "http://www.roblox.com/asset/?id=6035190842";
+		["call_missed_outgoing"] = "http://www.roblox.com/asset/?id=6035173847";
+		["stay_current_landscape"] = "http://www.roblox.com/asset/?id=6035202011";
+		["import_export"] = "http://www.roblox.com/asset/?id=6035202040";
+		["add_ic_call"] = "http://www.roblox.com/asset/?id=6035173839";
+		["dialpad"] = "http://www.roblox.com/asset/?id=6035181892";
+		["nat"] = "http://www.roblox.com/asset/?id=6035202082";
+		["unsubscribe"] = "http://www.roblox.com/asset/?id=6035202044";
+		["mark_chat_unread"] = "http://www.roblox.com/asset/?id=6035190841";
+		["portable_wifi_off"] = "http://www.roblox.com/asset/?id=6035202091";
+		["location_off"] = "http://www.roblox.com/asset/?id=6035202049";
+		["person_search"] = "http://www.roblox.com/asset/?id=6035202013";
+		["phonelink_lock"] = "http://www.roblox.com/asset/?id=6035202064";
+		["desktop_access_disabled"] = "http://www.roblox.com/asset/?id=6035181863";
+		["import_contacts"] = "http://www.roblox.com/asset/?id=6035190854";
+		["rss_feed"] = "http://www.roblox.com/asset/?id=6035202016";
+		["chat"] = "http://www.roblox.com/asset/?id=6035173838";
+		["print_disabled"] = "http://www.roblox.com/asset/?id=6035202041";
+		["mark_email_read"] = "http://www.roblox.com/asset/?id=6035202038";
+		["hourglass_top"] = "http://www.roblox.com/asset/?id=6035190886";
+		["clear_all"] = "http://www.roblox.com/asset/?id=6035181870";
+		["forum"] = "http://www.roblox.com/asset/?id=6035202002";
+		["qr_code"] = "http://www.roblox.com/asset/?id=6035202012";
+		["speaker_phone"] = "http://www.roblox.com/asset/?id=6035202018";
+		["rtt"] = "http://www.roblox.com/asset/?id=6035202010";
+		["domain_verification"] = "http://www.roblox.com/asset/?id=6035181867";
+		["app_registration"] = "http://www.roblox.com/asset/?id=6035173870";
+		["call_split"] = "http://www.roblox.com/asset/?id=6035173861";
+		["cell_wifi"] = "http://www.roblox.com/asset/?id=6035173852";
+		["phone_enabled"] = "http://www.roblox.com/asset/?id=6035202089";
+		["call_made"] = "http://www.roblox.com/asset/?id=6035173858";
+		["call_received"] = "http://www.roblox.com/asset/?id=6035173844";
+		["phone"] = "http://www.roblox.com/asset/?id=6035202017";
+		["ring_volume"] = "http://www.roblox.com/asset/?id=6035202032";
+		["mark_email_unread"] = "http://www.roblox.com/asset/?id=6035202027";
+		["hourglass_bottom"] = "http://www.roblox.com/asset/?id=6035202043";
+		["read_more"] = "http://www.roblox.com/asset/?id=6035202014";
+		["duo"] = "http://www.roblox.com/asset/?id=6035181860";
+		["more_time"] = "http://www.roblox.com/asset/?id=6035202036";
+		["wifi_calling"] = "http://www.roblox.com/asset/?id=6035202065";
+		["swap_calls"] = "http://www.roblox.com/asset/?id=6035202037";
+		["cancel_presentation"] = "http://www.roblox.com/asset/?id=6035173837";
+		["call_missed"] = "http://www.roblox.com/asset/?id=6035173850";
+		["mark_chat_read"] = "http://www.roblox.com/asset/?id=6035202031";
+		["text_snippet"] = "http://www.roblox.com/asset/?id=6031302995";
+		["snippet_folder"] = "http://www.roblox.com/asset/?id=6031302947";
+		["workspaces_outline"] = "http://www.roblox.com/asset/?id=6031302952";
+		["file_download"] = "http://www.roblox.com/asset/?id=6031302931";
+		["request_quote"] = "http://www.roblox.com/asset/?id=6031302941";
+		["approval"] = "http://www.roblox.com/asset/?id=6031302928";
+		["drive_folder_upload"] = "http://www.roblox.com/asset/?id=6031302929";
+		["rule_folder"] = "http://www.roblox.com/asset/?id=6031302940";
+		["attach_email"] = "http://www.roblox.com/asset/?id=6031302935";
+		["topic"] = "http://www.roblox.com/asset/?id=6031302976";
+		["upload_file"] = "http://www.roblox.com/asset/?id=6031302959";
+		["attachment"] = "http://www.roblox.com/asset/?id=6031302921";
+		["file_download_done"] = "http://www.roblox.com/asset/?id=6031302926";
+		["drive_file_move_outline"] = "http://www.roblox.com/asset/?id=6031302924";
+		["cloud_upload"] = "http://www.roblox.com/asset/?id=6031302992";
+		["cloud_circle"] = "http://www.roblox.com/asset/?id=6031302919";
+		["folder_shared"] = "http://www.roblox.com/asset/?id=6031302945";
+		["cloud_download"] = "http://www.roblox.com/asset/?id=6031302917";
+		["file_upload"] = "http://www.roblox.com/asset/?id=6031302996";
+		["workspaces_filled"] = "http://www.roblox.com/asset/?id=6031302961";
+		["cloud_queue"] = "http://www.roblox.com/asset/?id=6031302916";
+		["cloud"] = "http://www.roblox.com/asset/?id=6031302918";
+		["folder_open"] = "http://www.roblox.com/asset/?id=6031302934";
+		["grid_view"] = "http://www.roblox.com/asset/?id=6031302950";
+		["cloud_off"] = "http://www.roblox.com/asset/?id=6031302993";
+		["create_new_folder"] = "http://www.roblox.com/asset/?id=6031302933";
+		["cloud_done"] = "http://www.roblox.com/asset/?id=6031302927";
+		["folder"] = "http://www.roblox.com/asset/?id=6031302932";
+		["drive_file_move"] = "http://www.roblox.com/asset/?id=6031302922";
+		["drive_file_rename_outline"] = "http://www.roblox.com/asset/?id=6031302994";
+		["notifications_active"] = "http://www.roblox.com/asset/?id=6034304908";
+		["sentiment_neutral"] = "http://www.roblox.com/asset/?id=6034230636";
+		["sick"] = "http://www.roblox.com/asset/?id=6034230642";
+		["poll"] = "http://www.roblox.com/asset/?id=6034267991";
+		["emoji_events"] = "http://www.roblox.com/asset/?id=6034275726";
+		["groups"] = "http://www.roblox.com/asset/?id=6034281935";
+		["sports_soccer"] = "http://www.roblox.com/asset/?id=6034227075";
+		["person_add"] = "http://www.roblox.com/asset/?id=6034287514";
+		["mood_bad"] = "http://www.roblox.com/asset/?id=6034295706";
+		["person_remove_alt_1"] = "http://www.roblox.com/asset/?id=6034287515";
+		["king_bed"] = "http://www.roblox.com/asset/?id=6034281948";
+		["architecture"] = "http://www.roblox.com/asset/?id=6034275730";
+		["deck"] = "http://www.roblox.com/asset/?id=6034295703";
+		["group_add"] = "http://www.roblox.com/asset/?id=6034281909";
+		["sports_basketball"] = "http://www.roblox.com/asset/?id=6034230649";
+		["emoji_symbols"] = "http://www.roblox.com/asset/?id=6034281899";
+		["switch_account"] = "http://www.roblox.com/asset/?id=6034227138";
+		["remove_moderator"] = "http://www.roblox.com/asset/?id=6034267998";
+		["coronavirus"] = "http://www.roblox.com/asset/?id=6034275724";
+		["people"] = "http://www.roblox.com/asset/?id=6034287513";
+		["person"] = "http://www.roblox.com/asset/?id=6034287594";
+		["elderly"] = "http://www.roblox.com/asset/?id=6034295698";
+		["clean_hands"] = "http://www.roblox.com/asset/?id=6034275729";
+		["emoji_flags"] = "http://www.roblox.com/asset/?id=6034304898";
+		["psychology"] = "http://www.roblox.com/asset/?id=6034287516";
+		["person_add_alt"] = "http://www.roblox.com/asset/?id=6034267994";
+		["sports_volleyball"] = "http://www.roblox.com/asset/?id=6034227139";
+		["domain"] = "http://www.roblox.com/asset/?id=6034275722";
+		["emoji_objects"] = "http://www.roblox.com/asset/?id=6034281900";
+		["ios_share"] = "http://www.roblox.com/asset/?id=6034281941";
+		["history_edu"] = "http://www.roblox.com/asset/?id=6034281934";
+		["share"] = "http://www.roblox.com/asset/?id=6034230648";
+		["military_tech"] = "http://www.roblox.com/asset/?id=6034295711";
+		["sports_kabaddi"] = "http://www.roblox.com/asset/?id=6034227141";
+		["cake"] = "http://www.roblox.com/asset/?id=6034295702";
+		["engineering"] = "http://www.roblox.com/asset/?id=6034281908";
+		["emoji_food_beverage"] = "http://www.roblox.com/asset/?id=6034304883";
+		["notifications_none"] = "http://www.roblox.com/asset/?id=6034308947";
+		["emoji_people"] = "http://www.roblox.com/asset/?id=6034281904";
+		["thumb_down_alt"] = "http://www.roblox.com/asset/?id=6034227069";
+		["sentiment_very_satisfied"] = "http://www.roblox.com/asset/?id=6034230650";
+		["nights_stay"] = "http://www.roblox.com/asset/?id=6034304881";
+		["reduce_capacity"] = "http://www.roblox.com/asset/?id=6034268013";
+		["add_moderator"] = "http://www.roblox.com/asset/?id=6034295699";
+		["science"] = "http://www.roblox.com/asset/?id=6034230640";
+		["pages"] = "http://www.roblox.com/asset/?id=6034304892";
+		["sentiment_satisfied"] = "http://www.roblox.com/asset/?id=6034230668";
+		["plus_one"] = "http://www.roblox.com/asset/?id=6034268012";
+		["party_mode"] = "http://www.roblox.com/asset/?id=6034287521";
+		["person_remove"] = "http://www.roblox.com/asset/?id=6034267996";
+		["single_bed"] = "http://www.roblox.com/asset/?id=6034230651";
+		["mood"] = "http://www.roblox.com/asset/?id=6034295704";
+		["public"] = "http://www.roblox.com/asset/?id=6034287522";
+		["sports_rugby"] = "http://www.roblox.com/asset/?id=6034227073";
+		["sports_handball"] = "http://www.roblox.com/asset/?id=6034227074";
+		["person_add_alt_1"] = "http://www.roblox.com/asset/?id=6034287519";
+		["people_alt"] = "http://www.roblox.com/asset/?id=6034287518";
+		["notifications_off"] = "http://www.roblox.com/asset/?id=6034304894";
+		["whatshot"] = "http://www.roblox.com/asset/?id=6034287525";
+		["emoji_transportation"] = "http://www.roblox.com/asset/?id=6034281894";
+		["outdoor_grill"] = "http://www.roblox.com/asset/?id=6034304900";
+		["sentiment_very_dissatisfied"] = "http://www.roblox.com/asset/?id=6034230659";
+		["masks"] = "http://www.roblox.com/asset/?id=6034295710";
+		["luggage"] = "http://www.roblox.com/asset/?id=6034295708";
+		["sports_motorsports"] = "http://www.roblox.com/asset/?id=6034227071";
+		["sports_esports"] = "http://www.roblox.com/asset/?id=6034227061";
+		["location_city"] = "http://www.roblox.com/asset/?id=6034304889";
+		["sports_golf"] = "http://www.roblox.com/asset/?id=6034227060";
+		["sentiment_dissatisfied"] = "http://www.roblox.com/asset/?id=6034230637";
+		["no_luggage"] = "http://www.roblox.com/asset/?id=6034304891";
+		["fireplace"] = "http://www.roblox.com/asset/?id=6034281910";
+		["emoji_nature"] = "http://www.roblox.com/asset/?id=6034281896";
+		["group"] = "http://www.roblox.com/asset/?id=6034281901";
+		["thumb_up_alt"] = "http://www.roblox.com/asset/?id=6034227076";
+		["sports_tennis"] = "http://www.roblox.com/asset/?id=6034227068";
+		["facebook"] = "http://www.roblox.com/asset/?id=6034281898";
+		["sports_mma"] = "http://www.roblox.com/asset/?id=6034227072";
+		["person_outline"] = "http://www.roblox.com/asset/?id=6034268008";
+		["sports_baseball"] = "http://www.roblox.com/asset/?id=6034230652";
+		["sports_cricket"] = "http://www.roblox.com/asset/?id=6034230660";
+		["people_outline"] = "http://www.roblox.com/asset/?id=6034287528";
+		["notifications_paused"] = "http://www.roblox.com/asset/?id=6034304896";
+		["emoji_emotions"] = "http://www.roblox.com/asset/?id=6034275731";
+		["follow_the_signs"] = "http://www.roblox.com/asset/?id=6034281911";
+		["sanitizer"] = "http://www.roblox.com/asset/?id=6034287586";
+		["self_improvement"] = "http://www.roblox.com/asset/?id=6034230634";
+		["notifications"] = "http://www.roblox.com/asset/?id=6034308946";
+		["public_off"] = "http://www.roblox.com/asset/?id=6034287538";
+		["recommend"] = "http://www.roblox.com/asset/?id=6034287524";
+		["sports_football"] = "http://www.roblox.com/asset/?id=6034227067";
+		["sports_hockey"] = "http://www.roblox.com/asset/?id=6034227064";
+		["school"] = "http://www.roblox.com/asset/?id=6034230641";
+		["connect_without_contact"] = "http://www.roblox.com/asset/?id=6034275800";
+		["sports"] = "http://www.roblox.com/asset/?id=6034230647";
+		["construction"] = "http://www.roblox.com/asset/?id=6034275725";
+		["inventory"] = "http://www.roblox.com/asset/?id=6035056487";
+		["add_box"] = "http://www.roblox.com/asset/?id=6035047375";
+		["how_to_reg"] = "http://www.roblox.com/asset/?id=6035053288";
+		["unarchive"] = "http://www.roblox.com/asset/?id=6035078921";
+		["block_flipped"] = "http://www.roblox.com/asset/?id=6035047378";
+		["file_copy"] = "http://www.roblox.com/asset/?id=6035053293";
+		["bolt"] = "http://www.roblox.com/asset/?id=6035047381";
+		["remove_circle_outline"] = "http://www.roblox.com/asset/?id=6035067843";
+		["move_to_inbox"] = "http://www.roblox.com/asset/?id=6035067838";
+		["save_alt"] = "http://www.roblox.com/asset/?id=6035067842";
+		["weekend"] = "http://www.roblox.com/asset/?id=6035078894";
+		["where_to_vote"] = "http://www.roblox.com/asset/?id=6035078913";
+		["biotech"] = "http://www.roblox.com/asset/?id=6035047385";
+		["report_off"] = "http://www.roblox.com/asset/?id=6035067830";
+		["clear"] = "http://www.roblox.com/asset/?id=6035047409";
+		["redo"] = "http://www.roblox.com/asset/?id=6035056483";
+		["link"] = "http://www.roblox.com/asset/?id=6035056475";
+		["drafts"] = "http://www.roblox.com/asset/?id=6035053297";
+		["push_pin"] = "http://www.roblox.com/asset/?id=6035056481";
+		["reply"] = "http://www.roblox.com/asset/?id=6035067844";
+		["undo"] = "http://www.roblox.com/asset/?id=6035078896";
+		["archive"] = "http://www.roblox.com/asset/?id=6035047379";
+		["add"] = "http://www.roblox.com/asset/?id=6035047377";
+		["insights"] = "http://www.roblox.com/asset/?id=6035067839";
+		["flag"] = "http://www.roblox.com/asset/?id=6035053279";
+		["save"] = "http://www.roblox.com/asset/?id=6035067857";
+		["text_format"] = "http://www.roblox.com/asset/?id=6035078890";
+		["content_cut"] = "http://www.roblox.com/asset/?id=6035053280";
+		["ballot"] = "http://www.roblox.com/asset/?id=6035047386";
+		["remove"] = "http://www.roblox.com/asset/?id=6035067836";
+		["calculate"] = "http://www.roblox.com/asset/?id=6035047384";
+		["report"] = "http://www.roblox.com/asset/?id=6035067826";
+		["markunread"] = "http://www.roblox.com/asset/?id=6035056476";
+		["delete_sweep"] = "http://www.roblox.com/asset/?id=6035053301";
+		["gesture"] = "http://www.roblox.com/asset/?id=6035053287";
+		["link_off"] = "http://www.roblox.com/asset/?id=6035056484";
+		["forward"] = "http://www.roblox.com/asset/?id=6035053298";
+		["reply_all"] = "http://www.roblox.com/asset/?id=6035067824";
+		["how_to_vote"] = "http://www.roblox.com/asset/?id=6035053295";
+		["square_foot"] = "http://www.roblox.com/asset/?id=6035078918";
+		["outlined_flag"] = "http://www.roblox.com/asset/?id=6035056486";
+		["add_circle"] = "http://www.roblox.com/asset/?id=6035047380";
+		["stacked_bar_chart"] = "http://www.roblox.com/asset/?id=6035078892";
+		["policy"] = "http://www.roblox.com/asset/?id=6035056512";
+		["backspace"] = "http://www.roblox.com/asset/?id=6035047397";
+		["sort"] = "http://www.roblox.com/asset/?id=6035078888";
+		["content_paste"] = "http://www.roblox.com/asset/?id=6035053285";
+		["low_priority"] = "http://www.roblox.com/asset/?id=6035056491";
+		["font_download"] = "http://www.roblox.com/asset/?id=6035053275";
+		["shield"] = "http://www.roblox.com/asset/?id=6035078889";
+		["waves"] = "http://www.roblox.com/asset/?id=6035078898";
+		["select_all"] = "http://www.roblox.com/asset/?id=6035067834";
+		["dynamic_feed"] = "http://www.roblox.com/asset/?id=6035053289";
+		["mail"] = "http://www.roblox.com/asset/?id=6035056477";
+		["amp_stories"] = "http://www.roblox.com/asset/?id=6035047382";
+		["filter_list"] = "http://www.roblox.com/asset/?id=6035053294";
+		["send"] = "http://www.roblox.com/asset/?id=6035067832";
+		["create"] = "http://www.roblox.com/asset/?id=6035053304";
+		["stream"] = "http://www.roblox.com/asset/?id=6035078897";
+		["next_week"] = "http://www.roblox.com/asset/?id=6035067835";
+		["inbox"] = "http://www.roblox.com/asset/?id=6035067831";
+		["add_link"] = "http://www.roblox.com/asset/?id=6035047374";
+		["content_copy"] = "http://www.roblox.com/asset/?id=6035053278";
+		["remove_circle"] = "http://www.roblox.com/asset/?id=6035067837";
+		["add_circle_outline"] = "http://www.roblox.com/asset/?id=6035047391";
+		["block"] = "http://www.roblox.com/asset/?id=6035047387";
+		["tag"] = "http://www.roblox.com/asset/?id=6035078895";
+		["beach_access"] = "http://www.roblox.com/asset/?id=6035107923";
+		["stroller"] = "http://www.roblox.com/asset/?id=6035161535";
+		["family_restroom"] = "http://www.roblox.com/asset/?id=6035121916";
+		["corporate_fare"] = "http://www.roblox.com/asset/?id=6035121908";
+		["no_meeting_room"] = "http://www.roblox.com/asset/?id=6035153649";
+		["do_not_touch"] = "http://www.roblox.com/asset/?id=6035121915";
+		["ac_unit"] = "http://www.roblox.com/asset/?id=6035107929";
+		["business_center"] = "http://www.roblox.com/asset/?id=6035107933";
+		["spa"] = "http://www.roblox.com/asset/?id=6035153639";
+		["no_flash"] = "http://www.roblox.com/asset/?id=6035145424";
+		["no_cell"] = "http://www.roblox.com/asset/?id=6035145376";
+		["room_service"] = "http://www.roblox.com/asset/?id=6035153648";
+		["tapas"] = "http://www.roblox.com/asset/?id=6035161533";
+		["microwave"] = "http://www.roblox.com/asset/?id=6035145367";
+		["meeting_room"] = "http://www.roblox.com/asset/?id=6035145361";
+		["wash"] = "http://www.roblox.com/asset/?id=6035161540";
+		["escalator"] = "http://www.roblox.com/asset/?id=6035121939";
+		["house_siding"] = "http://www.roblox.com/asset/?id=6035145393";
+		["food_bank"] = "http://www.roblox.com/asset/?id=6035121921";
+		["foundation"] = "http://www.roblox.com/asset/?id=6035121918";
+		["elevator"] = "http://www.roblox.com/asset/?id=6035121912";
+		["room_preferences"] = "http://www.roblox.com/asset/?id=6035153642";
+		["do_not_step"] = "http://www.roblox.com/asset/?id=6035121910";
+		["free_breakfast"] = "http://www.roblox.com/asset/?id=6035145363";
+		["house"] = "http://www.roblox.com/asset/?id=6035145364";
+		["child_care"] = "http://www.roblox.com/asset/?id=6035107927";
+		["night_shelter"] = "http://www.roblox.com/asset/?id=6035145378";
+		["child_friendly"] = "http://www.roblox.com/asset/?id=6035121942";
+		["checkroom"] = "http://www.roblox.com/asset/?id=6035107931";
+		["hot_tub"] = "http://www.roblox.com/asset/?id=6035145382";
+		["dry"] = "http://www.roblox.com/asset/?id=6035121909";
+		["charging_station"] = "http://www.roblox.com/asset/?id=6035107925";
+		["all_inclusive"] = "http://www.roblox.com/asset/?id=6035107920";
+		["bento"] = "http://www.roblox.com/asset/?id=6035107924";
+		["no_backpack"] = "http://www.roblox.com/asset/?id=6035145368";
+		["storefront"] = "http://www.roblox.com/asset/?id=6035161534";
+		["no_food"] = "http://www.roblox.com/asset/?id=6035145372";
+		["backpack"] = "http://www.roblox.com/asset/?id=6035107928";
+		["stairs"] = "http://www.roblox.com/asset/?id=6035153637";
+		["carpenter"] = "http://www.roblox.com/asset/?id=6035107955";
+		["no_stroller"] = "http://www.roblox.com/asset/?id=6035153661";
+		["roofing"] = "http://www.roblox.com/asset/?id=6035153656";
+		["umbrella"] = "http://www.roblox.com/asset/?id=6035161550";
+		["sports_bar"] = "http://www.roblox.com/asset/?id=6035153638";
+		["apartment"] = "http://www.roblox.com/asset/?id=6035107922";
+		["smoke_free"] = "http://www.roblox.com/asset/?id=6035153647";
+		["pool"] = "http://www.roblox.com/asset/?id=6035153655";
+		["bathtub"] = "http://www.roblox.com/asset/?id=6035107939";
+		["no_drinks"] = "http://www.roblox.com/asset/?id=6035145390";
+		["escalator_warning"] = "http://www.roblox.com/asset/?id=6035121930";
+		["wheelchair_pickup"] = "http://www.roblox.com/asset/?id=6035161536";
+		["smoking_rooms"] = "http://www.roblox.com/asset/?id=6035153636";
+		["rice_bowl"] = "http://www.roblox.com/asset/?id=6035153662";
+		["tty"] = "http://www.roblox.com/asset/?id=6035161541";
+		["no_photography"] = "http://www.roblox.com/asset/?id=6035153664";
+		["casino"] = "http://www.roblox.com/asset/?id=6035107936";
+		["fence"] = "http://www.roblox.com/asset/?id=6035121923";
+		["grass"] = "http://www.roblox.com/asset/?id=6035145359";
+		["countertops"] = "http://www.roblox.com/asset/?id=6035121914";
+		["kitchen"] = "http://www.roblox.com/asset/?id=6035145362";
+		["golf_course"] = "http://www.roblox.com/asset/?id=6035145423";
+		["soap"] = "http://www.roblox.com/asset/?id=6035153645";
+		["water_damage"] = "http://www.roblox.com/asset/?id=6035161563";
+		["airport_shuttle"] = "http://www.roblox.com/asset/?id=6035107921";
+		["fitness_center"] = "http://www.roblox.com/asset/?id=6035121907";
+		["baby_changing_station"] = "http://www.roblox.com/asset/?id=6035107930";
+		["fire_extinguisher"] = "http://www.roblox.com/asset/?id=6035121913";
+		["sparkle"] = "http://www.roblox.com/asset/?id=4483362748"
+	}
+}
+
+-- Other Variables
+local request = (syn and syn.request) or (http and http.request) or http_request or nil
+local tweeninfo = TweenInfo.new(0.3, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out)
+local PresetGradients = {
+	["Nightlight (Classic)"] = {Color3.fromRGB(147, 255, 239), Color3.fromRGB(201,211,233), Color3.fromRGB(255, 167, 227)},
+	["Nightlight (Neo)"] = {Color3.fromRGB(117, 164, 206), Color3.fromRGB(123, 201, 201), Color3.fromRGB(224, 138, 175)},
+	Starlight = {Color3.fromRGB(147, 255, 239), Color3.fromRGB(181, 206, 241), Color3.fromRGB(214, 158, 243)},
+	Solar = {Color3.fromRGB(242, 157, 76), Color3.fromRGB(240, 179, 81), Color3.fromRGB(238, 201, 86)},
+	Sparkle = {Color3.fromRGB(199, 130, 242), Color3.fromRGB(221, 130, 238), Color3.fromRGB(243, 129, 233)},
+	Lime = {Color3.fromRGB(170, 255, 127), Color3.fromRGB(163, 220, 138), Color3.fromRGB(155, 185, 149)},
+	Vine = {Color3.fromRGB(0, 191, 143), Color3.fromRGB(0, 126, 94), Color3.fromRGB(0, 61, 46)},
+	Cherry = {Color3.fromRGB(148, 54, 54), Color3.fromRGB(168, 67, 70), Color3.fromRGB(188, 80, 86)},
+	Daylight = {Color3.fromRGB(51, 156, 255), Color3.fromRGB(89, 171, 237), Color3.fromRGB(127, 186, 218)},
+	Blossom = {Color3.fromRGB(255, 165, 243), Color3.fromRGB(213, 129, 231), Color3.fromRGB(170, 92, 218)},
+}
+
+local function GetIcon(icon, source)
+	if source == "Custom" then
+		return "rbxassetid://" .. icon
+	elseif source == "Lucide" then
+		-- full credit to latte softworks :)
+		local iconData = not isStudio and game:HttpGet("https://raw.githubusercontent.com/latte-soft/lucide-roblox/refs/heads/master/lib/Icons.luau")
+		local icons = isStudio and IconModule.Lucide or loadstring(iconData)()
+		if not isStudio then
+			icon = string.match(string.lower(icon), "^%s*(.*)%s*$") :: string
+			local sizedicons = icons['48px']
+
+			local r = sizedicons[icon]
+			if not r then
+				error("Lucide Icons: Failed to find icon by the name of \"" .. icon .. "\.", 2)
+			end
+
+			local rirs = r[2]
+			local riro = r[3]
+
+			if type(r[1]) ~= "number" or type(rirs) ~= "table" or type(riro) ~= "table" then
+				error("Lucide Icons: Internal error: Invalid auto-generated asset entry")
+			end
+
+			local irs = Vector2.new(rirs[1], rirs[2])
+			local iro = Vector2.new(riro[1], riro[2])
+
+			local asset = {
+				id = r[1],
+				imageRectSize = irs,
+				imageRectOffset = iro,
+			}
+
+			return asset
+		else
+			return "rbxassetid://10723434557"
+		end
+	else	
+		if icon ~= nil and IconModule[source] then
+			local sourceicon = IconModule[source]
+			return sourceicon[icon]
+		else
+			return nil
+		end
+	end
+end
+
+local function RemoveTable(tablre, value)
+	for i,v in pairs(tablre) do
+		if tostring(v) == tostring(value) then
+			table.remove(tablre, i)
+		end
+	end
+end
+
+local function Kwargify(defaults, passed)
+	for i, v in pairs(defaults) do
+		if passed[i] == nil then
+			passed[i] = v
+		end
+	end
+	return passed
+end
+
+local function PackColor(Color)
+	return {R = Color.R * 255, G = Color.G * 255, B = Color.B * 255}
+end    
+
+local function UnpackColor(Color)
+	return Color3.fromRGB(Color.R, Color.G, Color.B)
+end
+
+function tween(object, goal, callback, tweenin)
+	local tween = TweenService:Create(object,tweenin or tweeninfo, goal)
+	tween.Completed:Connect(callback or function() end)
+	tween:Play()
+end
+
+local function BlurModule(Frame)
+	local RunService = game:GetService('RunService')
+	local camera = workspace.CurrentCamera
+	local MTREL = "Glass"
+	local binds = {}
+	local root = Instance.new('Folder', camera)
+	root.Name = 'LunaBlur'
+
+	local gTokenMH = 99999999
+	local gToken = math.random(1, gTokenMH)
+
+	local DepthOfField = Instance.new('DepthOfFieldEffect', game:GetService('Lighting'))
+	DepthOfField.FarIntensity = 0
+	DepthOfField.FocusDistance = 51.6
+	DepthOfField.InFocusRadius = 50
+	DepthOfField.NearIntensity = 6
+	DepthOfField.Name = "DPT_"..gToken
+
+	local frame = Instance.new('Frame')
+	frame.Parent = Frame
+	frame.Size = UDim2.new(0.95, 0, 0.95, 0)
+	frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+	frame.AnchorPoint = Vector2.new(0.5, 0.5)
+	frame.BackgroundTransparency = 1
+
+	local GenUid; do -- Generate unique names for RenderStepped bindings
+		local id = 0
+		function GenUid()
+			id = id + 1
+			return 'neon::'..tostring(id)
+		end
+	end
+
+	do
+		local function IsNotNaN(x)
+			return x == x
+		end
+		local continue = IsNotNaN(camera:ScreenPointToRay(0,0).Origin.x)
+		while not continue do
+			RunService.RenderStepped:wait()
+			continue = IsNotNaN(camera:ScreenPointToRay(0,0).Origin.x)
+		end
+	end
+
+	local DrawQuad; do
+
+		local acos, max, pi, sqrt = math.acos, math.max, math.pi, math.sqrt
+		local sz = 0.22
+		local function DrawTriangle(v1, v2, v3, p0, p1) -- I think Stravant wrote this function
+
+			local s1 = (v1 - v2).magnitude
+			local s2 = (v2 - v3).magnitude
+			local s3 = (v3 - v1).magnitude
+			local smax = max(s1, s2, s3)
+			local A, B, C
+			if s1 == smax then
+				A, B, C = v1, v2, v3
+			elseif s2 == smax then
+				A, B, C = v2, v3, v1
+			elseif s3 == smax then
+				A, B, C = v3, v1, v2
+			end
+
+			local para = ( (B-A).x*(C-A).x + (B-A).y*(C-A).y + (B-A).z*(C-A).z ) / (A-B).magnitude
+			local perp = sqrt((C-A).magnitude^2 - para*para)
+			local dif_para = (A - B).magnitude - para
+
+			local st = CFrame.new(B, A)
+			local za = CFrame.Angles(pi/2,0,0)
+
+			local cf0 = st
+
+			local Top_Look = (cf0 * za).lookVector
+			local Mid_Point = A + CFrame.new(A, B).lookVector * para
+			local Needed_Look = CFrame.new(Mid_Point, C).lookVector
+			local dot = Top_Look.x*Needed_Look.x + Top_Look.y*Needed_Look.y + Top_Look.z*Needed_Look.z
+
+			local ac = CFrame.Angles(0, 0, acos(dot))
+
+			cf0 = cf0 * ac
+			if ((cf0 * za).lookVector - Needed_Look).magnitude > 0.01 then
+				cf0 = cf0 * CFrame.Angles(0, 0, -2*acos(dot))
+			end
+			cf0 = cf0 * CFrame.new(0, perp/2, -(dif_para + para/2))
+
+			local cf1 = st * ac * CFrame.Angles(0, pi, 0)
+			if ((cf1 * za).lookVector - Needed_Look).magnitude > 0.01 then
+				cf1 = cf1 * CFrame.Angles(0, 0, 2*acos(dot))
+			end
+			cf1 = cf1 * CFrame.new(0, perp/2, dif_para/2)
+
+			if not p0 then
+				p0 = Instance.new('Part')
+				p0.FormFactor = 'Custom'
+				p0.TopSurface = 0
+				p0.BottomSurface = 0
+				p0.Anchored = true
+				p0.CanCollide = false
+				p0.CastShadow = false
+				p0.Material = MTREL
+				p0.Size = Vector3.new(sz, sz, sz)
+				local mesh = Instance.new('SpecialMesh', p0)
+				mesh.MeshType = 2
+				mesh.Name = 'WedgeMesh'
+			end
+			p0.WedgeMesh.Scale = Vector3.new(0, perp/sz, para/sz)
+			p0.CFrame = cf0
+
+			if not p1 then
+				p1 = p0:clone()
+			end
+			p1.WedgeMesh.Scale = Vector3.new(0, perp/sz, dif_para/sz)
+			p1.CFrame = cf1
+
+			return p0, p1
+		end
+
+		function DrawQuad(v1, v2, v3, v4, parts)
+			parts[1], parts[2] = DrawTriangle(v1, v2, v3, parts[1], parts[2])
+			parts[3], parts[4] = DrawTriangle(v3, v2, v4, parts[3], parts[4])
+		end
+	end
+
+	if binds[frame] then
+		return binds[frame].parts
+	end
+
+	local uid = GenUid()
+	local parts = {}
+	local f = Instance.new('Folder', root)
+	f.Name = frame.Name
+
+	local parents = {}
+	do
+		local function add(child)
+			if child:IsA'GuiObject' then
+				parents[#parents + 1] = child
+				add(child.Parent)
+			end
+		end
+		add(frame)
+	end
+
+	local function UpdateOrientation(fetchProps)
+		local properties = {
+			Transparency = 0.98;
+			BrickColor = BrickColor.new('Institutional white');
+		}
+		local zIndex = 1 - 0.05*frame.ZIndex
+
+		local tl, br = frame.AbsolutePosition, frame.AbsolutePosition + frame.AbsoluteSize
+		local tr, bl = Vector2.new(br.x, tl.y), Vector2.new(tl.x, br.y)
+		do
+			local rot = 0;
+			for _, v in ipairs(parents) do
+				rot = rot + v.Rotation
+			end
+			if rot ~= 0 and rot%180 ~= 0 then
+				local mid = tl:lerp(br, 0.5)
+				local s, c = math.sin(math.rad(rot)), math.cos(math.rad(rot))
+				local vec = tl
+				tl = Vector2.new(c*(tl.x - mid.x) - s*(tl.y - mid.y), s*(tl.x - mid.x) + c*(tl.y - mid.y)) + mid
+				tr = Vector2.new(c*(tr.x - mid.x) - s*(tr.y - mid.y), s*(tr.x - mid.x) + c*(tr.y - mid.y)) + mid
+				bl = Vector2.new(c*(bl.x - mid.x) - s*(bl.y - mid.y), s*(bl.x - mid.x) + c*(bl.y - mid.y)) + mid
+				br = Vector2.new(c*(br.x - mid.x) - s*(br.y - mid.y), s*(br.x - mid.x) + c*(br.y - mid.y)) + mid
+			end
+		end
+		DrawQuad(
+			camera:ScreenPointToRay(tl.x, tl.y, zIndex).Origin, 
+			camera:ScreenPointToRay(tr.x, tr.y, zIndex).Origin, 
+			camera:ScreenPointToRay(bl.x, bl.y, zIndex).Origin, 
+			camera:ScreenPointToRay(br.x, br.y, zIndex).Origin, 
+			parts
+		)
+		if fetchProps then
+			for _, pt in pairs(parts) do
+				pt.Parent = f
+			end
+			for propName, propValue in pairs(properties) do
+				for _, pt in pairs(parts) do
+					pt[propName] = propValue
+				end
+			end
+		end
+
+	end
+
+	UpdateOrientation(true)
+	RunService:BindToRenderStep(uid, 2000, UpdateOrientation)
+end
+
+local function unpackt(array : table)
+
+	local val = ""
+	local i = 0
+	for _,v in pairs(array) do
+		if i < 3 then
+			val = val .. v .. ", "
+			i += 1
+		else
+			val = "Various"
+			break
+		end
+	end
+
+	return val
+end
+
+-- Interface Management
+local LunaUI = isStudio and script.Parent:WaitForChild("Luna UI") or game:GetObjects("rbxassetid://86467455075715")[1]
+
+local SizeBleh = nil
+
+local function Hide(Window, bind, notif)
+	SizeBleh = Window.Size
+	bind = string.split(tostring(bind), "Enum.KeyCode.")
+	bind = bind[2]
+	if notif then
+		Luna:Notification({Title = "Interface Hidden", Content = "The interface has been hidden, you may reopen the interface by Pressing the UI Bind In Settings ("..tostring(bind)..")", Icon = "visibility_off"})
+	end
+	tween(Window, {BackgroundTransparency = 1})
+	tween(Window.Elements, {BackgroundTransparency = 1})
+	tween(Window.Line, {BackgroundTransparency = 1})
+	tween(Window.Title.Title, {TextTransparency = 1})
+	tween(Window.Title.subtitle, {TextTransparency = 1})
+	tween(Window.Logo, {ImageTransparency = 1})
+	tween(Window.Navigation.Line, {BackgroundTransparency = 1})
+
+	for _, TopbarButton in ipairs(Window.Controls:GetChildren()) do
+		if TopbarButton.ClassName == "Frame" then
+			tween(TopbarButton, {BackgroundTransparency = 1})
+			tween(TopbarButton.UIStroke, {Transparency = 1})
+			tween(TopbarButton.ImageLabel, {ImageTransparency = 1})
+			TopbarButton.Visible = false
+		end
+	end
+	for _, tabbtn in ipairs(Window.Navigation.Tabs:GetChildren()) do
+		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "InActive Template" then
+			TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+			TweenService:Create(tabbtn.ImageLabel, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+			TweenService:Create(tabbtn.DropShadowHolder.DropShadow, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+			TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+		end
+	end
+
+	task.wait(0.28)
+	Window.Size = UDim2.new(0,0,0,0)
+	Window.Parent.ShadowHolder.Visible = false
+	task.wait()
+	Window.Elements.Parent.Visible = false
+	Window.Visible = false
+end
+
+
+if gethui then
+	LunaUI.Parent = gethui()
+elseif syn and syn.protect_gui then 
+	syn.protect_gui(LunaUI)
+	LunaUI.Parent = CoreGui
+elseif not isStudio and CoreGui:FindFirstChild("RobloxGui") then
+	LunaUI.Parent = CoreGui:FindFirstChild("RobloxGui")
+elseif not isStudio then
+	LunaUI.Parent = CoreGui
+end
+
+if gethui then
+	for _, Interface in ipairs(gethui():GetChildren()) do
+		if Interface.Name == LunaUI.Name and Interface ~= LunaUI then
+			Hide(Interface.SmartWindow)
+			Interface.Enabled = false
+			Interface.Name = "Luna-Old"
+		end
+	end
+elseif not isStudio then
+	for _, Interface in ipairs(CoreGui:GetChildren()) do
+		if Interface.Name == LunaUI.Name and Interface ~= LunaUI then
+			Hide(Interface.SmartWindow)
+			Interface.Enabled = false
+			Interface.Name = "Luna-Old"
+		end
+	end
+end
+
+LunaUI.Enabled = false
+LunaUI.SmartWindow.Visible = false
+LunaUI.Notifications.Template.Visible = false
+LunaUI.DisplayOrder = 1000000000
+
+local Main : Frame = LunaUI.SmartWindow
+local Dragger = Main.Drag
+local dragBar = LunaUI.Drag
+local dragInteract = dragBar and dragBar.Interact or nil
+local dragBarCosmetic = dragBar and dragBar.Drag or nil
+local Elements = Main.Elements.Interactions
+local LoadingFrame = Main.LoadingFrame
+local Navigation = Main.Navigation
+local Tabs = Navigation.Tabs
+local Notifications = LunaUI.Notifications
+local KeySystem : Frame = Main.KeySystem
+
+-- local function LoadConfiguration(Configuration, autoload)
+-- 	local Data = HttpService:JSONDecode(Configuration)
+-- 	local changed
+-- 	local notified = false
+
+-- 	-- Iterate through current UI elements' flags
+-- 	for FlagName, Flag in pairs(Luna.Flags) do
+-- 		local FlagValue = Data[FlagName]
+
+-- 		if FlagValue then
+-- 			task.spawn(function()
+-- 				if Flag.Type == "ColorPicker" then
+-- 					changed = true
+-- 					Flag:Set(UnpackColor(FlagValue))
+-- 				else
+-- 					if (Flag.CurrentValue or Flag.CurrentKeybind or Flag.CurrentOption or Flag.Color) ~= FlagValue then 
+-- 						changed = true
+-- 						Flag:Set(FlagValue) 	
+-- 					end
+-- 				end
+-- 			end)
+-- 		else
+-- 			notified = true
+-- 			Luna:Notification({Title = "Config Error", Content = "Luna was unable to load or find '"..FlagName.. "'' in the current script. Check ".. website .." for help.", Icon = "flag"})
+-- 		end
+-- 	end
+-- 	if autoload and notified == false then
+-- 		Luna:Notification({
+-- 			Title = "Config Autoloaded",
+-- 			Content = "The Configuration Has Been Automatically Loaded. Thank You For Using Luna Library",
+-- 			Icon = "file-code-2",
+-- 			ImageSource = "Lucide"
+-- 		})
+-- 	elseif notified == false then
+-- 		Luna:Notification({
+-- 			Title = "Config Loaded",
+-- 			Content = "The Configuration Has Been Loaded. Thank You For Using Luna Library",
+-- 			Icon = "file-code-2",
+-- 			ImageSource = "Lucide"
+-- 		})
+-- 	end
+
+-- 	return changed
+-- end
+
+-- local function SaveConfiguration(Configuration, ConfigFolder, hasRoot)
+-- 	local Data = {}
+-- 	for i,v in pairs(Luna.Flags) do
+-- 		if v.Type == "ColorPicker" then
+-- 			Data[i] = PackColor(v.Color)
+-- 		else
+-- 			Data[i] = v.CurrentValue or v.CurrentBind or v.CurrentOption or v.Color
+-- 		end
+-- 	end	
+-- 	if hasRoot then
+-- 		writefile(ConfigurationFolder .. "/" .. hasRoot .. "/" .. ConfigFolder .. "/" .. Configuration .. ConfigurationExtension, tostring(HttpService:JSONEncode(Data)))
+-- 	else
+-- 		writefile(ConfigurationFolder .. "/" .. "/" .. ConfigFolder .. Configuration .. ConfigurationExtension, tostring(HttpService:JSONEncode(Data)))
+-- 	end
+-- end
+
+-- local function SetAutoload(ConfigName, ConfigFolder, hasRoot)
+-- 	if hasRoot then
+-- 		writefile(ConfigurationFolder .. "/" .. hasRoot .. "/" .. ConfigFolder .. "/" .. "autoload.txt", tostring(ConfigName) .. ConfigurationExtension)
+-- 	else
+-- 		writefile(ConfigurationFolder .. "/" .. "/" .. ConfigFolder .. "autoload.txt", tostring(ConfigName) .. ConfigurationExtension)
+-- 	end
+-- end
+
+-- local function LoadAutoLoad(ConfigFolder, hasRoot)
+-- 	local autoload = isfile(ConfigurationFolder .. "/" .. "/" .. ConfigFolder .. "autoload.txt")
+-- 	if hasRoot then
+-- 		autoload = isfile(ConfigurationFolder .. "/" .. hasRoot .. "/" .. ConfigFolder .. "/" .. "autoload.txt")
+-- 	end
+
+-- 	if autoload then
+-- 		if hasRoot then
+-- 			LoadConfiguration(readfile(ConfigurationFolder .. "/" .. hasRoot .. "/" .. ConfigFolder .. "/" .. readfile(ConfigurationFolder .. "/" .. hasRoot .. "/" .. ConfigFolder .. "/" .. "autoload.txt")), true)
+-- 		else
+-- 			LoadConfiguration(readfile(ConfigurationFolder .. "/" .. ConfigFolder .. "/" .. readfile(ConfigurationFolder .. "/" .. ConfigFolder .. "/" .. "autoload.txt")), true)
+-- 		end
+-- 	end
+-- end
+
+local function Draggable(Bar, Window, enableTaptic, tapticOffset)
+	pcall(function()
+		local Dragging, DragInput, MousePos, FramePos
+
+		local function connectFunctions()
+			if dragBar and enableTaptic then
+				dragBar.MouseEnter:Connect(function()
+					if not Dragging then
+						TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 0.5, Size = UDim2.new(0, 120, 0, 4)}):Play()
+					end
+				end)
+
+				dragBar.MouseLeave:Connect(function()
+					if not Dragging then
+						TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 0.7, Size = UDim2.new(0, 100, 0, 4)}):Play()
+					end
+				end)
+			end
+		end
+
+		connectFunctions()
+
+		Bar.InputBegan:Connect(function(Input)
+			if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
+				Dragging = true
+				MousePos = Input.Position
+				FramePos = Window.Position
+
+				if enableTaptic then
+					TweenService:Create(dragBarCosmetic, TweenInfo.new(0.35, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {Size = UDim2.new(0, 110, 0, 4), BackgroundTransparency = 0}):Play()
+				end
+
+				Input.Changed:Connect(function()
+					if Input.UserInputState == Enum.UserInputState.End then
+						Dragging = false
+						connectFunctions()
+
+						if enableTaptic then
+							TweenService:Create(dragBarCosmetic, TweenInfo.new(0.35, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {Size = UDim2.new(0, 100, 0, 4), BackgroundTransparency = 0.7}):Play()
+						end
+					end
+				end)
+			end
+		end)
+
+		Bar.InputChanged:Connect(function(Input)
+			if Input.UserInputType == Enum.UserInputType.MouseMovement or Input.UserInputType == Enum.UserInputType.Touch then
+				DragInput = Input
+			end
+		end)
+
+		UserInputService.InputChanged:Connect(function(Input)
+			if Input == DragInput and Dragging then
+				local Delta = Input.Position - MousePos
+
+				local newMainPosition = UDim2.new(FramePos.X.Scale, FramePos.X.Offset + Delta.X, FramePos.Y.Scale, FramePos.Y.Offset + Delta.Y)
+				TweenService:Create(Window, TweenInfo.new(0.35, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Position = newMainPosition}):Play()
+
+				if dragBar then
+					local newDragBarPosition = UDim2.new(FramePos.X.Scale, FramePos.X.Offset + Delta.X, FramePos.Y.Scale, FramePos.Y.Offset + Delta.Y + 240)
+					dragBar.Position = newDragBarPosition
+				end
+			end
+		end)
+
+	end)
+end
+
+function Luna:Notification(data) -- action e.g open messages
+	task.spawn(function()
+		data = Kwargify({
+			Title = "Missing Title",
+			Content = "Missing or Unknown Content",
+			Icon = "view_in_ar",
+			ImageSource = "Material"
+		}, data or {})
+
+		-- Notification Object Creation
+		local newNotification = Notifications.Template:Clone()
+		newNotification.Name = data.Title
+		newNotification.Parent = Notifications
+		newNotification.LayoutOrder = #Notifications:GetChildren()
+		newNotification.Visible = false
+		BlurModule(newNotification)
+
+		-- Set Data
+		newNotification.Title.Text = data.Title
+		newNotification.Description.Text = data.Content 
+		newNotification.Icon.Image = GetIcon(data.Icon, data.ImageSource)
+
+		-- Set initial transparency values
+		newNotification.BackgroundTransparency = 1
+		newNotification.Title.TextTransparency = 1
+		newNotification.Description.TextTransparency = 1
+		newNotification.UIStroke.Transparency = 1
+		newNotification.Shadow.ImageTransparency = 1
+		newNotification.Icon.ImageTransparency = 1
+		newNotification.Icon.BackgroundTransparency = 1
+
+		task.wait()
+
+		-- Calculate textbounds and set initial values
+		newNotification.Size = UDim2.new(1, 0, 0, -Notifications:FindFirstChild("UIListLayout").Padding.Offset)
+
+		newNotification.Icon.Size = UDim2.new(0, 28, 0, 28)
+		newNotification.Icon.Position = UDim2.new(0, 16, 0.5, -1)
+
+		newNotification.Visible = true
+
+		newNotification.Description.Size = UDim2.new(1, -65, 0, math.huge)
+		local bounds = newNotification.Description.TextBounds.Y + 55
+		newNotification.Description.Size = UDim2.new(1,-65,0, bounds - 35)
+		newNotification.Size = UDim2.new(1, 0, 0, -Notifications:FindFirstChild("UIListLayout").Padding.Offset)
+		TweenService:Create(newNotification, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, 0, 0, bounds)}):Play()
+
+		task.wait(0.15)
+		TweenService:Create(newNotification, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.45}):Play()
+		TweenService:Create(newNotification.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+
+		task.wait(0.05)
+
+		TweenService:Create(newNotification.Icon, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+
+		task.wait(0.05)
+		TweenService:Create(newNotification.Description, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.35}):Play()
+		TweenService:Create(newNotification.UIStroke, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {Transparency = 0.95}):Play()
+		TweenService:Create(newNotification.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0.82}):Play()
+
+		local waitDuration = math.min(math.max((#newNotification.Description.Text * 0.1) + 2.5, 3), 10)
+		task.wait(data.Duration or waitDuration)
+
+		newNotification.Icon.Visible = false
+		TweenService:Create(newNotification, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+		TweenService:Create(newNotification.UIStroke, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+		TweenService:Create(newNotification.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+		TweenService:Create(newNotification.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+		TweenService:Create(newNotification.Description, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+
+		TweenService:Create(newNotification, TweenInfo.new(1, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -90, 0, 0)}):Play()
+
+		task.wait(1)
+
+		TweenService:Create(newNotification, TweenInfo.new(1, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -90, 0, -Notifications:FindFirstChild("UIListLayout").Padding.Offset)}):Play()
+
+		newNotification.Visible = false
+		newNotification:Destroy()
+	end)
+end
+
+local function Unhide(Window, currentTab)
+	Window.Size = SizeBleh
+	Window.Elements.Visible = true
+	Window.Visible = true
+	task.wait()
+	tween(Window, {BackgroundTransparency = 0.2})
+	tween(Window.Elements, {BackgroundTransparency = 0.08})
+	tween(Window.Line, {BackgroundTransparency = 0})
+	tween(Window.Title.Title, {TextTransparency = 0})
+	tween(Window.Title.subtitle, {TextTransparency = 0})
+	tween(Window.Logo, {ImageTransparency = 0})
+	tween(Window.Navigation.Line, {BackgroundTransparency = 0})
+
+	for _, TopbarButton in ipairs(Window.Controls:GetChildren()) do
+		if TopbarButton.ClassName == "Frame" and TopbarButton.Name ~= "Theme" then
+			TopbarButton.Visible = true
+			tween(TopbarButton, {BackgroundTransparency = 0.25})
+			tween(TopbarButton.UIStroke, {Transparency = 0.5})
+			tween(TopbarButton.ImageLabel, {ImageTransparency = 0.25})
+		end
+	end
+	for _, tabbtn in ipairs(Window.Navigation.Tabs:GetChildren()) do
+		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "InActive Template" then
+			if tabbtn.Name == currentTab then
+				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.41}):Play()
+			end
+			TweenService:Create(tabbtn.ImageLabel, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+			TweenService:Create(tabbtn.DropShadowHolder.DropShadow, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+		end
+	end
+
+end
+
+local MainSize
+local MinSize 
+if Camera.ViewportSize.X > 774 and Camera.ViewportSize.Y > 503 then
+	MainSize = UDim2.fromOffset(675, 424)
+	MinSize = UDim2.fromOffset(500, 42)
+else
+	MainSize = UDim2.fromOffset(Camera.ViewportSize.X - 100, Camera.ViewportSize.Y - 100)
+	MinSize = UDim2.fromOffset(Camera.ViewportSize.X - 275, 42)
+end
+
+local function Maximise(Window)
+	Window.Controls.ToggleSize.ImageLabel.Image = "rbxassetid://10137941941"
+	tween(Window, {Size = MainSize})
+	Window.Elements.Visible = true
+	Window.Navigation.Visible = true
+end
+
+local function Minimize(Window)
+	Window.Controls.ToggleSize.ImageLabel.Image = "rbxassetid://11036884234"
+	Window.Elements.Visible = false
+	Window.Navigation.Visible = false
+	tween(Window, {Size = MinSize})
+end
+
+
+function Luna:CreateWindow(WindowSettings)
+
+	WindowSettings = Kwargify({
+		Name = "Luna UI Example Window",
+		Subtitle = "",
+		LogoID = "6031097225",
+		LoadingEnabled = true,
+		LoadingTitle = "Luna Interface Suite",
+		LoadingSubtitle = "by Nebula Softworks",
+
+		ConfigSettings = {},
+
+		KeySystem = false,
+		KeySettings = {}
+	}, WindowSettings or {})
+
+	WindowSettings.ConfigSettings = Kwargify({
+		RootFolder = nil,
+		ConfigFolder = "Big Hub"
+	}, WindowSettings.ConfigSettings or {})
+
+	WindowSettings.KeySettings = Kwargify({
+		Title = WindowSettings.Name,
+		Subtitle = "Key System",
+		Note = "No Instructions",
+		SaveInRoot = false, -- Enabling will save the key in your RootFolder (YOU MUST HAVE ONE BEFORE ENABLING THIS OPTION)
+		SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+		Key = {""}, -- List of keys that will be accepted by the system, please use a system like Pelican or Luarmor that provide key strings based on your HWID since putting a simple string is very easy to bypass
+		SecondAction = {}	
+	}, WindowSettings.KeySettings or {})
+
+	WindowSettings.KeySettings.SecondAction = Kwargify({
+		Enabled = false,
+		Type = "Discord", -- Link/Discord
+		Parameter = "" -- for discord, add the invite link like home tab. for link, type the link of ur key sys
+	}, WindowSettings.KeySettings.SecondAction)
+
+	local Passthrough = false
+
+	local Window = { Bind = Enum.KeyCode.K, CurrentTab = nil, State = true, Size = false, Settings = nil }
+
+	Main.Title.Title.Text = WindowSettings.Name
+	Main.Title.subtitle.Text = WindowSettings.Subtitle
+	Main.Logo.Image = "rbxassetid://" .. WindowSettings.LogoID
+	Main.Visible = true
+	Main.BackgroundTransparency = 1
+	Main.Size = MainSize
+	Main.Size = UDim2.fromOffset(Main.Size.X.Offset - 70, Main.Size.Y.Offset - 55)
+	Main.Parent.ShadowHolder.Size = Main.Size
+	LoadingFrame.Frame.Frame.Title.TextTransparency = 1
+	LoadingFrame.Frame.Frame.Subtitle.TextTransparency = 1
+	LoadingFrame.Version.TextTransparency = 1
+	LoadingFrame.Frame.ImageLabel.ImageTransparency = 1
+
+	tween(Elements.Parent, {BackgroundTransparency = 1})
+	Elements.Parent.Visible = false
+
+	LoadingFrame.Frame.Frame.Title.Text = WindowSettings.LoadingTitle
+	LoadingFrame.Frame.Frame.Subtitle.Text = WindowSettings.LoadingSubtitle
+	LoadingFrame.Version.Text = LoadingFrame.Frame.Frame.Title.Text == "Luna Interface Suite" and Release or "Luna UI"
+
+	Navigation.Player.icon.ImageLabel.Image = Players:GetUserThumbnailAsync(Players.LocalPlayer.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size48x48)
+	Navigation.Player.Namez.Text = Players.LocalPlayer.DisplayName
+	Navigation.Player.TextLabel.Text = Players.LocalPlayer.Name
+
+	for i,v in pairs(Main.Controls:GetChildren()) do
+		v.Visible = false
+	end
+
+	Main:GetPropertyChangedSignal("Position"):Connect(function()
+		Main.Parent.ShadowHolder.Position = Main.Position
+	end)
+	Main:GetPropertyChangedSignal("Size"):Connect(function()
+		Main.Parent.ShadowHolder.Size = Main.Size
+	end)
+
+	LoadingFrame.Visible = true
+
+	-- pcall(function()
+	-- 	if not isfolder(ConfigurationFolder) then
+	-- 		makefolder(ConfigurationFolder)
+	-- 	end
+	-- 	if WindowSettings.ConfigSettings.RootFolder then
+	-- 		if not isfolder(ConfigurationFolder .. WindowSettings.ConfigSettings.RootFolder) then
+	-- 			makefolder(ConfigurationFolder .. WindowSettings.ConfigSettings.RootFolder)
+	-- 			if not isfolder(ConfigurationFolder .. WindowSettings.ConfigSettings.RootFolder .. WindowSettings.ConfigSettings.ConfigFolder) then
+	-- 				makefolder(ConfigurationFolder .. WindowSettings.ConfigSettings.RootFolder .. WindowSettings.ConfigSettings.ConfigFolder)
+	-- 			end
+	-- 		end
+	-- 	else
+	-- 		if not isfolder(ConfigurationFolder .. WindowSettings.ConfigSettings.ConfigFolder) then
+	-- 			makefolder(ConfigurationFolder .. WindowSettings.ConfigSettings.ConfigFolder)
+	-- 		end
+	-- 	end
+
+	-- 	LoadAutoLoad(WindowSettings.ConfigSettings.ConfigFolder, WindowSettings.ConfigSettings.RootFolder)
+	-- end)
+
+	LunaUI.Enabled = true
+
+	BlurModule(Main)
+
+	if WindowSettings.KeySystem then
+		local KeySettings = WindowSettings.KeySettings
+		
+		Draggable(Dragger, Main)
+		Draggable(LunaUI.MobileSupport, LunaUI.MobileSupport)
+		if dragBar then Draggable(dragInteract, Main, true, 255) end
+
+		if not WindowSettings.KeySettings then
+			Passthrough = true
+			return
+		end
+		
+		WindowSettings.KeySettings.FileName = "key"
+
+		if typeof(WindowSettings.KeySettings.Key) == "string" then WindowSettings.KeySettings.Key = {WindowSettings.KeySettings.Key} end
+
+		local direc = WindowSettings.KeySettings.SaveInRoot and "Luna/Configurations/" .. WindowSettings.ConfigSettings.RootFolder .. "/" .. WindowSettings.ConfigSettings.ConfigFolder .. "/Key System/" or "Luna/Configurations/" ..  WindowSettings.ConfigSettings.ConfigFolder .. "/Key System/"
+
+		if isfile and isfile(direc .. WindowSettings.KeySettings.FileName .. ".luna") then
+			for i, Key in ipairs(WindowSettings.KeySettings.Key) do
+				if string.find(readfile(direc .. WindowSettings.KeySettings.FileName .. ".luna"), Key) then
+					Passthrough = true
+					break
+				end
+			end
+		end
+
+		if not Passthrough then
+
+			local Btn = KeySystem.Action.Copy
+			local typesys = KeySettings.SecondAction.Type
+			
+			if typesys == "Discord" then
+				Btn = KeySystem.Action.Discord
+			end
+
+			local AttemptsRemaining = math.random(2, 5)
+
+			KeySystem.Visible = true
+			KeySystem.Title.Text = WindowSettings.KeySettings.Title
+			KeySystem.Subtitle.Text = WindowSettings.KeySettings.Subtitle
+			KeySystem.textshit.Text = WindowSettings.KeySettings.Note
+
+			if KeySettings.SecondAction.Enabled == true then
+				Btn.Visible = true
+			end
+			
+			Btn.Interact.MouseButton1Click:Connect(function()
+				if typesys == "Discord" then
+					setclipboard(tostring("https://discord.gg/"..KeySettings.SecondAction.Parameter)) -- Hunter if you see this I added copy also was too lazy to send u msg
+					if request then
+						request({
+							Url = 'http://127.0.0.1:6463/rpc?v=1',
+							Method = 'POST',
+							Headers = {
+								['Content-Type'] = 'application/json',
+								Origin = 'https://discord.com'
+							},
+							Body = HttpService:JSONEncode({
+								cmd = 'INVITE_BROWSER',
+								nonce = HttpService:GenerateGUID(false),
+								args = {code = KeySettings.SecondAction.Parameter}
+							})
+						})
+					end
+				else
+					setclipboard(tostring(KeySettings.SecondAction.Parameter))
+				end
+			end)
+
+			KeySystem.Action.Submit.Interact.MouseButton1Click:Connect(function()
+				if #KeySystem.Input.InputBox.Text == 0 then return end
+				local KeyFound = false
+				local FoundKey = ''
+				for _, Key in ipairs(WindowSettings.KeySettings.Key) do
+					if KeySystem.Input.InputBox.Text == Key then
+						KeyFound = true
+						FoundKey = Key
+						break
+					end
+				end
+				if KeyFound then 
+					for _, instance in pairs(KeySystem:GetDescendants()) do
+						if instance.ClassName ~= "UICorner" and instance.ClassName ~= "UIPadding" then
+							if instance.ClassName ~= "UIStroke" and instance.ClassName ~= "UIListLayout" then
+								tween(instance, {BackgroundTransparency = 1}, nil,TweenInfo.new(0.6, Enum.EasingStyle.Exponential))
+							end
+							if instance.ClassName == "ImageButton" then
+								tween(instance, {ImageTransparency = 1}, nil,TweenInfo.new(0.5, Enum.EasingStyle.Exponential))
+							end
+							if instance.ClassName == "TextLabel" then
+								tween(instance, {TextTransparency = 1}, nil,TweenInfo.new(0.4, Enum.EasingStyle.Exponential))
+							end
+							if instance.ClassName == "UIStroke" then
+								tween(instance, {Transparency = 1}, nil,TweenInfo.new(0.5, Enum.EasingStyle.Exponential))
+							end
+						end
+					end
+					tween(KeySystem, {BackgroundTransparency = 1}, nil,TweenInfo.new(0.6, Enum.EasingStyle.Exponential))
+					task.wait(0.51)
+					Passthrough = true
+					KeySystem.Visible = false
+					if WindowSettings.KeySettings.SaveKey then
+						if writefile then
+							writefile(direc .. WindowSettings.KeySettings.FileName .. ".luna", FoundKey)
+						end
+						Luna:Notification({Title = "Key System", Content = "The key for this script has been saved successfully.", Icon = "lock_open"})
+					end
+				else
+					if AttemptsRemaining == 0 then
+
+						game.Players.LocalPlayer:Kick("No Attempts Remaining")
+						game:Shutdown()
+					end
+					KeySystem.Input.InputBox.Text = "Incorrect Key"
+					AttemptsRemaining = AttemptsRemaining - 1
+					task.wait(0.4)
+					KeySystem.Input.InputBox.Text = ""
+				end
+			end)
+
+			KeySystem.Close.MouseButton1Click:Connect(function()
+				
+				Luna:Destroy()
+			end)
+		end
+	end
+
+	if WindowSettings.KeySystem then
+		repeat task.wait() until Passthrough
+	end
+
+	if WindowSettings.LoadingEnabled then
+		task.wait(0.3)
+		TweenService:Create(LoadingFrame.Frame.Frame.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+		TweenService:Create(LoadingFrame.Frame.ImageLabel, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+		task.wait(0.05)
+		TweenService:Create(LoadingFrame.Frame.Frame.Subtitle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+		TweenService:Create(LoadingFrame.Version, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+		task.wait(0.29)
+		TweenService:Create(LoadingFrame.Frame.ImageLabel, TweenInfo.new(1.7, Enum.EasingStyle.Back, Enum.EasingDirection.Out, 2, false, 0.2), {Rotation = 450}):Play()
+
+		task.wait(3.32)
+
+		TweenService:Create(LoadingFrame.Frame.Frame.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+		TweenService:Create(LoadingFrame.Frame.ImageLabel, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+		task.wait(0.05)
+		TweenService:Create(LoadingFrame.Frame.Frame.Subtitle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+		TweenService:Create(LoadingFrame.Version, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+		wait(0.3)
+		TweenService:Create(LoadingFrame, TweenInfo.new(0.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundTransparency = 1}):Play()
+	end
+
+	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundTransparency = 0.2, Size = MainSize}):Play()
+	TweenService:Create(Main.Parent.ShadowHolder, TweenInfo.new(0.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = MainSize}):Play()
+	TweenService:Create(Main.Title.Title, TweenInfo.new(0.35, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 0}):Play()
+	TweenService:Create(Main.Title.subtitle, TweenInfo.new(0.35, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 0}):Play()
+	TweenService:Create(Main.Logo, TweenInfo.new(0.35, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {ImageTransparency = 0}):Play()
+	TweenService:Create(Navigation.Player.icon.ImageLabel, TweenInfo.new(0.35, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {ImageTransparency = 0}):Play()
+	TweenService:Create(Navigation.Player.icon.UIStroke, TweenInfo.new(0.35, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Transparency = 0}):Play()
+	TweenService:Create(Main.Line, TweenInfo.new(0.35, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundTransparency = 0}):Play()
+	wait(0.4)
+	LoadingFrame.Visible = false
+
+	Draggable(Dragger, Main)
+	Draggable(LunaUI.MobileSupport, LunaUI.MobileSupport)
+	if dragBar then Draggable(dragInteract, Main, true, 255) end
+
+	Elements.Template.LayoutOrder = 1000000000
+	Elements.Template.Visible = false
+	Navigation.Tabs["InActive Template"].LayoutOrder = 1000000000
+	Navigation.Tabs["InActive Template"].Visible = false
+
+	local FirstTab = true
+
+	function Window:CreateHomeTab(HomeTabSettings)
+
+		HomeTabSettings = Kwargify({
+			Icon = 1,
+			SupportedExecutors = {"Vega X", "Delta", "Nihon", "Xeno"}, -- THESE DEFAULTS ARE PLACEHOLDERS!! I DO NOT ADVERTISE THESE, THEY ARE JUS THE FIRST THAT CAME TO MIND. I HAVE NO IDEA WHETHER THEYA RE RATS (they prob are) AND IM NOT RESPONSIBLE IF U GET VIRUSES FROM INSTALLING AFTER SEEING THIS LIST
+			DiscordInvite = "noinvitelink" -- The disvord invite link. Do not include the link so for example if my invite was discord.gg/nebula I would put nebula
+		}, HomeTabSettings or {})
+
+		local HomeTab = {}
+
+		local HomeTabButton = Navigation.Tabs.Home
+		HomeTabButton.Visible = true
+		if HomeTabSettings.Icon == 2 then
+			HomeTabButton.ImageLabel.Image = GetIcon("dashboard", "Material")
+		end
+
+		local HomeTabPage = Elements.Home
+		HomeTabPage.Visible = true
+
+		function HomeTab:Activate()
+			tween(HomeTabButton.ImageLabel, {ImageColor3 = Color3.fromRGB(255,255,255)})
+			tween(HomeTabButton, {BackgroundTransparency = 0})
+			tween(HomeTabButton.UIStroke, {Transparency = 0.41})
+
+			Elements.UIPageLayout:JumpTo(HomeTabPage)
+
+			task.wait(0.05)
+
+			for _, OtherTabButton in ipairs(Navigation.Tabs:GetChildren()) do
+				if OtherTabButton.Name ~= "InActive Template" and OtherTabButton.ClassName == "Frame" and OtherTabButton ~= HomeTabButton then
+					tween(OtherTabButton.ImageLabel, {ImageColor3 = Color3.fromRGB(221,221,221)})
+					tween(OtherTabButton, {BackgroundTransparency = 1})
+					tween(OtherTabButton.UIStroke, {Transparency = 1})
+				end
+
+			end
+
+			Window.CurrentTab = "Home"
+		end
+
+		HomeTab:Activate()
+		FirstTab = false
+		HomeTabButton.Interact.MouseButton1Click:Connect(function()
+			HomeTab:Activate()
+		end)
+
+
+		HomeTabPage.icon.ImageLabel.Image = Players:GetUserThumbnailAsync(Players.LocalPlayer.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
+		HomeTabPage.player.Text.Text = "Hello, " .. Players.LocalPlayer.DisplayName
+		HomeTabPage.player.user.Text = Players.LocalPlayer.Name .. " - ".. WindowSettings.Name
+
+		HomeTabPage.detailsholder.dashboard.Client.Title.Text = (isStudio and "Debugging (Studio)" or identifyexecutor()) or "Your Executor Does Not Support identifyexecutor."
+		for i,v in pairs(HomeTabSettings.SupportedExecutors) do
+			if isStudio then HomeTabPage.detailsholder.dashboard.Client.Subtitle.Text = "Luna Interface Suite - Debugging Mode" break end
+			if v == identifyexecutor() then
+				HomeTabPage.detailsholder.dashboard.Client.Subtitle.Text = "Your Executor Supports This Script."
+				break
+			else
+				HomeTabPage.detailsholder.dashboard.Client.Subtitle.Text = "Your Executor Isn't Officialy Supported By This Script."
+				break
+			end
+		end
+
+		-- Stolen From Sirius Stuff Begins Here
+
+		HomeTabPage.detailsholder.dashboard.Discord.Interact.MouseButton1Click:Connect(function()
+			setclipboard(tostring("https://discord.gg/"..HomeTabSettings.DiscordInvite)) -- Hunter if you see this I added copy also was too lazy to send u msg
+			if request then
+				request({
+					Url = 'http://127.0.0.1:6463/rpc?v=1',
+					Method = 'POST',
+					Headers = {
+						['Content-Type'] = 'application/json',
+						Origin = 'https://discord.com'
+					},
+					Body = HttpService:JSONEncode({
+						cmd = 'INVITE_BROWSER',
+						nonce = HttpService:GenerateGUID(false),
+						args = {code = HomeTabSettings.DiscordInvite}
+					})
+				})
+			end
+		end)
+
+		local friendsCooldown = 0
+		local function getPing() return math.clamp(game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValue(), 10, 700) end
+
+		local function checkFriends()
+			if friendsCooldown == 0 then
+
+				friendsCooldown = 25
+
+				local playersFriends = {}
+				local friendsInTotal = 0
+				local onlineFriends = 0 
+				local friendsInGame = 0 
+
+				local list = Players:GetFriendsAsync(Player.UserId)
+				while true do -- loop through all the pages
+					for _, data in list:GetCurrentPage() do
+						friendsInTotal +=1
+						table.insert(playersFriends, Data)
+					end
+
+					if list.IsFinished then
+						-- stop the loop since this is the last page
+						break
+					else 
+						-- go to the next page
+						list:AdvanceToNextPageAsync()
+					end
+				end
+				for i, v in pairs(Player:GetFriendsOnline()) do
+					onlineFriends += 1
+				end
+
+				for i,v in pairs(playersFriends) do
+					if Players:FindFirstChild(v.Username) then
+						friendsInGame = friendsInGame + 1
+					end
+				end
+
+				HomeTabPage.detailsholder.dashboard.Friends.All.Value.Text = tostring(friendsInTotal).." friends"
+				HomeTabPage.detailsholder.dashboard.Friends.Offline.Value.Text = tostring(friendsInTotal - onlineFriends).." friends"
+				HomeTabPage.detailsholder.dashboard.Friends.Online.Value.Text = tostring(onlineFriends).." friends"
+				HomeTabPage.detailsholder.dashboard.Friends.InGame.Value.Text = tostring(friendsInGame).." friends"
+
+			else
+				friendsCooldown -= 1
+			end
+		end
+
+		local function format(Int)
+			return string.format("%02i", Int)
+		end
+
+		local function convertToHMS(Seconds)
+			local Minutes = (Seconds - Seconds%60)/60
+			Seconds = Seconds - Minutes*60
+			local Hours = (Minutes - Minutes%60)/60
+			Minutes = Minutes - Hours*60
+			return format(Hours)..":"..format(Minutes)..":"..format(Seconds)
+		end
+
+		coroutine.wrap(function()
+			while task.wait() do
+
+
+				-- Players
+				HomeTabPage.detailsholder.dashboard.Server.Players.Value.Text = #Players:GetPlayers().." playing"
+				HomeTabPage.detailsholder.dashboard.Server.MaxPlayers.Value.Text = Players.MaxPlayers.." players can join this server"
+
+				-- Ping
+				HomeTabPage.detailsholder.dashboard.Server.Latency.Value.Text = isStudio and tostring(math.round((Players.LocalPlayer:GetNetworkPing() * 2 ) / 0.01)) .."ms" or tostring(math.floor(getPing()) .."ms")
+
+				-- Time
+				HomeTabPage.detailsholder.dashboard.Server.Time.Value.Text = convertToHMS(time())
+
+				-- Region
+				HomeTabPage.detailsholder.dashboard.Server.Region.Value.Text = Localization:GetCountryRegionForPlayerAsync(Players.LocalPlayer)
+
+				checkFriends()
+			end
+		end)()
+
+		-- Stolen From Sirius Stuff ends here
+
+	end
+
+	function Window:CreateTab(TabSettings)
+
+		local Tab = {}
+
+		TabSettings = Kwargify({
+			Name = "Tab",
+			ShowTitle = true,
+			Icon = "view_in_ar",
+			ImageSource = "Material" 
+		}, TabSettings or {})
+
+		local TabButton = Navigation.Tabs["InActive Template"]:Clone()
+
+		TabButton.Name = TabSettings.Name
+		TabButton.TextLabel.Text = TabSettings.Name
+		TabButton.Parent = Navigation.Tabs
+		TabButton.ImageLabel.Image = GetIcon(TabSettings.Icon, TabSettings.ImageSource)
+
+		TabButton.Visible = true
+
+		local TabPage = Elements.Template:Clone()
+		TabPage.Name = TabSettings.Name
+		TabPage.Title.Visible = TabSettings.ShowTitle
+		TabPage.Title.Text = TabSettings.Name
+		TabPage.Visible = true
+
+		Tab.Page = TabPage
+
+		if TabSettings.ShowTitle == false then
+			TabPage.UIPadding.PaddingTop = UDim.new(0,10)
+		end
+
+		TabPage.LayoutOrder = #Elements:GetChildren() - 3
+
+		for _, TemplateElement in ipairs(TabPage:GetChildren()) do
+			if TemplateElement.ClassName == "Frame" or TemplateElement.ClassName == "TextLabel" and TemplateElement.Name ~= "Title" then
+				TemplateElement:Destroy()
+			end
+		end
+		TabPage.Parent = Elements
+
+		function Tab:Activate()
+			tween(TabButton.ImageLabel, {ImageColor3 = Color3.fromRGB(255,255,255)})
+			tween(TabButton, {BackgroundTransparency = 0})
+			tween(TabButton.UIStroke, {Transparency = 0.41})
+
+			Elements.UIPageLayout:JumpTo(TabPage)
+
+			task.wait(0.05)
+
+			for _, OtherTabButton in ipairs(Navigation.Tabs:GetChildren()) do
+				if OtherTabButton.Name ~= "InActive Template" and OtherTabButton.ClassName == "Frame" and OtherTabButton ~= TabButton then
+					tween(OtherTabButton.ImageLabel, {ImageColor3 = Color3.fromRGB(221,221,221)})
+					tween(OtherTabButton, {BackgroundTransparency = 1})
+					tween(OtherTabButton.UIStroke, {Transparency = 1})
+				end
+
+			end
+
+			Window.CurrentTab = TabSettings.Name
+		end
+
+		if FirstTab then
+			Tab:Activate()
+		end
+
+		task.wait(0.01)
+
+		TabButton.Interact.MouseButton1Click:Connect(function()
+			Tab:Activate()
+		end)
+
+		FirstTab = false
+
+		-- Section
+		function Tab:CreateSection(name : string)
+
+			local Section = {}
+
+			if name == nil then name = "Section" end
+
+			Section.Name = name
+
+			local Sectiont = Elements.Template.Section:Clone()
+			Sectiont.Text = name
+			Sectiont.Visible = true
+			Sectiont.Parent = TabPage
+			local TabPage = Sectiont.Frame
+
+			Sectiont.TextTransparency = 1
+			tween(Sectiont, {TextTransparency = 0})
+
+			function Section:Set(NewSection)
+				Sectiont.Text = NewSection
+			end
+
+			function Section:Destroy()
+				Sectiont:Destroy()
+			end
+
+			-- Divider
+			function Section:CreateDivider()
+				TabPage.Position = UDim2.new(0,0,0,28)
+				local b = Elements.Template.Divider:Clone()
+				b.Parent = TabPage
+				b.Size = UDim2.new(1,0,0,18)
+				b.Line.BackgroundTransparency = 1
+				tween(b.Line, {BackgroundTransparency = 0})
+			end
+
+			-- Button
+			function Section:CreateButton(ButtonSettings)
+				TabPage.Position = UDim2.new(0,0,0,28)
+
+				ButtonSettings = Kwargify({
+					Name = "Button",
+					Description = nil,
+					Callback = function()
+
+					end,
+				}, ButtonSettings or {})
+
+				local ButtonV = {
+					Hover = false,
+					Settings = ButtonSettings
+				}
+
+
+				local Button
+				if ButtonSettings.Description == nil and ButtonSettings.Description ~= "" then
+					Button = Elements.Template.Button:Clone()
+				else
+					Button = Elements.Template.ButtonDesc:Clone()
+				end
+				Button.Name = ButtonSettings.Name
+				Button.Title.Text = ButtonSettings.Name
+				if ButtonSettings.Description ~= nil and ButtonSettings.Description ~= "" then
+					Button.Desc.Text = ButtonSettings.Description
+				end
+				Button.Visible = true
+				Button.Parent = TabPage
+
+				Button.UIStroke.Transparency = 1
+				Button.Title.TextTransparency = 1
+				if ButtonSettings.Description ~= nil and ButtonSettings.Description ~= "" then
+					Button.Desc.TextTransparency = 1
+				end
+
+				TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+				TweenService:Create(Button.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				TweenService:Create(Button.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+				if ButtonSettings.Description ~= nil and ButtonSettings.Description ~= "" then
+					TweenService:Create(Button.Desc, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+				end
+
+				Button.Interact["MouseButton1Click"]:Connect(function()
+					local Success,Response = pcall(ButtonSettings.Callback)
+
+					if not Success then
+						TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+						TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+						TweenService:Create(Button.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+						Button.Title.Text = "Callback Error"
+						print("Luna Interface Suite | "..ButtonSettings.Name.." Callback Error " ..tostring(Response))
+						wait(0.5)
+						Button.Title.Text = ButtonSettings.Name
+						TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+						TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+						TweenService:Create(Button.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+					else
+						tween(Button.UIStroke, {Color = Color3.fromRGB(136, 131, 163)})
+						wait(0.2)
+						if ButtonV.Hover then
+							tween(Button.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+						else
+							tween(Button.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+						end
+					end
+				end)
+
+				Button["MouseEnter"]:Connect(function()
+					ButtonV.Hover = true
+					tween(Button.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+				end)
+
+				Button["MouseLeave"]:Connect(function()
+					ButtonV.Hover = false
+					tween(Button.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+				end)
+
+				function ButtonV:Set(ButtonSettings2)
+					ButtonSettings2 = Kwargify({
+						Name = ButtonSettings.Name,
+						Description = ButtonSettings.Description,
+						Callback = ButtonSettings.Callback
+					}, ButtonSettings2 or {})
+
+					ButtonSettings = ButtonSettings2
+					ButtonV.Settings = ButtonSettings2
+
+					Button.Name = ButtonSettings.Name
+					Button.Title.Text = ButtonSettings.Name
+					if ButtonSettings.Description ~= nil and ButtonSettings.Description ~= "" and Button.Desc ~= nil then
+						Button.Desc.Text = ButtonSettings.Description
+					end
+				end
+
+				function ButtonV:Destroy()
+					Button.Visible = false
+					Button:Destroy()
+				end
+
+				return ButtonV
+			end
+
+			-- Label
+			function Section:CreateLabel(LabelSettings)
+				TabPage.Position = UDim2.new(0,0,0,28)
+
+				local LabelV = {}
+
+				LabelSettings = Kwargify({
+					Text = "Label",
+					Style = 1
+				}, LabelSettings or {}) 
+
+				LabelV.Settings = LabelSettings
+
+				local Label
+				if LabelSettings.Style == 1 then
+					Label = Elements.Template.Label:Clone()
+				elseif LabelSettings.Style == 2 then
+					Label = Elements.Template.Info:Clone()
+				elseif LabelSettings.Style == 3 then
+					Label = Elements.Template.Warn:Clone()
+				end
+
+				Label.Text.Text = LabelSettings.Text
+				Label.Visible = true
+				Label.Parent = TabPage
+
+				Label.BackgroundTransparency = 1
+				Label.UIStroke.Transparency = 1
+				Label.Text.TextTransparency = 1
+
+				if LabelSettings.Style ~= 1 then
+					TweenService:Create(Label, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.8}):Play()
+				else
+					TweenService:Create(Label, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+				end
+				TweenService:Create(Label.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				TweenService:Create(Label.Text, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+				function LabelV:Set(NewLabel)
+					LabelSettings.Text = NewLabel
+					LabelV.Settings = LabelSettings
+					Label.Text.Text = NewLabel
+				end
+
+				function LabelV:Destroy()
+					Label.Visible = false
+					Label:Destroy()
+				end
+
+				return LabelV
+			end
+
+			-- Paragraph
+			function Section:CreateParagraph(ParagraphSettings)
+				TabPage.Position = UDim2.new(0,0,0,28)
+
+				ParagraphSettings = Kwargify({
+					Title = "Paragraph",
+					Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis lacus sed tempus eleifend. Mauris interdum bibendum felis, in tempor augue egestas vel. Praesent tristique consectetur ex, eu pretium sem placerat non. Vestibulum a nisi sit amet augue facilisis consectetur sit amet et nunc. Integer fermentum ornare cursus. Pellentesque sed ultricies metus, ut egestas metus. Vivamus auctor erat ac sapien vulputate, nec ultricies sem tempor. Quisque leo lorem, faucibus nec pulvinar nec, congue eu velit. Duis sodales massa efficitur imperdiet ultrices. Donec eros ipsum, ornare pharetra purus aliquam, tincidunt elementum nisi. Ut mi tortor, feugiat eget nunc vitae, facilisis interdum dui. Vivamus ullamcorper nunc dui, a dapibus nisi pretium ac. Integer eleifend placerat nibh, maximus malesuada tellus. Cras in justo in ligula scelerisque suscipit vel vitae quam."
+				}, ParagraphSettings or {})
+
+				local ParagraphV = {
+					Settings = ParagraphSettings
+				}
+
+				local Paragraph = Elements.Template.Paragraph:Clone()
+				Paragraph.Title.Text = ParagraphSettings.Title
+				Paragraph.Text.Text = ParagraphSettings.Text
+				Paragraph.Visible = true
+				Paragraph.Parent = TabPage
+
+				Paragraph.BackgroundTransparency = 1
+				Paragraph.UIStroke.Transparency = 1
+				Paragraph.Title.TextTransparency = 1
+				Paragraph.Text.TextTransparency = 1
+
+				TweenService:Create(Paragraph, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+				TweenService:Create(Paragraph.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				TweenService:Create(Paragraph.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+				TweenService:Create(Paragraph.Text, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+				function ParagraphV:Update()
+					Paragraph.Text.Size = UDim2.new(Paragraph.Text.Size.X.Scale, Paragraph.Text.Size.X.Offset, 0, math.huge)
+					Paragraph.Text.Size = UDim2.new(Paragraph.Text.Size.X.Scale, Paragraph.Text.Size.X.Offset, 0, Paragraph.Text.TextBounds.Y)
+					tween(Paragraph, {Size = UDim2.new(Paragraph.Size.X.Scale, Paragraph.Size.X.Offset, 0, Paragraph.Text.TextBounds.Y + 40)})
+				end
+
+				function ParagraphV:Set(NewParagraphSettings)
+
+					NewParagraphSettings = Kwargify({
+						Title = ParagraphSettings.Title,
+						Text = ParagraphSettings.Text
+					}, NewParagraphSettings or {})
+
+					ParagraphV.Settings = NewParagraphSettings
+
+					Paragraph.Title.Text = NewParagraphSettings.Title
+					Paragraph.Text.Text = NewParagraphSettings.Text
+
+					ParagraphV:Update()
+
+				end
+
+				function ParagraphV:Destroy()
+					Paragraph.Visible = false
+					Paragraph:Destroy()
+				end
+
+				ParagraphV:Update()
+
+				return ParagraphV
+			end
+
+			-- Slider
+			function Section:CreateSlider(SliderSettings, Flag)
+				TabPage.Position = UDim2.new(0,0,0,28)
+				local SliderV = { IgnoreConfig = false, Class = "Slider", Settings = SliderSettings }
+
+				SliderSettings = Kwargify({
+					Name = "Slider",
+					Range = {0, 200},
+					Increment = 1,
+					CurrentValue = 100,
+					Callback = function(Value)
+
+					end,
+				}, SliderSettings or {})
+
+				local SLDragging = false
+				local Slider = Elements.Template.Slider:Clone()
+				Slider.Name = SliderSettings.Name .. " - Slider"
+				Slider.Title.Text = SliderSettings.Name
+				Slider.Visible = true
+				Slider.Parent = TabPage
+
+				Slider.BackgroundTransparency = 1
+				Slider.UIStroke.Transparency = 1
+				Slider.Title.TextTransparency = 1
+
+				TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+				TweenService:Create(Slider.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				TweenService:Create(Slider.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+				Slider.Main.Progress.Size =	UDim2.new(0, Slider.Main.AbsoluteSize.X * ((SliderSettings.CurrentValue + SliderSettings.Range[1]) / (SliderSettings.Range[2] - SliderSettings.Range[1])) > 5 and Slider.Main.AbsoluteSize.X * (SliderSettings.CurrentValue / (SliderSettings.Range[2] - SliderSettings.Range[1])) or 5, 1, 0)
+
+				Slider.Value.Text = tostring(SliderSettings.CurrentValue)
+				SliderV.CurrentValue = Slider.Value.Text
+
+				SliderSettings.Callback(SliderSettings.CurrentValue)
+
+				Slider["MouseEnter"]:Connect(function()
+					tween(Slider.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+				end)
+
+				Slider["MouseLeave"]:Connect(function()
+					tween(Slider.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+				end)
+
+				Slider.Interact.InputBegan:Connect(function(Input)
+					if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then 
+						SLDragging = true 
+					end 
+				end)
+
+				Slider.Interact.InputEnded:Connect(function(Input) 
+					if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then 
+						SLDragging = false 
+					end 
+				end)
+
+				Slider.Interact.MouseButton1Down:Connect(function()
+					local Current = Slider.Main.Progress.AbsolutePosition.X + Slider.Main.Progress.AbsoluteSize.X
+					local Start = Current
+					local Location
+					local Loop; Loop = RunService.Stepped:Connect(function()
+						if SLDragging then
+							Location = UserInputService:GetMouseLocation().X
+							Current = Current + 0.025 * (Location - Start)
+
+							if Location < Slider.Main.AbsolutePosition.X then
+								Location = Slider.Main.AbsolutePosition.X
+							elseif Location > Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X then
+								Location = Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X
+							end
+
+							if Current < Slider.Main.AbsolutePosition.X + 5 then
+								Current = Slider.Main.AbsolutePosition.X + 5
+							elseif Current > Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X then
+								Current = Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X
+							end
+
+							if Current <= Location and (Location - Start) < 0 then
+								Start = Location
+							elseif Current >= Location and (Location - Start) > 0 then
+								Start = Location
+							end
+							Slider.Main.Progress.Size = UDim2.new(0, Location - Slider.Main.AbsolutePosition.X, 1, 0)
+							local NewValue = SliderSettings.Range[1] + (Location - Slider.Main.AbsolutePosition.X) / Slider.Main.AbsoluteSize.X * (SliderSettings.Range[2] - SliderSettings.Range[1])
+
+							NewValue = math.floor(NewValue / SliderSettings.Increment + 0.5) * (SliderSettings.Increment * 10000000) / 10000000
+
+							Slider.Value.Text = tostring(NewValue)
+
+							if SliderSettings.CurrentValue ~= NewValue then
+								local Success, Response = pcall(function()
+									SliderSettings.Callback(NewValue)
+								end)
+								if not Success then
+									TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+									TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+									TweenService:Create(Slider.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+									Slider.Title.Text = "Callback Error"
+									print("Luna Interface Suite | "..SliderSettings.Name.." Callback Error " ..tostring(Response))
+									wait(0.5)
+									Slider.Title.Text = SliderSettings.Name
+									TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+									TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+									TweenService:Create(Slider.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+								end
+
+								SliderSettings.CurrentValue = NewValue
+								SliderV.CurrentValue = SliderSettings.CurrentValue
+								-- Luna.Flags[SliderSettings.Flag] = SliderSettings
+							end
+						else
+							TweenService:Create(Slider.Main.Progress, TweenInfo.new(0.1, Enum.EasingStyle.Back, Enum.EasingDirection.In, 0, false), {Size = UDim2.new(0, Location - Slider.Main.AbsolutePosition.X > 5 and Location - Slider.Main.AbsolutePosition.X or 5, 1, 0)}):Play()
+							Loop:Disconnect()
+						end
+					end)
+				end)
+
+				local function Set(NewVal, bleh)
+
+					NewVal = NewVal or SliderSettings.CurrentValue
+
+					TweenService:Create(Slider.Main.Progress, TweenInfo.new(0.3, Enum.EasingStyle.Back, Enum.EasingDirection.InOut), {Size = UDim2.new(0, Slider.Main.AbsoluteSize.X * ((NewVal + SliderSettings.Range[1]) / (SliderSettings.Range[2] - SliderSettings.Range[1])) > 5 and Slider.Main.AbsoluteSize.X * (NewVal / (SliderSettings.Range[2] - SliderSettings.Range[1])) or 5, 1, 0)}):Play()
+					if not bleh then Slider.Value.Text = tostring(NewVal) end
+					local Success, Response = pcall(function()
+						SliderSettings.Callback(NewVal)
+					end)
+					if not Success then
+						TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+						TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+						TweenService:Create(Slider.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+						Slider.Title.Text = "Callback Error"
+						print("Luna Interface Suite | "..SliderSettings.Name.." Callback Error " ..tostring(Response))
+						wait(0.5)
+						Slider.Title.Text = SliderSettings.Name
+						TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+						TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(30, 33, 40)}):Play()
+						TweenService:Create(Slider.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+					end
+
+					SliderSettings.CurrentValue = NewVal
+					SliderV.CurrentValue = SliderSettings.CurrentValue
+					-- Luna.Flags[SliderSettings.Flag] = SliderSettings
+
+				end
+
+				function SliderV:UpdateValue(Value)
+					Set(tonumber(Value))
+				end 
+
+				Slider.Value:GetPropertyChangedSignal("Text"):Connect(function()
+					local text = Slider.Value.Text
+					if not tonumber(text) and text ~= "." then
+						Slider.Value.Text = text:match("[0-9.]*") or ""
+					end
+					if SliderSettings.Range[2] < (tonumber(Slider.Value.Text) or 0) then Slider.Value.Text = SliderSettings.Range[2] end
+					Slider.Value.Size = UDim2.fromOffset(Slider.Value.TextBounds.X, 23)
+					Set(tonumber(Slider.Value.Text), true)
+				end)
+
+				function SliderV:Set(NewSliderSettings)
+					NewSliderSettings = Kwargify({
+						Name = SliderSettings.Name,
+						Range = SliderSettings.Range,
+						Increment = SliderSettings.Increment,
+						CurrentValue = SliderSettings.CurrentValue,
+						Callback = SliderSettings.Callback
+					}, NewSliderSettings or {})
+
+					SliderSettings = NewSliderSettings
+					SliderV.Settings = NewSliderSettings
+
+					Slider.Name = SliderSettings.Name .. " - Slider"
+					Slider.Title.Text = SliderSettings.Name
+
+					Set()
+
+					-- Luna.Flags[SliderSettings.Flag] = SliderSettings
+				end
+
+				function SliderV:Destroy()
+					Slider.Visible = false
+					Slider:Destroy()
+				end
+
+				if Flag then
+					Luna.Options[Flag] = SliderV
+				end
+
+				LunaUI.ThemeRemote:GetPropertyChangedSignal("Value"):Connect(function()
+					Slider.Main.color.Color = Luna.ThemeGradient
+					Slider.Main.UIStroke.color.Color = Luna.ThemeGradient
+				end)
+
+				return SliderV
+
+			end
+
+			-- Toggle
+			function Section:CreateToggle(ToggleSettings, Flag)    
+				TabPage.Position = UDim2.new(0,0,0,28)
+				local ToggleV = { IgnoreConfig = false, Class = "Toggle" }
+
+				ToggleSettings = Kwargify({
+					Name = "Toggle",
+					Description = nil,
+					CurrentValue = false,
+					Callback = function(Value)
+					end,
+				}, ToggleSettings or {})
+
+
+				local Toggle
+
+				if ToggleSettings.Description ~= nil and ToggleSettings.Description ~= "" then
+					Toggle = Elements.Template.ToggleDesc:Clone()
+				else
+					Toggle = Elements.Template.Toggle:Clone()
+				end
+
+				Toggle.Visible = true
+				Toggle.Parent = TabPage
+
+				Toggle.Name = ToggleSettings.Name .. " - Toggle"
+				Toggle.Title.Text = ToggleSettings.Name
+				if ToggleSettings.Description ~= nil and ToggleSettings.Description ~= "" then
+					Toggle.Desc.Text = ToggleSettings.Description
+				end
+
+				Toggle.UIStroke.Transparency = 1
+				Toggle.Title.TextTransparency = 1
+				if ToggleSettings.Description ~= nil and ToggleSettings.Description ~= "" then
+					Toggle.Desc.TextTransparency = 1
+				end
+
+				TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+				if ToggleSettings.Description ~= nil and ToggleSettings.Description ~= "" then
+					TweenService:Create(Toggle.Desc, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+				end
+				TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				TweenService:Create(Toggle.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+				local function Set(bool)
+					if bool then
+						Toggle.toggle.color.Enabled = true
+						tween(Toggle.toggle, {BackgroundTransparency = 0})
+
+						Toggle.toggle.UIStroke.color.Enabled = true
+						tween(Toggle.toggle.UIStroke, {Color = Color3.new(255,255,255)})
+
+						tween(Toggle.toggle.val, {BackgroundColor3 = Color3.fromRGB(255,255,255), Position = UDim2.new(1,-23,0.5,0), BackgroundTransparency = 0.45})
+					else
+						Toggle.toggle.color.Enabled = false
+						Toggle.toggle.UIStroke.color.Enabled = false
+
+						Toggle.toggle.UIStroke.Color = Color3.fromRGB(97,97,97)
+
+						tween(Toggle.toggle, {BackgroundTransparency = 1})
+
+						tween(Toggle.toggle.val, {BackgroundColor3 = Color3.fromRGB(97,97,97), Position = UDim2.new(0,5,0.5,0), BackgroundTransparency = 0})
+					end
+
+					ToggleV.CurrentValue = bool
+				end
+
+				Toggle.Interact.MouseButton1Click:Connect(function()
+					ToggleSettings.CurrentValue = not ToggleSettings.CurrentValue
+					Set(ToggleSettings.CurrentValue)
+
+					local Success, Response = pcall(function()
+						ToggleSettings.Callback(ToggleSettings.CurrentValue)
+					end)
+					if not Success then
+						TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+						TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+						TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+						Toggle.Title.Text = "Callback Error"
+						print("Luna Interface Suite | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
+						wait(0.5)
+						Toggle.Title.Text = ToggleSettings.Name
+						TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+						TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+						TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+					end
+				end)
+
+				Toggle["MouseEnter"]:Connect(function()
+					tween(Toggle.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+				end)
+
+				Toggle["MouseLeave"]:Connect(function()
+					tween(Toggle.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+				end)
+
+				if ToggleSettings.CurrentValue then
+					Set(ToggleSettings.CurrentValue)
+					local Success, Response = pcall(function()
+						ToggleSettings.Callback(ToggleSettings.CurrentValue)
+					end)
+					if not Success then
+						TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+						TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+						TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+						Toggle.Title.Text = "Callback Error"
+						print("Luna Interface Suite | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
+						wait(0.5)
+						Toggle.Title.Text = ToggleSettings.Name
+						TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+						TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+						TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+					end
+				end
+
+				function ToggleV:UpdateState(State)
+					ToggleSettings.CurrentValue = State
+					Set(ToggleSettings.CurrentValue)
+				end
+
+				function ToggleV:Set(NewToggleSettings)
+
+					NewToggleSettings = Kwargify({
+						Name = ToggleSettings.Name,
+						Description = ToggleSettings.Description,
+						CurrentValue = ToggleSettings.CurrentValue,
+						Callback = ToggleSettings.Callback
+					}, NewToggleSettings or {})
+
+					ToggleV.Settings = NewToggleSettings
+					ToggleSettings = NewToggleSettings
+
+					Toggle.Name = ToggleSettings.Name .. " - Toggle"
+					Toggle.Title.Text = ToggleSettings.Name
+					if ToggleSettings.Description ~= nil and ToggleSettings.Description ~= "" and Toggle.Desc ~= nil then
+						Toggle.Desc.Text = ToggleSettings.Description
+					end
+
+					Set(ToggleSettings.CurrentValue)
+
+					ToggleV.CurrentValue = ToggleSettings.CurrentValue
+
+					local Success, Response = pcall(function()
+						ToggleSettings.Callback(ToggleSettings.CurrentValue)
+					end)
+					if not Success then
+						TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+						TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+						TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+						Toggle.Title.Text = "Callback Error"
+						print("Luna Interface Suite | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
+						wait(0.5)
+						Toggle.Title.Text = ToggleSettings.Name
+						TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+						TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+						TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+					end
+				end
+
+				function ToggleV:Destroy()
+					Toggle.Visible = false
+					Toggle:Destroy()
+				end
+
+				LunaUI.ThemeRemote:GetPropertyChangedSignal("Value"):Connect(function()
+					Toggle.toggle.color.Color = Luna.ThemeGradient
+					Toggle.toggle.UIStroke.color.Color = Luna.ThemeGradient
+				end)
+
+				if Flag then
+					Luna.Options[Flag] = ToggleV
+				end
+
+				return ToggleV
+
+			end
+
+			-- Bind
+			function Section:CreateBind(BindSettings, Flag)
+				TabPage.Position = UDim2.new(0,0,0,28)
+				local BindV = { Class = "Keybind", IgnoreConfig = false, Settings = BindSettings, Active = false }
+
+				BindSettings = Kwargify({
+					Name = "Bind",
+					Description = nil,
+					CurrentBind = "Q",
+					HoldToInteract = false, -- setting this makes the Bind in toggle mode
+					Callback = function(Bind)
+						-- The function that takes place when the Bind is pressed
+						-- The variable (Bind) is a boolean for whether the Bind is being held or not (HoldToInteract needs to be true) or whether the Bind is currently active
+					end,
+
+					OnChangedCallback = function(Bind)
+						-- The function that takes place when the binded key changes
+						-- The variable (Bind) is a Enum.KeyCode for the new Binded Key
+					end,
+				}, BindSettings or {})
+
+				local CheckingForKey = false
+
+				local Bind
+				if BindSettings.Description ~= nil and BindSettings.Description ~= "" then
+					Bind = Elements.Template.BindDesc:Clone()
+				else
+					Bind = Elements.Template.Bind:Clone()
+				end
+
+				Bind.Visible = true
+				Bind.Parent = TabPage
+
+				Bind.Name = BindSettings.Name
+				Bind.Title.Text = BindSettings.Name
+				if BindSettings.Description ~= nil and BindSettings.Description ~= "" then
+					Bind.Desc.Text = BindSettings.Description
+				end
+
+				Bind.Title.TextTransparency = 1
+				if BindSettings.Description ~= nil and BindSettings.Description ~= "" then
+					Bind.Desc.TextTransparency = 1
+				end
+				Bind.BindFrame.BackgroundTransparency = 1
+				Bind.BindFrame.UIStroke.Transparency = 1
+				Bind.BindFrame.BindBox.TextTransparency = 1
+
+				TweenService:Create(Bind, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+				TweenService:Create(Bind.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+				if BindSettings.Description ~= nil and BindSettings.Description ~= "" then
+					TweenService:Create(Bind.Desc, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+				end
+				TweenService:Create(Bind.BindFrame, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.9}):Play()
+				TweenService:Create(Bind.BindFrame.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.3}):Play()
+				TweenService:Create(Bind.BindFrame.BindBox, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+
+
+				Bind.BindFrame.BindBox.Text = BindSettings.CurrentBind
+				Bind.BindFrame.BindBox.Size = UDim2.new(0, Bind.BindFrame.BindBox.TextBounds.X + 20, 0, 42)
+
+				Bind.BindFrame.BindBox.Focused:Connect(function()
+					CheckingForKey = true
+					Bind.BindFrame.BindBox.Text = ""
+				end)
+
+				Bind.BindFrame.BindBox.FocusLost:Connect(function()
+					CheckingForKey = false
+					if Bind.BindFrame.BindBox.Text == (nil or "") then
+						Bind.BindFrame.BindBox.Text = BindSettings.CurrentBind
+					end
+				end)
+
+				Bind["MouseEnter"]:Connect(function()
+					tween(Bind.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+				end)
+
+				Bind["MouseLeave"]:Connect(function()
+					tween(Bind.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+				end)
+				UserInputService.InputBegan:Connect(function(input, processed)
+
+					if CheckingForKey then
+						if input.KeyCode ~= Enum.KeyCode.Unknown and input.KeyCode ~= Window.Bind then
+							local SplitMessage = string.split(tostring(input.KeyCode), ".")
+							local NewKeyNoEnum = SplitMessage[3]
+							Bind.BindFrame.BindBox.Text = tostring(NewKeyNoEnum)
+							BindSettings.CurrentBind = tostring(NewKeyNoEnum)
+							local Success, Response = pcall(function()
+								BindSettings.OnChangedCallback(BindSettings.CurrentBind)
+							end)
+							if not Success then
+								TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+								TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+								TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+								Bind.Title.Text = "Callback Error"
+								print("Luna Interface Suite | "..BindSettings.Name.." Callback Error " ..tostring(Response))
+								wait(0.5)
+								Bind.Title.Text = BindSettings.Name
+								TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+								TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+								TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+							end
+							Bind.BindFrame.BindBox:ReleaseFocus()
+						end
+					elseif BindSettings.CurrentBind ~= nil and (input.KeyCode == Enum.KeyCode[BindSettings.CurrentBind] and not processed) then -- Test
+						local Held = true
+						local Connection
+						Connection = input.Changed:Connect(function(prop)
+							if prop == "UserInputState" then
+								Connection:Disconnect()
+								Held = false
+							end
+						end)
+
+						if not BindSettings.HoldToInteract then
+							BindV.Active = not BindV.Active
+							local Success, Response = pcall(function()
+								BindSettings.Callback(BindV.Active)
+							end)
+							if not Success then
+								TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+								TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+								TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+								Bind.Title.Text = "Callback Error"
+								print("Luna Interface Suite | "..BindSettings.Name.." Callback Error " ..tostring(Response))
+								wait(0.5)
+								Bind.Title.Text = BindSettings.Name
+								TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+								TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+								TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+							end
+						else
+							wait(0.1)
+							if Held then
+								local Loop; Loop = RunService.Stepped:Connect(function()
+									if not Held then
+										local Success, Response = pcall(function()
+											BindSettings.Callback(false)
+										end)
+										if not Success then
+											TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+											TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+											TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+											Bind.Title.Text = "Callback Error"
+											print("Luna Interface Suite | "..BindSettings.Name.." Callback Error " ..tostring(Response))
+											wait(0.5)
+											Bind.Title.Text = BindSettings.Name
+											TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+											TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+											TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+										end 
+										Loop:Disconnect()
+									else
+										local Success, Response = pcall(function()
+											BindSettings.Callback(true)
+										end)
+										if not Success then
+											TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+											TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+											TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+											Bind.Title.Text = "Callback Error"
+											print("Luna Interface Suite | "..BindSettings.Name.." Callback Error " ..tostring(Response))
+											wait(0.5)
+											Bind.Title.Text = BindSettings.Name
+											TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+											TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+											TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+										end
+									end
+								end)	
+							end
+						end
+					end
+				end)
+
+				Bind.BindFrame.BindBox:GetPropertyChangedSignal("Text"):Connect(function()
+					TweenService:Create(Bind.BindFrame, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Bind.BindFrame.BindBox.TextBounds.X + 20, 0, 30)}):Play()
+				end)
+
+				function BindV:Set(NewBindSettings)
+
+					NewBindSettings = Kwargify({
+						Name = BindSettings.Name,
+						Description = BindSettings.Description,
+						CurrentBind =  BindSettings.CurrentBind,
+						HoldToInteract = BindSettings.HoldToInteract,
+						Callback = BindSettings.Callback
+					}, NewBindSettings or {})
+
+					BindV.Settings = NewBindSettings
+					BindSettings = NewBindSettings
+
+					Bind.Name = BindSettings.Name
+					Bind.Title.Text = BindSettings.Name
+					if BindSettings.Description ~= nil and BindSettings.Description ~= "" and Bind.Desc ~= nil then
+						Bind.Desc.Text = BindSettings.Description
+					end
+
+					Bind.BindFrame.BindBox.Text = BindSettings.CurrentBind
+					Bind.BindFrame.Size = UDim2.new(0, Bind.BindFrame.BindBox.TextBounds.X + 20, 0, 42)
+
+
+					BindV.CurrentBind = BindSettings.CurrentBind
+				end
+
+				function BindV:Destroy()
+					Bind.Visible = false
+					Bind:Destroy()
+				end
+
+				if Flag then
+					Luna.Options[Flag] = BindV
+				end
+
+				-- Luna.Flags[BindSettings.Flag] = BindSettings
+
+				return BindV
+
+			end
+
+			-- Dynamic Input
+			function Section:CreateInput(InputSettings, Flag)
+				TabPage.Position = UDim2.new(0,0,0,28)
+				local InputV = { IgnoreConfig = false, Class = "Input", Settings = InputSettings }
+
+				InputSettings = Kwargify({
+					Name = "Dynamic Input",
+					Description = nil,
+					CurrentValue = "",
+					PlaceholderText = "Input Placeholder",
+					RemoveTextAfterFocusLost = false,
+					Numeric = false,
+					Enter = false,
+					MaxCharacters = nil,
+					Callback = function(Text)
+
+					end, -- 52
+				}, InputSettings or {})
+
+				InputV.CurrentValue = InputSettings.CurrentValue
+
+				local descriptionbool
+				if InputSettings.Description ~= nil and InputSettings.Description ~= "" then
+					descriptionbool = true
+				end
+
+				local Input 
+				if descriptionbool then
+					Input = Elements.Template.InputDesc:Clone()
+				else
+					Input = Elements.Template.Input:Clone()
+				end
+
+				Input.Name = InputSettings.Name
+				Input.Title.Text = InputSettings.Name
+				if descriptionbool then Input.Desc.Text = InputSettings.Description end
+				Input.Visible = true
+				Input.Parent = TabPage
+
+				Input.BackgroundTransparency = 1
+				Input.UIStroke.Transparency = 1
+				Input.Title.TextTransparency = 1
+				if descriptionbool then Input.Desc.TextTransparency = 1 end
+				Input.InputFrame.BackgroundTransparency = 1
+				Input.InputFrame.UIStroke.Transparency = 1
+				Input.InputFrame.InputBox.TextTransparency = 1
+
+				TweenService:Create(Input, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+				TweenService:Create(Input.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				TweenService:Create(Input.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+				if descriptionbool then TweenService:Create(Input.Desc, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play() end
+				TweenService:Create(Input.InputFrame, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.9}):Play()
+				TweenService:Create(Input.InputFrame.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.3}):Play()
+				TweenService:Create(Input.InputFrame.InputBox, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+
+				Input.InputFrame.InputBox.PlaceholderText = InputSettings.PlaceholderText
+				Input.InputFrame.Size = UDim2.new(0, Input.InputFrame.InputBox.TextBounds.X + 52, 0, 30)
+
+				Input.InputFrame.InputBox.FocusLost:Connect(function(bleh)
+
+					if InputSettings.Enter then
+						if bleh then
+							local Success, Response = pcall(function()
+								InputSettings.Callback(Input.InputFrame.InputBox.Text)
+								InputV.CurrentValue = Input.InputFrame.InputBox.Text
+							end)
+							if not Success then
+								TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+								TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+								TweenService:Create(Input.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+								Input.Title.Text = "Callback Error"
+								print("Luna Interface Suite | "..InputSettings.Name.." Callback Error " ..tostring(Response))
+								wait(0.5)
+								Input.Title.Text = InputSettings.Name
+								TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+								TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+								TweenService:Create(Input.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+							end
+						end
+					end
+
+					if InputSettings.RemoveTextAfterFocusLost then
+						Input.InputFrame.InputBox.Text = ""
+					end
+
+				end)
+
+				if InputSettings.Numeric then
+					Input.InputFrame.InputBox:GetPropertyChangedSignal("Text"):Connect(function()
+						local text = Input.InputFrame.InputBox.Text
+						if not tonumber(text) and text ~= "." then
+							Input.InputFrame.InputBox.Text = text:match("[0-9.]*") or ""
+						end
+					end)
+				end
+
+				Input.InputFrame.InputBox:GetPropertyChangedSignal("Text"):Connect(function()
+					if tonumber(InputSettings.MaxCharacters) then
+						if (#Input.InputFrame.InputBox.Text - 1) == InputSettings.MaxCharacters then
+							Input.InputFrame.InputBox.Text = Input.InputFrame.InputBox.Text:sub(1, InputSettings.MaxCharacters)
+						end
+					end
+					TweenService:Create(Input.InputFrame, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Input.InputFrame.InputBox.TextBounds.X + 52, 0, 30)}):Play()
+					if not InputSettings.Enter then
+						local Success, Response = pcall(function()
+							InputSettings.Callback(Input.InputFrame.InputBox.Text)
+						end)
+						if not Success then
+							TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+							TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+							TweenService:Create(Input.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+							Input.Title.Text = "Callback Error"
+							print("Luna Interface Suite | "..InputSettings.Name.." Callback Error " ..tostring(Response))
+							wait(0.5)
+							Input.Title.Text = InputSettings.Name
+							TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+							TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+							TweenService:Create(Input.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+						end
+					end
+					InputV.CurrentValue = Input.InputFrame.InputBox.Text				
+				end)
+
+				Input["MouseEnter"]:Connect(function()
+					tween(Input.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+				end)
+
+				Input["MouseLeave"]:Connect(function()
+					tween(Input.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+				end)
+
+
+				function InputV:Set(NewInputSettings)
+
+					NewInputSettings = Kwargify(InputSettings, NewInputSettings or {})
+
+					InputV.Settings = NewInputSettings
+					InputSettings = NewInputSettings
+
+					Input.Name = InputSettings.Name
+					Input.Title.Text = InputSettings.Name
+					if InputSettings.Description ~= nil and InputSettings.Description ~= "" and Input.Desc ~= nil then
+						Input.Desc.Text = InputSettings.Description
+					end
+
+					Input.InputFrame.InputBox:CaptureFocus()
+					Input.InputFrame.InputBox.Text = tostring(InputSettings.CurrentValue)
+					Input.InputFrame.InputBox:ReleaseFocus()
+					Input.InputFrame.Size = UDim2.new(0, Input.InputFrame.InputBox.TextBounds.X + 52, 0, 42)
+
+					InputV.CurrentValue = InputSettings.CurrentValue
+				end
+
+				function InputV:Destroy()
+					Input.Visible = false
+					Input:Destroy()
+				end
+
+				if Flag then
+					Luna.Options[Flag] = InputV
+				end
+
+
+				return InputV
+
+			end
+
+			-- Dropdown
+			function Section:CreateDropdown(DropdownSettings, Flag)
+				TabPage.Position = UDim2.new(0,0,0,28)
+				local DropdownV = { IgnoreConfig = false, Class = "Dropdown", Settings = DropdownSettings}
+
+				DropdownSettings = Kwargify({
+					Name = "Dropdown",
+					Description = nil,
+					Options = {"Option 1", "Option 2"},
+					CurrentOption = {"Option 1"},
+					MultipleOptions = false,
+					SpecialType = nil, -- currently onl player, might add more soon
+					Callback = function(Options)
+						-- The function that takes place when the selected option is changed
+						-- The variable (Options) is a table of strings for the current selected options or a string if multioptions is false
+					end,
+				}, DropdownSettings or {})
+
+				DropdownV.CurrentOption = DropdownSettings.CurrentOption
+
+				local descriptionbool = false
+				if DropdownSettings.Description ~= nil and DropdownSettings.Description ~= "" then
+					descriptionbool = true
+				end
+				local closedsize
+				local openedsize
+				if descriptionbool then
+					closedsize = 48
+					openedsize = 170
+				elseif not descriptionbool then
+					closedsize = 38
+					openedsize = 160
+				end
+				local opened = false
+
+				local Dropdown
+				if descriptionbool then Dropdown = Elements.Template.DropdownDesc:Clone() else Dropdown = Elements.Template.Dropdown:Clone() end
+
+				Dropdown.Name = DropdownSettings.Name
+				Dropdown.Title.Text = DropdownSettings.Name
+				if descriptionbool then Dropdown.Desc.Text = DropdownSettings.Description end
+
+				Dropdown.Parent = TabPage
+				Dropdown.Visible = true
+
+				local function Toggle()
+					opened = not opened
+					if opened then
+						tween(Dropdown.icon, {Rotation = 180})
+						tween(Dropdown, {Size = UDim2.new(1, -25, 0, openedsize)})
+					else
+						tween(Dropdown.icon, {Rotation = 0})
+						tween(Dropdown, {Size = UDim2.new(1, -25, 0, closedsize)})
+					end
+				end
+
+				local function SafeCallback(param, c2)
+					local Success, Response = pcall(function()
+						DropdownSettings.Callback(param)
+					end)
+					if not Success then
+						TweenService:Create(Dropdown, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+						TweenService:Create(Dropdown, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+						TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+						Dropdown.Title.Text = "Callback Error"
+						print("Luna Interface Suite | "..DropdownSettings.Name.." Callback Error " ..tostring(Response))
+						wait(0.5)
+						Dropdown.Title.Text = DropdownSettings.Name
+						TweenService:Create(Dropdown, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+						TweenService:Create(Dropdown, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+						TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+					end
+					if Success and c2 then
+						c2()
+					end
+				end
+
+				-- fixed by justhey
+				Dropdown.Selected:GetPropertyChangedSignal("Text"):Connect(function()
+					local text = Dropdown.Selected.Text:lower()
+					for _, Item in ipairs(Dropdown.List:GetChildren()) do
+						if Item:IsA("TextLabel") and Item.Name ~= "Template" then
+							Item.Visible = text == "" or string.find(Item.Name:lower(), text, 1, true) ~= nil
+						end
+					end
+				end)
+
+
+				local function Clear()
+					for _, option in ipairs(Dropdown.List:GetChildren()) do
+						if option.ClassName == "TextLabel" and option.Name ~= "Template" then
+							option:Destroy()
+						end
+					end
+				end
+
+				local function ActivateColorSingle(name)
+					for _, Option in pairs(Dropdown.List:GetChildren()) do
+						if Option.ClassName == "TextLabel" and Option.Name ~= "Template" then
+							tween(Option, {BackgroundTransparency = 0.98})
+						end
+					end
+
+					Toggle()
+					tween(Dropdown.List[name], {BackgroundTransparency = 0.95, TextColor3 = Color3.fromRGB(240,240,240)})
+				end
+
+				local function Refresh()
+					Clear()
+					for i,v in pairs(DropdownSettings.Options) do
+						local Option = Dropdown.List.Template:Clone()
+						local optionhover = false
+						Option.Text = v
+						if v == "Template" then v = "Template (Name)" end
+						Option.Name = v
+						Option.Interact.MouseButton1Click:Connect(function()
+							local bleh
+							if DropdownSettings.MultipleOptions then
+								if table.find(DropdownSettings.CurrentOption, v) then
+									RemoveTable(DropdownSettings.CurrentOption, v)
+									DropdownV.CurrentOption = DropdownSettings.CurrentOption
+									if not optionhover then
+										tween(Option, {TextColor3 = Color3.fromRGB(200,200,200)})
+									end
+									tween(Option, {BackgroundTransparency = 0.98})
+								else
+									table.insert(DropdownSettings.CurrentOption, v)
+									DropdownV.CurrentOption = DropdownSettings.CurrentOption
+									tween(Option, {TextColor3 = Color3.fromRGB(240,240,240), BackgroundTransparency = 0.95})
+								end
+								bleh = DropdownSettings.CurrentOption
+							else
+								DropdownSettings.CurrentOption = {v}
+								bleh = v
+								DropdownV.CurrentOption = bleh
+								ActivateColorSingle(v)
+							end
+
+							SafeCallback(bleh, function()
+								if DropdownSettings.MultipleOptions then
+									if DropdownSettings.CurrentOption and type(DropdownSettings.CurrentOption) == "table" then
+										if #DropdownSettings.CurrentOption == 1 then
+											Dropdown.Selected.PlaceholderText = DropdownSettings.CurrentOption[1]
+										elseif #DropdownSettings.CurrentOption == 0 then
+											Dropdown.Selected.PlaceholderText = "None"
+										else
+											Dropdown.Selected.PlaceholderText = unpackt(DropdownSettings.CurrentOption)
+										end
+									else
+										DropdownSettings.CurrentOption = {}
+										Dropdown.Selected.PlaceholderText = "None"
+									end
+								end
+								if not DropdownSettings.MultipleOptions then
+									Dropdown.Selected.PlaceholderText = DropdownSettings.CurrentOption[1] or "None"
+								end
+								Dropdown.Selected.Text = ""
+							end)
+						end)
+						Option.Visible = true
+						Option.Parent = Dropdown.List
+						Option.MouseEnter:Connect(function()
+							optionhover = true
+							if Option.BackgroundTransparency == 0.95 then
+								return
+							else
+								tween(Option, {TextColor3 = Color3.fromRGB(240,240,240)})
+							end
+						end)
+						Option.MouseLeave:Connect(function()
+							optionhover = false
+							if Option.BackgroundTransparency == 0.95 then
+								return
+							else
+								tween(Option, {TextColor3 = Color3.fromRGB(200,200,200)})
+							end
+						end)	
+					end
+				end
+
+				local function PlayerTableRefresh()
+					for i,v in pairs(DropdownSettings.Options) do
+						table.remove(DropdownSettings.Options, i)
+					end
+
+					for i,v in pairs(Players:GetChildren()) do
+						table.insert(DropdownSettings.Options, v.Name)
+					end
+				end
+
+				Dropdown.Interact.MouseButton1Click:Connect(function()
+					Toggle()
+				end)
+
+				Dropdown["MouseEnter"]:Connect(function()
+					tween(Dropdown.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+				end)
+
+				Dropdown["MouseLeave"]:Connect(function()
+					tween(Dropdown.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+				end)
+
+				if DropdownSettings.SpecialType == "Player" then
+
+					for i,v in pairs(DropdownSettings.Options) do
+						table.remove(DropdownSettings.Options, i)
+					end
+					PlayerTableRefresh()
+					DropdownSettings.CurrentOption = DropdownSettings.Options[1]
+
+					Players.PlayerAdded:Connect(function() PlayerTableRefresh() end)
+					Players.PlayerRemoving:Connect(function() PlayerTableRefresh() end)
+
+				end
+
+				Refresh()
+
+				if DropdownSettings.CurrentOption then
+					if type(DropdownSettings.CurrentOption) == "string" then
+						DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption}
+					end
+					if not DropdownSettings.MultipleOptions and type(DropdownSettings.CurrentOption) == "table" then
+						DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption[1]}
+					end
+				else
+					DropdownSettings.CurrentOption = {}
+				end
+
+				local bleh, ind = nil,0
+				for i,v in pairs(DropdownSettings.CurrentOption) do
+					ind = ind + 1
+				end
+				if ind == 1 then bleh = DropdownSettings.CurrentOption[1] else bleh = DropdownSettings.CurrentOption end
+				SafeCallback(bleh)
+				if type(bleh) == "string" then 
+					tween(Dropdown.List[bleh], {TextColor3 = Color3.fromRGB(240,240,240), BackgroundTransparency = 0.95})
+				else
+					for i,v in pairs(bleh) do
+						tween(Dropdown.List[v], {TextColor3 = Color3.fromRGB(240,240,240), BackgroundTransparency = 0.95})
+					end
+				end
+
+				if DropdownSettings.MultipleOptions then
+					if DropdownSettings.CurrentOption and type(DropdownSettings.CurrentOption) == "table" then
+						if #DropdownSettings.CurrentOption == 1 then
+							Dropdown.Selected.PlaceholderText = DropdownSettings.CurrentOption[1]
+						elseif #DropdownSettings.CurrentOption == 0 then
+							Dropdown.Selected.PlaceholderText = "None"
+						else
+							Dropdown.Selected.PlaceholderText = unpackt(DropdownSettings.CurrentOption)
+						end
+					else
+						DropdownSettings.CurrentOption = {}
+						Dropdown.Selected.PlaceholderText = "None"
+					end
+					for _, name in pairs(DropdownSettings.CurrentOption) do
+						tween(Dropdown.List[name], {TextColor3 = Color3.fromRGB(227,227,227), BackgroundTransparency = 0.95})
+					end
+				else
+					Dropdown.Selected.PlaceholderText = DropdownSettings.CurrentOption[1] or "None"
+				end
+				Dropdown.Selected.Text = ""
+
+				function DropdownV:Set(NewDropdownSettings)
+					NewDropdownSettings = Kwargify(DropdownSettings, NewDropdownSettings or {})
+
+					DropdownV.Settings = NewDropdownSettings
+					DropdownSettings = NewDropdownSettings
+
+					Dropdown.Name = DropdownSettings.Name
+					Dropdown.Title.Text = DropdownSettings.Name
+					if DropdownSettings.Description ~= nil and DropdownSettings.Description ~= "" and Dropdown.Desc ~= nil then
+						Dropdown.Desc.Text = DropdownSettings.Description
+					end
+
+					if DropdownSettings.SpecialType == "Player" then
+
+						for i,v in pairs(DropdownSettings.Options) do
+							table.remove(DropdownSettings.Options, i)
+						end
+						PlayerTableRefresh()
+						DropdownSettings.CurrentOption = DropdownSettings.Options[1]                    
+						Players.PlayerAdded:Connect(function() PlayerTableRefresh() end)
+						Players.PlayerRemoving:Connect(function() PlayerTableRefresh() end)
+
+					end
+
+					Refresh()
+
+					if DropdownSettings.CurrentOption then
+						if type(DropdownSettings.CurrentOption) == "string" then
+							DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption}
+						end
+						if not DropdownSettings.MultipleOptions and type(DropdownSettings.CurrentOption) == "table" then
+							DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption[1]}
+						end
+					else
+						DropdownSettings.CurrentOption = {}
+					end
+
+					local bleh, ind = nil,0
+					for i,v in pairs(DropdownSettings.CurrentOption) do
+						ind = ind + 1
+					end
+					if ind == 1 then bleh = DropdownSettings.CurrentOption[1] else bleh = DropdownSettings.CurrentOption end
+					SafeCallback(bleh)
+					for _, Option in pairs(Dropdown.List:GetChildren()) do
+						if Option.ClassName == "TextLabel" then
+							tween(Option, {TextColor3 = Color3.fromRGB(200,200,200), BackgroundTransparency = 0.98})
+						end
+					end
+					tween(Dropdown.List[bleh], {TextColor3 = Color3.fromRGB(240,240,240), BackgroundTransparency = 0.95})
+
+					if DropdownSettings.MultipleOptions then
+						if DropdownSettings.CurrentOption and type(DropdownSettings.CurrentOption) == "table" then
+							if #DropdownSettings.CurrentOption == 1 then
+								Dropdown.Selected.PlaceholderText = DropdownSettings.CurrentOption[1]
+							elseif #DropdownSettings.CurrentOption == 0 then
+								Dropdown.Selected.PlaceholderText = "None"
+							else
+								Dropdown.Selected.PlaceholderText = unpackt(DropdownSettings.CurrentOption)
+							end
+						else
+							DropdownSettings.CurrentOption = {}
+							Dropdown.Selected.PlaceholderText = "None"
+						end
+						for _, name in pairs(DropdownSettings.CurrentOption) do
+							tween(Dropdown.List[name], {TextColor3 = Color3.fromRGB(227,227,227), BackgroundTransparency = 0.95})
+						end
+					else
+						Dropdown.Selected.PlaceholderText = DropdownSettings.CurrentOption[1] or "None"
+					end
+					Dropdown.Selected.Text = ""
+
+					-- Luna.Flags[DropdownSettings.Flag] = DropdownSettings
+
+				end
+
+				function DropdownV:Destroy()
+					Dropdown.Visible = false
+					Dropdown:Destroy()
+				end
+
+				if Flag then
+					Luna.Options[Flag] = DropdownV
+				end
+
+				-- Luna.Flags[DropdownSettings.Flag] = DropdownSettings
+
+				return DropdownV
+
+			end
+
+			-- Color Picker
+			function Section:CreateColorPicker(ColorPickerSettings, Flag) -- by Rayfield/Throit
+				TabPage.Position = UDim2.new(0,0,0,28)
+				local ColorPickerV = {IgnoreClass = false, Class = "Colorpicker", Settings = ColorPickerSettings}
+
+				ColorPickerSettings = Kwargify({
+					Name = "Color Picker",
+					Color = Color3.fromRGB(255,255,255),
+					Callback = function(Value)
+						-- The function that takes place every time the color picker is moved/changed
+						-- The variable (Value) is a Color3fromRGB value based on which color is selected
+					end
+				}, ColorPickerSettings or {})
+
+				local function Color3ToHex(color)
+					return string.format("#%02X%02X%02X", math.floor(color.R * 255), math.floor(color.G * 255), math.floor(color.B * 255))
+				end
+
+				ColorPickerV.Color = Color3ToHex(ColorPickerSettings.Color)
+
+				local closedsize = UDim2.new(0, 75, 0, 22)
+				local openedsize = UDim2.new(0, 219, 0, 129)
+
+				local ColorPicker = Elements.Template.ColorPicker:Clone()
+				local Background = ColorPicker.CPBackground
+				local Display = Background.Display
+				local Main = Background.MainCP
+				local Slider = ColorPicker.ColorSlider
+
+				ColorPicker.Name = ColorPickerSettings.Name
+				ColorPicker.Title.Text = ColorPickerSettings.Name
+				ColorPicker.Visible = true
+				ColorPicker.Parent = TabPage
+				ColorPicker.Size = UDim2.new(1.042, -25,0, 38)
+				Background.Size = closedsize
+				Display.BackgroundTransparency = 0
+
+				ColorPicker["MouseEnter"]:Connect(function()
+					tween(ColorPicker.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+				end)
+				ColorPicker["MouseLeave"]:Connect(function()
+					tween(ColorPicker.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+				end)
+
+				local function SafeCallback(param, c2)
+					local Success, Response = pcall(function()
+						ColorPickerSettings.Callback(param)
+					end)
+					if not Success then
+						TweenService:Create(ColorPicker, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+						TweenService:Create(ColorPicker, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+						TweenService:Create(ColorPicker.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+						ColorPicker.Title.Text = "Callback Error"
+						print("Luna Interface Suite | "..ColorPickerSettings.Name.." Callback Error " ..tostring(Response))
+						wait(0.5)
+						ColorPicker.Title.Text = ColorPickerSettings.Name
+						TweenService:Create(ColorPicker, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+						TweenService:Create(ColorPicker, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+						TweenService:Create(ColorPicker.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+					end
+					if Success and c2 then
+						c2()
+					end
+				end
+
+				local opened = false
+
+				local mouse = game.Players.LocalPlayer:GetMouse()
+				Main.Image = "http://www.roblox.com/asset/?id=11415645739"
+				local mainDragging = false 
+				local sliderDragging = false 
+				ColorPicker.Interact.MouseButton1Down:Connect(function()
+					if not opened then
+						opened = true 
+						tween(ColorPicker, {Size = UDim2.new( 1.042, -25,0, 165)}, nil, TweenInfo.new(0.6, Enum.EasingStyle.Exponential))
+						tween(Background, {Size = openedsize})
+						tween(Display, {BackgroundTransparency = 1})
+					else
+						opened = false
+						tween(ColorPicker, {Size = UDim2.new(1.042, -25,0, 38)}, nil, TweenInfo.new(0.6, Enum.EasingStyle.Exponential))
+						tween(Background, {Size = closedsize})
+						tween(Display, {BackgroundTransparency = 0})
+					end
+				end)
+				UserInputService.InputEnded:Connect(function(input, gameProcessed) if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then 
+						mainDragging = false
+						sliderDragging = false
+					end end)
+				Main.MouseButton1Down:Connect(function()
+					if opened then
+						mainDragging = true 
+					end
+				end)
+				Main.MainPoint.MouseButton1Down:Connect(function()
+					if opened then
+						mainDragging = true 
+					end
+				end)
+				Slider.MouseButton1Down:Connect(function()
+					sliderDragging = true 
+				end)
+				Slider.SliderPoint.MouseButton1Down:Connect(function()
+					sliderDragging = true 
+				end)
+				local h,s,v = ColorPickerSettings.Color:ToHSV()
+				local color = Color3.fromHSV(h,s,v) 
+				local r,g,b = math.floor((h*255)+0.5),math.floor((s*255)+0.5),math.floor((v*255)+0.5)
+				local hex = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+				ColorPicker.HexInput.InputBox.Text = hex
+				local function setDisplay(hp,sp,vp)
+					--Main
+					Main.MainPoint.Position = UDim2.new(s,-Main.MainPoint.AbsoluteSize.X/2,1-v,-Main.MainPoint.AbsoluteSize.Y/2)
+					Main.MainPoint.ImageColor3 = Color3.fromHSV(hp,sp,vp)
+					Background.BackgroundColor3 = Color3.fromHSV(hp,1,1)
+					Display.BackgroundColor3 = Color3.fromHSV(hp,sp,vp)
+					--Slider 
+					local x = hp * Slider.AbsoluteSize.X
+					Slider.SliderPoint.Position = UDim2.new(0,x-Slider.SliderPoint.AbsoluteSize.X/2,0.5,0)
+					Slider.SliderPoint.ImageColor3 = Color3.fromHSV(hp,1,1)
+					local color = Color3.fromHSV(hp,sp,vp) 
+					local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+					ColorPicker.RInput.InputBox.Text = tostring(r)
+					ColorPicker.GInput.InputBox.Text = tostring(g)
+					ColorPicker.BInput.InputBox.Text = tostring(b)
+					hex = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+					ColorPicker.HexInput.InputBox.Text = hex
+				end
+				setDisplay(h,s,v)
+				ColorPicker.HexInput.InputBox.FocusLost:Connect(function()
+					if not pcall(function()
+							local r, g, b = string.match(ColorPicker.HexInput.InputBox.Text, "^#?(%w%w)(%w%w)(%w%w)$")
+							local rgbColor = Color3.fromRGB(tonumber(r, 16),tonumber(g, 16), tonumber(b, 16))
+							h,s,v = rgbColor:ToHSV()
+							hex = ColorPicker.HexInput.InputBox.Text
+							setDisplay()
+							ColorPickerSettings.Color = rgbColor
+						end) 
+					then 
+						ColorPicker.HexInput.InputBox.Text = hex 
+					end
+					local r,g,b = math.floor((h*255)+0.5),math.floor((s*255)+0.5),math.floor((v*255)+0.5)
+					ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+					SafeCallback( Color3.fromRGB(r,g,b))
+				end)
+				--RGB
+				local function rgbBoxes(box,toChange)
+					local value = tonumber(box.Text) 
+					local color = Color3.fromHSV(h,s,v) 
+					local oldR,oldG,oldB = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+					local save 
+					if toChange == "R" then save = oldR;oldR = value elseif toChange == "G" then save = oldG;oldG = value else save = oldB;oldB = value end
+					if value then 
+						value = math.clamp(value,0,255)
+						h,s,v = Color3.fromRGB(oldR,oldG,oldB):ToHSV()
+						setDisplay()
+					else 
+						box.Text = tostring(save)
+					end
+					local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+					ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+				end
+				ColorPicker.RInput.InputBox.FocusLost:connect(function()
+					rgbBoxes(ColorPicker.RInput.InputBox,"R")
+					SafeCallback(Color3.fromRGB(r,g,b))
+				end)
+				ColorPicker.GInput.InputBox.FocusLost:connect(function()
+					rgbBoxes(ColorPicker.GInput.InputBox,"G")
+					SafeCallback(Color3.fromRGB(r,g,b))
+				end)
+				ColorPicker.BInput.InputBox.FocusLost:connect(function()
+					rgbBoxes(ColorPicker.BInput.InputBox,"B")
+					SafeCallback(Color3.fromRGB(r,g,b))
+				end)
+				RunService.RenderStepped:connect(function()
+					if mainDragging then 
+						local localX = math.clamp(mouse.X-Main.AbsolutePosition.X,0,Main.AbsoluteSize.X)
+						local localY = math.clamp(mouse.Y-Main.AbsolutePosition.Y,0,Main.AbsoluteSize.Y)
+						Main.MainPoint.Position = UDim2.new(0,localX-Main.MainPoint.AbsoluteSize.X/2,0,localY-Main.MainPoint.AbsoluteSize.Y/2)
+						s = localX / Main.AbsoluteSize.X
+						v = 1 - (localY / Main.AbsoluteSize.Y)
+						Display.BackgroundColor3 = Color3.fromHSV(h,s,v)
+						Main.MainPoint.ImageColor3 = Color3.fromHSV(h,s,v)
+						Background.BackgroundColor3 = Color3.fromHSV(h,1,1)
+						local color = Color3.fromHSV(h,s,v) 
+						local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+						ColorPicker.RInput.InputBox.Text = tostring(r)
+						ColorPicker.GInput.InputBox.Text = tostring(g)
+						ColorPicker.BInput.InputBox.Text = tostring(b)
+						ColorPicker.HexInput.InputBox.Text = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+						SafeCallback(Color3.fromRGB(r,g,b))
+						ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+						ColorPickerV.Color = ColorPickerSettings.Color
+					end
+					if sliderDragging then 
+						local localX = math.clamp(mouse.X-Slider.AbsolutePosition.X,0,Slider.AbsoluteSize.X)
+						h = localX / Slider.AbsoluteSize.X
+						Display.BackgroundColor3 = Color3.fromHSV(h,s,v)
+						Slider.SliderPoint.Position = UDim2.new(0,localX-Slider.SliderPoint.AbsoluteSize.X/2,0.5,0)
+						Slider.SliderPoint.ImageColor3 = Color3.fromHSV(h,1,1)
+						Background.BackgroundColor3 = Color3.fromHSV(h,1,1)
+						Main.MainPoint.ImageColor3 = Color3.fromHSV(h,s,v)
+						local color = Color3.fromHSV(h,s,v) 
+						local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+						ColorPicker.RInput.InputBox.Text = tostring(r)
+						ColorPicker.GInput.InputBox.Text = tostring(g)
+						ColorPicker.BInput.InputBox.Text = tostring(b)
+						ColorPicker.HexInput.InputBox.Text = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+						SafeCallback(Color3.fromRGB(r,g,b))
+						ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+						ColorPickerV.Color = ColorPickerSettings.Color
+					end
+				end)
+
+				function ColorPickerV:Set(NewColorPickerSettings)
+
+					NewColorPickerSettings = Kwargify(ColorPickerSettings, NewColorPickerSettings or {})
+
+					ColorPickerV.Settings = NewColorPickerSettings
+					ColorPickerSettings = NewColorPickerSettings
+
+					ColorPicker.Name = ColorPickerSettings.Name
+					ColorPicker.Title.Text = ColorPickerSettings.Name
+					ColorPicker.Visible = true
+
+					local h,s,v = ColorPickerSettings.Color:ToHSV()
+					local color = Color3.fromHSV(h,s,v) 
+					local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+					local hex = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+					ColorPicker.HexInput.InputBox.Text = hex
+					setDisplay(h,s,v)
+					SafeCallback(Color3.fromRGB(r,g,b))
+
+					ColorPickerV.Color = ColorPickerSettings.Color
+				end
+
+				function ColorPickerV:Destroy()
+					ColorPicker:Destroy()
+				end
+
+				if Flag then
+					Luna.Options[Flag] = ColorPickerV
+				end
+
+				SafeCallback(ColorPickerSettings.Color)
+
+				return ColorPickerV
+			end
+
+			return Section
+
+		end
+
+		-- Divider
+		function Tab:CreateDivider()
+			local b = Elements.Template.Divider:Clone()
+			b.Parent = TabPage
+			b.Line.BackgroundTransparency = 1
+			tween(b.Line, {BackgroundTransparency = 0})
+		end
+
+		-- Button
+		function Tab:CreateButton(ButtonSettings)
+
+			ButtonSettings = Kwargify({
+				Name = "Button",
+				Description = nil,
+				Callback = function()
+
+				end,
+			}, ButtonSettings or {})
+
+			local ButtonV = {
+				Hover = false,
+				Settings = ButtonSettings
+			}
+
+
+			local Button
+			if ButtonSettings.Description == nil and ButtonSettings.Description ~= "" then
+				Button = Elements.Template.Button:Clone()
+			else
+				Button = Elements.Template.ButtonDesc:Clone()
+			end
+			Button.Name = ButtonSettings.Name
+			Button.Title.Text = ButtonSettings.Name
+			if ButtonSettings.Description ~= nil and ButtonSettings.Description ~= "" then
+				Button.Desc.Text = ButtonSettings.Description
+			end
+			Button.Visible = true
+			Button.Parent = TabPage
+
+			Button.UIStroke.Transparency = 1
+			Button.Title.TextTransparency = 1
+			if ButtonSettings.Description ~= nil and ButtonSettings.Description ~= "" then
+				Button.Desc.TextTransparency = 1
+			end
+
+			TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+			TweenService:Create(Button.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+			TweenService:Create(Button.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+			if ButtonSettings.Description ~= nil and ButtonSettings.Description ~= "" then
+				TweenService:Create(Button.Desc, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+			end
+
+			Button.Interact["MouseButton1Click"]:Connect(function()
+				local Success,Response = pcall(ButtonSettings.Callback)
+
+				if not Success then
+					TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+					TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Button.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					Button.Title.Text = "Callback Error"
+					print("Luna Interface Suite | "..ButtonSettings.Name.." Callback Error " ..tostring(Response))
+					wait(0.5)
+					Button.Title.Text = ButtonSettings.Name
+					TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+					TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+					TweenService:Create(Button.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				else
+					tween(Button.UIStroke, {Color = Color3.fromRGB(136, 131, 163)})
+					wait(0.2)
+					if ButtonV.Hover then
+						tween(Button.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+					else
+						tween(Button.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+					end
+				end
+			end)
+
+			Button["MouseEnter"]:Connect(function()
+				ButtonV.Hover = true
+				tween(Button.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+			end)
+
+			Button["MouseLeave"]:Connect(function()
+				ButtonV.Hover = false
+				tween(Button.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+			end)
+
+			function ButtonV:Set(ButtonSettings2)
+				ButtonSettings2 = Kwargify({
+					Name = ButtonSettings.Name,
+					Description = ButtonSettings.Description,
+					Callback = ButtonSettings.Callback
+				}, ButtonSettings2 or {})
+
+				ButtonSettings = ButtonSettings2
+				ButtonV.Settings = ButtonSettings2
+
+				Button.Name = ButtonSettings.Name
+				Button.Title.Text = ButtonSettings.Name
+				if ButtonSettings.Description ~= nil and ButtonSettings.Description ~= "" and Button.Desc ~= nil then
+					Button.Desc.Text = ButtonSettings.Description
+				end
+			end
+
+			function ButtonV:Destroy()
+				Button.Visible = false
+				Button:Destroy()
+			end
+
+			return ButtonV
+		end
+
+		-- Label
+		function Tab:CreateLabel(LabelSettings)
+
+			local LabelV = {}
+
+			LabelSettings = Kwargify({
+				Text = "Label",
+				Style = 1
+			}, LabelSettings or {}) 
+
+			LabelV.Settings = LabelSettings
+
+			local Label
+			if LabelSettings.Style == 1 then
+				Label = Elements.Template.Label:Clone()
+			elseif LabelSettings.Style == 2 then
+				Label = Elements.Template.Info:Clone()
+			elseif LabelSettings.Style == 3 then
+				Label = Elements.Template.Warn:Clone()
+			end
+
+			Label.Text.Text = LabelSettings.Text
+			Label.Visible = true
+			Label.Parent = TabPage
+
+			Label.BackgroundTransparency = 1
+			Label.UIStroke.Transparency = 1
+			Label.Text.TextTransparency = 1
+
+			if LabelSettings.Style ~= 1 then
+				TweenService:Create(Label, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.8}):Play()
+			else
+				TweenService:Create(Label, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+			end
+			TweenService:Create(Label.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+			TweenService:Create(Label.Text, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+			function LabelV:Set(NewLabel)
+				LabelSettings.Text = NewLabel
+				LabelV.Settings = LabelSettings
+				Label.Text.Text = NewLabel
+			end
+
+			function LabelV:Destroy()
+				Label.Visible = false
+				Label:Destroy()
+			end
+
+			return LabelV
+		end
+
+		-- Paragraph
+		function Tab:CreateParagraph(ParagraphSettings)
+
+			ParagraphSettings = Kwargify({
+				Title = "Paragraph",
+				Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis lacus sed tempus eleifend. Mauris interdum bibendum felis, in tempor augue egestas vel. Praesent tristique consectetur ex, eu pretium sem placerat non. Vestibulum a nisi sit amet augue facilisis consectetur sit amet et nunc. Integer fermentum ornare cursus. Pellentesque sed ultricies metus, ut egestas metus. Vivamus auctor erat ac sapien vulputate, nec ultricies sem tempor. Quisque leo lorem, faucibus nec pulvinar nec, congue eu velit. Duis sodales massa efficitur imperdiet ultrices. Donec eros ipsum, ornare pharetra purus aliquam, tincidunt elementum nisi. Ut mi tortor, feugiat eget nunc vitae, facilisis interdum dui. Vivamus ullamcorper nunc dui, a dapibus nisi pretium ac. Integer eleifend placerat nibh, maximus malesuada tellus. Cras in justo in ligula scelerisque suscipit vel vitae quam."
+			}, ParagraphSettings or {})
+
+			local ParagraphV = {
+				Settings = ParagraphSettings
+			}
+
+			local Paragraph = Elements.Template.Paragraph:Clone()
+			Paragraph.Title.Text = ParagraphSettings.Title
+			Paragraph.Text.Text = ParagraphSettings.Text
+			Paragraph.Visible = true
+			Paragraph.Parent = TabPage
+
+			Paragraph.BackgroundTransparency = 1
+			Paragraph.UIStroke.Transparency = 1
+			Paragraph.Title.TextTransparency = 1
+			Paragraph.Text.TextTransparency = 1
+
+			TweenService:Create(Paragraph, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+			TweenService:Create(Paragraph.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+			TweenService:Create(Paragraph.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+			TweenService:Create(Paragraph.Text, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+			function ParagraphV:Update()
+				Paragraph.Text.Size = UDim2.new(Paragraph.Text.Size.X.Scale, Paragraph.Text.Size.X.Offset, 0, math.huge)
+				Paragraph.Text.Size = UDim2.new(Paragraph.Text.Size.X.Scale, Paragraph.Text.Size.X.Offset, 0, Paragraph.Text.TextBounds.Y)
+				tween(Paragraph, {Size = UDim2.new(Paragraph.Size.X.Scale, Paragraph.Size.X.Offset, 0, Paragraph.Text.TextBounds.Y + 40)})
+			end
+
+			function ParagraphV:Set(NewParagraphSettings)
+
+				NewParagraphSettings = Kwargify({
+					Title = ParagraphSettings.Title,
+					Text = ParagraphSettings.Text
+				}, NewParagraphSettings or {})
+
+				ParagraphV.Settings = NewParagraphSettings
+
+				Paragraph.Title.Text = NewParagraphSettings.Title
+				Paragraph.Text.Text = NewParagraphSettings.Text
+
+				ParagraphV:Update()
+
+			end
+
+			function ParagraphV:Destroy()
+				Paragraph.Visible = false
+				Paragraph:Destroy()
+			end
+
+			ParagraphV:Update()
+
+			return ParagraphV
+		end
+
+		-- Slider
+		function Tab:CreateSlider(SliderSettings, Flag)
+			local SliderV = { IgnoreConfig = false, Class = "Slider", Settings = SliderSettings }
+
+			SliderSettings = Kwargify({
+				Name = "Slider",
+				Range = {0, 200},
+				Increment = 1,
+				CurrentValue = 100,
+				Callback = function(Value)
+
+				end,
+			}, SliderSettings or {})
+
+			local SLDragging = false
+			local Slider = Elements.Template.Slider:Clone()
+			Slider.Name = SliderSettings.Name .. " - Slider"
+			Slider.Title.Text = SliderSettings.Name
+			Slider.Visible = true
+			Slider.Parent = TabPage
+
+			Slider.BackgroundTransparency = 1
+			Slider.UIStroke.Transparency = 1
+			Slider.Title.TextTransparency = 1
+
+			TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+			TweenService:Create(Slider.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+			TweenService:Create(Slider.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+			Slider.Main.Progress.Size =	UDim2.new(0, Slider.Main.AbsoluteSize.X * ((SliderSettings.CurrentValue + SliderSettings.Range[1]) / (SliderSettings.Range[2] - SliderSettings.Range[1])) > 5 and Slider.Main.AbsoluteSize.X * (SliderSettings.CurrentValue / (SliderSettings.Range[2] - SliderSettings.Range[1])) or 5, 1, 0)
+
+			Slider.Value.Text = tostring(SliderSettings.CurrentValue)
+			SliderV.CurrentValue = Slider.Value.Text
+
+			SliderSettings.Callback(SliderSettings.CurrentValue)
+
+			Slider["MouseEnter"]:Connect(function()
+				tween(Slider.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+			end)
+
+			Slider["MouseLeave"]:Connect(function()
+				tween(Slider.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+			end)
+
+			Slider.Interact.InputBegan:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then 
+					SLDragging = true 
+				end 
+			end)
+
+			Slider.Interact.InputEnded:Connect(function(Input) 
+				if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then 
+					SLDragging = false 
+				end 
+			end)
+
+			Slider.Interact.MouseButton1Down:Connect(function()
+				local Current = Slider.Main.Progress.AbsolutePosition.X + Slider.Main.Progress.AbsoluteSize.X
+				local Start = Current
+				local Location
+				local Loop; Loop = RunService.Stepped:Connect(function()
+					if SLDragging then
+						Location = UserInputService:GetMouseLocation().X
+						Current = Current + 0.025 * (Location - Start)
+
+						if Location < Slider.Main.AbsolutePosition.X then
+							Location = Slider.Main.AbsolutePosition.X
+						elseif Location > Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X then
+							Location = Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X
+						end
+
+						if Current < Slider.Main.AbsolutePosition.X + 5 then
+							Current = Slider.Main.AbsolutePosition.X + 5
+						elseif Current > Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X then
+							Current = Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X
+						end
+
+						if Current <= Location and (Location - Start) < 0 then
+							Start = Location
+						elseif Current >= Location and (Location - Start) > 0 then
+							Start = Location
+						end
+						Slider.Main.Progress.Size = UDim2.new(0, Location - Slider.Main.AbsolutePosition.X, 1, 0)
+						local NewValue = SliderSettings.Range[1] + (Location - Slider.Main.AbsolutePosition.X) / Slider.Main.AbsoluteSize.X * (SliderSettings.Range[2] - SliderSettings.Range[1])
+
+						NewValue = math.floor(NewValue / SliderSettings.Increment + 0.5) * (SliderSettings.Increment * 10000000) / 10000000
+
+						Slider.Value.Text = tostring(NewValue)
+
+						if SliderSettings.CurrentValue ~= NewValue then
+							local Success, Response = pcall(function()
+								SliderSettings.Callback(NewValue)
+							end)
+							if not Success then
+								TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+								TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+								TweenService:Create(Slider.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+								Slider.Title.Text = "Callback Error"
+								print("Luna Interface Suite | "..SliderSettings.Name.." Callback Error " ..tostring(Response))
+								wait(0.5)
+								Slider.Title.Text = SliderSettings.Name
+								TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+								TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+								TweenService:Create(Slider.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+							end
+
+							SliderSettings.CurrentValue = NewValue
+							SliderV.CurrentValue = SliderSettings.CurrentValue
+							-- Luna.Flags[SliderSettings.Flag] = SliderSettings
+						end
+					else
+						TweenService:Create(Slider.Main.Progress, TweenInfo.new(0.1, Enum.EasingStyle.Back, Enum.EasingDirection.In, 0, false), {Size = UDim2.new(0, Location - Slider.Main.AbsolutePosition.X > 5 and Location - Slider.Main.AbsolutePosition.X or 5, 1, 0)}):Play()
+						Loop:Disconnect()
+					end
+				end)
+			end)
+
+			local function Set(NewVal, bleh)
+
+				NewVal = NewVal or SliderSettings.CurrentValue
+
+				TweenService:Create(Slider.Main.Progress, TweenInfo.new(0.3, Enum.EasingStyle.Back, Enum.EasingDirection.InOut), {Size = UDim2.new(0, Slider.Main.AbsoluteSize.X * ((NewVal + SliderSettings.Range[1]) / (SliderSettings.Range[2] - SliderSettings.Range[1])) > 5 and Slider.Main.AbsoluteSize.X * (NewVal / (SliderSettings.Range[2] - SliderSettings.Range[1])) or 5, 1, 0)}):Play()
+				if not bleh then Slider.Value.Text = tostring(NewVal) end
+				local Success, Response = pcall(function()
+					SliderSettings.Callback(NewVal)
+				end)
+				if not Success then
+					TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+					TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Slider.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					Slider.Title.Text = "Callback Error"
+					print("Luna Interface Suite | "..SliderSettings.Name.." Callback Error " ..tostring(Response))
+					wait(0.5)
+					Slider.Title.Text = SliderSettings.Name
+					TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+					TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(30, 33, 40)}):Play()
+					TweenService:Create(Slider.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				end
+
+				SliderSettings.CurrentValue = NewVal
+				SliderV.CurrentValue = SliderSettings.CurrentValue
+				-- Luna.Flags[SliderSettings.Flag] = SliderSettings
+
+			end
+
+			function SliderV:UpdateValue(Value)
+				Set(tonumber(Value))
+			end 
+
+			Slider.Value:GetPropertyChangedSignal("Text"):Connect(function()
+				local text = Slider.Value.Text
+				if not tonumber(text) and text ~= "." then
+					Slider.Value.Text = text:match("[0-9.]*") or ""
+				end
+				if SliderSettings.Range[2] < (tonumber(Slider.Value.Text) or 0) then Slider.Value.Text = SliderSettings.Range[2] end
+				Slider.Value.Size = UDim2.fromOffset(Slider.Value.TextBounds.X, 23)
+				Set(tonumber(Slider.Value.Text), true)
+			end)
+
+			function SliderV:Set(NewSliderSettings)
+				NewSliderSettings = Kwargify({
+					Name = SliderSettings.Name,
+					Range = SliderSettings.Range,
+					Increment = SliderSettings.Increment,
+					CurrentValue = SliderSettings.CurrentValue,
+					Callback = SliderSettings.Callback
+				}, NewSliderSettings or {})
+
+				SliderSettings = NewSliderSettings
+				SliderV.Settings = NewSliderSettings
+
+				Slider.Name = SliderSettings.Name .. " - Slider"
+				Slider.Title.Text = SliderSettings.Name
+
+				Set()
+
+				-- Luna.Flags[SliderSettings.Flag] = SliderSettings
+			end
+
+			function SliderV:Destroy()
+				Slider.Visible = false
+				Slider:Destroy()
+			end
+
+			if Flag then
+				Luna.Options[Flag] = SliderV
+			end
+
+			LunaUI.ThemeRemote:GetPropertyChangedSignal("Value"):Connect(function()
+				Slider.Main.color.Color = Luna.ThemeGradient
+				Slider.Main.UIStroke.color.Color = Luna.ThemeGradient
+			end)
+
+			return SliderV
+
+		end
+
+		-- Toggle
+		function Tab:CreateToggle(ToggleSettings, Flag)    
+			local ToggleV = { IgnoreConfig = false, Class = "Toggle" }
+
+			ToggleSettings = Kwargify({
+				Name = "Toggle",
+				Description = nil,
+				CurrentValue = false,
+				Callback = function(Value)
+				end,
+			}, ToggleSettings or {})
+
+
+			local Toggle
+
+			if ToggleSettings.Description ~= nil and ToggleSettings.Description ~= "" then
+				Toggle = Elements.Template.ToggleDesc:Clone()
+			else
+				Toggle = Elements.Template.Toggle:Clone()
+			end
+
+			Toggle.Visible = true
+			Toggle.Parent = TabPage
+
+			Toggle.Name = ToggleSettings.Name .. " - Toggle"
+			Toggle.Title.Text = ToggleSettings.Name
+			if ToggleSettings.Description ~= nil and ToggleSettings.Description ~= "" then
+				Toggle.Desc.Text = ToggleSettings.Description
+			end
+
+			Toggle.UIStroke.Transparency = 1
+			Toggle.Title.TextTransparency = 1
+			if ToggleSettings.Description ~= nil and ToggleSettings.Description ~= "" then
+				Toggle.Desc.TextTransparency = 1
+			end
+
+			TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+			if ToggleSettings.Description ~= nil and ToggleSettings.Description ~= "" then
+				TweenService:Create(Toggle.Desc, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+			end
+			TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+			TweenService:Create(Toggle.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+			local function Set(bool)
+				if bool then
+					Toggle.toggle.color.Enabled = true
+					tween(Toggle.toggle, {BackgroundTransparency = 0})
+
+					Toggle.toggle.UIStroke.color.Enabled = true
+					tween(Toggle.toggle.UIStroke, {Color = Color3.new(255,255,255)})
+
+					tween(Toggle.toggle.val, {BackgroundColor3 = Color3.fromRGB(255,255,255), Position = UDim2.new(1,-23,0.5,0), BackgroundTransparency = 0.45})
+				else
+					Toggle.toggle.color.Enabled = false
+					Toggle.toggle.UIStroke.color.Enabled = false
+
+					Toggle.toggle.UIStroke.Color = Color3.fromRGB(97,97,97)
+
+					tween(Toggle.toggle, {BackgroundTransparency = 1})
+
+					tween(Toggle.toggle.val, {BackgroundColor3 = Color3.fromRGB(97,97,97), Position = UDim2.new(0,5,0.5,0), BackgroundTransparency = 0})
+				end
+
+				ToggleV.CurrentValue = bool
+			end
+
+			Toggle.Interact.MouseButton1Click:Connect(function()
+				ToggleSettings.CurrentValue = not ToggleSettings.CurrentValue
+				Set(ToggleSettings.CurrentValue)
+
+				local Success, Response = pcall(function()
+					ToggleSettings.Callback(ToggleSettings.CurrentValue)
+				end)
+				if not Success then
+					TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+					TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					Toggle.Title.Text = "Callback Error"
+					print("Luna Interface Suite | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
+					wait(0.5)
+					Toggle.Title.Text = ToggleSettings.Name
+					TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+					TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				end
+			end)
+
+			Toggle["MouseEnter"]:Connect(function()
+				tween(Toggle.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+			end)
+
+			Toggle["MouseLeave"]:Connect(function()
+				tween(Toggle.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+			end)
+
+			if ToggleSettings.CurrentValue then
+				Set(ToggleSettings.CurrentValue)
+				local Success, Response = pcall(function()
+					ToggleSettings.Callback(ToggleSettings.CurrentValue)
+				end)
+				if not Success then
+					TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+					TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					Toggle.Title.Text = "Callback Error"
+					print("Luna Interface Suite | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
+					wait(0.5)
+					Toggle.Title.Text = ToggleSettings.Name
+					TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+					TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				end
+			end
+
+			function ToggleV:UpdateState(State)
+				ToggleSettings.CurrentValue = State
+				Set(ToggleSettings.CurrentValue)
+			end
+
+			function ToggleV:Set(NewToggleSettings)
+
+				NewToggleSettings = Kwargify({
+					Name = ToggleSettings.Name,
+					Description = ToggleSettings.Description,
+					CurrentValue = ToggleSettings.CurrentValue,
+					Callback = ToggleSettings.Callback
+				}, NewToggleSettings or {})
+
+				ToggleV.Settings = NewToggleSettings
+				ToggleSettings = NewToggleSettings
+
+				Toggle.Name = ToggleSettings.Name .. " - Toggle"
+				Toggle.Title.Text = ToggleSettings.Name
+				if ToggleSettings.Description ~= nil and ToggleSettings.Description ~= "" and Toggle.Desc ~= nil then
+					Toggle.Desc.Text = ToggleSettings.Description
+				end
+
+				Set(ToggleSettings.CurrentValue)
+
+				ToggleV.CurrentValue = ToggleSettings.CurrentValue
+
+				local Success, Response = pcall(function()
+					ToggleSettings.Callback(ToggleSettings.CurrentValue)
+				end)
+				if not Success then
+					TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+					TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+					Toggle.Title.Text = "Callback Error"
+					print("Luna Interface Suite | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
+					wait(0.5)
+					Toggle.Title.Text = ToggleSettings.Name
+					TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+					TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				end
+			end
+
+			function ToggleV:Destroy()
+				Toggle.Visible = false
+				Toggle:Destroy()
+			end
+
+			LunaUI.ThemeRemote:GetPropertyChangedSignal("Value"):Connect(function()
+				Toggle.toggle.color.Color = Luna.ThemeGradient
+				Toggle.toggle.UIStroke.color.Color = Luna.ThemeGradient
+			end)
+
+			if Flag then
+				Luna.Options[Flag] = ToggleV
+			end
+
+			return ToggleV
+
+		end
+
+		-- Bind
+		function Tab:CreateBind(BindSettings, Flag)
+			local BindV = { Class = "Keybind", IgnoreConfig = false, Settings = BindSettings, Active = false }
+
+			BindSettings = Kwargify({
+				Name = "Bind",
+				Description = nil,
+				CurrentBind = "Q",
+				HoldToInteract = false, -- setting this makes the Bind in toggle mode
+				Callback = function(Bind)
+					-- The function that takes place when the Bind is pressed
+					-- The variable (Bind) is a boolean for whether the Bind is being held or not (HoldToInteract needs to be true) or whether the Bind is currently active
+				end,
+
+				OnChangedCallback = function(Bind)
+					-- The function that takes place when the binded key changes
+					-- The variable (Bind) is a Enum.KeyCode for the new Binded Key
+				end,
+			}, BindSettings or {})
+
+			local CheckingForKey = false
+
+			local Bind
+			if BindSettings.Description ~= nil and BindSettings.Description ~= "" then
+				Bind = Elements.Template.BindDesc:Clone()
+			else
+				Bind = Elements.Template.Bind:Clone()
+			end
+
+			Bind.Visible = true
+			Bind.Parent = TabPage
+
+			Bind.Name = BindSettings.Name
+			Bind.Title.Text = BindSettings.Name
+			if BindSettings.Description ~= nil and BindSettings.Description ~= "" then
+				Bind.Desc.Text = BindSettings.Description
+			end
+
+			Bind.Title.TextTransparency = 1
+			if BindSettings.Description ~= nil and BindSettings.Description ~= "" then
+				Bind.Desc.TextTransparency = 1
+			end
+			Bind.BindFrame.BackgroundTransparency = 1
+			Bind.BindFrame.UIStroke.Transparency = 1
+			Bind.BindFrame.BindBox.TextTransparency = 1
+
+			TweenService:Create(Bind, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+			TweenService:Create(Bind.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+			if BindSettings.Description ~= nil and BindSettings.Description ~= "" then
+				TweenService:Create(Bind.Desc, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+			end
+			TweenService:Create(Bind.BindFrame, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.9}):Play()
+			TweenService:Create(Bind.BindFrame.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.3}):Play()
+			TweenService:Create(Bind.BindFrame.BindBox, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+
+
+			Bind.BindFrame.BindBox.Text = BindSettings.CurrentBind
+			Bind.BindFrame.BindBox.Size = UDim2.new(0, Bind.BindFrame.BindBox.TextBounds.X + 20, 0, 42)
+
+			Bind.BindFrame.BindBox.Focused:Connect(function()
+				CheckingForKey = true
+				Bind.BindFrame.BindBox.Text = ""
+			end)
+
+			Bind.BindFrame.BindBox.FocusLost:Connect(function()
+				CheckingForKey = false
+				if Bind.BindFrame.BindBox.Text == (nil or "") then
+					Bind.BindFrame.BindBox.Text = BindSettings.CurrentBind
+				end
+			end)
+
+			Bind["MouseEnter"]:Connect(function()
+				tween(Bind.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+			end)
+
+			Bind["MouseLeave"]:Connect(function()
+				tween(Bind.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+			end)
+			UserInputService.InputBegan:Connect(function(input, processed)
+
+				if CheckingForKey then
+					if input.KeyCode ~= Enum.KeyCode.Unknown and input.KeyCode ~= Window.Bind then
+						local SplitMessage = string.split(tostring(input.KeyCode), ".")
+						local NewKeyNoEnum = SplitMessage[3]
+						Bind.BindFrame.BindBox.Text = tostring(NewKeyNoEnum)
+						BindSettings.CurrentBind = tostring(NewKeyNoEnum)
+						local Success, Response = pcall(function()
+							BindSettings.OnChangedCallback(BindSettings.CurrentBind)
+						end)
+						if not Success then
+							TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+							TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+							TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+							Bind.Title.Text = "Callback Error"
+							print("Luna Interface Suite | "..BindSettings.Name.." Callback Error " ..tostring(Response))
+							wait(0.5)
+							Bind.Title.Text = BindSettings.Name
+							TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+							TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+							TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+						end
+						Bind.BindFrame.BindBox:ReleaseFocus()
+					end
+				elseif BindSettings.CurrentBind ~= nil and (input.KeyCode == Enum.KeyCode[BindSettings.CurrentBind] and not processed) then -- Test
+					local Held = true
+					local Connection
+					Connection = input.Changed:Connect(function(prop)
+						if prop == "UserInputState" then
+							Connection:Disconnect()
+							Held = false
+						end
+					end)
+
+					if not BindSettings.HoldToInteract then
+						BindV.Active = not BindV.Active
+						local Success, Response = pcall(function()
+							BindSettings.Callback(BindV.Active)
+						end)
+						if not Success then
+							TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+							TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+							TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+							Bind.Title.Text = "Callback Error"
+							print("Luna Interface Suite | "..BindSettings.Name.." Callback Error " ..tostring(Response))
+							wait(0.5)
+							Bind.Title.Text = BindSettings.Name
+							TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+							TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+							TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+						end
+					else
+						wait(0.1)
+						if Held then
+							local Loop; Loop = RunService.Stepped:Connect(function()
+								if not Held then
+									local Success, Response = pcall(function()
+										BindSettings.Callback(false)
+									end)
+									if not Success then
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+										TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+										Bind.Title.Text = "Callback Error"
+										print("Luna Interface Suite | "..BindSettings.Name.." Callback Error " ..tostring(Response))
+										wait(0.5)
+										Bind.Title.Text = BindSettings.Name
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+										TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+									end 
+									Loop:Disconnect()
+								else
+									local Success, Response = pcall(function()
+										BindSettings.Callback(true)
+									end)
+									if not Success then
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+										TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+										Bind.Title.Text = "Callback Error"
+										print("Luna Interface Suite | "..BindSettings.Name.." Callback Error " ..tostring(Response))
+										wait(0.5)
+										Bind.Title.Text = BindSettings.Name
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+										TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+									end
+								end
+							end)	
+						end
+					end
+				end
+			end)
+
+			Bind.BindFrame.BindBox:GetPropertyChangedSignal("Text"):Connect(function()
+				TweenService:Create(Bind.BindFrame, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Bind.BindFrame.BindBox.TextBounds.X + 20, 0, 30)}):Play()
+			end)
+
+			function BindV:Set(NewBindSettings)
+
+				NewBindSettings = Kwargify({
+					Name = BindSettings.Name,
+					Description = BindSettings.Description,
+					CurrentBind =  BindSettings.CurrentBind,
+					HoldToInteract = BindSettings.HoldToInteract,
+					Callback = BindSettings.Callback
+				}, NewBindSettings or {})
+
+				BindV.Settings = NewBindSettings
+				BindSettings = NewBindSettings
+
+				Bind.Name = BindSettings.Name
+				Bind.Title.Text = BindSettings.Name
+				if BindSettings.Description ~= nil and BindSettings.Description ~= "" and Bind.Desc ~= nil then
+					Bind.Desc.Text = BindSettings.Description
+				end
+
+				Bind.BindFrame.BindBox.Text = BindSettings.CurrentBind
+				Bind.BindFrame.Size = UDim2.new(0, Bind.BindFrame.BindBox.TextBounds.X + 20, 0, 42)
+
+
+				BindV.CurrentBind = BindSettings.CurrentBind
+			end
+
+			function BindV:Destroy()
+				Bind.Visible = false
+				Bind:Destroy()
+			end
+
+			if Flag then
+				Luna.Options[Flag] = BindV
+			end
+
+			-- Luna.Flags[BindSettings.Flag] = BindSettings
+
+			return BindV
+
+		end
+
+		function Tab:CreateKeybind(BindSettings)
+
+			BindSettings = Kwargify({
+				Name = "Bind",
+				Description = nil,
+				CurrentBind = "Q",
+				HoldToInteract = false, -- setting this makes the Bind in toggle mode
+				Callback = function(Bind)
+					-- The function that takes place when the Bind is pressed
+					-- The variable (Bind) is a boolean for whether the Bind is being held or not (HoldToInteract needs to be true) or whether the Bind is currently active
+				end
+			}, BindSettings or {})
+
+			local BindV = { Settings = BindSettings, Active = false }
+			local CheckingForKey = false
+
+			local Bind
+			if BindSettings.Description ~= nil and BindSettings.Description ~= "" then
+				Bind = Elements.Template.BindDesc:Clone()
+			else
+				Bind = Elements.Template.Bind:Clone()
+			end
+
+			Bind.Visible = true
+			Bind.Parent = TabPage
+
+			Bind.Name = BindSettings.Name
+			Bind.Title.Text = BindSettings.Name
+			if BindSettings.Description ~= nil and BindSettings.Description ~= "" then
+				Bind.Desc.Text = BindSettings.Description
+			end
+
+			Bind.Title.TextTransparency = 1
+			if BindSettings.Description ~= nil and BindSettings.Description ~= "" then
+				Bind.Desc.TextTransparency = 1
+			end
+			Bind.BindFrame.BackgroundTransparency = 1
+			Bind.BindFrame.UIStroke.Transparency = 1
+			Bind.BindFrame.BindBox.TextTransparency = 1
+
+			TweenService:Create(Bind, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+			TweenService:Create(Bind.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+			if BindSettings.Description ~= nil and BindSettings.Description ~= "" then
+				TweenService:Create(Bind.Desc, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+			end
+			TweenService:Create(Bind.BindFrame, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.9}):Play()
+			TweenService:Create(Bind.BindFrame.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.3}):Play()
+			TweenService:Create(Bind.BindFrame.BindBox, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+
+
+			Bind.BindFrame.BindBox.Text = BindSettings.CurrentBind
+			Bind.BindFrame.BindBox.Size = UDim2.new(0, Bind.BindFrame.BindBox.TextBounds.X + 16, 0, 42)
+
+			Bind.BindFrame.BindBox.Focused:Connect(function()
+				CheckingForKey = true
+				Bind.BindFrame.BindBox.Text = ""
+			end)
+
+			Bind.BindFrame.BindBox.FocusLost:Connect(function()
+				CheckingForKey = false
+				if Bind.BindFrame.BindBox.Text == (nil or "") then
+					Bind.BindFrame.BindBox.Text = BindSettings.CurrentBind
+				end
+			end)
+
+			Bind["MouseEnter"]:Connect(function()
+				tween(Bind.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+			end)
+
+			Bind["MouseLeave"]:Connect(function()
+				tween(Bind.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+			end)
+			UserInputService.InputBegan:Connect(function(input, processed)
+
+				if CheckingForKey then
+					if input.KeyCode ~= Enum.KeyCode.Unknown and input.KeyCode ~= Enum.KeyCode.K then
+						local SplitMessage = string.split(tostring(input.KeyCode), ".")
+						local NewKeyNoEnum = SplitMessage[3]
+						Bind.BindFrame.BindBox.Text = tostring(NewKeyNoEnum)
+						BindSettings.CurrentBind = tostring(NewKeyNoEnum)
+						Bind.BindFrame.BindBox:ReleaseFocus()
+					end
+				elseif BindSettings.CurrentBind ~= nil and (input.KeyCode == Enum.KeyCode[BindSettings.CurrentBind] and not processed) then -- Test
+					local Held = true
+					local Connection
+					Connection = input.Changed:Connect(function(prop)
+						if prop == "UserInputState" then
+							Connection:Disconnect()
+							Held = false
+						end
+					end)
+
+					if not BindSettings.HoldToInteract then
+						BindV.Active = not BindV.Active
+						local Success, Response = pcall(function()
+							BindSettings.Callback(BindV.Active)
+						end)
+						if not Success then
+							TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+							TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+							TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+							Bind.Title.Text = "Callback Error"
+							print("Luna Interface Suite | "..BindSettings.Name.." Callback Error " ..tostring(Response))
+							wait(0.5)
+							Bind.Title.Text = BindSettings.Name
+							TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+							TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+							TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+						end
+					else
+						wait(0.1)
+						if Held then
+							local Loop; Loop = RunService.Stepped:Connect(function()
+								if not Held then
+									local Success, Response = pcall(function()
+										BindSettings.Callback(false)
+									end)
+									if not Success then
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+										TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+										Bind.Title.Text = "Callback Error"
+										print("Luna Interface Suite | "..BindSettings.Name.." Callback Error " ..tostring(Response))
+										wait(0.5)
+										Bind.Title.Text = BindSettings.Name
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+										TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+									end 
+									Loop:Disconnect()
+								else
+									local Success, Response = pcall(function()
+										BindSettings.Callback(true)
+									end)
+									if not Success then
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+										TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+										Bind.Title.Text = "Callback Error"
+										print("Luna Interface Suite | "..BindSettings.Name.." Callback Error " ..tostring(Response))
+										wait(0.5)
+										Bind.Title.Text = BindSettings.Name
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+										TweenService:Create(Bind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+										TweenService:Create(Bind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+									end
+								end
+							end)	
+						end
+					end
+				end
+			end)
+
+			Bind.BindFrame.BindBox:GetPropertyChangedSignal("Text"):Connect(function()
+				TweenService:Create(Bind.BindFrame, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Bind.BindFrame.BindBox.TextBounds.X + 16, 0, 30)}):Play()
+			end)
+
+			function BindV:Set(NewBindSettings)
+
+				NewBindSettings = Kwargify({
+					Name = BindSettings.Name,
+					Description = BindSettings.Description,
+					CurrentBind =  BindSettings.CurrentBind,
+					HoldToInteract = BindSettings.HoldToInteract,
+					Callback = BindSettings.Callback
+				}, NewBindSettings or {})
+
+				BindV.Settings = NewBindSettings
+				BindSettings = NewBindSettings
+
+				Bind.Name = BindSettings.Name
+				Bind.Title.Text = BindSettings.Name
+				if BindSettings.Description ~= nil and BindSettings.Description ~= "" and Bind.Desc ~= nil then
+					Bind.Desc.Text = BindSettings.Description
+				end
+
+				Bind.BindFrame.BindBox.Text = BindSettings.CurrentBind
+				Bind.BindFrame.BindBox.Size = UDim2.new(0, Bind.BindFrame.BindBox.TextBounds.X + 16, 0, 42)
+
+				-- Luna.Flags[BindSettings.Flag] = BindSettings
+
+			end
+
+			function BindV:Destroy()
+				Bind.Visible = false
+				Bind:Destroy()
+			end
+
+			-- Luna.Flags[BindSettings.Flag] = BindSettings
+
+			return BindV
+
+		end
+
+		-- Dynamic Input
+		function Tab:CreateInput(InputSettings, Flag)
+			local InputV = { IgnoreConfig = false, Class = "Input", Settings = InputSettings }
+
+			InputSettings = Kwargify({
+				Name = "Dynamic Input",
+				Description = nil,
+				CurrentValue = "",
+				PlaceholderText = "Input Placeholder",
+				RemoveTextAfterFocusLost = false,
+				Numeric = false,
+				Enter = false,
+				MaxCharacters = nil,
+				Callback = function(Text)
+
+				end, -- 52
+			}, InputSettings or {})
+
+			InputV.CurrentValue = InputSettings.CurrentValue
+
+			local descriptionbool
+			if InputSettings.Description ~= nil and InputSettings.Description ~= "" then
+				descriptionbool = true
+			end
+
+			local Input 
+			if descriptionbool then
+				Input = Elements.Template.InputDesc:Clone()
+			else
+				Input = Elements.Template.Input:Clone()
+			end
+
+			Input.Name = InputSettings.Name
+			Input.Title.Text = InputSettings.Name
+			if descriptionbool then Input.Desc.Text = InputSettings.Description end
+			Input.Visible = true
+			Input.Parent = TabPage
+
+			Input.BackgroundTransparency = 1
+			Input.UIStroke.Transparency = 1
+			Input.Title.TextTransparency = 1
+			if descriptionbool then Input.Desc.TextTransparency = 1 end
+			Input.InputFrame.BackgroundTransparency = 1
+			Input.InputFrame.UIStroke.Transparency = 1
+			Input.InputFrame.InputBox.TextTransparency = 1
+
+			TweenService:Create(Input, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+			TweenService:Create(Input.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+			TweenService:Create(Input.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+			if descriptionbool then TweenService:Create(Input.Desc, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play() end
+			TweenService:Create(Input.InputFrame, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.9}):Play()
+			TweenService:Create(Input.InputFrame.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.3}):Play()
+			TweenService:Create(Input.InputFrame.InputBox, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+
+			Input.InputFrame.InputBox.PlaceholderText = InputSettings.PlaceholderText
+			Input.InputFrame.Size = UDim2.new(0, Input.InputFrame.InputBox.TextBounds.X + 52, 0, 30)
+
+			Input.InputFrame.InputBox.FocusLost:Connect(function(bleh)
+
+				if InputSettings.Enter then
+					if bleh then
+						local Success, Response = pcall(function()
+							InputSettings.Callback(Input.InputFrame.InputBox.Text)
+							InputV.CurrentValue = Input.InputFrame.InputBox.Text
+						end)
+						if not Success then
+							TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+							TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+							TweenService:Create(Input.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+							Input.Title.Text = "Callback Error"
+							print("Luna Interface Suite | "..InputSettings.Name.." Callback Error " ..tostring(Response))
+							wait(0.5)
+							Input.Title.Text = InputSettings.Name
+							TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+							TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+							TweenService:Create(Input.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+						end
+					end
+				end
+
+				if InputSettings.RemoveTextAfterFocusLost then
+					Input.InputFrame.InputBox.Text = ""
+				end
+
+			end)
+
+			if InputSettings.Numeric then
+				Input.InputFrame.InputBox:GetPropertyChangedSignal("Text"):Connect(function()
+					local text = Input.InputFrame.InputBox.Text
+					if not tonumber(text) and text ~= "." then
+						Input.InputFrame.InputBox.Text = text:match("[0-9.]*") or ""
+					end
+				end)
+			end
+
+			Input.InputFrame.InputBox:GetPropertyChangedSignal("Text"):Connect(function()
+				if tonumber(InputSettings.MaxCharacters) then
+					if (#Input.InputFrame.InputBox.Text - 1) == InputSettings.MaxCharacters then
+						Input.InputFrame.InputBox.Text = Input.InputFrame.InputBox.Text:sub(1, InputSettings.MaxCharacters)
+					end
+				end
+				TweenService:Create(Input.InputFrame, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Input.InputFrame.InputBox.TextBounds.X + 52, 0, 30)}):Play()
+				if not InputSettings.Enter then
+					local Success, Response = pcall(function()
+						InputSettings.Callback(Input.InputFrame.InputBox.Text)
+					end)
+					if not Success then
+						TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+						TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+						TweenService:Create(Input.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+						Input.Title.Text = "Callback Error"
+						print("Luna Interface Suite | "..InputSettings.Name.." Callback Error " ..tostring(Response))
+						wait(0.5)
+						Input.Title.Text = InputSettings.Name
+						TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+						TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+						TweenService:Create(Input.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+					end
+				end
+				InputV.CurrentValue = Input.InputFrame.InputBox.Text				
+			end)
+
+			Input["MouseEnter"]:Connect(function()
+				tween(Input.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+			end)
+
+			Input["MouseLeave"]:Connect(function()
+				tween(Input.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+			end)
+
+
+			function InputV:Set(NewInputSettings)
+
+				NewInputSettings = Kwargify(InputSettings, NewInputSettings or {})
+
+				InputV.Settings = NewInputSettings
+				InputSettings = NewInputSettings
+
+				Input.Name = InputSettings.Name
+				Input.Title.Text = InputSettings.Name
+				if InputSettings.Description ~= nil and InputSettings.Description ~= "" and Input.Desc ~= nil then
+					Input.Desc.Text = InputSettings.Description
+				end
+
+				Input.InputFrame.InputBox:CaptureFocus()
+				Input.InputFrame.InputBox.Text = tostring(InputSettings.CurrentValue)
+				Input.InputFrame.InputBox:ReleaseFocus()
+				Input.InputFrame.Size = UDim2.new(0, Input.InputFrame.InputBox.TextBounds.X + 52, 0, 42)
+
+				InputV.CurrentValue = InputSettings.CurrentValue
+			end
+
+			function InputV:Destroy()
+				Input.Visible = false
+				Input:Destroy()
+			end
+
+			if Flag then
+				Luna.Options[Flag] = InputV
+			end
+
+
+			return InputV
+
+		end
+
+		-- Dropdown
+		function Tab:CreateDropdown(DropdownSettings, Flag)
+			local DropdownV = { IgnoreConfig = false, Class = "Dropdown", Settings = DropdownSettings}
+
+			DropdownSettings = Kwargify({
+				Name = "Dropdown",
+				Description = nil,
+				Options = {"Option 1", "Option 2"},
+				CurrentOption = {"Option 1"},
+				MultipleOptions = false,
+				SpecialType = nil, -- currently onl player, might add more soon
+				Callback = function(Options)
+					-- The function that takes place when the selected option is changed
+					-- The variable (Options) is a table of strings for the current selected options or a string if multioptions is false
+				end,
+			}, DropdownSettings or {})
+
+			DropdownV.CurrentOption = DropdownSettings.CurrentOption
+
+			local descriptionbool = false
+			if DropdownSettings.Description ~= nil and DropdownSettings.Description ~= "" then
+				descriptionbool = true
+			end
+			local closedsize
+			local openedsize
+			if descriptionbool then
+				closedsize = 48
+				openedsize = 170
+			elseif not descriptionbool then
+				closedsize = 38
+				openedsize = 160
+			end
+			local opened = false
+
+			local Dropdown
+			if descriptionbool then Dropdown = Elements.Template.DropdownDesc:Clone() else Dropdown = Elements.Template.Dropdown:Clone() end
+
+			Dropdown.Name = DropdownSettings.Name
+			Dropdown.Title.Text = DropdownSettings.Name
+			if descriptionbool then Dropdown.Desc.Text = DropdownSettings.Description end
+
+			Dropdown.Parent = TabPage
+			Dropdown.Visible = true
+
+			local function Toggle()
+				opened = not opened
+				if opened then
+					tween(Dropdown.icon, {Rotation = 180})
+					tween(Dropdown, {Size = UDim2.new(1, -25, 0, openedsize)})
+				else
+					tween(Dropdown.icon, {Rotation = 0})
+					tween(Dropdown, {Size = UDim2.new(1, -25, 0, closedsize)})
+				end
+			end
+
+			local function SafeCallback(param, c2)
+				local Success, Response = pcall(function()
+					DropdownSettings.Callback(param)
+				end)
+				if not Success then
+					TweenService:Create(Dropdown, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+					TweenService:Create(Dropdown, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					Dropdown.Title.Text = "Callback Error"
+					print("Luna Interface Suite | "..DropdownSettings.Name.." Callback Error " ..tostring(Response))
+					wait(0.5)
+					Dropdown.Title.Text = DropdownSettings.Name
+					TweenService:Create(Dropdown, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+					TweenService:Create(Dropdown, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+					TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				end
+				if Success and c2 then
+					c2()
+				end
+			end
+
+			-- fixed by justhey
+			Dropdown.Selected:GetPropertyChangedSignal("Text"):Connect(function()
+				local text = Dropdown.Selected.Text:lower()
+				for _, Item in ipairs(Dropdown.List:GetChildren()) do
+					if Item:IsA("TextLabel") and Item.Name ~= "Template" then
+						Item.Visible = text == "" or string.find(Item.Name:lower(), text, 1, true) ~= nil
+					end
+				end
+			end)
+
+
+			local function Clear()
+				for _, option in ipairs(Dropdown.List:GetChildren()) do
+					if option.ClassName == "TextLabel" and option.Name ~= "Template" then
+						option:Destroy()
+					end
+				end
+			end
+
+			local function ActivateColorSingle(name)
+				for _, Option in pairs(Dropdown.List:GetChildren()) do
+					if Option.ClassName == "TextLabel" and Option.Name ~= "Template" then
+						tween(Option, {BackgroundTransparency = 0.98})
+					end
+				end
+
+				Toggle()
+				tween(Dropdown.List[name], {BackgroundTransparency = 0.95, TextColor3 = Color3.fromRGB(240,240,240)})
+			end
+
+			local function Refresh()
+				Clear()
+				for i,v in pairs(DropdownSettings.Options) do
+					local Option = Dropdown.List.Template:Clone()
+					local optionhover = false
+					Option.Text = v
+					if v == "Template" then v = "Template (Name)" end
+					Option.Name = v
+					Option.Interact.MouseButton1Click:Connect(function()
+						local bleh
+						if DropdownSettings.MultipleOptions then
+							if table.find(DropdownSettings.CurrentOption, v) then
+								RemoveTable(DropdownSettings.CurrentOption, v)
+								DropdownV.CurrentOption = DropdownSettings.CurrentOption
+								if not optionhover then
+									tween(Option, {TextColor3 = Color3.fromRGB(200,200,200)})
+								end
+								tween(Option, {BackgroundTransparency = 0.98})
+							else
+								table.insert(DropdownSettings.CurrentOption, v)
+								DropdownV.CurrentOption = DropdownSettings.CurrentOption
+								tween(Option, {TextColor3 = Color3.fromRGB(240,240,240), BackgroundTransparency = 0.95})
+							end
+							bleh = DropdownSettings.CurrentOption
+						else
+							DropdownSettings.CurrentOption = {v}
+							bleh = v
+							DropdownV.CurrentOption = bleh
+							ActivateColorSingle(v)
+						end
+
+						SafeCallback(bleh, function()
+							if DropdownSettings.MultipleOptions then
+								if DropdownSettings.CurrentOption and type(DropdownSettings.CurrentOption) == "table" then
+									if #DropdownSettings.CurrentOption == 1 then
+										Dropdown.Selected.PlaceholderText = DropdownSettings.CurrentOption[1]
+									elseif #DropdownSettings.CurrentOption == 0 then
+										Dropdown.Selected.PlaceholderText = "None"
+									else
+										Dropdown.Selected.PlaceholderText = unpackt(DropdownSettings.CurrentOption)
+									end
+								else
+									DropdownSettings.CurrentOption = {}
+									Dropdown.Selected.PlaceholderText = "None"
+								end
+							end
+							if not DropdownSettings.MultipleOptions then
+								Dropdown.Selected.PlaceholderText = DropdownSettings.CurrentOption[1] or "None"
+							end
+							Dropdown.Selected.Text = ""
+						end)
+					end)
+					Option.Visible = true
+					Option.Parent = Dropdown.List
+					Option.MouseEnter:Connect(function()
+						optionhover = true
+						if Option.BackgroundTransparency == 0.95 then
+							return
+						else
+							tween(Option, {TextColor3 = Color3.fromRGB(240,240,240)})
+						end
+					end)
+					Option.MouseLeave:Connect(function()
+						optionhover = false
+						if Option.BackgroundTransparency == 0.95 then
+							return
+						else
+							tween(Option, {TextColor3 = Color3.fromRGB(200,200,200)})
+						end
+					end)	
+				end
+			end
+
+			local function PlayerTableRefresh()
+				for i,v in pairs(DropdownSettings.Options) do
+					table.remove(DropdownSettings.Options, i)
+				end
+
+				for i,v in pairs(Players:GetChildren()) do
+					table.insert(DropdownSettings.Options, v.Name)
+				end
+			end
+
+			Dropdown.Interact.MouseButton1Click:Connect(function()
+				Toggle()
+			end)
+
+			Dropdown["MouseEnter"]:Connect(function()
+				tween(Dropdown.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+			end)
+
+			Dropdown["MouseLeave"]:Connect(function()
+				tween(Dropdown.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+			end)
+
+			if DropdownSettings.SpecialType == "Player" then
+
+				for i,v in pairs(DropdownSettings.Options) do
+					table.remove(DropdownSettings.Options, i)
+				end
+				PlayerTableRefresh()
+				DropdownSettings.CurrentOption = DropdownSettings.Options[1]
+
+				Players.PlayerAdded:Connect(function() PlayerTableRefresh() end)
+				Players.PlayerRemoving:Connect(function() PlayerTableRefresh() end)
+
+			end
+
+			Refresh()
+
+			if DropdownSettings.CurrentOption then
+				if type(DropdownSettings.CurrentOption) == "string" then
+					DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption}
+				end
+				if not DropdownSettings.MultipleOptions and type(DropdownSettings.CurrentOption) == "table" then
+					DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption[1]}
+				end
+			else
+				DropdownSettings.CurrentOption = {}
+			end
+
+			local bleh, ind = nil,0
+			for i,v in pairs(DropdownSettings.CurrentOption) do
+				ind = ind + 1
+			end
+			if ind == 1 then bleh = DropdownSettings.CurrentOption[1] else bleh = DropdownSettings.CurrentOption end
+			SafeCallback(bleh)
+			if type(bleh) == "string" then 
+				tween(Dropdown.List[bleh], {TextColor3 = Color3.fromRGB(240,240,240), BackgroundTransparency = 0.95})
+			else
+				for i,v in pairs(bleh) do
+					tween(Dropdown.List[v], {TextColor3 = Color3.fromRGB(240,240,240), BackgroundTransparency = 0.95})
+				end
+			end
+
+			if DropdownSettings.MultipleOptions then
+				if DropdownSettings.CurrentOption and type(DropdownSettings.CurrentOption) == "table" then
+					if #DropdownSettings.CurrentOption == 1 then
+						Dropdown.Selected.PlaceholderText = DropdownSettings.CurrentOption[1]
+					elseif #DropdownSettings.CurrentOption == 0 then
+						Dropdown.Selected.PlaceholderText = "None"
+					else
+						Dropdown.Selected.PlaceholderText = unpackt(DropdownSettings.CurrentOption)
+					end
+				else
+					DropdownSettings.CurrentOption = {}
+					Dropdown.Selected.PlaceholderText = "None"
+				end
+				for _, name in pairs(DropdownSettings.CurrentOption) do
+					tween(Dropdown.List[name], {TextColor3 = Color3.fromRGB(227,227,227), BackgroundTransparency = 0.95})
+				end
+			else
+				Dropdown.Selected.PlaceholderText = DropdownSettings.CurrentOption[1] or "None"
+			end
+			Dropdown.Selected.Text = ""
+
+			function DropdownV:Set(NewDropdownSettings)
+				NewDropdownSettings = Kwargify(DropdownSettings, NewDropdownSettings or {})
+
+				DropdownV.Settings = NewDropdownSettings
+				DropdownSettings = NewDropdownSettings
+
+				Dropdown.Name = DropdownSettings.Name
+				Dropdown.Title.Text = DropdownSettings.Name
+				if DropdownSettings.Description ~= nil and DropdownSettings.Description ~= "" and Dropdown.Desc ~= nil then
+					Dropdown.Desc.Text = DropdownSettings.Description
+				end
+
+				if DropdownSettings.SpecialType == "Player" then
+
+					for i,v in pairs(DropdownSettings.Options) do
+						table.remove(DropdownSettings.Options, i)
+					end
+					PlayerTableRefresh()
+					DropdownSettings.CurrentOption = DropdownSettings.Options[1]                    
+					Players.PlayerAdded:Connect(function() PlayerTableRefresh() end)
+					Players.PlayerRemoving:Connect(function() PlayerTableRefresh() end)
+
+				end
+
+				Refresh()
+
+				if DropdownSettings.CurrentOption then
+					if type(DropdownSettings.CurrentOption) == "string" then
+						DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption}
+					end
+					if not DropdownSettings.MultipleOptions and type(DropdownSettings.CurrentOption) == "table" then
+						DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption[1]}
+					end
+				else
+					DropdownSettings.CurrentOption = {}
+				end
+
+				local bleh, ind = nil,0
+				for i,v in pairs(DropdownSettings.CurrentOption) do
+					ind = ind + 1
+				end
+				if ind == 1 then bleh = DropdownSettings.CurrentOption[1] else bleh = DropdownSettings.CurrentOption end
+				SafeCallback(bleh)
+				for _, Option in pairs(Dropdown.List:GetChildren()) do
+					if Option.ClassName == "TextLabel" then
+						tween(Option, {TextColor3 = Color3.fromRGB(200,200,200), BackgroundTransparency = 0.98})
+					end
+				end
+				tween(Dropdown.List[bleh], {TextColor3 = Color3.fromRGB(240,240,240), BackgroundTransparency = 0.95})
+
+				if DropdownSettings.MultipleOptions then
+					if DropdownSettings.CurrentOption and type(DropdownSettings.CurrentOption) == "table" then
+						if #DropdownSettings.CurrentOption == 1 then
+							Dropdown.Selected.PlaceholderText = DropdownSettings.CurrentOption[1]
+						elseif #DropdownSettings.CurrentOption == 0 then
+							Dropdown.Selected.PlaceholderText = "None"
+						else
+							Dropdown.Selected.PlaceholderText = unpackt(DropdownSettings.CurrentOption)
+						end
+					else
+						DropdownSettings.CurrentOption = {}
+						Dropdown.Selected.PlaceholderText = "None"
+					end
+					for _, name in pairs(DropdownSettings.CurrentOption) do
+						tween(Dropdown.List[name], {TextColor3 = Color3.fromRGB(227,227,227), BackgroundTransparency = 0.95})
+					end
+				else
+					Dropdown.Selected.PlaceholderText = DropdownSettings.CurrentOption[1] or "None"
+				end
+				Dropdown.Selected.Text = ""
+
+				-- Luna.Flags[DropdownSettings.Flag] = DropdownSettings
+
+			end
+
+			function DropdownV:Destroy()
+				Dropdown.Visible = false
+				Dropdown:Destroy()
+			end
+
+			if Flag then
+				Luna.Options[Flag] = DropdownV
+			end
+
+			-- Luna.Flags[DropdownSettings.Flag] = DropdownSettings
+
+			return DropdownV
+
+		end
+
+		-- Color Picker
+		function Tab:CreateColorPicker(ColorPickerSettings, Flag) -- by Rayfield/Throit
+			local ColorPickerV = {IgnoreClass = false, Class = "Colorpicker", Settings = ColorPickerSettings}
+
+			ColorPickerSettings = Kwargify({
+				Name = "Color Picker",
+				Color = Color3.fromRGB(255,255,255),
+				Callback = function(Value)
+					-- The function that takes place every time the color picker is moved/changed
+					-- The variable (Value) is a Color3fromRGB value based on which color is selected
+				end
+			}, ColorPickerSettings or {})
+
+			local function Color3ToHex(color)
+				return string.format("#%02X%02X%02X", math.floor(color.R * 255), math.floor(color.G * 255), math.floor(color.B * 255))
+			end
+
+			ColorPickerV.Color = Color3ToHex(ColorPickerSettings.Color)
+
+			local closedsize = UDim2.new(0, 75, 0, 22)
+			local openedsize = UDim2.new(0, 219, 0, 129)
+
+			local ColorPicker = Elements.Template.ColorPicker:Clone()
+			local Background = ColorPicker.CPBackground
+			local Display = Background.Display
+			local Main = Background.MainCP
+			local Slider = ColorPicker.ColorSlider
+
+			ColorPicker.Name = ColorPickerSettings.Name
+			ColorPicker.Title.Text = ColorPickerSettings.Name
+			ColorPicker.Visible = true
+			ColorPicker.Parent = TabPage
+			ColorPicker.Size = UDim2.new(1.042, -25,0, 38)
+			Background.Size = closedsize
+			Display.BackgroundTransparency = 0
+
+			ColorPicker["MouseEnter"]:Connect(function()
+				tween(ColorPicker.UIStroke, {Color = Color3.fromRGB(87, 84, 104)})
+			end)
+			ColorPicker["MouseLeave"]:Connect(function()
+				tween(ColorPicker.UIStroke, {Color = Color3.fromRGB(64,61,76)})
+			end)
+
+			local function SafeCallback(param, c2)
+				local Success, Response = pcall(function()
+					ColorPickerSettings.Callback(param)
+				end)
+				if not Success then
+					TweenService:Create(ColorPicker, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+					TweenService:Create(ColorPicker, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(ColorPicker.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					ColorPicker.Title.Text = "Callback Error"
+					print("Luna Interface Suite | "..ColorPickerSettings.Name.." Callback Error " ..tostring(Response))
+					wait(0.5)
+					ColorPicker.Title.Text = ColorPickerSettings.Name
+					TweenService:Create(ColorPicker, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.5}):Play()
+					TweenService:Create(ColorPicker, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(32, 30, 38)}):Play()
+					TweenService:Create(ColorPicker.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				end
+				if Success and c2 then
+					c2()
+				end
+			end
+
+			local opened = false
+
+			local mouse = game.Players.LocalPlayer:GetMouse()
+			Main.Image = "http://www.roblox.com/asset/?id=11415645739"
+			local mainDragging = false 
+			local sliderDragging = false 
+			ColorPicker.Interact.MouseButton1Down:Connect(function()
+				if not opened then
+					opened = true 
+					tween(ColorPicker, {Size = UDim2.new( 1.042, -25,0, 165)}, nil, TweenInfo.new(0.6, Enum.EasingStyle.Exponential))
+					tween(Background, {Size = openedsize})
+					tween(Display, {BackgroundTransparency = 1})
+				else
+					opened = false
+					tween(ColorPicker, {Size = UDim2.new(1.042, -25,0, 38)}, nil, TweenInfo.new(0.6, Enum.EasingStyle.Exponential))
+					tween(Background, {Size = closedsize})
+					tween(Display, {BackgroundTransparency = 0})
+				end
+			end)
+			UserInputService.InputEnded:Connect(function(input, gameProcessed) if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then 
+					mainDragging = false
+					sliderDragging = false
+				end end)
+			Main.MouseButton1Down:Connect(function()
+				if opened then
+					mainDragging = true 
+				end
+			end)
+			Main.MainPoint.MouseButton1Down:Connect(function()
+				if opened then
+					mainDragging = true 
+				end
+			end)
+			Slider.MouseButton1Down:Connect(function()
+				sliderDragging = true 
+			end)
+			Slider.SliderPoint.MouseButton1Down:Connect(function()
+				sliderDragging = true 
+			end)
+			local h,s,v = ColorPickerSettings.Color:ToHSV()
+			local color = Color3.fromHSV(h,s,v) 
+			local r,g,b = math.floor((h*255)+0.5),math.floor((s*255)+0.5),math.floor((v*255)+0.5)
+			local hex = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+			ColorPicker.HexInput.InputBox.Text = hex
+			local function setDisplay(hp,sp,vp)
+				--Main
+				Main.MainPoint.Position = UDim2.new(s,-Main.MainPoint.AbsoluteSize.X/2,1-v,-Main.MainPoint.AbsoluteSize.Y/2)
+				Main.MainPoint.ImageColor3 = Color3.fromHSV(hp,sp,vp)
+				Background.BackgroundColor3 = Color3.fromHSV(hp,1,1)
+				Display.BackgroundColor3 = Color3.fromHSV(hp,sp,vp)
+				--Slider 
+				local x = hp * Slider.AbsoluteSize.X
+				Slider.SliderPoint.Position = UDim2.new(0,x-Slider.SliderPoint.AbsoluteSize.X/2,0.5,0)
+				Slider.SliderPoint.ImageColor3 = Color3.fromHSV(hp,1,1)
+				local color = Color3.fromHSV(hp,sp,vp) 
+				local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+				ColorPicker.RInput.InputBox.Text = tostring(r)
+				ColorPicker.GInput.InputBox.Text = tostring(g)
+				ColorPicker.BInput.InputBox.Text = tostring(b)
+				hex = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+				ColorPicker.HexInput.InputBox.Text = hex
+			end
+			setDisplay(h,s,v)
+			ColorPicker.HexInput.InputBox.FocusLost:Connect(function()
+				if not pcall(function()
+						local r, g, b = string.match(ColorPicker.HexInput.InputBox.Text, "^#?(%w%w)(%w%w)(%w%w)$")
+						local rgbColor = Color3.fromRGB(tonumber(r, 16),tonumber(g, 16), tonumber(b, 16))
+						h,s,v = rgbColor:ToHSV()
+						hex = ColorPicker.HexInput.InputBox.Text
+						setDisplay()
+						ColorPickerSettings.Color = rgbColor
+					end) 
+				then 
+					ColorPicker.HexInput.InputBox.Text = hex 
+				end
+				local r,g,b = math.floor((h*255)+0.5),math.floor((s*255)+0.5),math.floor((v*255)+0.5)
+				ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+				SafeCallback( Color3.fromRGB(r,g,b))
+			end)
+			--RGB
+			local function rgbBoxes(box,toChange)
+				local value = tonumber(box.Text) 
+				local color = Color3.fromHSV(h,s,v) 
+				local oldR,oldG,oldB = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+				local save 
+				if toChange == "R" then save = oldR;oldR = value elseif toChange == "G" then save = oldG;oldG = value else save = oldB;oldB = value end
+				if value then 
+					value = math.clamp(value,0,255)
+					h,s,v = Color3.fromRGB(oldR,oldG,oldB):ToHSV()
+					setDisplay()
+				else 
+					box.Text = tostring(save)
+				end
+				local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+				ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+			end
+			ColorPicker.RInput.InputBox.FocusLost:connect(function()
+				rgbBoxes(ColorPicker.RInput.InputBox,"R")
+				SafeCallback(Color3.fromRGB(r,g,b))
+			end)
+			ColorPicker.GInput.InputBox.FocusLost:connect(function()
+				rgbBoxes(ColorPicker.GInput.InputBox,"G")
+				SafeCallback(Color3.fromRGB(r,g,b))
+			end)
+			ColorPicker.BInput.InputBox.FocusLost:connect(function()
+				rgbBoxes(ColorPicker.BInput.InputBox,"B")
+				SafeCallback(Color3.fromRGB(r,g,b))
+			end)
+			RunService.RenderStepped:connect(function()
+				if mainDragging then 
+					local localX = math.clamp(mouse.X-Main.AbsolutePosition.X,0,Main.AbsoluteSize.X)
+					local localY = math.clamp(mouse.Y-Main.AbsolutePosition.Y,0,Main.AbsoluteSize.Y)
+					Main.MainPoint.Position = UDim2.new(0,localX-Main.MainPoint.AbsoluteSize.X/2,0,localY-Main.MainPoint.AbsoluteSize.Y/2)
+					s = localX / Main.AbsoluteSize.X
+					v = 1 - (localY / Main.AbsoluteSize.Y)
+					Display.BackgroundColor3 = Color3.fromHSV(h,s,v)
+					Main.MainPoint.ImageColor3 = Color3.fromHSV(h,s,v)
+					Background.BackgroundColor3 = Color3.fromHSV(h,1,1)
+					local color = Color3.fromHSV(h,s,v) 
+					local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+					ColorPicker.RInput.InputBox.Text = tostring(r)
+					ColorPicker.GInput.InputBox.Text = tostring(g)
+					ColorPicker.BInput.InputBox.Text = tostring(b)
+					ColorPicker.HexInput.InputBox.Text = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+					SafeCallback(Color3.fromRGB(r,g,b))
+					ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+					ColorPickerV.Color = ColorPickerSettings.Color
+				end
+				if sliderDragging then 
+					local localX = math.clamp(mouse.X-Slider.AbsolutePosition.X,0,Slider.AbsoluteSize.X)
+					h = localX / Slider.AbsoluteSize.X
+					Display.BackgroundColor3 = Color3.fromHSV(h,s,v)
+					Slider.SliderPoint.Position = UDim2.new(0,localX-Slider.SliderPoint.AbsoluteSize.X/2,0.5,0)
+					Slider.SliderPoint.ImageColor3 = Color3.fromHSV(h,1,1)
+					Background.BackgroundColor3 = Color3.fromHSV(h,1,1)
+					Main.MainPoint.ImageColor3 = Color3.fromHSV(h,s,v)
+					local color = Color3.fromHSV(h,s,v) 
+					local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+					ColorPicker.RInput.InputBox.Text = tostring(r)
+					ColorPicker.GInput.InputBox.Text = tostring(g)
+					ColorPicker.BInput.InputBox.Text = tostring(b)
+					ColorPicker.HexInput.InputBox.Text = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+					SafeCallback(Color3.fromRGB(r,g,b))
+					ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+					ColorPickerV.Color = ColorPickerSettings.Color
+				end
+			end)
+
+			function ColorPickerV:Set(NewColorPickerSettings)
+
+				NewColorPickerSettings = Kwargify(ColorPickerSettings, NewColorPickerSettings or {})
+
+				ColorPickerV.Settings = NewColorPickerSettings
+				ColorPickerSettings = NewColorPickerSettings
+
+				ColorPicker.Name = ColorPickerSettings.Name
+				ColorPicker.Title.Text = ColorPickerSettings.Name
+				ColorPicker.Visible = true
+
+				local h,s,v = ColorPickerSettings.Color:ToHSV()
+				local color = Color3.fromHSV(h,s,v) 
+				local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+				local hex = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+				ColorPicker.HexInput.InputBox.Text = hex
+				setDisplay(h,s,v)
+				SafeCallback(Color3.fromRGB(r,g,b))
+
+				ColorPickerV.Color = ColorPickerSettings.Color
+			end
+
+			function ColorPickerV:Destroy()
+				ColorPicker:Destroy()
+			end
+
+			if Flag then
+				Luna.Options[Flag] = ColorPickerV
+			end
+
+			SafeCallback(ColorPickerSettings.Color)
+
+			return ColorPickerV
+		end
+
+
+		function Tab:BuildConfigSection()
+			if isStudio then
+				Tab:CreateLabel({Text = "Config system unavailable. (Environment isStudio)", Style = 3})
+				return "Config system unavailable." 
+			end
+
+			local inputPath = nil
+			local selectedConfig = nil
+
+			local Title = Elements.Template.Title:Clone()
+			Title.Text = "Configurations"
+			Title.Visible = true
+			Title.Parent = TabPage
+			Title.TextTransparency = 1
+			TweenService:Create(Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 0}):Play()
+
+			Tab:CreateSection("Config Creator")
+
+			Tab:CreateInput({
+				Name = "Config Name",
+				Description = "Insert a name for your to be created config.",
+				PlaceholderText = "Name",
+				CurrentValue = "",
+				Numeric = false,
+				MaxCharacters = nil,
+				Enter = false,
+				Callback = function(input)
+					inputPath = input
+				end,
+			})
+
+			local configSelection
+
+			Tab:CreateButton({
+				Name = "Create Config",
+				Description = "Create a config with all of your current settings.",
+				Callback = function()
+					if not inputPath or string.gsub(inputPath, " ", "") == "" then
+						Luna:Notification({
+							Title = "Interface",
+							Icon = "warning",
+							ImageSource = "Material",
+							Content = "Config name cannot be empty."
+						})
+						return
+					end
+
+					local success, returned = Luna:SaveConfig(inputPath)
+					if not success then
+						Luna:Notification({
+							Title = "Interface",
+							Icon = "error",
+							ImageSource = "Material",
+							Content = "Unable to save config, return error: " .. returned
+						})
+					end
+
+					Luna:Notification({
+						Title = "Interface",
+						Icon = "info",
+						ImageSource = "Material",
+						Content = string.format("Created config %q", inputPath),
+					})
+
+					configSelection:Set({ Options = Luna:RefreshConfigList() })
+				end
+			})
+
+			Tab:CreateSection("Config Load/Settings")
+
+
+			configSelection = Tab:CreateDropdown({
+				Name = "Select Config",
+				Description = "Select a config to load your settings on.",
+				Options = Luna:RefreshConfigList(),
+				CurrentOption = {},
+				MultipleOptions = false,
+				SpecialType = nil,
+				Callback = function(Value)
+					selectedConfig = Value
+				end,
+			})
+
+			Tab:CreateButton({
+				Name = "Load Config",
+				Description = "Load your saved config settings.",
+				Callback = function()
+					local success, returned = Luna:LoadConfig(selectedConfig)
+					if not success then
+						Luna:Notification({
+							Title = "Interface",
+							Icon = "error",
+							ImageSource = "Material",
+							Content = "Unable to load config, return error: " .. returned
+						})
+						return
+					end
+
+					Luna:Notification({
+						Title = "Interface",
+						Icon = "info",
+						ImageSource = "Material",
+						Content = string.format("Loaded config %q", selectedConfig),
+					})
+				end
+			})
+
+			Tab:CreateButton({
+				Name = "Overwrite Config",
+				Description = "Overwrite your current config settings.",
+				Callback = function()
+					local success, returned = Luna:SaveConfig(selectedConfig)
+					if not success then
+						Luna:Notification({
+							Title = "Interface",
+							Icon = "error",
+							ImageSource = "Material",
+							Content = "Unable to overwrite config, return error: " .. returned
+						})
+						return
+					end
+
+					Luna:Notification({
+						Title = "Interface",
+						Icon = "info",
+						ImageSource = "Material",
+						Content = string.format("Overwrote config %q", selectedConfig),
+					})
+				end
+			})
+
+			Tab:CreateButton({
+				Name = "Refresh Config List",
+				Description = "Refresh the current config list.",
+				Callback = function()
+					configSelection:Set({ Options = Luna:RefreshConfigList() })
+				end,
+			})
+
+			local loadlabel
+			Tab:CreateButton({
+				Name = "Set as autoload",
+				Description = "Set a config to auto load setting in your next session.",
+				Callback = function()
+					local name = selectedConfig
+					writefile(Luna.Folder .. "/settings/autoload.txt", name)
+					loadlabel:Set({ Text = "Current autoload config: " .. name })
+
+					Luna:Notification({
+						Title = "Interface",
+						Icon = "info",
+						ImageSource = "Material",
+						Content = string.format("Set %q to auto load", name),
+					})
+				end,
+			})
+
+			loadlabel = Tab:CreateParagraph({
+				Title = "Current Auto Load",
+				Text = "None"
+			})
+
+			Tab:CreateButton({
+				Name = "Delete Autoload",
+				Description = "Delete The Autoload File",
+				Callback = function()
+					local name = selectedConfig
+					delfile(Luna.Folder .. "/settings/autoload.txt")
+					loadlabel:Set({ Text = "None" })
+
+					Luna:Notification({
+						Title = "Interface",
+						Icon = "info",
+						ImageSource = "Material",
+						Content = "Deleted Autoload",
+					})
+				end,
+			})
+
+			if isfile(Luna.Folder .. "/settings/autoload.txt") then
+				local name = readfile(Luna.Folder .. "/settings/autoload.txt")
+				loadlabel:Set( { Text = "Current autoload config: " .. name })
+			end     
+		end
+
+		local ClassParser = {
+			["Toggle"] = {
+				Save = function(Flag, data)
+					return {
+						type = "Toggle", 
+						flag = Flag, 
+						state = data.CurrentValue or false
+					}
+				end,
+				Load = function(Flag, data)
+					if Luna.Options[Flag] then
+						Luna.Options[Flag]:Set({ CurrentValue = data.state })
+					end
+				end
+			},
+			["Slider"] = {
+				Save = function(Flag, data)
+					return {
+						type = "Slider", 
+						flag = Flag, 
+						value = (data.CurrentValue and tostring(data.CurrentValue)),
+					}
+				end,
+				Load = function(Flag, data)
+					if Luna.Options[Flag] and data.value then
+						Luna.Options[Flag]:Set({ CurrentValue = data.value })
+					end
+				end
+			},
+			["Input"] = {
+				Save = function(Flag, data)
+					return {
+						type = "Input", 
+						flag = Flag, 
+						text = data.CurrentValue
+					}
+				end,
+				Load = function(Flag, data)
+					if Luna.Options[Flag] and data.text and type(data.text) == "string" then
+						Luna.Options[Flag]:Set({ CurrentValue = data.text })
+					end
+				end
+			},
+			["Dropdown"] = {
+				Save = function(Flag, data)
+					return {
+						type = "Dropdown", 
+						flag = Flag, 
+						value = data.CurrentOption
+					}
+				end,
+				Load = function(Flag, data)
+					if Luna.Options[Flag] and data.value then
+						Luna.Options[Flag]:Set({ CurrentOption = data.value })
+					end
+				end
+			},
+			-- buggy as hell stil
+			["Colorpicker"] = {
+				Save = function(Flag, data)
+					local function Color3ToHex(color)
+						return string.format("#%02X%02X%02X", math.floor(color.R * 255), math.floor(color.G * 255), math.floor(color.B * 255))
+					end
+
+					return {
+						type = "Colorpicker", 
+						flag = Flag, 
+						color = Color3ToHex(data.Color) or nil,
+						alpha = data.Alpha
+					}
+				end,
+				Load = function(Flag, data)
+					local function HexToColor3(hex)
+						local r = tonumber(hex:sub(2, 3), 16) / 255
+						local g = tonumber(hex:sub(4, 5), 16) / 255
+						local b = tonumber(hex:sub(6, 7), 16) / 255
+						return Color3.new(r, g, b)
+					end
+
+					if Luna.Options[Flag] and data.color then
+						Luna.Options[Flag]:Set({Color = HexToColor3(data.color)})
+					end
+				end
+			}
+		}
+
+
+		function Tab:BuildThemeSection()
+
+			local Title = Elements.Template.Title:Clone()
+			Title.Text = "Theming"
+			Title.Visible = true
+			Title.Parent = TabPage
+			Title.TextTransparency = 1
+			TweenService:Create(Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 0}):Play()
+
+			Tab:CreateSection("Custom Editor")
+
+			local c1cp = Tab:CreateColorPicker({
+				Name = "Color 1",
+				Color = Color3.fromRGB(117, 164, 206),
+			}, "LunaInterfaceSuitePrebuiltCPC1") -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+
+			local c2cp = Tab:CreateColorPicker({
+				Name = "Color 2",
+				Color = Color3.fromRGB(123, 201, 201),
+			}, "LunaInterfaceSuitePrebuiltCPC2")
+
+			local c3cp = Tab:CreateColorPicker({
+				Name = "Color 3",
+				Color = Color3.fromRGB(224, 138, 184),
+			}, "LunaInterfaceSuitePrebuiltCPC3") 
+
+			task.wait(1)
+
+			c1cp:Set({
+				Callback = function(Value)
+					if c2cp and c3cp then
+						Luna.ThemeGradient = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Value or Color3.fromRGB(255,255,255)), ColorSequenceKeypoint.new(0.50, c2cp.Color or Color3.fromRGB(255,255,255)), ColorSequenceKeypoint.new(1.00, c3cp.Color or Color3.fromRGB(255,255,255))}
+						LunaUI.ThemeRemote.Value = not LunaUI.ThemeRemote.Value
+					end
+				end
+			})
+
+			c2cp:Set({
+				Callback = function(Value)
+					if c1cp and c3cp then
+						Luna.ThemeGradient = ColorSequence.new{ColorSequenceKeypoint.new(0.00, c1cp.Color or Color3.fromRGB(255,255,255)), ColorSequenceKeypoint.new(0.50, Value or Color3.fromRGB(255,255,255)), ColorSequenceKeypoint.new(1.00, c3cp.Color or Color3.fromRGB(255,255,255))}
+						LunaUI.ThemeRemote.Value = not LunaUI.ThemeRemote.Value
+					end
+				end
+			})
+
+			c3cp:Set({
+				Callback = function(Valuex)
+					if c2cp and c1cp then
+						Luna.ThemeGradient = ColorSequence.new{ColorSequenceKeypoint.new(0.00, c1cp.Color or Color3.fromRGB(255,255,255)), ColorSequenceKeypoint.new(0.50, c2cp.Color or Color3.fromRGB(255,255,255)), ColorSequenceKeypoint.new(1.00, Valuex or Color3.fromRGB(255,255,255))}
+						LunaUI.ThemeRemote.Value = not LunaUI.ThemeRemote.Value
+					end
+				end
+			})
+
+			Tab:CreateSection("Preset Gradients")
+
+			for i,v in pairs(PresetGradients) do
+				Tab:CreateButton({
+					Name = tostring(i),
+					Callback = function()
+						c1cp:Set({ Color = v[1] })
+						c2cp:Set({ Color = v[2] })
+						c3cp:Set({ Color = v[3] })
+					end,
+				})
+			end
+
+		end
+
+
+		local function BuildFolderTree()
+			if isStudio then return "Config system unavailable." end
+			local paths = {
+				Luna.Folder,
+				Luna.Folder .. "/settings"
+			}
+
+			for i = 1, #paths do
+				local str = paths[i]
+				if not isfolder(str) then
+					makefolder(str)
+				end
+			end
+		end
+
+		local function SetFolder()
+
+			if isStudio then return "Config system unavailable." end
+
+			if WindowSettings.ConfigSettings.RootFolder ~= nil and WindowSettings.ConfigSettings.RootFolder ~= "" then
+				Luna.Folder = WindowSettings.ConfigSettings.RootFolder .. "/" .. WindowSettings.ConfigSettings.ConfigFolder
+			else
+				Luna.Folder = WindowSettings.ConfigSettings.ConfigFolder
+			end
+
+			BuildFolderTree()
+		end
+
+		SetFolder()
+
+		function Luna:SaveConfig(Path)
+			if isStudio then return "Config system unavailable." end
+
+			if (not Path) then
+				return false, "Please select a config file."
+			end
+
+			local fullPath = Luna.Folder .. "/settings/" .. Path .. ".luna"
+
+			local data = {
+				objects = {}
+			}
+
+			for flag, option in next, Luna.Options do
+				if not ClassParser[option.Class] then continue end
+				if option.IgnoreConfig then continue end
+
+				table.insert(data.objects, ClassParser[option.Class].Save(flag, option))
+			end	
+
+			local success, encoded = pcall(HttpService.JSONEncode, HttpService, data)
+			if not success then
+				return false, "Unable to encode into JSON data"
+			end
+
+			writefile(fullPath, encoded)
+			return true
+		end
+
+		function Luna:LoadConfig(Path)
+			if isStudio then return "Config system unavailable." end
+
+			if (not Path) then
+				return false, "Please select a config file."
+			end
+
+			local file = Luna.Folder .. "/settings/" .. Path .. ".luna"
+			if not isfile(file) then return false, "Invalid file" end
+
+			local success, decoded = pcall(HttpService.JSONDecode, HttpService, readfile(file))
+			if not success then return false, "Unable to decode JSON data." end
+
+			for _, option in next, decoded.objects do
+				if ClassParser[option.type] then
+					task.spawn(function() 
+						ClassParser[option.type].Load(option.flag, option) 
+					end)
+				end
+			end
+
+			return true
+		end
+
+		function Luna:LoadAutoloadConfig()
+			if isfile(Luna.Folder .. "/settings/autoload.txt") then
+
+				if isStudio then return "Config system unavailable." end
+
+				local name = readfile(Luna.Folder .. "/settings/autoload.txt")
+
+				local success, err = Luna:LoadConfig(name)
+				if not success then
+					return Luna:Notification({
+						Title = "Interface",
+						Icon = "sparkle",
+						ImageSource = "Material",
+						Content = "Failed to load autoload config: " .. err,
+					})
+				end
+
+				Luna:Notification({
+					Title = "Interface",
+					Icon = "sparkle",
+					ImageSource = "Material",
+					Content = string.format("Auto loaded config %q", name),
+				})
+
+			end 
+		end
+
+		function Luna:RefreshConfigList()
+			if isStudio then return "Config system unavailable." end
+
+			local list = listfiles(Luna.Folder .. "/settings")
+
+			local out = {}
+			for i = 1, #list do
+				local file = list[i]
+				if file:sub(-5) == ".luna" then
+					local pos = file:find(".luna", 1, true)
+					local start = pos
+
+					local char = file:sub(pos, pos)
+					while char ~= "/" and char ~= "\\" and char ~= "" do
+						pos = pos - 1
+						char = file:sub(pos, pos)
+					end
+
+					if char == "/" or char == "\\" then
+						local name = file:sub(pos + 1, start - 1)
+						if name ~= "options" then
+							table.insert(out, name)
+						end
+					end
+				end
+			end
+
+			return out
+		end
+		return Tab
+	end
+
+
+	Elements.Parent.Visible = true
+	tween(Elements.Parent, {BackgroundTransparency = 0.1})
+	Navigation.Visible = true
+	tween(Navigation.Line, {BackgroundTransparency = 0})
+
+	for _, TopbarButton in ipairs(Main.Controls:GetChildren()) do
+		if TopbarButton.ClassName == "Frame" and TopbarButton.Name ~= "Theme" then
+			TopbarButton.Visible = true
+			tween(TopbarButton, {BackgroundTransparency = 0.25})
+			tween(TopbarButton.UIStroke, {Transparency = 0.5})
+			tween(TopbarButton.ImageLabel, {ImageTransparency = 0.25})
+		end
+	end
+
+	Main.Controls.Close.ImageLabel.MouseButton1Click:Connect(function()
+		Hide(Main, Window.Bind, true)
+		dragBar.Visible = false
+		Window.State = false
+		if UserInputService.KeyboardEnabled == false then
+			LunaUI.MobileSupport.Visible = true
+		end
+	end)
+	Main.Controls.Close["MouseEnter"]:Connect(function()
+		tween(Main.Controls.Close.ImageLabel, {ImageColor3 = Color3.new(1,1,1)})
+	end)
+	Main.Controls.Close["MouseLeave"]:Connect(function()
+		tween(Main.Controls.Close.ImageLabel, {ImageColor3 = Color3.fromRGB(195,195,195)})
+	end)
+
+	UserInputService.InputBegan:Connect(function(input, gpe)
+		if gpe then return end
+		if Window.State then return end
+		if input.KeyCode == Window.Bind then
+			Unhide(Main, Window.CurrentTab)
+			LunaUI.MobileSupport.Visible = false
+			dragBar.Visible = true
+			Window.State = true
+		end
+	end)
+
+	Main.Logo.MouseButton1Click:Connect(function()
+		if Navigation.Size.X.Offset == 205 then
+			tween(Elements.Parent, {Size = UDim2.new(1, -55, Elements.Parent.Size.Y.Scale, Elements.Parent.Size.Y.Offset)})
+			tween(Navigation, {Size = UDim2.new(Navigation.Size.X.Scale, 55, Navigation.Size.Y.Scale, Navigation.Size.Y.Offset)})
+		else
+			tween(Elements.Parent, {Size = UDim2.new(1, -205, Elements.Parent.Size.Y.Scale, Elements.Parent.Size.Y.Offset)})
+			tween(Navigation, {Size = UDim2.new(Navigation.Size.X.Scale, 205, Navigation.Size.Y.Scale, Navigation.Size.Y.Offset)})
+		end
+	end)
+
+	Main.Controls.ToggleSize.ImageLabel.MouseButton1Click:Connect(function()
+		Window.Size = not Window.Size
+		if Window.Size then
+			Minimize(Main)
+			dragBar.Visible = false
+		else
+			Maximise(Main)
+			dragBar.Visible = true
+		end
+	end)
+	Main.Controls.ToggleSize["MouseEnter"]:Connect(function()
+		tween(Main.Controls.ToggleSize.ImageLabel, {ImageColor3 = Color3.new(1,1,1)})
+	end)
+	Main.Controls.ToggleSize["MouseLeave"]:Connect(function()
+		tween(Main.Controls.ToggleSize.ImageLabel, {ImageColor3 = Color3.fromRGB(195,195,195)})
+	end)
+
+	Main.Controls.Theme.ImageLabel.MouseButton1Click:Connect(function()
+		if Window.Settings then
+			Window.Settings:Activate()
+			Elements.Settings.CanvasPosition = Vector2.new(0,698)
+		end
+	end)
+	Main.Controls.Theme["MouseEnter"]:Connect(function()
+		tween(Main.Controls.Theme.ImageLabel, {ImageColor3 = Color3.new(1,1,1)})
+	end)
+	Main.Controls.Theme["MouseLeave"]:Connect(function()
+		tween(Main.Controls.Theme.ImageLabel, {ImageColor3 = Color3.fromRGB(195,195,195)})
+	end)	
+
+
+	LunaUI.MobileSupport.Interact.MouseButton1Click:Connect(function()
+		Unhide(Main, Window.CurrentTab)
+		dragBar.Visible = true
+		Window.State = true
+		LunaUI.MobileSupport.Visible = false
+	end)
+
+	return Window
+end
+
+function Luna:Destroy()
+	Main.Visible = false
+	for _, Notification in ipairs(Notifications:GetChildren()) do
+		if Notification.ClassName == "Frame" then
+			Notification.Visible = false
+			Notification:Destroy()
+		end
+	end
+	LunaUI:Destroy()
+end
+
+if (getgenv and not getgenv().ConfirmLuna) or (not getgenv) then
+	Luna:Notification({ 
+    	Title = "Luna Is Deprecated",
+    	Icon = "warning",
+    	ImageSource = "Material",
+    	Content = "If you are not the script developer, ignore this message. \n\n The Luna Interface Library Is Deprecated And Not Recommended to Use. A New Library Is Available at nebulasoftworks.xyz/starlight. If you insist on using Luna, set the getgenv().ConfirmLuna variable to true. "
+	})
+end
+
+if isStudio then
+	local Window = Luna:CreateWindow({
+		Name = "Nebula Client - Luna Hub | Blade Ball",
+		Subtitle = "by Nebula Softworks",
+		LogoID = "123795201100198",
+		LoadingEnabled = true,
+		LoadingTitle = "Nebula Client (Luna Hub)",
+		LoadingSubtitle = "Loading script for Blade Ball",
+		KeySystem = true,
+		KeySettings = {
+			Title = "Nebula Client | Key System",
+			Subtitle = "Blade Ball",
+			Note = "Please Enter Your Key To Use Nebula Client",
+			FileName = "Key", -- the name of the key file. this will be saved in ur RootFolder. However, if you don't have one, it'll save in ur config folder instead
+			SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+			Key = {"Example Key"}, -- List of keys that will be accepted by the system, please use a system like Pelican or Luarmor that provide key strings based on your HWID since putting a simple string is very easy to bypass
+			SecondAction = {
+				Enabled = true,
+				Type = "Link", -- Link/Discord
+				Parameter = "" -- for discord, add the invite link like home tab. for link, type the link of ur key sys
+			}
+		}
+	})
+	
+	--[[local Window = Luna:CreateWindow({
+		Name = "Luna Example Window",
+		Subtitle = "Test",
+		LogoID = "6031097225",
+		LoadingEnabled = true,
+		LoadingTitle = "Luna Interface Suite",
+		LoadingSubtitle = "by Nebula Softworks",
+		KeySystem = true,
+		KeySettings = {
+			Title = "Luna Example Key",
+			Subtitle = "Key System",
+			Note = "Please Enter Your Key To Use Example Hub",
+			FileName = "Key", -- the name of the key file. this will be saved in ur RootFolder. However, if you don't have one, it'll save in ur config folder instead
+			SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+			Key = {"Example Key"} -- List of keys that will be accepted by the system, please use a system like Pelican or Luarmor that provide key strings based on your HWID since putting a simple string is very easy to bypass
+		}
+	})
+
+	Luna:Notification({ 
+		Title = "Welcome to Luna",
+		Icon = "sparkle",
+		ImageSource = "Material",
+		Content = "Welcome to the Luna Interface Suite. This Is an Amazing Quality Freemium UI Library For Roblox Exploiting Made By Nebula Softworks. Luna was Created in hopes of improving the standard of UI Library designs by being the golden standard for it. Luna Has Amazing Features like a key system, notification and perfection in aesthetics and design. So, What Are You Waiting For? Start Using Luna Today at " .. website
+	})
+
+	local Tabs = {
+		Main = Window:CreateTab({
+			Name = "Tab Example 1",
+			Icon = "view_in_ar",
+			ImageSource = "Material",
+			ShowTitle = true
+		}),
+		Main2 = Window:CreateTab({
+			Name = "Tab Example 2",
+			Icon = "location_searching",
+			ImageSource = "Material",
+			ShowTitle = false
+		}),
+		Premium = Window:CreateTab({
+			Name = "Premium Tab",
+			Icon = "sparkle",
+			ImageSource = "Material",
+			ShowTitle = true
+		}),
+		Debug = Window:CreateTab({
+			Name = "Debug",
+			Icon = "settings"
+		})
+	}
+
+
+	Window:CreateHomeTab()
+	local bleh =Tabs.Debug:CreateColorPicker()
+	Tabs.Debug:CreateButton({
+		Callback = function()
+			bleh:Set({
+				Color = Color3.fromRGB(0,0,0)
+			})
+		end,
+	})
+
+	Tabs.Main:CreateSection("Section Example")
+	Tabs.Main:CreateButton({
+		Name = "Button Example!",
+		Description = "Every Element Except For Sliders Can Have a description like this"
+	})
+	Tabs.Main:CreateLabel({
+		Text = "Label Example",
+		Style = 1
+	})
+	Tabs.Main:CreateLabel({
+		Text = "Information Example",
+		Style = 2
+	})
+	Tabs.Main:CreateLabel({
+		Text = "Warning Example",
+		Style = 3
+	})
+	Tabs.Main:CreateParagraph({
+		Title = "Paragraph Example ",
+		Text = "This Is A Paragraph. You Can Type Very Long Strings Here And They'll Automatically Fit! This Counts As A Description Right? Right? Right? Right? Right? Right? Right? Right? Right? Right? Right? Right? Right? Right? Right? Also Did I Mention This Has Rich Text? Also Did I Mention This Has Rich Text? Also Did I Mention This Has Rich Text? Also Did I Mention This Has Rich Text? Also Did I Mention This Has Rich Text? Also Did I Mention This Has Rich Text?"
+	})
+	Tabs.Main:CreateSlider({
+		Name = "Slider Example",
+		Range = {0, 200},
+		Increment = 0.1,
+		CurrentValue = 100,
+		Flag = "Slider",
+	})
+	Tabs.Main:CreateToggle({
+		Name = "Toggle Example",
+		Description = "This Is A Toggle. See I Was Right? Sliders Don't Have Descriptions!",
+		CurrentValue = false,
+	})
+
+	Tabs.Main:CreateBind({
+		Name = "Bind Example",
+		Description = "Btw Using CreateKeybind is deprecated, use CreateBind For Future Binds :)",
+		CurrentKeybind = "Q",
+		HoldToInteract = false,
+	})
+	Tabs.Main:CreateInput({
+		Name = "Dynamic Input Example",
+		Description = "Every Element has :Set(). Sadly this one is broken;the text wont update :(",
+		PlaceholderText = "Input Placeholder",
+		CurrentValue = "",
+		Numeric = false,
+		MaxCharacters = nil,
+		Enter = false
+	})
+	Tabs.Main:CreateDropdown({
+		Name = "Dropdown Example",
+		Description = "U can access a element's values using .Settings!",
+		Options = {"Option 1","Option 2","Option 3","Option 4","Option 5","Option 6"},
+		CurrentOption = "Option 1",
+		MultipleOptions = false,
+		SpecialType = nil
+	})
+
+	Tabs.Main:CreateColorPicker({
+		Name = "Color Picker Example",
+		Color = Color3.fromRGB(86, 171, 128),
+		Flag = "ColorPicker1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+		Callback = function(Value)
+			-- The function that takes place every time the color picker is moved/changed
+			-- The variable (Value) is a Color3fromRGB value based on which color is selected
+		end
+	})
+
+	Tabs.Main2:CreateSection("The Elements Here Are To Show Unique Features")
+	Tabs.Main2:CreateToggle({
+		Name = "Toggle - Default On",
+		Description = "Toggles Can be Onned By Default!",
+		CurrentValue = true
+	})
+	Tabs.Main2:CreateBind({
+		Name = "Hold To Interact - Walkspeed Example",
+		Description = "Binds Can Be Made to only Callback when held",
+		HoldToInteract = true,
+		CurrentBind = "E",
+		Callback = function(v)
+			if v then 
+				Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+			else
+				Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+			end
+		end,
+	})
+	Tabs.Main2:CreateInput({
+		Name = "Numeric And 12 Max Characters",
+		Description = "You Can Limit The Max Characters or Allow Only Numbers",
+		Numeric = true,
+		MaxCharacters = 12
+	})
+	Tabs.Main2:CreateInput({
+		Name = "Require Enter",
+		Description = "You Can Only make the callback happen after user hits enter",
+		Enter = true
+	})
+	Tabs.Main2:CreateLabel({
+		Text = "Every Element Can be Destroyed as well!"
+	})
+	Tabs.Main2:CreateDropdown({
+		Name = "Dropdown - Multi Options",
+		Description = "Multiple Special Features can be used on the same element!",
+		Options = {"Option 1","Option 2","Option 3","Option 4","Option 5","Option 6"},
+		CurrentOption = {"Option 1","Option 3","Option 6"},
+		MultipleOptions = true
+	})
+	Tabs.Main2:CreateDropdown({
+		Name = "Dropdown - Players",
+		Description = "Luna's Dropdowns Has a built in Player Dropdown!",
+		Options = {"u can put anything here, it wont be shown anyway"},
+		CurrentOption = {"same here, itll be the first option"},
+		MultipleOptions = false,
+		SpecialType = "Player"
+	})
+
+	local s = Tabs.Premium:CreateSection("You can add elements inside section too")
+	s:CreateButton()
+	s:CreateLabel()
+	s:CreateDivider()
+	s:CreateDropdown()
+
+	Tabs.Premium:BuildConfigSection()
+	Tabs.Premium:BuildThemeSection()]]
+end
+
+-- THIS IS THE DEBUG DEMO, ONLY USED WHEN TESTING NEW ELEMENTS AND CODE
+--[[if isStudio then
+    window = Luna:CreateWindow({LoadingEnabled = false})
+    t1 = window:CreateTab()
+    t2 = window:CreateTab({ Name = "Tab 2", Icon = "location_searching"})
+    Luna:Notification({ 
+        Title = "Welcome to Luna",
+        Icon = "sparkle",
+        ImageSource = "Material",
+        Content = "Welcome to the Luna Interface Suite. This Is an Amazing Quality Freemium UI Library For Roblox Exploiting Made By Nebula Softworks. Luna was Created in hopes of improving the standard of UI Library designs by being the golden standard for it. Luna Has Amazing Features like a key system, notification and perfection in aesthetics and design. So, What Are You Waiting For? Start Using Luna Today at " .. website
+    })
+    t1:CreateSection()
+    local btn = t1:CreateButton({Callback = "", Description = "This Is A Description"})
+    local l = t1:CreateLabel({ Style = 2})
+    local l2 = t1:CreateLabel({ Text = "Another Label" })
+    t2:CreateButton({ Callback = function() 
+        l:Destroy()
+        l2:Set("New Text")
+    end})
+    t2:CreateLabel({Style = 3})
+    t1:CreateParagraph({Text = "Single String"})
+    t1:CreateParagraph({Text = "Welcome to the Luna Interface Suite. This Is an Amazing Quality Freemium UI Library For Roblox Exploiting Made By Nebula Softworks. Luna was Created in hopes of improving the standard of UI Library designs by being the golden standard for it. Luna Has Amazing Features like a key system, notification and perfection in aesthetics and design. So, What Are You Waiting For? Start Using Luna Today at " .. website})
+    s = t2:CreateSlider({ Callback = function(v) print(v) end })	
+    t1:CreateButton({ Callback = function()
+        s:Set({Name = "new name", Callback = ""})
+        wait(5)
+        s:Destroy()
+    end})
+    t1:CreateColorPicker()
+    local toggle = t1:CreateToggle({Name = "test", Description = "test", CurrentValue = true, Callback = ""}, "toggle2")
+    t1:CreateToggle({Callback = function(Value) toggle:Destroy() print(Value) end})
+    local bind = t2:CreateBind({Name = "test", Description = "test", CurrentBind = "E", HoldToInteract = false, Callback = ""})
+    t2:CreateKeybind({HoldToInteract = true, Callback = function(v)
+        if v then
+            Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+        else
+            Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        end
+    end,})
+    local input = t2:CreateInput({Name = "test",ClearTextAfterFocusLost = false, Description = "Numbers only, 8 max characters and enter required.",MaxCharacters = 8 ,Numeric = true, Enter = true, Callback = ""})
+    t2:CreateInput({Callback = function(text) print(text) end})
+    local d = t1:CreateDropdown({Name = "test", Options = {"Apples", "Bananas", "Strawberries", "Elixir"}, Description = "MultiOptions", MultipleOptions = true, Callback = function(t) print(t) end, CurrentOption = {"Apples", "Elixir"}})
+    t1:CreateDropdown({Callback = function(t) print(unpack(t)) end})
+    t1:CreateDropdown({Description = "Special Type - Player", Callback = "", SpecialType = "Player"})
+end]]--
+return Luna
